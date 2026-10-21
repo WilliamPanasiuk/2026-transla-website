@@ -1,0 +1,304 @@
+{
+  "ui": {
+    "services": "Servicios",
+    "how": "Cómo encargar",
+    "prices": "Precios",
+    "about": "Sobre Transla",
+    "top": "Traducciones económicas. Condiciones claras.",
+    "skip": "Saltar al contenido",
+    "menu": "Menú",
+    "mainNav": "Navegación principal",
+    "language": "Elegir idioma",
+    "quote": "Consultar precio",
+    "servicesLink": "Ver servicios",
+    "contactLink": "Contactar",
+    "explore": "Explorar",
+    "footerTitle": "Un buen precio empieza con una conversación",
+    "footerText": "Indica idioma, plazo y finalidad. Compara el presupuesto antes de decidir.",
+    "home": "Inicio",
+    "asideEyebrow": "Tu siguiente paso",
+    "asideTitle": "¿Cuánto cuesta tu traducción?",
+    "asideText": "Acordemos alcance, precio y plazo antes del encargo.",
+    "formLink": "Abrir formulario",
+    "faqTitle": "Preguntas y respuestas",
+    "contactEyebrow": "Contacto por correo",
+    "contactTitle": "Cuéntanos tu proyecto.",
+    "contactIntro": "Adjunta el material y explica su finalidad.",
+    "scopeTitle": "Qué traducimos",
+    "requirementsTitle": "Cómo preparar tu consulta",
+    "priceEyebrow": "El precio importa",
+    "processEyebrow": "Cómo funciona",
+    "servicesEyebrow": "Nuestros servicios",
+    "nextStep": "Empieza con un presupuesto",
+    "beforeEnquiry": "Antes de consultar",
+    "standardDocsTitle": "Documentos estándar — precios",
+    "standardDocCol": "Documento",
+    "standardPriceCol": "Precio",
+    "standardDocsNote": "Precios orientativos para los pares de idiomas más comunes. Presupuesto final tras revisar el documento.",
+    "docEyebrow": "Traducción certificada",
+    "docLead": "Envía un escaneo o foto legible del documento. Confirmamos precio y plazo antes de empezar.",
+    "variantLabel": "Versión llamativa"
+  },
+  "home": {
+    "title1": "Buenas traducciones.",
+    "title2": "Precios asequibles.",
+    "eyebrow": "Más posibilidades para tu presupuesto",
+    "lead": "Documentos, contenidos empresariales y sitios web a precios asequibles. Envía tu material y conoce el coste antes de encargarlo, con un alcance ajustado a tus necesidades.",
+    "servicesTitle": "La traducción adecuada para tu proyecto.",
+    "servicesIntro": "Importan el idioma, la finalidad y el presupuesto. Empieza por tu material.",
+    "processTitle": "Tres pasos hacia un presupuesto claro.",
+    "priceTitle": "Una traducción dentro de tu presupuesto.",
+    "priceLead": "¿Buscas un buen precio? Compara una oferta concreta para tu material. Acordamos alcance y coste antes de empezar.",
+    "priceBeat": "¿Encontraste un precio más bajo por el mismo alcance? Envíanos la oferta y la mejoramos.",
+    "ctaTitle": "¿Cuánto costará tu texto?",
+    "ctaText": "Envía tu archivo y solicita un presupuesto personalizado.",
+    "artBadge": "TU MATERIAL",
+    "artHeading": "Buen texto. Presupuesto sensato.",
+    "artCaption": "Primero el presupuesto. Después decides.",
+    "tagline": "Buenas traducciones. Precios asequibles.",
+    "description": "Transla: traducciones de documentos y contenidos a precios asequibles. Acuerda alcance, coste y plazo antes de encargar."
+  },
+  "steps": [
+    [
+      "Envía el material",
+      "Adjunta archivos e indica el idioma de destino, el plazo y la finalidad."
+    ],
+    [
+      "Conoce el precio",
+      "Acuerda alcance, coste y formato de entrega. Compara la oferta."
+    ],
+    [
+      "Encarga la traducción",
+      "Tras aceptar las condiciones, el trabajo podrá realizarse según lo acordado."
+    ]
+  ],
+  "values": [
+    [
+      "Alcance a tu medida",
+      "Marca las páginas y secciones que quieres traducir. El presupuesto cubrirá ese alcance."
+    ],
+    [
+      "Precio antes del encargo",
+      "Acuerda coste, plazo y formato antes de empezar el trabajo."
+    ],
+    [
+      "Tú decides",
+      "Enviar un archivo no constituye un encargo. Revisa primero las condiciones."
+    ]
+  ],
+  "prices": [
+    [
+      "Estándar — desde 34 zł",
+      "por página. Documentos, contenido empresarial y sitios web."
+    ],
+    [
+      "Certificada — desde 44 zł",
+      "por página. Con el sello del traductor jurado, para organismos e instituciones."
+    ],
+    [
+      "Documentos estándar EN/RU — desde 25 zł",
+      "por página. Actas, diplomas y certificados."
+    ]
+  ],
+  "standardDocs": [
+    [
+      "Documento de identidad",
+      "desde 49 zł"
+    ],
+    [
+      "Permiso de conducir — inglés",
+      "desde 69 zł"
+    ],
+    [
+      "Permiso de conducir — ruso/ucraniano",
+      "desde 99 zł"
+    ],
+    [
+      "Certificado de nacimiento (extracto)",
+      "desde 49 zł"
+    ],
+    [
+      "Certificado de matrimonio",
+      "desde 55 zł"
+    ],
+    [
+      "Diploma universitario",
+      "desde 65 zł"
+    ],
+    [
+      "Certificado escolar",
+      "desde 59 zł"
+    ],
+    [
+      "Certificado de antecedentes penales",
+      "desde 55 zł"
+    ],
+    [
+      "Documentos del vehículo",
+      "desde 59 zł"
+    ]
+  ],
+  "turnaround": {
+    "title": "Plazos y entrega",
+    "lead": "Pide en línea — recibe el documento por correo electrónico o postal.",
+    "items": [
+      [
+        "Presupuesto en 15 minutos",
+        "Presupuesto gratuito con plazo a tu correo."
+      ],
+      [
+        "Entrega desde 8 horas",
+        "Documentos estándar traducidos en exprés, incluso el mismo día."
+      ],
+      [
+        "PDF por e-mail — 0 zł",
+        "La traducción terminada en versión electrónica."
+      ],
+      [
+        "Taquilla InPost — +15 zł",
+        "La entrega más rápida de la versión en papel."
+      ],
+      [
+        "Mensajería — +19,90 zł",
+        "Versión en papel a tu dirección."
+      ],
+      [
+        "Carta certificada — +17 zł",
+        "Envío postal tradicional."
+      ]
+    ]
+  },
+  "highlights": [
+    [
+      "Presupuesto",
+      "en 15 min"
+    ],
+    [
+      "Plazo",
+      "desde 8 h"
+    ],
+    [
+      "Precio estándar",
+      "desde 34 zł"
+    ],
+    [
+      "Garantía de precio",
+      "lo mejoramos"
+    ]
+  ],
+  "faq": [
+    [
+      "¿De qué depende el precio?",
+      "De los idiomas, el volumen, el tema, el formato y el plazo. Compara ofertas con el mismo alcance."
+    ],
+    [
+      "¿Una consulta es un encargo?",
+      "No. El trabajo requiere acordar previamente el alcance y aceptar la oferta."
+    ],
+    [
+      "¿Necesito una traducción certificada?",
+      "Consulta los requisitos de la institución receptora y adjúntalos a tu solicitud."
+    ]
+  ],
+  "services": [
+    {
+      "title": "Documentos y traducciones certificadas",
+      "description": "Documentos para empleo, estudios y trámites.",
+      "examples": [
+        "Documentos personales",
+        "Diplomas",
+        "Certificados"
+      ],
+      "paragraphs": [
+        "Envía copias legibles de todas las páginas, incluidos sellos y anotaciones. Indica el país y la institución receptora.",
+        "Comprueba el formato exigido. Facilita la escritura de los nombres y la fecha de presentación; los originales y la entrega se acuerdan aparte."
+      ]
+    },
+    {
+      "title": "Traducciones para empresas",
+      "description": "Comunicación adaptada a nuevos públicos.",
+      "examples": [
+        "Presentaciones",
+        "Ofertas comerciales",
+        "Descripciones de productos"
+      ],
+      "paragraphs": [
+        "Indica el público, el objetivo y el tono deseado. Señala si es necesario conservar el diseño original.",
+        "Adjunta glosarios, nombres de productos y ejemplos aprobados. Con varios archivos, indica prioridades y plazos."
+      ]
+    },
+    {
+      "title": "Contenidos especializados",
+      "description": "Contexto y terminología coherente para textos sectoriales.",
+      "examples": [
+        "Manuales",
+        "Documentación",
+        "Informes"
+      ],
+      "paragraphs": [
+        "Describe el sector y los lectores. Adjunta esquemas, glosarios o versiones anteriores que aclaren el material.",
+        "Señala códigos y nombres que deban conservarse. Una muestra permite definir el alcance y el formato final."
+      ]
+    },
+    {
+      "title": "Sitios web y localización",
+      "description": "Contenidos adaptados a tu nuevo mercado.",
+      "examples": [
+        "Sitios web",
+        "Tiendas en línea",
+        "Interfaces"
+      ],
+      "paragraphs": [
+        "Reúne textos, descripciones de productos, etiquetas y mensajes. Incluye títulos y descripciones para buscadores.",
+        "Añade contexto de pantalla y límites de caracteres. Indica mercado y formato de exportación; el trabajo técnico se acuerda aparte."
+      ]
+    }
+  ],
+  "pages": {
+    "services": "Elige una traducción adaptada al material, la finalidad y tu presupuesto.",
+    "how": "No necesitas calcular las páginas facturables. Empieza por un archivo y una breve descripción.",
+    "prices": "Los precios asequibles guían nuestro enfoque. La oferta concreta refleja idiomas, alcance y plazo.",
+    "about": "Transla: textos que te ayudan a dar el siguiente paso. Partimos de tu objetivo y de acuerdos claros.",
+    "contact": "Envía el material o describe tu proyecto. Indica idioma, plazo y finalidad.",
+    "aboutTitle": "Tu texto. Nuestro punto de partida."
+  },
+  "form": {
+    "eyebrow": "Tu consulta",
+    "title": "Cuéntanos sobre el material.",
+    "intro": "Envía archivos y algunos detalles. Una consulta no constituye un encargo.",
+    "name": "Nombre y apellidos",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "optional": "opcional",
+    "type": "Tipo de traducción",
+    "normal": "Estándar",
+    "certified": "Certificada / jurada",
+    "from": "¿De qué idioma?",
+    "to": "¿A qué idioma?",
+    "message": "¿Qué debemos saber?",
+    "placeholder": "Finalidad, plazo, formato necesario…",
+    "files": "Adjuntar material",
+    "fileHelp": "Hasta 12 archivos, 8 MB cada uno y 10 MB en total. PDF, DOC, DOCX, ODT, TXT, JPG, PNG.",
+    "noticeTitle": "Contacto sobre tu consulta",
+    "notice": "Facilitas tus datos y archivos a Transla para gestionar la consulta. No incluyas información innecesaria para el presupuesto. Contacto:",
+    "send": "Enviar consulta",
+    "recaptcha": "Protección reCAPTCHA:",
+    "privacy": "privacidad",
+    "terms": "condiciones",
+    "noJs": "Este formulario necesita JavaScript. También puedes escribir a:",
+    "messages": {
+      "count": "Adjunta como máximo 12 archivos.",
+      "type": "Elige uno de los formatos indicados.",
+      "single": "Cada archivo debe ocupar como máximo 8 MB.",
+      "total": "El tamaño total no puede superar 10 MB.",
+      "sending": "Enviando consulta…",
+      "success": "¡Gracias! Hemos recibido tu consulta. Responderemos por correo.",
+      "error": "No se pudo enviar. Inténtalo de nuevo o escribe a info@transla.website.",
+      "large": "Los archivos superan el límite del servidor. Reduce los adjuntos.",
+      "rate": "Demasiados intentos. Espera un momento.",
+      "invalid": "Revisa los datos del formulario.",
+      "antispam": "La verificación antispam ha fallado. Inténtalo de nuevo.",
+      "read": "No se pudo leer el archivo."
+    }
+  }
+}

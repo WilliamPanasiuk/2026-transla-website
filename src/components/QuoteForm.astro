@@ -1,0 +1,29 @@
+---
+import { site } from '@/data/site';
+import { copy, type Locale } from '@/i18n';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const f = copy(lang).form;
+const recaptchaKey = import.meta.env.PUBLIC_RECAPTCHA_SITE_KEY || '';
+---
+<section class="quote-form-section" id="formularz" aria-labelledby="form-title">
+  <div class="section-heading"><span class="eyebrow">{f.eyebrow}</span><h2 id="form-title">{f.title}</h2><p>{f.intro}</p></div>
+  <form class="quote-form" data-messages={JSON.stringify(f.messages)} data-recaptcha-key={recaptchaKey} action="/api/public/order-form" method="post">
+    <div class="form-grid">
+      <label>{f.name} <span aria-hidden="true">*</span><input name="name" autocomplete="name" required maxlength="255" /></label>
+      <label>{f.email} <span aria-hidden="true">*</span><input name="email" type="email" autocomplete="email" required maxlength="255" /></label>
+      <label>{f.phone} <span class="optional">({f.optional})</span><input name="phone" type="tel" autocomplete="tel" maxlength="64" /></label>
+      <label>{f.type}<select name="translation_type"><option value="zwykle">{f.normal}</option><option value="certified">{f.certified}</option></select></label>
+      <label>{f.from} <span aria-hidden="true">*</span><input name="from_language" required maxlength="255" /></label>
+      <label>{f.to} <span aria-hidden="true">*</span><input name="to_language" required maxlength="255" /></label>
+    </div>
+    <label>{f.message}<textarea name="message" rows="4" maxlength="5000" placeholder={f.placeholder}></textarea></label>
+    <div class="file-box"><label for="quote-files">{f.files} <span class="optional">({f.optional})</span></label><p id="file-help">{f.fileHelp}</p><input id="quote-files" name="attachments" type="file" multiple accept=".pdf,.doc,.docx,.odt,.txt,.jpg,.jpeg,.png" aria-describedby="file-help" /><ul class="file-list" aria-live="polite"></ul></div>
+    <div class="form-notice"><strong>{f.noticeTitle}</strong><p>{f.notice} <a href={'mailto:' + site.email}>{site.email}</a>.</p></div>
+    <div class="form-actions"><button class="button" type="submit">{f.send} <span aria-hidden="true">↗</span></button><span class="form-progress" role="status" aria-live="polite"></span></div>
+    <p class="form-error" role="alert" hidden></p>
+    <p class="recaptcha-note" hidden={!recaptchaKey}>{f.recaptcha} <a href="https://policies.google.com/privacy">{f.privacy}</a> / <a href="https://policies.google.com/terms">{f.terms}</a>.</p>
+    <noscript>{f.noJs} <a href={'mailto:' + site.email}>{site.email}</a>.</noscript>
+  </form>
+</section>
+<script>import '@/scripts/quote-form';</script>

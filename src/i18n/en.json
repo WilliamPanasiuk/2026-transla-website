@@ -1,0 +1,304 @@
+{
+  "ui": {
+    "services": "Services",
+    "how": "How to order",
+    "prices": "Prices",
+    "about": "About Transla",
+    "top": "Affordable translations. Clear terms.",
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "mainNav": "Main navigation",
+    "language": "Choose language",
+    "quote": "Check your price",
+    "servicesLink": "Explore services",
+    "contactLink": "Get in touch",
+    "explore": "Explore",
+    "footerTitle": "A good price starts with a conversation",
+    "footerText": "Tell us the language, deadline and purpose. Compare your quote before you decide.",
+    "home": "Home",
+    "asideEyebrow": "Your next step",
+    "asideTitle": "Find out what your translation costs.",
+    "asideText": "Agree the scope, cost and deadline before ordering.",
+    "formLink": "Open the enquiry form",
+    "faqTitle": "Questions and answers",
+    "contactEyebrow": "Email contact",
+    "contactTitle": "Tell us about your project.",
+    "contactIntro": "Attach your material and explain its intended use.",
+    "scopeTitle": "What we can translate",
+    "requirementsTitle": "Preparing your enquiry",
+    "priceEyebrow": "Price matters",
+    "processEyebrow": "How it works",
+    "servicesEyebrow": "Our services",
+    "nextStep": "Start with a quote",
+    "beforeEnquiry": "Before you enquire",
+    "standardDocsTitle": "Standard documents — prices",
+    "standardDocCol": "Document",
+    "standardPriceCol": "Price",
+    "standardDocsNote": "Indicative prices for the most common language pairs. Final quote after document review.",
+    "docEyebrow": "Certified translation",
+    "docLead": "Send a clear scan or photo of the document. We’ll confirm the price and deadline before starting.",
+    "variantLabel": "Bold version"
+  },
+  "home": {
+    "title1": "Good translations.",
+    "title2": "Affordable prices.",
+    "eyebrow": "More possibilities within your budget",
+    "lead": "Documents, business content and websites at an affordable price. Send your material and find out the cost before ordering — choose a scope that suits your needs.",
+    "servicesTitle": "The right translation for your task.",
+    "servicesIntro": "Language, purpose and budget all matter. Start with the material you need translated.",
+    "processTitle": "Three steps to a clear quote.",
+    "priceTitle": "A translation within your budget.",
+    "priceLead": "Looking for an affordable price? Compare a specific quote for your material. We agree the scope and cost before work begins.",
+    "priceBeat": "Found a lower price for the same scope? Send us the offer and we’ll beat it.",
+    "ctaTitle": "What will your text cost?",
+    "ctaText": "Send your file and request a tailored quote.",
+    "artBadge": "YOUR MATERIAL",
+    "artHeading": "Good content. Sensible budget.",
+    "artCaption": "A quote first. Your decision next.",
+    "tagline": "Good translations. Affordable prices.",
+    "description": "Transla — affordable document and content translations. Agree the scope, cost and deadline before ordering."
+  },
+  "steps": [
+    [
+      "Send your material",
+      "Attach files and tell us the target language, deadline and purpose."
+    ],
+    [
+      "Get your price",
+      "Agree the scope, cost and delivery format. Compare the offer before deciding."
+    ],
+    [
+      "Order your translation",
+      "Once you accept the terms, the work can proceed in the agreed format."
+    ]
+  ],
+  "values": [
+    [
+      "A scope that meets your needs",
+      "Mark the pages and sections to translate. Your quote will cover that scope."
+    ],
+    [
+      "Know the cost before ordering",
+      "Agree the price, deadline and format before work begins."
+    ],
+    [
+      "The choice is yours",
+      "Sending a file does not place an order. Review the terms and assess the offer first."
+    ]
+  ],
+  "prices": [
+    [
+      "Standard — from 34 zł",
+      "per standard page. Documents, business content and websites."
+    ],
+    [
+      "Certified — from 44 zł",
+      "per page. With a sworn translator’s seal, for offices and institutions."
+    ],
+    [
+      "Standard documents EN/RU — from 25 zł",
+      "per page. Certificates, diplomas and statements."
+    ]
+  ],
+  "standardDocs": [
+    [
+      "ID card",
+      "from 49 zł"
+    ],
+    [
+      "Driving licence — English",
+      "from 69 zł"
+    ],
+    [
+      "Driving licence — Russian/Ukrainian",
+      "from 99 zł"
+    ],
+    [
+      "Birth certificate (short form)",
+      "from 49 zł"
+    ],
+    [
+      "Marriage certificate",
+      "from 55 zł"
+    ],
+    [
+      "University diploma",
+      "from 65 zł"
+    ],
+    [
+      "School certificate",
+      "from 59 zł"
+    ],
+    [
+      "Criminal record certificate",
+      "from 55 zł"
+    ],
+    [
+      "Vehicle documents",
+      "from 59 zł"
+    ]
+  ],
+  "turnaround": {
+    "title": "Turnaround and delivery",
+    "lead": "Order online — receive the document by e-mail or post.",
+    "items": [
+      [
+        "Quote within 15 minutes",
+        "A free quote with a deadline to your e-mail."
+      ],
+      [
+        "Delivery from 8 hours",
+        "Standard documents translated express, even same-day."
+      ],
+      [
+        "PDF by e-mail — 0 zł",
+        "The finished translation in electronic form."
+      ],
+      [
+        "InPost parcel locker — +15 zł",
+        "The fastest delivery of the paper version."
+      ],
+      [
+        "Courier — +19.90 zł",
+        "Paper version delivered to your address."
+      ],
+      [
+        "Registered letter — +17 zł",
+        "Traditional postal delivery."
+      ]
+    ]
+  },
+  "highlights": [
+    [
+      "Quote",
+      "within 15 min"
+    ],
+    [
+      "Turnaround",
+      "from 8 h"
+    ],
+    [
+      "Standard price",
+      "from 34 zł"
+    ],
+    [
+      "Price guarantee",
+      "we beat it"
+    ]
+  ],
+  "faq": [
+    [
+      "What determines the price?",
+      "The language pair, volume, subject, format and deadline. Compare offers for the same scope."
+    ],
+    [
+      "Does an enquiry place an order?",
+      "No. Work requires prior agreement on the scope and acceptance of the offer."
+    ],
+    [
+      "Do I need a certified translation?",
+      "Check the requirements of the institution receiving your document and include them in your enquiry."
+    ]
+  ],
+  "services": [
+    {
+      "title": "Documents and certified translations",
+      "description": "Documents for employment, education and formal procedures.",
+      "examples": [
+        "Personal documents",
+        "Diplomas",
+        "Certificates"
+      ],
+      "paragraphs": [
+        "Send legible scans of all pages, including stamps and annotations. State the country and institution that will receive the document.",
+        "Check the required translation format. Provide name spellings and the submission deadline; originals and delivery are agreed separately."
+      ]
+    },
+    {
+      "title": "Business translations",
+      "description": "Communication suited to new audiences.",
+      "examples": [
+        "Presentations",
+        "Sales proposals",
+        "Product descriptions"
+      ],
+      "paragraphs": [
+        "Identify the audience and purpose of your business materials. Specify the tone and whether the original layout should be retained.",
+        "Include a glossary, product names and approved examples. For multiple files, identify priorities and deadlines."
+      ]
+    },
+    {
+      "title": "Specialist content",
+      "description": "Context and consistent terminology for industry-specific texts.",
+      "examples": [
+        "Manuals",
+        "Documentation",
+        "Reports"
+      ],
+      "paragraphs": [
+        "Explain the industry and intended audience. Include drawings, terminology lists or earlier versions that clarify the material.",
+        "Identify codes and names that must remain unchanged. A sample helps establish the scope of work and final file format."
+      ]
+    },
+    {
+      "title": "Websites and localisation",
+      "description": "Content suited to your new market.",
+      "examples": [
+        "Websites",
+        "Online shops",
+        "Interfaces"
+      ],
+      "paragraphs": [
+        "Gather page text, product descriptions, labels and messages. Include page titles and search result descriptions.",
+        "For short texts, add screen context and character limits. Specify the market and export format; technical work is agreed separately."
+      ]
+    }
+  ],
+  "pages": {
+    "services": "Choose a translation that fits your material, purpose and budget.",
+    "how": "You do not need to know the billable page count. Start with a file and a short description of your needs.",
+    "prices": "Affordable prices guide our approach. Your specific offer reflects the language, scope and deadline of your material.",
+    "about": "Transla — content that helps you take the next step. We start with your goal and clear agreements.",
+    "contact": "Send your material or describe your project. Specify the language, deadline and intended use.",
+    "aboutTitle": "Your text. Our starting point."
+  },
+  "form": {
+    "eyebrow": "Your enquiry",
+    "title": "Tell us about your material.",
+    "intro": "Send files and a few details. An enquiry does not place an order.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "optional": "optional",
+    "type": "Translation type",
+    "normal": "Standard",
+    "certified": "Certified / sworn",
+    "from": "From which language?",
+    "to": "Into which language?",
+    "message": "What should we know?",
+    "placeholder": "Purpose, deadline, required format…",
+    "files": "Attach your material",
+    "fileHelp": "Up to 12 files, max. 8 MB each and 10 MB combined. PDF, DOC, DOCX, ODT, TXT, JPG, PNG.",
+    "noticeTitle": "Contact about your enquiry",
+    "notice": "You provide details and files to Transla to handle your enquiry. Do not include information unnecessary for the quote. Contact:",
+    "send": "Send enquiry",
+    "recaptcha": "Protected by reCAPTCHA:",
+    "privacy": "privacy",
+    "terms": "terms",
+    "noJs": "This form requires JavaScript. You can also email:",
+    "messages": {
+      "count": "Attach no more than 12 files.",
+      "type": "Choose one of the listed file formats.",
+      "single": "Each file must be no larger than 8 MB.",
+      "total": "The combined size must not exceed 10 MB.",
+      "sending": "Sending your enquiry…",
+      "success": "Thank you! Your enquiry was received. We will reply to your email.",
+      "error": "Your enquiry could not be sent. Try again or email info@transla.website.",
+      "large": "The files exceed the server limit. Reduce the attachments.",
+      "rate": "Too many attempts. Please wait a moment.",
+      "invalid": "Check the form details and try again.",
+      "antispam": "Anti-spam verification failed. Please try again.",
+      "read": "The file could not be read."
+    }
+  }
+}

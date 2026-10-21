@@ -1,0 +1,15 @@
+---
+import { copy, localizedPath, serviceIds, type Locale } from '@/i18n';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const { services } = copy(lang);
+---
+<div class="service-grid">
+  {services.map((service, index) => (
+    <a class="service-card" href={localizedPath(serviceIds[index], lang)}>
+      <div class="card-top"><span>{String(index + 1).padStart(2, '0')}</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+      <h3>{service.title}</h3><p>{service.description}</p>
+      <ul>{service.examples.map(example => <li>{example}</li>)}</ul>
+    </a>
+  ))}
+</div>

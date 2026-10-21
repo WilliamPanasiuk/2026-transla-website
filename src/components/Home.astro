@@ -1,0 +1,19 @@
+---
+import ServiceCards from '@/components/ServiceCards.astro';
+import { copy, localizedPath, type Locale } from '@/i18n';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const c = copy(lang), h = c.home;
+const contact = localizedPath('contact', lang) + '#formularz';
+---
+<section class="hero"><div class="container hero-grid">
+  <div class="hero-copy"><span class="eyebrow"><span class="eyebrow-dot"></span>{h.eyebrow}</span><h1>{h.title1}<br /><span>{h.title2}</span></h1><p class="lead">{h.lead}</p><div class="hero-actions"><a class="button" href={contact}>{c.ui.quote} <span aria-hidden="true">↗</span></a><a class="text-link" href={localizedPath('services', lang)}>{c.ui.servicesLink} <span aria-hidden="true">→</span></a></div><div class="hero-notes">{c.services.slice(0, 3).map(service => <span>{service.examples[0]}</span>)}</div></div>
+  <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="language-tag tag-left">{lang.toUpperCase()}</div><div class="language-tag tag-right">transla.</div><div class="document document-back"><span class="document-badge">{h.artBadge}</span><div class="document-line wide"></div><div class="document-line"></div><div class="document-line short"></div><div class="document-paragraph"></div></div><div class="document document-front"><div class="document-header"><span class="mini-brand">t.</span><span>{c.ui.priceEyebrow}</span></div><h2>{h.artHeading}</h2><div class="document-line wide"></div><div class="document-line"></div><div class="document-line short"></div><div class="document-footer"><span>transla.</span><span>↗</span></div></div><div class="art-caption"><span class="caption-icon">↔</span><span>{h.artCaption}</span></div></div>
+</div></section>
+<div class="highlights"><div class="container highlights-grid">{c.highlights.map(([label, value]) => <article><span class="hl-value">{value}</span><span class="hl-label">{label}</span></article>)}</div></div>
+<div class="topic-strip"><div class="container"><span>{c.ui.top}</span>{c.values.map(([title]) => <span>{title}</span>)}</div></div>
+<section class="section container" id="services"><div class="section-heading split-heading"><div><span class="eyebrow">{c.ui.servicesEyebrow}</span><h2>{h.servicesTitle}</h2></div><p>{h.servicesIntro}</p></div><ServiceCards lang={lang} /></section>
+<section class="price-section section"><div class="container"><div class="section-heading split-heading"><div><span class="eyebrow">{c.ui.priceEyebrow}</span><h2>{h.priceTitle}</h2></div><p>{h.priceLead}</p></div><div class="price-points">{c.prices.map(([title, text], index) => <article><span class="price-number">{String(index + 1).padStart(2, '0')}</span><h3>{title}</h3><p>{text}</p></article>)}</div><p class="price-beat">{h.priceBeat}</p><a class="button" href={contact}>{c.ui.quote} ↗</a></div></section>
+<section class="section container"><div class="section-heading"><span class="eyebrow">{c.ui.processEyebrow}</span><h2>{h.processTitle}</h2></div><div class="process-grid">{c.steps.map(([title, text], index) => <article><span class="step-number">{String(index + 1).padStart(2, '0')}</span><h3>{title}</h3><p>{text}</p></article>)}</div><a class="text-link" href={localizedPath('how', lang)}>{c.ui.how} →</a></section>
+<section class="section container faq-section"><div class="section-heading"><span class="eyebrow">{c.ui.beforeEnquiry}</span><h2>{c.ui.faqTitle}</h2></div>{c.faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+<section class="container cta-panel"><div><span class="eyebrow">{c.ui.nextStep}</span><h2>{h.ctaTitle}</h2><p>{h.ctaText}</p></div><a class="button button-light" href={contact}>{c.ui.quote} ↗</a></section>

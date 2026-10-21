@@ -1,0 +1,304 @@
+{
+  "ui": {
+    "services": "Usługi",
+    "how": "Jak zamówić",
+    "prices": "Ceny",
+    "about": "O Transla",
+    "top": "Niskie ceny tłumaczeń. Jasne warunki.",
+    "skip": "Przejdź do treści",
+    "menu": "Menu",
+    "mainNav": "Menu główne",
+    "language": "Wybierz język",
+    "quote": "Sprawdź cenę",
+    "servicesLink": "Poznaj usługi",
+    "contactLink": "Przejdź do kontaktu",
+    "explore": "Odkryj",
+    "footerTitle": "Dobra cena zaczyna się od rozmowy",
+    "footerText": "Podaj język, termin i przeznaczenie tekstu. Porównaj wycenę przed wyborem.",
+    "home": "Strona główna",
+    "asideEyebrow": "Twój kolejny krok",
+    "asideTitle": "Poznaj cenę swojego tłumaczenia.",
+    "asideText": "Ustalmy zakres, koszt i termin przed zamówieniem.",
+    "formLink": "Przejdź do formularza",
+    "faqTitle": "Pytania i odpowiedzi",
+    "contactEyebrow": "Kontakt mailowy",
+    "contactTitle": "Porozmawiajmy o Twojej sprawie.",
+    "contactIntro": "Dołącz materiał i opisz przeznaczenie tłumaczenia.",
+    "scopeTitle": "Co możemy przetłumaczyć",
+    "requirementsTitle": "Jak przygotować zapytanie",
+    "priceEyebrow": "Cena ma znaczenie",
+    "processEyebrow": "Jak to działa",
+    "servicesEyebrow": "Zakres usług",
+    "nextStep": "Zacznij od wyceny",
+    "beforeEnquiry": "Przed wysłaniem zapytania",
+    "standardDocsTitle": "Dokumenty standardowe — ceny",
+    "standardDocCol": "Dokument",
+    "standardPriceCol": "Cena",
+    "standardDocsNote": "Ceny orientacyjne dla najczęstszych par językowych. Ostateczną wycenę podamy po sprawdzeniu dokumentu.",
+    "docEyebrow": "Tłumaczenie poświadczone",
+    "docLead": "Prześlij czytelny skan lub zdjęcie dokumentu. Podamy koszt i termin przed rozpoczęciem pracy.",
+    "variantLabel": "Wyrazista wersja"
+  },
+  "home": {
+    "title1": "Dobre tłumaczenia.",
+    "title2": "Niskie ceny.",
+    "eyebrow": "Więcej możliwości w Twoim budżecie",
+    "lead": "Dokumenty, treści firmowe i strony internetowe w korzystnej cenie. Prześlij materiał i poznaj koszt przed zamówieniem — wybierz zakres dopasowany do swoich potrzeb.",
+    "servicesTitle": "Dobierz tłumaczenie do swojej sprawy.",
+    "servicesIntro": "Liczy się język, przeznaczenie i budżet. Zacznij od materiału, który chcesz przetłumaczyć.",
+    "processTitle": "Trzy kroki do jasnej wyceny.",
+    "priceTitle": "Tłumaczenie w Twoim budżecie.",
+    "priceLead": "Zależy Ci na niskiej cenie? Porównaj konkretną ofertę dla swojego materiału. Zakres i koszt ustalamy przed rozpoczęciem pracy.",
+    "priceBeat": "Znajdziesz niższą cenę za ten sam zakres? Prześlij ofertę, a my ją przebijemy.",
+    "ctaTitle": "Ile kosztuje Twój tekst?",
+    "ctaText": "Prześlij plik i sprawdź indywidualną wycenę.",
+    "artBadge": "TWÓJ MATERIAŁ",
+    "artHeading": "Dobry tekst. Rozsądny budżet.",
+    "artCaption": "Najpierw wycena. Potem decyzja.",
+    "tagline": "Dobre tłumaczenia. Niskie ceny.",
+    "description": "Transla — tłumaczenia dokumentów i treści w niskich cenach. Poznaj zakres, koszt i termin przed zamówieniem."
+  },
+  "steps": [
+    [
+      "Prześlij materiał",
+      "Dołącz pliki i podaj język docelowy, termin oraz przeznaczenie tekstu."
+    ],
+    [
+      "Poznaj cenę",
+      "Ustal zakres, koszt i sposób odbioru. Porównaj ofertę przed podjęciem decyzji."
+    ],
+    [
+      "Zamów tłumaczenie",
+      "Po akceptacji warunków materiał może trafić do realizacji w ustalonej formie."
+    ]
+  ],
+  "values": [
+    [
+      "Zakres dopasowany do potrzeb",
+      "Zaznacz strony i części dokumentu do przetłumaczenia. Wycena obejmie wskazany zakres."
+    ],
+    [
+      "Koszt przed zamówieniem",
+      "Ustal cenę, termin i format przekładu przed rozpoczęciem pracy."
+    ],
+    [
+      "Decyzja należy do Ciebie",
+      "Samo wysłanie materiału nie oznacza zamówienia. Najpierw poznaj i oceń ofertę."
+    ]
+  ],
+  "prices": [
+    [
+      "Zwykłe — od 34 zł",
+      "za stronę rozliczeniową. Dokumenty, treści firmowe i strony www."
+    ],
+    [
+      "Poświadczone — od 44 zł",
+      "za stronę. Z pieczęcią tłumacza przysięgłego, dla urzędów i instytucji."
+    ],
+    [
+      "Standardowe EN/RU — od 25 zł",
+      "za stronę. Akty, dyplomy i zaświadczenia."
+    ]
+  ],
+  "standardDocs": [
+    [
+      "Dowód osobisty",
+      "od 49 zł"
+    ],
+    [
+      "Prawo jazdy — angielski",
+      "od 69 zł"
+    ],
+    [
+      "Prawo jazdy — rosyjski/ukraiński",
+      "od 99 zł"
+    ],
+    [
+      "Akt urodzenia (skrócony)",
+      "od 49 zł"
+    ],
+    [
+      "Akt małżeństwa",
+      "od 55 zł"
+    ],
+    [
+      "Dyplom ukończenia studiów",
+      "od 65 zł"
+    ],
+    [
+      "Świadectwo szkolne",
+      "od 59 zł"
+    ],
+    [
+      "Zaświadczenie o niekaralności",
+      "od 55 zł"
+    ],
+    [
+      "Dokumenty samochodowe",
+      "od 59 zł"
+    ]
+  ],
+  "turnaround": {
+    "title": "Czas realizacji i dostawa",
+    "lead": "Zamawiasz online — dokument otrzymasz na e-mail lub pocztą.",
+    "items": [
+      [
+        "Wycena do 15 minut",
+        "Bezpłatna wycena z terminem na Twój e-mail."
+      ],
+      [
+        "Realizacja od 8 godzin",
+        "Dokumenty standardowe tłumaczymy ekspresowo, nawet tego samego dnia."
+      ],
+      [
+        "PDF na e-mail — 0 zł",
+        "Gotowe tłumaczenie w wersji elektronicznej."
+      ],
+      [
+        "Paczkomat InPost — +15 zł",
+        "Najszybsza dostawa wersji papierowej."
+      ],
+      [
+        "Kurier — +19,90 zł",
+        "Dostawa papierowej wersji pod wskazany adres."
+      ],
+      [
+        "List polecony — +17 zł",
+        "Tradycyjna wysyłka pocztą."
+      ]
+    ]
+  },
+  "highlights": [
+    [
+      "Wycena",
+      "do 15 min"
+    ],
+    [
+      "Realizacja",
+      "od 8 h"
+    ],
+    [
+      "Cena zwykła",
+      "od 34 zł"
+    ],
+    [
+      "Gwarancja ceny",
+      "przebijemy"
+    ]
+  ],
+  "faq": [
+    [
+      "Od czego zależy cena?",
+      "Od pary językowej, objętości, tematyki, formatu i terminu. Porównuj oferty dotyczące tego samego zakresu."
+    ],
+    [
+      "Czy zapytanie oznacza zamówienie?",
+      "Nie. Realizacja wymaga wcześniejszego uzgodnienia zakresu i zaakceptowania oferty."
+    ],
+    [
+      "Czy potrzebuję formy poświadczonej?",
+      "Sprawdź wymagania instytucji, do której trafi dokument, i dołącz je do zapytania."
+    ]
+  ],
+  "services": [
+    {
+      "title": "Dokumenty i tłumaczenia poświadczone",
+      "description": "Dokumenty do pracy, nauki i spraw formalnych.",
+      "examples": [
+        "Dokumenty osobiste",
+        "Dyplomy",
+        "Zaświadczenia"
+      ],
+      "paragraphs": [
+        "Prześlij czytelne skany wszystkich stron, łącznie z pieczęciami i dopiskami. Wskaż kraj i instytucję, do której trafi dokument.",
+        "Sprawdź wymaganą formę przekładu. Podaj pisownię nazwisk i termin złożenia dokumentów; oryginały i odbiór ustalamy osobno."
+      ]
+    },
+    {
+      "title": "Tłumaczenia dla firm",
+      "description": "Komunikacja dopasowana do nowych odbiorców.",
+      "examples": [
+        "Prezentacje",
+        "Oferty handlowe",
+        "Opisy produktów"
+      ],
+      "paragraphs": [
+        "Podaj odbiorcę i cel materiałów firmowych. Określ oczekiwany styl oraz potrzebę zachowania układu dokumentu.",
+        "Dołącz glosariusz, nazwy produktów i zaakceptowane przykłady. Przy wielu plikach wskaż priorytety i terminy."
+      ]
+    },
+    {
+      "title": "Treści specjalistyczne",
+      "description": "Kontekst i spójna terminologia w tekstach branżowych.",
+      "examples": [
+        "Instrukcje",
+        "Dokumentacja",
+        "Raporty"
+      ],
+      "paragraphs": [
+        "Opisz branżę i odbiorcę tekstu. Dołącz rysunki, słownik pojęć lub wcześniejsze wersje pomocne w zrozumieniu materiału.",
+        "Wskaż oznaczenia, które powinny pozostać bez zmian. Próbka tekstu pomaga ustalić zakres opracowania i format końcowy."
+      ]
+    },
+    {
+      "title": "Strony internetowe i lokalizacja",
+      "description": "Treści dopasowane do nowego rynku.",
+      "examples": [
+        "Strony www",
+        "Sklepy",
+        "Interfejsy"
+      ],
+      "paragraphs": [
+        "Zbierz teksty podstron, opisy produktów, etykiety i komunikaty. Uwzględnij tytuły stron oraz opisy do wyszukiwarek.",
+        "Do krótkich treści dodaj kontekst ekranu i limity znaków. Podaj rynek i format eksportu; prace techniczne ustalamy osobno."
+      ]
+    }
+  ],
+  "pages": {
+    "services": "Wybierz tłumaczenie dopasowane do materiału, celu i budżetu.",
+    "how": "Nie musisz znać liczby stron rozliczeniowych. Zacznij od pliku i krótkiego opisu potrzeb.",
+    "prices": "Niskie ceny to nasz kierunek. Konkretna oferta uwzględnia język, zakres i termin Twojego materiału.",
+    "about": "Transla — teksty, które pomagają zrobić kolejny krok. Zaczynamy od Twojego celu i jasnych ustaleń.",
+    "contact": "Prześlij materiał lub opisz projekt. Podaj język, termin i przeznaczenie tłumaczenia.",
+    "aboutTitle": "Twój tekst. Nasz punkt wyjścia."
+  },
+  "form": {
+    "eyebrow": "Twoje zapytanie",
+    "title": "Opowiedz nam o materiale.",
+    "intro": "Prześlij pliki i kilka szczegółów. Zapytanie nie oznacza zamówienia.",
+    "name": "Imię i nazwisko",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "optional": "opcjonalnie",
+    "type": "Rodzaj tłumaczenia",
+    "normal": "Zwykłe",
+    "certified": "Poświadczone (przysięgłe)",
+    "from": "Z jakiego języka?",
+    "to": "Na jaki język?",
+    "message": "Co warto wiedzieć o zleceniu?",
+    "placeholder": "Przeznaczenie, termin, wymagany format…",
+    "files": "Dołącz materiał",
+    "fileHelp": "Do 12 plików, maks. 8 MB każdy i 10 MB łącznie. PDF, DOC, DOCX, ODT, TXT, JPG, PNG.",
+    "noticeTitle": "Kontakt w sprawie zapytania",
+    "notice": "Dane i pliki przekazujesz do obsługi zapytania przez Transla. Nie dołączaj informacji niepotrzebnych do wyceny. Kontakt:",
+    "send": "Wyślij zapytanie",
+    "recaptcha": "Ochrona reCAPTCHA:",
+    "privacy": "prywatność",
+    "terms": "warunki",
+    "noJs": "Formularz wymaga JavaScript. Możesz też napisać na:",
+    "messages": {
+      "count": "Dołącz maksymalnie 12 plików.",
+      "type": "Wybierz jeden z podanych formatów.",
+      "single": "Pojedynczy plik nie może przekraczać 8 MB.",
+      "total": "Łączny rozmiar nie może przekraczać 10 MB.",
+      "sending": "Przekazywanie zapytania…",
+      "success": "Dziękujemy! Zapytanie przyjęte. Odpowiemy na podany e-mail.",
+      "error": "Nie udało się wysłać zapytania. Spróbuj ponownie lub napisz na info@transla.website.",
+      "large": "Pliki przekraczają limit serwera. Zmniejsz załączniki.",
+      "rate": "Zbyt wiele prób. Odczekaj chwilę.",
+      "invalid": "Sprawdź dane formularza i spróbuj ponownie.",
+      "antispam": "Weryfikacja antyspamowa nie powiodła się. Spróbuj ponownie.",
+      "read": "Nie udało się odczytać pliku."
+    }
+  }
+}

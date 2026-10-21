@@ -1,0 +1,304 @@
+{
+  "ui": {
+    "services": "Tjänster",
+    "how": "Så beställer du",
+    "prices": "Priser",
+    "about": "Om Transla",
+    "top": "Prisvärda översättningar. Tydliga villkor.",
+    "skip": "Hoppa till innehållet",
+    "menu": "Meny",
+    "mainNav": "Huvudmeny",
+    "language": "Välj språk",
+    "quote": "Begär pris",
+    "servicesLink": "Se våra tjänster",
+    "contactLink": "Kontakta oss",
+    "explore": "Upptäck",
+    "footerTitle": "Ett bra pris börjar med ett samtal",
+    "footerText": "Ange språk, deadline och syfte. Jämför offerten innan du bestämmer dig.",
+    "home": "Hem",
+    "asideEyebrow": "Ditt nästa steg",
+    "asideTitle": "Vad kostar din översättning?",
+    "asideText": "Kom överens om omfattning, pris och deadline före beställning.",
+    "formLink": "Öppna formuläret",
+    "faqTitle": "Frågor och svar",
+    "contactEyebrow": "Kontakt via e-post",
+    "contactTitle": "Berätta om ditt projekt.",
+    "contactIntro": "Bifoga materialet och beskriv hur det ska användas.",
+    "scopeTitle": "Vad vi översätter",
+    "requirementsTitle": "Förbered din förfrågan",
+    "priceEyebrow": "Priset spelar roll",
+    "processEyebrow": "Så fungerar det",
+    "servicesEyebrow": "Våra tjänster",
+    "nextStep": "Börja med en offert",
+    "beforeEnquiry": "Innan du skickar en förfrågan",
+    "standardDocsTitle": "Standarddokument — priser",
+    "standardDocCol": "Dokument",
+    "standardPriceCol": "Pris",
+    "standardDocsNote": "Riktpriser för de vanligaste språkparen. Slutgiltigt pris efter granskning av dokumentet.",
+    "docEyebrow": "Bestyrkt översättning",
+    "docLead": "Skicka en tydlig skanning eller bild av dokumentet. Vi bekräftar pris och tidsplan innan vi börjar.",
+    "variantLabel": "Fet version"
+  },
+  "home": {
+    "title1": "Bra översättningar.",
+    "title2": "Överkomliga priser.",
+    "eyebrow": "Fler möjligheter inom din budget",
+    "lead": "Dokument, företagstexter och webbplatser till överkomliga priser. Skicka materialet och få priset före beställning, med en omfattning som passar dina behov.",
+    "servicesTitle": "Rätt översättning för din uppgift.",
+    "servicesIntro": "Språk, syfte och budget spelar roll. Börja med ditt material.",
+    "processTitle": "Tre steg till en tydlig offert.",
+    "priceTitle": "En översättning inom din budget.",
+    "priceLead": "Letar du efter ett bra pris? Jämför en konkret offert för ditt material. Vi kommer överens om omfattning och kostnad innan arbetet börjar.",
+    "priceBeat": "Hittat ett lägre pris för samma omfattning? Skicka offerten så slår vi den.",
+    "ctaTitle": "Vad kostar din text?",
+    "ctaText": "Skicka filen och be om en anpassad offert.",
+    "artBadge": "DITT MATERIAL",
+    "artHeading": "Bra text. Rimlig budget.",
+    "artCaption": "Först offerten. Sedan ditt beslut.",
+    "tagline": "Bra översättningar. Överkomliga priser.",
+    "description": "Transla — prisvärda översättningar av dokument och texter. Kom överens om omfattning, pris och deadline före beställning."
+  },
+  "steps": [
+    [
+      "Skicka materialet",
+      "Bifoga filer och ange målspråk, deadline och syfte."
+    ],
+    [
+      "Få ditt pris",
+      "Kom överens om omfattning, kostnad och format. Jämför offerten."
+    ],
+    [
+      "Beställ översättningen",
+      "När du har godkänt villkoren kan arbetet börja enligt överenskommelsen."
+    ]
+  ],
+  "values": [
+    [
+      "Omfattning efter behov",
+      "Markera sidor och avsnitt som ska översättas. Offerten gäller den omfattningen."
+    ],
+    [
+      "Kostnaden före beställning",
+      "Kom överens om pris, deadline och format innan arbetet börjar."
+    ],
+    [
+      "Du bestämmer",
+      "Att skicka en fil är ingen beställning. Granska villkoren först."
+    ]
+  ],
+  "prices": [
+    [
+      "Vanlig — från 34 zł",
+      "per sida. Dokument, företagstexter och webbplatser."
+    ],
+    [
+      "Bestyrkt — från 44 zł",
+      "per sida. Med auktoriserad translators stämpel, för myndigheter."
+    ],
+    [
+      "Standarddokument EN/RU — från 25 zł",
+      "per sida. Intyg, examensbevis och utlåtanden."
+    ]
+  ],
+  "standardDocs": [
+    [
+      "ID-kort",
+      "från 49 zł"
+    ],
+    [
+      "Körkort — engelska",
+      "från 69 zł"
+    ],
+    [
+      "Körkort — ryska/ukrainska",
+      "från 99 zł"
+    ],
+    [
+      "Födelseattest (utdrag)",
+      "från 49 zł"
+    ],
+    [
+      "Vigselbevis",
+      "från 55 zł"
+    ],
+    [
+      "Examensbevis från universitet",
+      "från 65 zł"
+    ],
+    [
+      "Skolbetyg",
+      "från 59 zł"
+    ],
+    [
+      "Utdrag ur belastningsregistret",
+      "från 55 zł"
+    ],
+    [
+      "Fordonshandlingar",
+      "från 59 zł"
+    ]
+  ],
+  "turnaround": {
+    "title": "Tid och leverans",
+    "lead": "Beställ online — få dokumentet via e-post eller post.",
+    "items": [
+      [
+        "Offert inom 15 minuter",
+        "Gratis offert med tidsplan till din e-post."
+      ],
+      [
+        "Leverans från 8 timmar",
+        "Standarddokument översätts express, även samma dag."
+      ],
+      [
+        "PDF via e-post — 0 zł",
+        "Den färdiga översättningen i elektronisk form."
+      ],
+      [
+        "InPost-skåp — +15 zł",
+        "Snabbaste leveransen av pappersversionen."
+      ],
+      [
+        "Bud — +19,90 zł",
+        "Pappersversion till din adress."
+      ],
+      [
+        "Rekommenderat brev — +17 zł",
+        "Traditionell postleverans."
+      ]
+    ]
+  },
+  "highlights": [
+    [
+      "Offert",
+      "inom 15 min"
+    ],
+    [
+      "Leverans",
+      "från 8 h"
+    ],
+    [
+      "Vanligt pris",
+      "från 34 zł"
+    ],
+    [
+      "Prisgaranti",
+      "vi slår det"
+    ]
+  ],
+  "faq": [
+    [
+      "Vad avgör priset?",
+      "Språkpar, omfattning, ämne, format och deadline. Jämför offerter för samma omfattning."
+    ],
+    [
+      "Är en förfrågan en beställning?",
+      "Nej. Arbetet kräver en överenskommelse om omfattningen och ett godkännande av offerten."
+    ],
+    [
+      "Behöver jag en bestyrkt översättning?",
+      "Kontrollera kraven hos den mottagande institutionen och bifoga dem till förfrågan."
+    ]
+  ],
+  "services": [
+    {
+      "title": "Dokument och bestyrkta översättningar",
+      "description": "Dokument för arbete, studier och formella ärenden.",
+      "examples": [
+        "Personliga dokument",
+        "Examensbevis",
+        "Intyg"
+      ],
+      "paragraphs": [
+        "Skicka läsbara skanningar av alla sidor, även stämplar och anteckningar. Ange land och mottagande institution.",
+        "Kontrollera vilken form som krävs. Ange namnens stavning och sista inlämningsdag; original och leverans avtalas separat."
+      ]
+    },
+    {
+      "title": "Översättningar för företag",
+      "description": "Kommunikation för nya målgrupper.",
+      "examples": [
+        "Presentationer",
+        "Affärsförslag",
+        "Produktbeskrivningar"
+      ],
+      "paragraphs": [
+        "Ange målgrupp, syfte och önskad ton. Berätta om den ursprungliga layouten ska behållas.",
+        "Bifoga ordlistor, produktnamn och godkända exempel. Ange prioriteringar och deadlines för flera filer."
+      ]
+    },
+    {
+      "title": "Facktexter",
+      "description": "Sammanhang och konsekvent fackterminologi.",
+      "examples": [
+        "Handböcker",
+        "Dokumentation",
+        "Rapporter"
+      ],
+      "paragraphs": [
+        "Beskriv bransch och läsare. Bifoga ritningar, begreppslistor eller tidigare versioner som förtydligar materialet.",
+        "Markera koder och namn som ska vara oförändrade. Ett prov hjälper till att fastställa omfattning och slutformat."
+      ]
+    },
+    {
+      "title": "Webbplatser och lokalisering",
+      "description": "Innehåll för din nya marknad.",
+      "examples": [
+        "Webbplatser",
+        "Webbutiker",
+        "Gränssnitt"
+      ],
+      "paragraphs": [
+        "Samla sidtexter, produktbeskrivningar, etiketter och meddelanden samt sidtitlar och sökbeskrivningar.",
+        "Lägg till skärmkontext och teckengränser. Ange marknad och exportformat; tekniskt arbete avtalas separat."
+      ]
+    }
+  ],
+  "pages": {
+    "services": "Välj en översättning som passar material, syfte och budget.",
+    "how": "Du behöver inte räkna debiterbara sidor. Börja med en fil och en kort beskrivning.",
+    "prices": "Överkomliga priser är vår inriktning. Den konkreta offerten tar hänsyn till språk, omfattning och deadline.",
+    "about": "Transla — texter för ditt nästa steg. Vi börjar med ditt mål och tydliga överenskommelser.",
+    "contact": "Skicka material eller beskriv projektet. Ange språk, deadline och syfte.",
+    "aboutTitle": "Din text. Vår utgångspunkt."
+  },
+  "form": {
+    "eyebrow": "Din förfrågan",
+    "title": "Berätta om materialet.",
+    "intro": "Skicka filer och några uppgifter. En förfrågan är ingen beställning.",
+    "name": "För- och efternamn",
+    "email": "E-post",
+    "phone": "Telefon",
+    "optional": "valfritt",
+    "type": "Typ av översättning",
+    "normal": "Standard",
+    "certified": "Bestyrkt / auktoriserad",
+    "from": "Från vilket språk?",
+    "to": "Till vilket språk?",
+    "message": "Vad behöver vi veta?",
+    "placeholder": "Syfte, deadline, önskat format…",
+    "files": "Bifoga material",
+    "fileHelp": "Högst 12 filer, max. 8 MB vardera och 10 MB totalt. PDF, DOC, DOCX, ODT, TXT, JPG, PNG.",
+    "noticeTitle": "Kontakt om förfrågan",
+    "notice": "Du lämnar uppgifter och filer till Transla för att hantera förfrågan. Ta inte med information som inte behövs för offerten. Kontakt:",
+    "send": "Skicka förfrågan",
+    "recaptcha": "Skyddas av reCAPTCHA:",
+    "privacy": "integritet",
+    "terms": "villkor",
+    "noJs": "Formuläret kräver JavaScript. Du kan också mejla:",
+    "messages": {
+      "count": "Bifoga högst 12 filer.",
+      "type": "Välj ett av de angivna formaten.",
+      "single": "Varje fil får vara högst 8 MB.",
+      "total": "Den totala storleken får inte överstiga 10 MB.",
+      "sending": "Skickar din förfrågan…",
+      "success": "Tack! Din förfrågan har tagits emot. Vi svarar via e-post.",
+      "error": "Det gick inte att skicka. Försök igen eller mejla info@transla.website.",
+      "large": "Filerna överskrider servergränsen. Minska bilagorna.",
+      "rate": "För många försök. Vänta en stund.",
+      "invalid": "Kontrollera formulärets uppgifter.",
+      "antispam": "Antispamkontrollen misslyckades. Försök igen.",
+      "read": "Filen kunde inte läsas."
+    }
+  }
+}

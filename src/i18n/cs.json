@@ -1,0 +1,304 @@
+{
+  "ui": {
+    "services": "Služby",
+    "how": "Jak objednat",
+    "prices": "Ceny",
+    "about": "O Transla",
+    "top": "Cenově dostupné překlady. Jasné podmínky.",
+    "skip": "Přejít k obsahu",
+    "menu": "Menu",
+    "mainNav": "Hlavní navigace",
+    "language": "Vybrat jazyk",
+    "quote": "Zjistit cenu",
+    "servicesLink": "Prohlédnout služby",
+    "contactLink": "Kontaktovat",
+    "explore": "Objevte",
+    "footerTitle": "Dobrá cena začíná rozhovorem",
+    "footerText": "Uveďte jazyk, termín a účel. Před rozhodnutím porovnejte nabídku.",
+    "home": "Úvod",
+    "asideEyebrow": "Váš další krok",
+    "asideTitle": "Kolik stojí váš překlad?",
+    "asideText": "Domluvme rozsah, cenu a termín před objednávkou.",
+    "formLink": "Otevřít formulář",
+    "faqTitle": "Otázky a odpovědi",
+    "contactEyebrow": "Kontakt e-mailem",
+    "contactTitle": "Povězte nám o svém projektu.",
+    "contactIntro": "Přiložte materiál a popište účel překladu.",
+    "scopeTitle": "Co překládáme",
+    "requirementsTitle": "Jak připravit poptávku",
+    "priceEyebrow": "Na ceně záleží",
+    "processEyebrow": "Jak to funguje",
+    "servicesEyebrow": "Naše služby",
+    "nextStep": "Začněte cenovou nabídkou",
+    "beforeEnquiry": "Před odesláním poptávky",
+    "standardDocsTitle": "Standardní dokumenty — ceny",
+    "standardDocCol": "Dokument",
+    "standardPriceCol": "Cena",
+    "standardDocsNote": "Orientační ceny pro nejčastější jazykové páry. Konečnou nabídku sdělíme po kontrole dokumentu.",
+    "docEyebrow": "Ověřený překlad",
+    "docLead": "Zašlete čitelný sken nebo fotografii dokumentu. Před zahájením práce potvrdíme cenu a termín.",
+    "variantLabel": "Výrazná verze"
+  },
+  "home": {
+    "title1": "Dobré překlady.",
+    "title2": "Dostupné ceny.",
+    "eyebrow": "Více možností pro váš rozpočet",
+    "lead": "Dokumenty, firemní texty a weby za dostupnou cenu. Pošlete materiál a zjistěte cenu před objednávkou — s rozsahem podle vašich potřeb.",
+    "servicesTitle": "Překlad pro váš konkrétní účel.",
+    "servicesIntro": "Záleží na jazyce, využití i rozpočtu. Začněte materiálem k překladu.",
+    "processTitle": "Tři kroky k jasné nabídce.",
+    "priceTitle": "Překlad v rámci vašeho rozpočtu.",
+    "priceLead": "Hledáte výhodnou cenu? Porovnejte konkrétní nabídku pro svůj materiál. Rozsah a cenu domluvíme před začátkem práce.",
+    "priceBeat": "Našli jste nižší cenu za stejný rozsah? Pošlete nabídku a my ji přebijeme.",
+    "ctaTitle": "Kolik bude stát váš text?",
+    "ctaText": "Pošlete soubor a vyžádejte si individuální nabídku.",
+    "artBadge": "VÁŠ MATERIÁL",
+    "artHeading": "Dobrý text. Rozumný rozpočet.",
+    "artCaption": "Nejprve nabídka. Pak rozhodnutí.",
+    "tagline": "Dobré překlady. Dostupné ceny.",
+    "description": "Transla — cenově dostupné překlady dokumentů a textů. Domluvte rozsah, cenu a termín před objednávkou."
+  },
+  "steps": [
+    [
+      "Pošlete materiál",
+      "Přiložte soubory a uveďte cílový jazyk, termín a účel."
+    ],
+    [
+      "Zjistěte cenu",
+      "Domluvte rozsah, cenu a formát. Porovnejte nabídku."
+    ],
+    [
+      "Objednejte překlad",
+      "Po přijetí podmínek může práce pokračovat dohodnutým způsobem."
+    ]
+  ],
+  "values": [
+    [
+      "Rozsah podle potřeb",
+      "Označte stránky a části k překladu. Nabídka se bude týkat tohoto rozsahu."
+    ],
+    [
+      "Cena před objednávkou",
+      "Domluvte cenu, termín a formát před zahájením práce."
+    ],
+    [
+      "Rozhodnutí je na vás",
+      "Odeslání souboru není objednávkou. Nejprve posuďte podmínky."
+    ]
+  ],
+  "prices": [
+    [
+      "Běžný — od 34 zł",
+      "za stranu. Dokumenty, firemní texty a weby."
+    ],
+    [
+      "Ověřený — od 44 zł",
+      "za stranu. S razítkem soudního překladatele, pro úřady."
+    ],
+    [
+      "Standardní dokumenty EN/RU — od 25 zł",
+      "za stranu. Doklady, diplomy a potvrzení."
+    ]
+  ],
+  "standardDocs": [
+    [
+      "Občanský průkaz",
+      "od 49 zł"
+    ],
+    [
+      "Řidičský průkaz — angličtina",
+      "od 69 zł"
+    ],
+    [
+      "Řidičský průkaz — ruština/ukrajinština",
+      "od 99 zł"
+    ],
+    [
+      "Rodný list (výpis)",
+      "od 49 zł"
+    ],
+    [
+      "Oddací list",
+      "od 55 zł"
+    ],
+    [
+      "Vysokoškolský diplom",
+      "od 65 zł"
+    ],
+    [
+      "Školní vysvědčení",
+      "od 59 zł"
+    ],
+    [
+      "Výpis z rejstříku trestů",
+      "od 55 zł"
+    ],
+    [
+      "Doklady k vozidlu",
+      "od 59 zł"
+    ]
+  ],
+  "turnaround": {
+    "title": "Termíny a doručení",
+    "lead": "Objednejte online — dokument obdržíte e-mailem nebo poštou.",
+    "items": [
+      [
+        "Nabídka do 15 minut",
+        "Bezplatná nabídka s termínem na váš e-mail."
+      ],
+      [
+        "Doručení od 8 hodin",
+        "Standardní dokumenty překládáme expresně, i tentýž den."
+      ],
+      [
+        "PDF e-mailem — 0 zł",
+        "Hotový překlad v elektronické podobě."
+      ],
+      [
+        "Výdejní box InPost — +15 zł",
+        "Nejrychlejší doručení papírové verze."
+      ],
+      [
+        "Kurýr — +19,90 zł",
+        "Papírová verze na vaši adresu."
+      ],
+      [
+        "Doporučený dopis — +17 zł",
+        "Tradiční poštovní zaslání."
+      ]
+    ]
+  },
+  "highlights": [
+    [
+      "Nabídka",
+      "do 15 min"
+    ],
+    [
+      "Termín",
+      "od 8 h"
+    ],
+    [
+      "Běžná cena",
+      "od 34 zł"
+    ],
+    [
+      "Garance ceny",
+      "přebijeme"
+    ]
+  ],
+  "faq": [
+    [
+      "Na čem závisí cena?",
+      "Na jazykové kombinaci, rozsahu, tématu, formátu a termínu. Porovnávejte nabídky pro stejný rozsah."
+    ],
+    [
+      "Je poptávka objednávkou?",
+      "Ne. Práce vyžaduje předchozí dohodu o rozsahu a přijetí nabídky."
+    ],
+    [
+      "Potřebuji ověřený překlad?",
+      "Ověřte požadavky přijímající instituce a přiložte je k poptávce."
+    ]
+  ],
+  "services": [
+    {
+      "title": "Dokumenty a ověřené překlady",
+      "description": "Dokumenty pro práci, studium a úřední postupy.",
+      "examples": [
+        "Osobní doklady",
+        "Diplomy",
+        "Potvrzení"
+      ],
+      "paragraphs": [
+        "Pošlete čitelné skeny všech stran včetně razítek a poznámek. Uveďte zemi a přijímající instituci.",
+        "Ověřte potřebnou formu překladu. Uveďte pravopis jmen a termín podání; originály a předání domluvíme zvlášť."
+      ]
+    },
+    {
+      "title": "Překlady pro firmy",
+      "description": "Komunikace pro nové cílové skupiny.",
+      "examples": [
+        "Prezentace",
+        "Obchodní nabídky",
+        "Popisy produktů"
+      ],
+      "paragraphs": [
+        "Uveďte cílovou skupinu, účel a požadovaný styl. Napište, zda je třeba zachovat původní sazbu.",
+        "Přiložte glosář, názvy produktů a schválené příklady. U více souborů stanovte priority a termíny."
+      ]
+    },
+    {
+      "title": "Odborné texty",
+      "description": "Kontext a jednotná oborová terminologie.",
+      "examples": [
+        "Návody",
+        "Dokumentace",
+        "Zprávy"
+      ],
+      "paragraphs": [
+        "Popište obor a čtenáře. Přiložte výkresy, slovníček nebo předchozí verze, které materiál objasňují.",
+        "Označte kódy a názvy, které mají zůstat beze změny. Ukázka pomůže určit rozsah práce a výsledný formát."
+      ]
+    },
+    {
+      "title": "Weby a lokalizace",
+      "description": "Obsah pro váš nový trh.",
+      "examples": [
+        "Webové stránky",
+        "E-shopy",
+        "Rozhraní"
+      ],
+      "paragraphs": [
+        "Shromážděte texty stránek, popisy produktů, popisky a zprávy včetně titulů a popisů pro vyhledávače.",
+        "Doplňte kontext obrazovek a limity znaků. Uveďte trh a formát exportu; technické práce domluvíme zvlášť."
+      ]
+    }
+  ],
+  "pages": {
+    "services": "Vyberte překlad podle materiálu, účelu a rozpočtu.",
+    "how": "Nemusíte počítat normostrany. Začněte souborem a krátkým popisem.",
+    "prices": "Dostupné ceny jsou naším cílem. Konkrétní nabídka zohlední jazyk, rozsah a termín.",
+    "about": "Transla — texty pro váš další krok. Začínáme vaším cílem a jasnými dohodami.",
+    "contact": "Pošlete materiál nebo popište projekt. Uveďte jazyk, termín a účel.",
+    "aboutTitle": "Váš text. Náš výchozí bod."
+  },
+  "form": {
+    "eyebrow": "Vaše poptávka",
+    "title": "Povězte nám o materiálu.",
+    "intro": "Pošlete soubory a několik údajů. Poptávka není objednávkou.",
+    "name": "Jméno a příjmení",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "optional": "nepovinné",
+    "type": "Druh překladu",
+    "normal": "Běžný",
+    "certified": "Ověřený / soudní",
+    "from": "Z jakého jazyka?",
+    "to": "Do jakého jazyka?",
+    "message": "Co bychom měli vědět?",
+    "placeholder": "Účel, termín, požadovaný formát…",
+    "files": "Přiložit materiál",
+    "fileHelp": "Až 12 souborů, max. 8 MB každý a 10 MB celkem. PDF, DOC, DOCX, ODT, TXT, JPG, PNG.",
+    "noticeTitle": "Kontakt k poptávce",
+    "notice": "Předáváte údaje a soubory Transla pro vyřízení poptávky. Nepřidávejte informace nepotřebné k nabídce. Kontakt:",
+    "send": "Odeslat poptávku",
+    "recaptcha": "Ochrana reCAPTCHA:",
+    "privacy": "soukromí",
+    "terms": "podmínky",
+    "noJs": "Formulář vyžaduje JavaScript. Můžete také napsat na:",
+    "messages": {
+      "count": "Přiložte nejvýše 12 souborů.",
+      "type": "Vyberte jeden z uvedených formátů.",
+      "single": "Jeden soubor nesmí překročit 8 MB.",
+      "total": "Celková velikost nesmí překročit 10 MB.",
+      "sending": "Odesílání poptávky…",
+      "success": "Děkujeme! Poptávka byla přijata. Odpovíme e-mailem.",
+      "error": "Odeslání se nezdařilo. Zkuste to znovu nebo napište na info@transla.website.",
+      "large": "Soubory překračují limit serveru. Zmenšete přílohy.",
+      "rate": "Příliš mnoho pokusů. Chvíli počkejte.",
+      "invalid": "Zkontrolujte údaje formuláře.",
+      "antispam": "Antispamová kontrola se nezdařila. Zkuste znovu.",
+      "read": "Soubor se nepodařilo přečíst."
+    }
+  }
+}

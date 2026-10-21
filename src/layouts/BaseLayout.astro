@@ -1,0 +1,98 @@
+---
+import { site } from '@/data/site';
+import { copy, languages, localizedPath, navigation, type Locale, type PageId } from '@/i18n';
+import '@/styles/global.css';
+interface Props { title: string; description: string; path?: string; noindex?: boolean; lang?: Locale; pageId?: PageId }
+const { title, description, path = Astro.url.pathname, noindex = false, lang = 'pl', pageId = 'home' } = Astro.props;
+const c = copy(lang);
+const menu = navigation(lang);
+const canonical = new URL(path, site.url).href;
+const homePath = localizedPath('home', lang);
+const contactPath = localizedPath('contact', lang);
+const schema = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'Organization', '@id': site.url + '/#organization', name: site.name, url: site.url, email: site.email },
+    { '@type': 'WebSite', '@id': site.url + '/#website', name: site.name, url: site.url, inLanguage: languages.map(item => item.code) },
+    { '@type': 'WebPage', name: title, description, url: canonical, inLanguage: lang, isPartOf: { '@id': site.url + '/#website' } },
+  ],
+};
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" href="/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/plus-jakarta-sans-latin-ext.woff2" as="font" type="font/woff2" crossorigin />
+    <title>{title} | Transla</title><meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonical} />
+    {!noindex && languages.map(item => <link rel="alternate" hreflang={item.code} href={new URL(localizedPath(pageId, item.code), site.url).href} />)}
+    {!noindex && <link rel="alternate" hreflang="x-default" href={new URL(localizedPath(pageId, 'pl'), site.url).href} />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" /><link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content="website" /><meta property="og:site_name" content="Transla" />
+    <meta property="og:title" content={title + ' | Transla'} /><meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} /><meta property="og:image" content={site.url + '/social.svg'} />
+    <meta name="theme-color" content="#064e49" />
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-RQQC56VQVG"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RQQC56VQVG');
+    </script>
+    <script is:inline>try{if(localStorage.getItem('transla-variant')==='bold'){document.documentElement.dataset.variant='bold';}}catch(e){}</script>
+    <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">{c.ui.skip}</a>
+    <div class="top-bar"><div class="container top-bar-inner"><span>{c.ui.top}</span><div class="top-bar-right"><a href={'mailto:' + site.email}>{site.email}</a><label class="variant-toggle"><input type="checkbox" id="variant-toggle" /><span class="switch" aria-hidden="true"></span><span class="variant-label">{c.ui.variantLabel}</span></label></div></div></div>
+    <header class="site-header"><div class="container header-inner">
+      <a class="wordmark" href={homePath} aria-label={'Transla — ' + c.ui.home}>transla<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">{c.ui.menu} <span aria-hidden="true">☰</span></button>
+      <nav id="main-menu" aria-label={c.ui.mainNav}>
+        {menu.map(item => <a href={item.href} aria-current={path === item.href ? 'page' : undefined}>{item.label}</a>)}
+        <a class="button button-small" href={contactPath + '#formularz'}>{c.ui.quote} <span aria-hidden="true">↗</span></a>
+      </nav>
+      <details class="language-switch">
+        <summary aria-label={c.ui.language}><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c5 5 5 13 0 18M12 3c-5 5-5 13 0 18" /></svg><span>{lang.toUpperCase()}</span><span aria-hidden="true">⌄</span></summary>
+        <div class="language-options" aria-label={c.ui.language}>
+          {languages.map(item => <a href={localizedPath(pageId, item.code)} lang={item.code} hreflang={item.code} aria-current={item.code === lang ? 'true' : undefined}><span>{item.name}</span><span class="language-code">{item.code.toUpperCase()}</span></a>)}
+        </div>
+      </details>
+    </div></header>
+    <main id="content"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><a class="wordmark" href={homePath}>transla<span>.</span></a><p>{c.home.tagline}</p><a class="email-link" href={'mailto:' + site.email}>{site.email}</a></div>
+        <div><h2>{c.ui.explore}</h2>{menu.map(item => <a href={item.href}>{item.label}</a>)}</div>
+        <div><h2>{c.ui.footerTitle}</h2><p>{c.ui.footerText}</p><a class="text-link" href={contactPath}>{c.ui.contactLink} ↗</a></div>
+      </div>
+      <div class="container footer-bottom"><span>© {new Date().getFullYear()} Transla</span><span>transla.website</span></div>
+    </footer>
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const menu = document.querySelector<HTMLElement>('#main-menu');
+      const languages = document.querySelector<HTMLDetailsElement>('.language-switch');
+      const variantToggle = document.querySelector<HTMLInputElement>('#variant-toggle');
+      if (variantToggle) variantToggle.checked = document.documentElement.dataset.variant === 'bold';
+      variantToggle?.addEventListener('change', () => {
+        if (variantToggle.checked) { document.documentElement.dataset.variant = 'bold'; try { localStorage.setItem('transla-variant', 'bold'); } catch (e) {} }
+        else { delete document.documentElement.dataset.variant; try { localStorage.setItem('transla-variant', 'default'); } catch (e) {} }
+      });
+      toggle?.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') !== 'true';
+        toggle.setAttribute('aria-expanded', String(open)); menu?.classList.toggle('is-open', open);
+        if (languages) languages.open = false;
+      });
+      languages?.addEventListener('toggle', () => {
+        if (languages.open) { toggle?.setAttribute('aria-expanded', 'false'); menu?.classList.remove('is-open'); }
+      });
+      document.addEventListener('click', event => { if (languages && event.target instanceof Node && !languages.contains(event.target)) languages.open = false; });
+      document.addEventListener('keydown', event => {
+        if (event.key !== 'Escape') return;
+        if (languages?.open) { languages.open = false; languages.querySelector('summary')?.focus(); }
+        if (toggle?.getAttribute('aria-expanded') === 'true') { toggle.setAttribute('aria-expanded', 'false'); menu?.classList.remove('is-open'); toggle.focus(); }
+      });
+    </script>
+  </body>
+</html>

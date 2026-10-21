@@ -1,0 +1,304 @@
+{
+  "ui": {
+    "services": "Services",
+    "how": "Comment commander",
+    "prices": "Tarifs",
+    "about": "À propos",
+    "top": "Traductions à prix doux. Conditions claires.",
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "mainNav": "Navigation principale",
+    "language": "Choisir la langue",
+    "quote": "Demander un tarif",
+    "servicesLink": "Découvrir les services",
+    "contactLink": "Nous contacter",
+    "explore": "Découvrir",
+    "footerTitle": "Un bon prix commence par un échange",
+    "footerText": "Précisez la langue, le délai et l’usage. Comparez le devis avant de choisir.",
+    "home": "Accueil",
+    "asideEyebrow": "La prochaine étape",
+    "asideTitle": "Combien coûtera votre traduction ?",
+    "asideText": "Convenons du périmètre, du prix et du délai avant la commande.",
+    "formLink": "Ouvrir le formulaire",
+    "faqTitle": "Questions et réponses",
+    "contactEyebrow": "Contact par e-mail",
+    "contactTitle": "Parlons de votre projet.",
+    "contactIntro": "Joignez votre document et expliquez son usage.",
+    "scopeTitle": "Ce que nous traduisons",
+    "requirementsTitle": "Préparer votre demande",
+    "priceEyebrow": "Le prix compte",
+    "processEyebrow": "Comment ça marche",
+    "servicesEyebrow": "Nos services",
+    "nextStep": "Commencer par un devis",
+    "beforeEnquiry": "Avant votre demande",
+    "standardDocsTitle": "Documents standard — tarifs",
+    "standardDocCol": "Document",
+    "standardPriceCol": "Prix",
+    "standardDocsNote": "Tarifs indicatifs pour les paires de langues les plus courantes. Devis final après examen du document.",
+    "docEyebrow": "Traduction certifiée",
+    "docLead": "Envoyez un scan ou une photo lisible du document. Nous confirmons le prix et le délai avant de commencer.",
+    "variantLabel": "Version marquée"
+  },
+  "home": {
+    "title1": "De bonnes traductions.",
+    "title2": "Des prix accessibles.",
+    "eyebrow": "Plus de possibilités pour votre budget",
+    "lead": "Documents, contenus professionnels et sites web à prix accessibles. Envoyez votre texte et connaissez le coût avant de commander — selon vos besoins.",
+    "servicesTitle": "La traduction adaptée à votre projet.",
+    "servicesIntro": "La langue, l’usage et le budget comptent. Commencez par votre document.",
+    "processTitle": "Trois étapes pour un devis clair.",
+    "priceTitle": "Une traduction adaptée à votre budget.",
+    "priceLead": "Vous cherchez un prix avantageux ? Comparez un devis établi pour votre document. Le périmètre et le coût sont convenus avant le début du travail.",
+    "priceBeat": "Trouvé moins cher à périmètre égal ? Envoyez-nous l’offre, nous battons ce prix.",
+    "ctaTitle": "Quel prix pour votre texte ?",
+    "ctaText": "Envoyez votre fichier et demandez un devis personnalisé.",
+    "artBadge": "VOTRE DOCUMENT",
+    "artHeading": "Le bon texte. Le bon budget.",
+    "artCaption": "D’abord le devis. Ensuite votre décision.",
+    "tagline": "De bonnes traductions. Des prix accessibles.",
+    "description": "Transla — traductions de documents et de contenus à prix accessibles. Définissez le périmètre, le prix et le délai avant de commander."
+  },
+  "steps": [
+    [
+      "Envoyez votre document",
+      "Joignez les fichiers et précisez la langue cible, le délai et l’usage."
+    ],
+    [
+      "Découvrez le prix",
+      "Convenez du périmètre, du coût et du format. Comparez l’offre."
+    ],
+    [
+      "Commandez la traduction",
+      "Après acceptation des conditions, le travail peut commencer selon les modalités convenues."
+    ]
+  ],
+  "values": [
+    [
+      "Un périmètre adapté",
+      "Indiquez les pages et passages à traduire. Le devis portera sur ce périmètre."
+    ],
+    [
+      "Le prix avant la commande",
+      "Définissez le coût, le délai et le format avant le début du travail."
+    ],
+    [
+      "Vous décidez",
+      "Envoyer un fichier ne constitue pas une commande. Examinez d’abord les conditions."
+    ]
+  ],
+  "prices": [
+    [
+      "Standard — dès 34 zł",
+      "par page. Documents, contenus professionnels et sites web."
+    ],
+    [
+      "Certifié — dès 44 zł",
+      "par page. Avec le cachet du traducteur assermenté, pour les administrations."
+    ],
+    [
+      "Documents standard EN/RU — dès 25 zł",
+      "par page. Actes, diplômes et attestations."
+    ]
+  ],
+  "standardDocs": [
+    [
+      "Carte d’identité",
+      "dès 49 zł"
+    ],
+    [
+      "Permis de conduire — anglais",
+      "dès 69 zł"
+    ],
+    [
+      "Permis de conduire — russe/ukrainien",
+      "dès 99 zł"
+    ],
+    [
+      "Acte de naissance (extrait)",
+      "dès 49 zł"
+    ],
+    [
+      "Acte de mariage",
+      "dès 55 zł"
+    ],
+    [
+      "Diplôme universitaire",
+      "dès 65 zł"
+    ],
+    [
+      "Certificat scolaire",
+      "dès 59 zł"
+    ],
+    [
+      "Casier judiciaire",
+      "dès 55 zł"
+    ],
+    [
+      "Documents du véhicule",
+      "dès 59 zł"
+    ]
+  ],
+  "turnaround": {
+    "title": "Délais et livraison",
+    "lead": "Commandez en ligne — recevez le document par e-mail ou par courrier.",
+    "items": [
+      [
+        "Devis en 15 minutes",
+        "Devis gratuit avec délai envoyé par e-mail."
+      ],
+      [
+        "Livraison dès 8 heures",
+        "Documents standard traduits en express, même le jour même."
+      ],
+      [
+        "PDF par e-mail — 0 zł",
+        "La traduction terminée en version électronique."
+      ],
+      [
+        "Casier InPost — +15 zł",
+        "La livraison la plus rapide de la version papier."
+      ],
+      [
+        "Coursier — +19,90 zł",
+        "Version papier livrée à votre adresse."
+      ],
+      [
+        "Lettre recommandée — +17 zł",
+        "Envoi postal traditionnel."
+      ]
+    ]
+  },
+  "highlights": [
+    [
+      "Devis",
+      "en 15 min"
+    ],
+    [
+      "Délai",
+      "dès 8 h"
+    ],
+    [
+      "Prix standard",
+      "dès 34 zł"
+    ],
+    [
+      "Garantie de prix",
+      "on s’aligne"
+    ]
+  ],
+  "faq": [
+    [
+      "De quoi dépend le prix ?",
+      "De la combinaison de langues, du volume, du sujet, du format et du délai. Comparez des offres portant sur le même périmètre."
+    ],
+    [
+      "Une demande vaut-elle commande ?",
+      "Non. Le travail nécessite un accord préalable sur le périmètre et l’acceptation du devis."
+    ],
+    [
+      "Faut-il une traduction certifiée ?",
+      "Vérifiez les exigences de l’organisme destinataire et joignez-les à votre demande."
+    ]
+  ],
+  "services": [
+    {
+      "title": "Documents et traductions certifiées",
+      "description": "Documents pour l’emploi, les études et les démarches.",
+      "examples": [
+        "Documents personnels",
+        "Diplômes",
+        "Attestations"
+      ],
+      "paragraphs": [
+        "Envoyez des scans lisibles de toutes les pages, cachets et annotations compris. Précisez le pays et l’organisme destinataire.",
+        "Vérifiez la forme de traduction exigée. Indiquez l’orthographe des noms et la date de dépôt ; les originaux et la remise sont convenus séparément."
+      ]
+    },
+    {
+      "title": "Traductions pour les entreprises",
+      "description": "Une communication adaptée à de nouveaux publics.",
+      "examples": [
+        "Présentations",
+        "Offres commerciales",
+        "Fiches produits"
+      ],
+      "paragraphs": [
+        "Précisez le public, l’objectif et le ton souhaité. Indiquez si la mise en page doit être conservée.",
+        "Joignez un glossaire, les noms des produits et des exemples validés. Pour plusieurs fichiers, précisez les priorités et les délais."
+      ]
+    },
+    {
+      "title": "Contenus spécialisés",
+      "description": "Du contexte et une terminologie cohérente.",
+      "examples": [
+        "Manuels",
+        "Documentation",
+        "Rapports"
+      ],
+      "paragraphs": [
+        "Décrivez le secteur et le lectorat. Joignez des schémas, un lexique ou des versions antérieures utiles.",
+        "Signalez les codes et noms à conserver. Un échantillon permet de préciser le périmètre et le format final."
+      ]
+    },
+    {
+      "title": "Sites web et localisation",
+      "description": "Des contenus adaptés à votre nouveau marché.",
+      "examples": [
+        "Sites web",
+        "Boutiques en ligne",
+        "Interfaces"
+      ],
+      "paragraphs": [
+        "Rassemblez les textes, descriptions de produits, libellés et messages, sans oublier les titres et descriptions pour les moteurs de recherche.",
+        "Ajoutez le contexte des écrans et les limites de caractères. Précisez le marché et le format d’export ; les travaux techniques sont convenus séparément."
+      ]
+    }
+  ],
+  "pages": {
+    "services": "Choisissez un service adapté à votre document, à son usage et à votre budget.",
+    "how": "Pas besoin de connaître le nombre de pages facturables. Commencez par un fichier et une courte description.",
+    "prices": "Des prix accessibles guident notre approche. Le devis tient compte des langues, du périmètre et du délai.",
+    "about": "Transla — des textes pour votre prochaine étape. Nous partons de votre objectif et d’un accord clair.",
+    "contact": "Envoyez votre document ou décrivez votre projet. Précisez la langue, le délai et l’usage.",
+    "aboutTitle": "Votre texte. Notre point de départ."
+  },
+  "form": {
+    "eyebrow": "Votre demande",
+    "title": "Parlez-nous de votre document.",
+    "intro": "Envoyez les fichiers et quelques détails. Une demande ne vaut pas commande.",
+    "name": "Nom et prénom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "optional": "facultatif",
+    "type": "Type de traduction",
+    "normal": "Standard",
+    "certified": "Certifiée / assermentée",
+    "from": "Depuis quelle langue ?",
+    "to": "Vers quelle langue ?",
+    "message": "Que devons-nous savoir ?",
+    "placeholder": "Usage, délai, format souhaité…",
+    "files": "Joindre le document",
+    "fileHelp": "Jusqu’à 12 fichiers, 8 Mo chacun et 10 Mo au total. PDF, DOC, DOCX, ODT, TXT, JPG, PNG.",
+    "noticeTitle": "Contact concernant votre demande",
+    "notice": "Vous transmettez à Transla vos données et fichiers pour traiter la demande. N’incluez pas d’informations inutiles au devis. Contact :",
+    "send": "Envoyer la demande",
+    "recaptcha": "Protection reCAPTCHA :",
+    "privacy": "confidentialité",
+    "terms": "conditions",
+    "noJs": "Ce formulaire nécessite JavaScript. Vous pouvez aussi écrire à :",
+    "messages": {
+      "count": "Joignez au maximum 12 fichiers.",
+      "type": "Choisissez un des formats indiqués.",
+      "single": "Chaque fichier doit faire au maximum 8 Mo.",
+      "total": "Le total ne doit pas dépasser 10 Mo.",
+      "sending": "Envoi de votre demande…",
+      "success": "Merci ! Votre demande a été reçue. Nous répondrons par e-mail.",
+      "error": "Échec de l’envoi. Réessayez ou écrivez à info@transla.website.",
+      "large": "Les fichiers dépassent la limite du serveur. Réduisez les pièces jointes.",
+      "rate": "Trop de tentatives. Veuillez patienter.",
+      "invalid": "Vérifiez les données du formulaire.",
+      "antispam": "Échec de la vérification antispam. Réessayez.",
+      "read": "Impossible de lire le fichier."
+    }
+  }
+}

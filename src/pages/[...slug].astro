@@ -1,0 +1,74 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Home from '@/components/Home.astro';
+import ServiceCards from '@/components/ServiceCards.astro';
+import QuoteForm from '@/components/QuoteForm.astro';
+import { languages, pageIds, copy, contentPage, localizedPath, standardDocIds, standardDocIndex, type Locale, type PageId } from '@/i18n';
+import { site } from '@/data/site';
+export function getStaticPaths() {
+  return languages.flatMap(({ code }) => pageIds.map(id => ({
+    params: { slug: localizedPath(id, code).replace(/^\/|\/$/g, '') || undefined },
+    props: { lang: code, pageId: id },
+  })));
+}
+interface Props { lang: Locale; pageId: PageId }
+const { lang, pageId } = Astro.props;
+const c = copy(lang), page = contentPage(pageId, lang);
+const contact = localizedPath('contact', lang) + '#formularz';
+const docIndex = standardDocIndex(pageId);
+const isStandardDoc = docIndex !== -1;
+const docPrice = isStandardDoc ? c.standardDocs[docIndex][1] : '';
+---
+<BaseLayout title={pageId === 'home' ? c.home.tagline : page.title} description={pageId === 'home' ? c.home.description : page.description} path={page.path} lang={lang} pageId={pageId}>
+  {pageId === 'home' ? <Home lang={lang} /> : (
+    <>
+      <section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label={c.ui.home}><a href={localizedPath('home', lang)}>{c.ui.home}</a><span aria-hidden="true">/</span><span>{page.title}</span></nav><span class="eyebrow">{page.eyebrow}</span><h1>{page.heading}</h1>{isStandardDoc && <p class="doc-price">{docPrice}</p>}<p class="lead">{page.lead}</p>{pageId !== 'contact' && <a class="button" href={contact}>{c.ui.quote} ↗</a>}</div></section>
+      {pageId === 'contact' ? (
+        <div class="container section contact-grid">
+          <aside class="contact-aside"><span class="eyebrow">{c.ui.contactEyebrow}</span><h2>{c.ui.contactTitle}</h2><a class="email-link" href={'mailto:' + site.email}>{site.email}</a><p>{c.ui.contactIntro}</p><ul class="check-list"><li>{c.form.from}</li><li>{c.form.to}</li><li>{c.form.placeholder}</li></ul></aside>
+          <QuoteForm lang={lang} />
+        </div>
+      ) : isStandardDoc ? (
+        <div class="container section">
+          <section class="std-docs">
+            <h2>{c.ui.standardDocsTitle}</h2>
+            <div class="price-table-wrap">
+              <table class="price-table">
+                <thead><tr><th scope="col">{c.ui.standardDocCol}</th><th scope="col">{c.ui.standardPriceCol}</th></tr></thead>
+                <tbody>{c.standardDocs.map(([name, price], i) => (
+                  <tr class={i === docIndex ? 'is-current' : ''}>
+                    <td>{i === docIndex ? <strong>{name}</strong> : <a href={localizedPath(standardDocIds[i], lang)}>{name}</a>}</td>
+                    <td>{price}</td>
+                  </tr>
+                ))}</tbody>
+              </table>
+            </div>
+            <p class="price-table-note">{c.ui.standardDocsNote}</p>
+          </section>
+          <section class="turnaround"><h2>{c.turnaround.title}</h2><p class="lead">{c.turnaround.lead}</p><div class="turnaround-grid">{c.turnaround.items.map(([label, note]) => <article><h3>{label}</h3><p>{note}</p></article>)}</div></section>
+          <section class="faq-section"><h2>{c.ui.beforeEnquiry}</h2>{c.faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+        </div>
+      ) : (
+        <div class="container section">
+          {pageId === 'services' && <ServiceCards lang={lang} />}
+          <div class="editorial-layout"><div class="editorial-main">{page.sections.map((section, index) => <section class="editorial-section"><span class="section-index">{String(index + 1).padStart(2, '0')}</span><div><h2>{section.title}</h2><p>{section.text}</p>{section.items && <ul class="check-list">{section.items.map(item => <li>{item}</li>)}</ul>}</div></section>)}</div><aside class="editorial-aside"><span class="eyebrow">{c.ui.asideEyebrow}</span><h2>{c.ui.asideTitle}</h2><p>{c.ui.asideText}</p><a class="button button-small" href={contact}>{c.ui.formLink} ↗</a><a class="email-link" href={'mailto:' + site.email}>{site.email}</a></aside></div>
+          {pageId === 'prices' && <p class="price-beat">{c.home.priceBeat}</p>}
+          {pageId === 'prices' && (
+            <section class="std-docs">
+              <h2>{c.ui.standardDocsTitle}</h2>
+              <div class="price-table-wrap">
+                <table class="price-table">
+                  <thead><tr><th scope="col">{c.ui.standardDocCol}</th><th scope="col">{c.ui.standardPriceCol}</th></tr></thead>
+                  <tbody>{c.standardDocs.map(([name, price], i) => <tr><td><a href={localizedPath(standardDocIds[i], lang)}>{name}</a></td><td>{price}</td></tr>)}</tbody>
+                </table>
+              </div>
+              <p class="price-table-note">{c.ui.standardDocsNote}</p>
+            </section>
+          )}
+          <section class="turnaround"><h2>{c.turnaround.title}</h2><p class="lead">{c.turnaround.lead}</p><div class="turnaround-grid">{c.turnaround.items.map(([label, note]) => <article><h3>{label}</h3><p>{note}</p></article>)}</div></section>
+          <section class="faq-section"><h2>{c.ui.beforeEnquiry}</h2>{c.faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+        </div>
+      )}
+    </>
+  )}
+</BaseLayout>

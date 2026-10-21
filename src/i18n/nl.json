@@ -1,0 +1,304 @@
+{
+  "ui": {
+    "services": "Diensten",
+    "how": "Zo bestellen",
+    "prices": "Prijzen",
+    "about": "Over Transla",
+    "top": "Voordelige vertalingen. Duidelijke afspraken.",
+    "skip": "Naar de inhoud",
+    "menu": "Menu",
+    "mainNav": "Hoofdnavigatie",
+    "language": "Taal kiezen",
+    "quote": "Prijs aanvragen",
+    "servicesLink": "Bekijk diensten",
+    "contactLink": "Neem contact op",
+    "explore": "Ontdek",
+    "footerTitle": "Een goede prijs begint met een gesprek",
+    "footerText": "Geef taal, deadline en doel door. Vergelijk de offerte voordat je beslist.",
+    "home": "Home",
+    "asideEyebrow": "Je volgende stap",
+    "asideTitle": "Wat kost jouw vertaling?",
+    "asideText": "Spreek omvang, prijs en deadline af vóór je bestelt.",
+    "formLink": "Naar het aanvraagformulier",
+    "faqTitle": "Vragen en antwoorden",
+    "contactEyebrow": "Contact per e-mail",
+    "contactTitle": "Vertel ons over je project.",
+    "contactIntro": "Voeg je materiaal toe en beschrijf het doel.",
+    "scopeTitle": "Wat we vertalen",
+    "requirementsTitle": "Je aanvraag voorbereiden",
+    "priceEyebrow": "De prijs telt",
+    "processEyebrow": "Zo werkt het",
+    "servicesEyebrow": "Onze diensten",
+    "nextStep": "Begin met een offerte",
+    "beforeEnquiry": "Voor je aanvraag",
+    "standardDocsTitle": "Standaarddocumenten — prijzen",
+    "standardDocCol": "Document",
+    "standardPriceCol": "Prijs",
+    "standardDocsNote": "Indicatieve prijzen voor de meest voorkomende talencombinaties. Definitieve offerte na controle van het document.",
+    "docEyebrow": "Beëdigde vertaling",
+    "docLead": "Stuur een leesbare scan of foto van het document. Wij bevestigen prijs en termijn voordat we starten.",
+    "variantLabel": "Vetgedrukte versie"
+  },
+  "home": {
+    "title1": "Goede vertalingen.",
+    "title2": "Betaalbare prijzen.",
+    "eyebrow": "Meer mogelijkheden binnen je budget",
+    "lead": "Documenten, zakelijke teksten en websites voor een betaalbare prijs. Stuur je materiaal en weet de kosten vóór je bestelt, met een omvang die bij je past.",
+    "servicesTitle": "De juiste vertaling voor jouw doel.",
+    "servicesIntro": "Taal, toepassing en budget tellen mee. Begin met je materiaal.",
+    "processTitle": "In drie stappen naar een duidelijke offerte.",
+    "priceTitle": "Een vertaling binnen je budget.",
+    "priceLead": "Op zoek naar een voordelige prijs? Vergelijk een concrete offerte voor je materiaal. We spreken omvang en kosten af voordat het werk begint.",
+    "priceBeat": "Een lagere prijs gevonden voor dezelfde omvang? Stuur de offerte en wij gaan eronder.",
+    "ctaTitle": "Wat kost jouw tekst?",
+    "ctaText": "Stuur je bestand en vraag een offerte op maat aan.",
+    "artBadge": "JOUW MATERIAAL",
+    "artHeading": "Goede tekst. Verstandig budget.",
+    "artCaption": "Eerst de offerte. Dan jouw keuze.",
+    "tagline": "Goede vertalingen. Betaalbare prijzen.",
+    "description": "Transla: betaalbare vertalingen van documenten en teksten. Spreek omvang, prijs en deadline af vóór je bestelt."
+  },
+  "steps": [
+    [
+      "Stuur je materiaal",
+      "Voeg bestanden toe en geef doeltaal, deadline en gebruiksdoel door."
+    ],
+    [
+      "Ontvang je prijs",
+      "Spreek omvang, kosten en formaat af. Vergelijk de offerte."
+    ],
+    [
+      "Bestel de vertaling",
+      "Na aanvaarding van de afspraken kan het werk volgens die afspraken starten."
+    ]
+  ],
+  "values": [
+    [
+      "Omvang op maat",
+      "Markeer de pagina’s en delen die je wilt laten vertalen. Daarop is de offerte gebaseerd."
+    ],
+    [
+      "Prijs vóór de bestelling",
+      "Spreek kosten, deadline en formaat af voordat het werk begint."
+    ],
+    [
+      "Jij beslist",
+      "Een bestand versturen is geen bestelling. Beoordeel eerst de voorwaarden."
+    ]
+  ],
+  "prices": [
+    [
+      "Standaard — vanaf 34 zł",
+      "per pagina. Documenten, zakelijke teksten en websites."
+    ],
+    [
+      "Beëdigd — vanaf 44 zł",
+      "per pagina. Met stempel van de beëdigd vertaler, voor instanties."
+    ],
+    [
+      "Standaarddocumenten EN/RU — vanaf 25 zł",
+      "per pagina. Akten, diploma’s en verklaringen."
+    ]
+  ],
+  "standardDocs": [
+    [
+      "Identiteitskaart",
+      "vanaf 49 zł"
+    ],
+    [
+      "Rijbewijs — Engels",
+      "vanaf 69 zł"
+    ],
+    [
+      "Rijbewijs — Russisch/Oekraïens",
+      "vanaf 99 zł"
+    ],
+    [
+      "Geboorteakte (uittreksel)",
+      "vanaf 49 zł"
+    ],
+    [
+      "Huwelijksakte",
+      "vanaf 55 zł"
+    ],
+    [
+      "Universitair diploma",
+      "vanaf 65 zł"
+    ],
+    [
+      "Schooldiploma",
+      "vanaf 59 zł"
+    ],
+    [
+      "Bewijs van goed gedrag",
+      "vanaf 55 zł"
+    ],
+    [
+      "Voertuigdocumenten",
+      "vanaf 59 zł"
+    ]
+  ],
+  "turnaround": {
+    "title": "Doorlooptijd en bezorging",
+    "lead": "Bestel online — ontvang het document per e-mail of per post.",
+    "items": [
+      [
+        "Offerte binnen 15 minuten",
+        "Gratis offerte met termijn per e-mail."
+      ],
+      [
+        "Levering vanaf 8 uur",
+        "Standaarddocumenten vertaald in express, zelfs dezelfde dag."
+      ],
+      [
+        "PDF per e-mail — 0 zł",
+        "De voltooide vertaling in elektronische vorm."
+      ],
+      [
+        "InPost-pakketkluis — +15 zł",
+        "De snelste bezorging van de papieren versie."
+      ],
+      [
+        "Koerier — +19,90 zł",
+        "Papieren versie aan je adres."
+      ],
+      [
+        "Aangetekende brief — +17 zł",
+        "Traditionele postbezorging."
+      ]
+    ]
+  },
+  "highlights": [
+    [
+      "Offerte",
+      "in 15 min"
+    ],
+    [
+      "Levering",
+      "vanaf 8 u"
+    ],
+    [
+      "Standaardprijs",
+      "vanaf 34 zł"
+    ],
+    [
+      "Prijsgarantie",
+      "wij gaan eronder"
+    ]
+  ],
+  "faq": [
+    [
+      "Waar hangt de prijs van af?",
+      "Van de talencombinatie, omvang, inhoud, het formaat en de deadline. Vergelijk offertes voor dezelfde opdracht."
+    ],
+    [
+      "Is een aanvraag een bestelling?",
+      "Nee. Eerst moeten de omvang en de offerte zijn overeengekomen en aanvaard."
+    ],
+    [
+      "Heb ik een beëdigde vertaling nodig?",
+      "Controleer de eisen van de ontvangende instelling en voeg deze toe aan je aanvraag."
+    ]
+  ],
+  "services": [
+    {
+      "title": "Documenten en beëdigde vertalingen",
+      "description": "Documenten voor werk, opleiding en formele procedures.",
+      "examples": [
+        "Persoonlijke documenten",
+        "Diploma’s",
+        "Verklaringen"
+      ],
+      "paragraphs": [
+        "Stuur leesbare scans van alle pagina’s, inclusief stempels en aantekeningen. Vermeld het land en de ontvangende instelling.",
+        "Controleer de vereiste vorm. Geef de spelling van namen en de inleverdatum door; originelen en levering spreken we apart af."
+      ]
+    },
+    {
+      "title": "Zakelijke vertalingen",
+      "description": "Communicatie voor nieuwe doelgroepen.",
+      "examples": [
+        "Presentaties",
+        "Zakelijke offertes",
+        "Productbeschrijvingen"
+      ],
+      "paragraphs": [
+        "Geef doelgroep, doel en gewenste stijl aan. Vermeld of de oorspronkelijke opmaak behouden moet blijven.",
+        "Voeg woordenlijsten, productnamen en goedgekeurde voorbeelden toe. Geef bij meerdere bestanden prioriteiten en deadlines aan."
+      ]
+    },
+    {
+      "title": "Specialistische teksten",
+      "description": "Context en consequente vakterminologie.",
+      "examples": [
+        "Handleidingen",
+        "Documentatie",
+        "Rapporten"
+      ],
+      "paragraphs": [
+        "Beschrijf de sector en het lezerspubliek. Voeg tekeningen, begrippenlijsten of eerdere versies toe.",
+        "Markeer codes en namen die ongewijzigd moeten blijven. Een voorbeeld helpt om omvang en eindformaat vast te stellen."
+      ]
+    },
+    {
+      "title": "Websites en lokalisatie",
+      "description": "Inhoud voor jouw nieuwe markt.",
+      "examples": [
+        "Websites",
+        "Webwinkels",
+        "Interfaces"
+      ],
+      "paragraphs": [
+        "Verzamel paginateksten, productbeschrijvingen, labels en meldingen, ook paginatitels en zoekbeschrijvingen.",
+        "Voeg schermcontext en tekenlimieten toe. Geef markt en exportformaat aan; technisch werk spreken we apart af."
+      ]
+    }
+  ],
+  "pages": {
+    "services": "Kies een vertaling die past bij je materiaal, doel en budget.",
+    "how": "Je hoeft het aantal facturabele pagina’s niet te kennen. Begin met een bestand en een korte beschrijving.",
+    "prices": "Betaalbare prijzen vormen ons uitgangspunt. De offerte houdt rekening met taal, omvang en deadline.",
+    "about": "Transla: teksten voor jouw volgende stap. We beginnen bij je doel en duidelijke afspraken.",
+    "contact": "Stuur je materiaal of beschrijf je project. Vermeld taal, deadline en gebruiksdoel.",
+    "aboutTitle": "Jouw tekst. Ons vertrekpunt."
+  },
+  "form": {
+    "eyebrow": "Je aanvraag",
+    "title": "Vertel ons over je materiaal.",
+    "intro": "Stuur bestanden en enkele gegevens. Een aanvraag is geen bestelling.",
+    "name": "Voor- en achternaam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "optional": "optioneel",
+    "type": "Type vertaling",
+    "normal": "Standaard",
+    "certified": "Beëdigd / gewaarmerkt",
+    "from": "Uit welke taal?",
+    "to": "Naar welke taal?",
+    "message": "Wat moeten we weten?",
+    "placeholder": "Doel, deadline, gewenst formaat…",
+    "files": "Materiaal toevoegen",
+    "fileHelp": "Maximaal 12 bestanden, 8 MB per bestand en 10 MB totaal. PDF, DOC, DOCX, ODT, TXT, JPG, PNG.",
+    "noticeTitle": "Contact over je aanvraag",
+    "notice": "Je verstrekt gegevens en bestanden aan Transla om je aanvraag te behandelen. Voeg geen onnodige informatie toe. Contact:",
+    "send": "Aanvraag versturen",
+    "recaptcha": "Beveiligd door reCAPTCHA:",
+    "privacy": "privacy",
+    "terms": "voorwaarden",
+    "noJs": "Dit formulier vereist JavaScript. Je kunt ook mailen naar:",
+    "messages": {
+      "count": "Voeg maximaal 12 bestanden toe.",
+      "type": "Kies een van de vermelde formaten.",
+      "single": "Een bestand mag maximaal 8 MB zijn.",
+      "total": "Het totaal mag maximaal 10 MB zijn.",
+      "sending": "Je aanvraag wordt verstuurd…",
+      "success": "Bedankt! Je aanvraag is ontvangen. We antwoorden per e-mail.",
+      "error": "Versturen mislukt. Probeer opnieuw of mail info@transla.website.",
+      "large": "De bestanden overschrijden de serverlimiet. Verklein de bijlagen.",
+      "rate": "Te veel pogingen. Wacht even.",
+      "invalid": "Controleer de formuliergegevens.",
+      "antispam": "Antispamcontrole mislukt. Probeer opnieuw.",
+      "read": "Het bestand kon niet worden gelezen."
+    }
+  }
+}

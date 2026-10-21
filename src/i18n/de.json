@@ -1,0 +1,304 @@
+{
+  "ui": {
+    "services": "Leistungen",
+    "how": "So bestellen Sie",
+    "prices": "Preise",
+    "about": "Über Transla",
+    "top": "Günstige Übersetzungen. Klare Konditionen.",
+    "skip": "Zum Inhalt springen",
+    "menu": "Menü",
+    "mainNav": "Hauptnavigation",
+    "language": "Sprache wählen",
+    "quote": "Preis anfragen",
+    "servicesLink": "Leistungen entdecken",
+    "contactLink": "Kontakt aufnehmen",
+    "explore": "Entdecken",
+    "footerTitle": "Ein guter Preis beginnt mit einem Gespräch",
+    "footerText": "Nennen Sie Sprache, Termin und Zweck. Vergleichen Sie das Angebot vor Ihrer Entscheidung.",
+    "home": "Startseite",
+    "asideEyebrow": "Ihr nächster Schritt",
+    "asideTitle": "Was kostet Ihre Übersetzung?",
+    "asideText": "Vereinbaren Sie Umfang, Kosten und Termin vor der Bestellung.",
+    "formLink": "Zum Anfrageformular",
+    "faqTitle": "Fragen und Antworten",
+    "contactEyebrow": "Kontakt per E-Mail",
+    "contactTitle": "Erzählen Sie uns von Ihrem Anliegen.",
+    "contactIntro": "Fügen Sie Ihr Material bei und beschreiben Sie den Verwendungszweck.",
+    "scopeTitle": "Was wir übersetzen",
+    "requirementsTitle": "Ihre Anfrage vorbereiten",
+    "priceEyebrow": "Der Preis zählt",
+    "processEyebrow": "So funktioniert es",
+    "servicesEyebrow": "Unsere Leistungen",
+    "nextStep": "Mit einem Angebot beginnen",
+    "beforeEnquiry": "Vor Ihrer Anfrage",
+    "standardDocsTitle": "Standarddokumente — Preise",
+    "standardDocCol": "Dokument",
+    "standardPriceCol": "Preis",
+    "standardDocsNote": "Richtpreise für die häufigsten Sprachpaare. Endgültiges Angebot nach Prüfung des Dokuments.",
+    "docEyebrow": "Beglaubigte Übersetzung",
+    "docLead": "Senden Sie einen gut lesbaren Scan oder ein Foto des Dokuments. Wir nennen Preis und Termin vor Arbeitsbeginn.",
+    "variantLabel": "Kräftige Version"
+  },
+  "home": {
+    "title1": "Gute Übersetzungen.",
+    "title2": "Günstige Preise.",
+    "eyebrow": "Mehr Möglichkeiten für Ihr Budget",
+    "lead": "Dokumente, Geschäftstexte und Websites zu günstigen Preisen. Senden Sie Ihr Material und erfahren Sie die Kosten vor der Bestellung — passend zu Ihrem Bedarf.",
+    "servicesTitle": "Die passende Übersetzung für Ihr Anliegen.",
+    "servicesIntro": "Sprache, Zweck und Budget zählen. Beginnen Sie mit Ihrem Material.",
+    "processTitle": "In drei Schritten zum klaren Angebot.",
+    "priceTitle": "Eine Übersetzung für Ihr Budget.",
+    "priceLead": "Sie suchen einen günstigen Preis? Vergleichen Sie ein konkretes Angebot für Ihr Material. Umfang und Kosten vereinbaren wir vor Arbeitsbeginn.",
+    "priceBeat": "Niedrigeren Preis für denselben Umfang gefunden? Schicken Sie uns das Angebot, und wir unterbieten es.",
+    "ctaTitle": "Was kostet Ihr Text?",
+    "ctaText": "Senden Sie eine Datei und fragen Sie nach einem individuellen Angebot.",
+    "artBadge": "IHRE UNTERLAGEN",
+    "artHeading": "Guter Text. Vernünftiges Budget.",
+    "artCaption": "Erst das Angebot. Dann Ihre Entscheidung.",
+    "tagline": "Gute Übersetzungen. Günstige Preise.",
+    "description": "Transla — günstige Dokumenten- und Textübersetzungen. Klären Sie Umfang, Preis und Termin vor der Bestellung."
+  },
+  "steps": [
+    [
+      "Unterlagen senden",
+      "Fügen Sie Dateien bei und nennen Sie Zielsprache, Termin und Zweck."
+    ],
+    [
+      "Preis erfahren",
+      "Vereinbaren Sie Umfang, Kosten und Format. Vergleichen Sie das Angebot."
+    ],
+    [
+      "Übersetzung bestellen",
+      "Nach Annahme der Konditionen kann die Bearbeitung wie vereinbart beginnen."
+    ]
+  ],
+  "values": [
+    [
+      "Umfang nach Bedarf",
+      "Markieren Sie die zu übersetzenden Seiten und Abschnitte. Darauf bezieht sich das Angebot."
+    ],
+    [
+      "Kosten vor der Bestellung",
+      "Klären Sie Preis, Termin und Format vor Arbeitsbeginn."
+    ],
+    [
+      "Sie entscheiden",
+      "Eine Datei zu senden ist keine Bestellung. Prüfen Sie zuerst die Konditionen."
+    ]
+  ],
+  "prices": [
+    [
+      "Standard — ab 34 zł",
+      "pro Normseite. Dokumente, Geschäftstexte und Websites."
+    ],
+    [
+      "Beglaubigt — ab 44 zł",
+      "pro Seite. Mit Stempel des vereidigten Übersetzers, für Ämter und Institutionen."
+    ],
+    [
+      "Standarddokumente EN/RU — ab 25 zł",
+      "pro Seite. Urkunden, Diplome und Bescheinigungen."
+    ]
+  ],
+  "standardDocs": [
+    [
+      "Personalausweis",
+      "ab 49 zł"
+    ],
+    [
+      "Führerschein — Englisch",
+      "ab 69 zł"
+    ],
+    [
+      "Führerschein — Russisch/Ukrainisch",
+      "ab 99 zł"
+    ],
+    [
+      "Geburtsurkunde (Kurzform)",
+      "ab 49 zł"
+    ],
+    [
+      "Heiratsurkunde",
+      "ab 55 zł"
+    ],
+    [
+      "Hochschuldiplom",
+      "ab 65 zł"
+    ],
+    [
+      "Schulzeugnis",
+      "ab 59 zł"
+    ],
+    [
+      "Führungszeugnis",
+      "ab 55 zł"
+    ],
+    [
+      "Fahrzeugunterlagen",
+      "ab 59 zł"
+    ]
+  ],
+  "turnaround": {
+    "title": "Bearbeitungszeit und Lieferung",
+    "lead": "Online bestellen — das Dokument per E-Mail oder Post erhalten.",
+    "items": [
+      [
+        "Angebot in 15 Minuten",
+        "Kostenloses Angebot mit Termin per E-Mail."
+      ],
+      [
+        "Lieferung ab 8 Stunden",
+        "Standarddokumente übersetzen wir im Express, noch am selben Tag."
+      ],
+      [
+        "PDF per E-Mail — 0 zł",
+        "Die fertige Übersetzung in elektronischer Form."
+      ],
+      [
+        "InPost-Paketstation — +15 zł",
+        "Die schnellste Zustellung der Papierversion."
+      ],
+      [
+        "Kurier — +19,90 zł",
+        "Papierversion an Ihre Adresse."
+      ],
+      [
+        "Einschreiben — +17 zł",
+        "Traditioneller Postversand."
+      ]
+    ]
+  },
+  "highlights": [
+    [
+      "Angebot",
+      "in 15 Min."
+    ],
+    [
+      "Lieferung",
+      "ab 8 Std."
+    ],
+    [
+      "Standardpreis",
+      "ab 34 zł"
+    ],
+    [
+      "Preisgarantie",
+      "wir unterbieten"
+    ]
+  ],
+  "faq": [
+    [
+      "Wovon hängt der Preis ab?",
+      "Von Sprachpaar, Umfang, Fachgebiet, Format und Termin. Vergleichen Sie Angebote für denselben Umfang."
+    ],
+    [
+      "Ist eine Anfrage bereits eine Bestellung?",
+      "Nein. Die Bearbeitung setzt die Vereinbarung des Umfangs und die Annahme des Angebots voraus."
+    ],
+    [
+      "Brauche ich eine beglaubigte Übersetzung?",
+      "Prüfen Sie die Anforderungen der empfangenden Institution und fügen Sie diese der Anfrage bei."
+    ]
+  ],
+  "services": [
+    {
+      "title": "Dokumente und beglaubigte Übersetzungen",
+      "description": "Unterlagen für Arbeit, Ausbildung und formelle Verfahren.",
+      "examples": [
+        "Persönliche Dokumente",
+        "Diplome",
+        "Bescheinigungen"
+      ],
+      "paragraphs": [
+        "Senden Sie lesbare Scans aller Seiten mit Stempeln und Vermerken. Nennen Sie Land und empfangende Institution.",
+        "Prüfen Sie die benötigte Form. Nennen Sie Namensschreibweisen und Abgabefrist; Originale und Übergabe werden gesondert vereinbart."
+      ]
+    },
+    {
+      "title": "Übersetzungen für Unternehmen",
+      "description": "Kommunikation für neue Zielgruppen.",
+      "examples": [
+        "Präsentationen",
+        "Geschäftsangebote",
+        "Produktbeschreibungen"
+      ],
+      "paragraphs": [
+        "Nennen Sie Zielgruppe, Zweck und gewünschten Stil. Geben Sie an, ob das ursprüngliche Layout erhalten bleiben soll.",
+        "Fügen Sie Glossare, Produktnamen und freigegebene Beispiele bei. Nennen Sie bei mehreren Dateien Prioritäten und Fristen."
+      ]
+    },
+    {
+      "title": "Fachübersetzungen",
+      "description": "Kontext und einheitliche Terminologie für Fachtexte.",
+      "examples": [
+        "Anleitungen",
+        "Dokumentationen",
+        "Berichte"
+      ],
+      "paragraphs": [
+        "Beschreiben Sie Branche und Leserschaft. Ergänzen Sie Zeichnungen, Begriffslisten oder frühere Fassungen.",
+        "Markieren Sie unverändert zu übernehmende Kennzeichnungen. Eine Textprobe hilft, Umfang und Endformat festzulegen."
+      ]
+    },
+    {
+      "title": "Websites und Lokalisierung",
+      "description": "Inhalte für Ihren neuen Markt.",
+      "examples": [
+        "Websites",
+        "Onlineshops",
+        "Benutzeroberflächen"
+      ],
+      "paragraphs": [
+        "Sammeln Sie Seitentexte, Produktbeschreibungen, Felder und Meldungen sowie Titel und Suchbeschreibungen.",
+        "Ergänzen Sie Bildschirmkontext und Zeichenlimits. Nennen Sie Zielmarkt und Exportformat; technische Arbeiten werden gesondert vereinbart."
+      ]
+    }
+  ],
+  "pages": {
+    "services": "Wählen Sie die Leistung passend zu Material, Zweck und Budget.",
+    "how": "Sie müssen keine Abrechnungsseiten berechnen. Eine Datei und eine kurze Beschreibung genügen für den Anfang.",
+    "prices": "Günstige Preise sind unser Ziel. Das konkrete Angebot berücksichtigt Sprache, Umfang und Termin.",
+    "about": "Transla — Texte für Ihren nächsten Schritt. Wir beginnen mit Ihrem Ziel und klaren Vereinbarungen.",
+    "contact": "Senden Sie Material oder beschreiben Sie Ihr Projekt. Nennen Sie Sprache, Termin und Verwendungszweck.",
+    "aboutTitle": "Ihr Text. Unser Ausgangspunkt."
+  },
+  "form": {
+    "eyebrow": "Ihre Anfrage",
+    "title": "Erzählen Sie uns von Ihrem Material.",
+    "intro": "Senden Sie Dateien und einige Details. Eine Anfrage ist keine Bestellung.",
+    "name": "Vor- und Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "optional": "optional",
+    "type": "Übersetzungsart",
+    "normal": "Standard",
+    "certified": "Beglaubigt / vereidigt",
+    "from": "Aus welcher Sprache?",
+    "to": "In welche Sprache?",
+    "message": "Was sollten wir wissen?",
+    "placeholder": "Zweck, Termin, benötigtes Format…",
+    "files": "Unterlagen beifügen",
+    "fileHelp": "Bis zu 12 Dateien, max. 8 MB je Datei und 10 MB insgesamt. PDF, DOC, DOCX, ODT, TXT, JPG, PNG.",
+    "noticeTitle": "Kontakt zu Ihrer Anfrage",
+    "notice": "Sie übermitteln Transla Daten und Dateien zur Bearbeitung der Anfrage. Fügen Sie keine unnötigen Informationen bei. Kontakt:",
+    "send": "Anfrage senden",
+    "recaptcha": "Geschützt durch reCAPTCHA:",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "noJs": "Dieses Formular benötigt JavaScript. Schreiben Sie alternativ an:",
+    "messages": {
+      "count": "Höchstens 12 Dateien beifügen.",
+      "type": "Wählen Sie eines der angegebenen Formate.",
+      "single": "Eine Datei darf höchstens 8 MB groß sein.",
+      "total": "Die Gesamtgröße darf 10 MB nicht überschreiten.",
+      "sending": "Ihre Anfrage wird gesendet…",
+      "success": "Vielen Dank! Ihre Anfrage ist eingegangen. Wir antworten per E-Mail.",
+      "error": "Senden fehlgeschlagen. Erneut versuchen oder an info@transla.website schreiben.",
+      "large": "Die Dateien überschreiten das Serverlimit. Anhänge verkleinern.",
+      "rate": "Zu viele Versuche. Bitte warten Sie kurz.",
+      "invalid": "Prüfen Sie die Formulardaten.",
+      "antispam": "Anti-Spam-Prüfung fehlgeschlagen. Bitte erneut versuchen.",
+      "read": "Die Datei konnte nicht gelesen werden."
+    }
+  }
+}
