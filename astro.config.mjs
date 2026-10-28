@@ -8,5 +8,5 @@ export default defineConfig({
   devToolbar: { enabled: false },
   trailingSlash: 'always',
   integrations: [sitemap(), lingostackDevProxy()],
-  server: { port: 4323, allowedHosts: ['host.docker.internal'] },
+  server: { port: 4323, allowedHosts: ['host.docker.internal', 'lingostack.local'] },
 });
