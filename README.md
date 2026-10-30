@@ -2,7 +2,7 @@
 
 Osobny statyczny projekt Astro dla https://transla.website. Treści w `src/i18n/{pl,en,de,fr,es,it,nl,pt,uk,ru,cs,sv}.json`
 i wspólnych szablonach Astro, lokalne fonty, bez CMS oraz zewnętrznych zasobów ABC.
-Nazwa robocza: Transla. Kontakt: info@transla.website.
+Nazwa robocza: Transla. Kontakt: ask@transla.website.
 
 ## Podgląd lokalny
 

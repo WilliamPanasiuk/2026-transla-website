@@ -40,23 +40,24 @@
     "variantLabel": "Vetgedrukte versie"
   },
   "home": {
-    "title1": "Goede vertalingen.",
+    "title1": "Beëdigde vertalingen online.",
     "title2": "Betaalbare prijzen.",
     "eyebrow": "Meer mogelijkheden binnen je budget",
-    "lead": "Documenten, zakelijke teksten en websites voor een betaalbare prijs. Stuur je materiaal en weet de kosten vóór je bestelt, met een omvang die bij je past.",
+    "lead": "Bestel beëdigde vertalingen online. Stuur een scan of foto van je document en wij geven je de prijs en levertijd. We vertalen ook zakelijke teksten en websites.",
     "servicesTitle": "De juiste vertaling voor jouw doel.",
     "servicesIntro": "Taal, toepassing en budget tellen mee. Begin met je materiaal.",
     "processTitle": "In drie stappen naar een duidelijke offerte.",
     "priceTitle": "Een vertaling binnen je budget.",
     "priceLead": "Op zoek naar een voordelige prijs? Vergelijk een concrete offerte voor je materiaal. We spreken omvang en kosten af voordat het werk begint.",
-    "priceBeat": "Een lagere prijs gevonden voor dezelfde omvang? Stuur de offerte en wij gaan eronder.",
+    "priceBeat": "Heb je een voordeligere offerte? Stuur ons de ontvangen offerte voor dezelfde vertaalopdracht — wij bieden een lagere prijs.",
     "ctaTitle": "Wat kost jouw tekst?",
     "ctaText": "Stuur je bestand en vraag een offerte op maat aan.",
     "artBadge": "JOUW MATERIAAL",
     "artHeading": "Goede tekst. Verstandig budget.",
     "artCaption": "Eerst de offerte. Dan jouw keuze.",
     "tagline": "Goede vertalingen. Betaalbare prijzen.",
-    "description": "Transla: betaalbare vertalingen van documenten en teksten. Spreek omvang, prijs en deadline af vóór je bestelt."
+    "description": "Bestel beëdigde vertalingen online. Stuur een scan of foto van je document en wij geven je de prijs en levertijd. We vertalen ook zakelijke teksten en websites.",
+    "onlineLabel": "Beëdigde vertalingen online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "Het totaal mag maximaal 10 MB zijn.",
       "sending": "Je aanvraag wordt verstuurd…",
       "success": "Bedankt! Je aanvraag is ontvangen. We antwoorden per e-mail.",
-      "error": "Versturen mislukt. Probeer opnieuw of mail info@transla.website.",
+      "error": "Versturen mislukt. Probeer opnieuw of mail ask@transla.website.",
       "large": "De bestanden overschrijden de serverlimiet. Verklein de bijlagen.",
       "rate": "Te veel pogingen. Wacht even.",
       "invalid": "Controleer de formuliergegevens.",

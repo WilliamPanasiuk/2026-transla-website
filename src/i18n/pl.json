@@ -40,23 +40,24 @@
     "variantLabel": "Wyrazista wersja"
   },
   "home": {
-    "title1": "Dobre tłumaczenia.",
+    "title1": "Tłumaczenia przysięgłe online.",
     "title2": "Niskie ceny.",
     "eyebrow": "Więcej możliwości w Twoim budżecie",
-    "lead": "Dokumenty, treści firmowe i strony internetowe w korzystnej cenie. Prześlij materiał i poznaj koszt przed zamówieniem — wybierz zakres dopasowany do swoich potrzeb.",
+    "lead": "Tłumaczenia przysięgłe zamówisz u nas online. Prześlij skan lub zdjęcie dokumentu, a podamy cenę i termin. Tłumaczymy także treści firmowe i strony internetowe.",
     "servicesTitle": "Dobierz tłumaczenie do swojej sprawy.",
     "servicesIntro": "Liczy się język, przeznaczenie i budżet. Zacznij od materiału, który chcesz przetłumaczyć.",
     "processTitle": "Trzy kroki do jasnej wyceny.",
     "priceTitle": "Tłumaczenie w Twoim budżecie.",
     "priceLead": "Zależy Ci na niskiej cenie? Porównaj konkretną ofertę dla swojego materiału. Zakres i koszt ustalamy przed rozpoczęciem pracy.",
-    "priceBeat": "Znajdziesz niższą cenę za ten sam zakres? Prześlij ofertę, a my ją przebijemy.",
+    "priceBeat": "Masz korzystniejszą ofertę? Prześlij nam otrzymaną wycenę za ten sam zakres tłumaczenia — przebijemy jej cenę.",
     "ctaTitle": "Ile kosztuje Twój tekst?",
     "ctaText": "Prześlij plik i sprawdź indywidualną wycenę.",
     "artBadge": "TWÓJ MATERIAŁ",
     "artHeading": "Dobry tekst. Rozsądny budżet.",
     "artCaption": "Najpierw wycena. Potem decyzja.",
     "tagline": "Dobre tłumaczenia. Niskie ceny.",
-    "description": "Transla — tłumaczenia dokumentów i treści w niskich cenach. Poznaj zakres, koszt i termin przed zamówieniem."
+    "description": "Tłumaczenia przysięgłe zamówisz u nas online. Prześlij skan lub zdjęcie dokumentu, a podamy cenę i termin. Tłumaczymy także treści firmowe i strony internetowe.",
+    "onlineLabel": "Tłumaczenia przysięgłe online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "Łączny rozmiar nie może przekraczać 10 MB.",
       "sending": "Przekazywanie zapytania…",
       "success": "Dziękujemy! Zapytanie przyjęte. Odpowiemy na podany e-mail.",
-      "error": "Nie udało się wysłać zapytania. Spróbuj ponownie lub napisz na info@transla.website.",
+      "error": "Nie udało się wysłać zapytania. Spróbuj ponownie lub napisz na ask@transla.website.",
       "large": "Pliki przekraczają limit serwera. Zmniejsz załączniki.",
       "rate": "Zbyt wiele prób. Odczekaj chwilę.",
       "invalid": "Sprawdź dane formularza i spróbuj ponownie.",

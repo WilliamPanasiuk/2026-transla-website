@@ -40,23 +40,24 @@
     "variantLabel": "Bold version"
   },
   "home": {
-    "title1": "Good translations.",
+    "title1": "Sworn translations online.",
     "title2": "Affordable prices.",
     "eyebrow": "More possibilities within your budget",
-    "lead": "Documents, business content and websites at an affordable price. Send your material and find out the cost before ordering — choose a scope that suits your needs.",
+    "lead": "Order sworn translations online. Send a scan or photo of your document and we will quote a price and delivery date. We also translate business content and websites.",
     "servicesTitle": "The right translation for your task.",
     "servicesIntro": "Language, purpose and budget all matter. Start with the material you need translated.",
     "processTitle": "Three steps to a clear quote.",
     "priceTitle": "A translation within your budget.",
     "priceLead": "Looking for an affordable price? Compare a specific quote for your material. We agree the scope and cost before work begins.",
-    "priceBeat": "Found a lower price for the same scope? Send us the offer and we’ll beat it.",
+    "priceBeat": "Have a better offer? Send us the quote you received for the same translation scope — we will beat its price.",
     "ctaTitle": "What will your text cost?",
     "ctaText": "Send your file and request a tailored quote.",
     "artBadge": "YOUR MATERIAL",
     "artHeading": "Good content. Sensible budget.",
     "artCaption": "A quote first. Your decision next.",
     "tagline": "Good translations. Affordable prices.",
-    "description": "Transla — affordable document and content translations. Agree the scope, cost and deadline before ordering."
+    "description": "Order sworn translations online. Send a scan or photo of your document and we will quote a price and delivery date. We also translate business content and websites.",
+    "onlineLabel": "Sworn translations online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "The combined size must not exceed 10 MB.",
       "sending": "Sending your enquiry…",
       "success": "Thank you! Your enquiry was received. We will reply to your email.",
-      "error": "Your enquiry could not be sent. Try again or email info@transla.website.",
+      "error": "Your enquiry could not be sent. Try again or email ask@transla.website.",
       "large": "The files exceed the server limit. Reduce the attachments.",
       "rate": "Too many attempts. Please wait a moment.",
       "invalid": "Check the form details and try again.",

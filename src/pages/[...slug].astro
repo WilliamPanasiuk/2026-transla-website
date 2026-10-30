@@ -18,8 +18,9 @@ const contact = localizedPath('contact', lang) + '#formularz';
 const docIndex = standardDocIndex(pageId);
 const isStandardDoc = docIndex !== -1;
 const docPrice = isStandardDoc ? c.standardDocs[docIndex][1] : '';
+const faq = pageId === 'contact' ? undefined : c.faq;
 ---
-<BaseLayout title={pageId === 'home' ? c.home.tagline : page.title} description={pageId === 'home' ? c.home.description : page.description} path={page.path} lang={lang} pageId={pageId}>
+<BaseLayout title={pageId === 'home' ? c.home.tagline : page.title} description={pageId === 'home' ? c.home.description : page.description} path={page.path} lang={lang} pageId={pageId} faq={faq}>
   {pageId === 'home' ? <Home lang={lang} /> : (
     <>
       <section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label={c.ui.home}><a href={localizedPath('home', lang)}>{c.ui.home}</a><span aria-hidden="true">/</span><span>{page.title}</span></nav><span class="eyebrow">{page.eyebrow}</span><h1>{page.heading}</h1>{isStandardDoc && <p class="doc-price">{docPrice}</p>}<p class="lead">{page.lead}</p>{pageId !== 'contact' && <a class="button" href={contact}>{c.ui.quote} ↗</a>}</div></section>

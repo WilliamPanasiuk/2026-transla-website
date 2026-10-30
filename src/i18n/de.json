@@ -40,23 +40,24 @@
     "variantLabel": "Kräftige Version"
   },
   "home": {
-    "title1": "Gute Übersetzungen.",
+    "title1": "Beglaubigte Übersetzungen online.",
     "title2": "Günstige Preise.",
     "eyebrow": "Mehr Möglichkeiten für Ihr Budget",
-    "lead": "Dokumente, Geschäftstexte und Websites zu günstigen Preisen. Senden Sie Ihr Material und erfahren Sie die Kosten vor der Bestellung — passend zu Ihrem Bedarf.",
+    "lead": "Bestellen Sie beglaubigte Übersetzungen online. Senden Sie einen Scan oder ein Foto Ihres Dokuments, und wir nennen Ihnen Preis und Termin. Wir übersetzen auch Geschäftstexte und Websites.",
     "servicesTitle": "Die passende Übersetzung für Ihr Anliegen.",
     "servicesIntro": "Sprache, Zweck und Budget zählen. Beginnen Sie mit Ihrem Material.",
     "processTitle": "In drei Schritten zum klaren Angebot.",
     "priceTitle": "Eine Übersetzung für Ihr Budget.",
     "priceLead": "Sie suchen einen günstigen Preis? Vergleichen Sie ein konkretes Angebot für Ihr Material. Umfang und Kosten vereinbaren wir vor Arbeitsbeginn.",
-    "priceBeat": "Niedrigeren Preis für denselben Umfang gefunden? Schicken Sie uns das Angebot, und wir unterbieten es.",
+    "priceBeat": "Haben Sie ein günstigeres Angebot? Senden Sie uns das erhaltene Angebot für denselben Übersetzungsumfang — wir unterbieten den Preis.",
     "ctaTitle": "Was kostet Ihr Text?",
     "ctaText": "Senden Sie eine Datei und fragen Sie nach einem individuellen Angebot.",
     "artBadge": "IHRE UNTERLAGEN",
     "artHeading": "Guter Text. Vernünftiges Budget.",
     "artCaption": "Erst das Angebot. Dann Ihre Entscheidung.",
     "tagline": "Gute Übersetzungen. Günstige Preise.",
-    "description": "Transla — günstige Dokumenten- und Textübersetzungen. Klären Sie Umfang, Preis und Termin vor der Bestellung."
+    "description": "Bestellen Sie beglaubigte Übersetzungen online. Senden Sie einen Scan oder ein Foto Ihres Dokuments, und wir nennen Ihnen Preis und Termin. Wir übersetzen auch Geschäftstexte und Websites.",
+    "onlineLabel": "Beglaubigte Übersetzungen online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "Die Gesamtgröße darf 10 MB nicht überschreiten.",
       "sending": "Ihre Anfrage wird gesendet…",
       "success": "Vielen Dank! Ihre Anfrage ist eingegangen. Wir antworten per E-Mail.",
-      "error": "Senden fehlgeschlagen. Erneut versuchen oder an info@transla.website schreiben.",
+      "error": "Senden fehlgeschlagen. Erneut versuchen oder an ask@transla.website schreiben.",
       "large": "Die Dateien überschreiten das Serverlimit. Anhänge verkleinern.",
       "rate": "Zu viele Versuche. Bitte warten Sie kurz.",
       "invalid": "Prüfen Sie die Formulardaten.",

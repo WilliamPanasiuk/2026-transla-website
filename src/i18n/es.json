@@ -40,23 +40,24 @@
     "variantLabel": "Versión llamativa"
   },
   "home": {
-    "title1": "Buenas traducciones.",
+    "title1": "Traducciones juradas online.",
     "title2": "Precios asequibles.",
     "eyebrow": "Más posibilidades para tu presupuesto",
-    "lead": "Documentos, contenidos empresariales y sitios web a precios asequibles. Envía tu material y conoce el coste antes de encargarlo, con un alcance ajustado a tus necesidades.",
+    "lead": "Encarga tus traducciones juradas online. Envía un escaneo o una foto del documento y te indicaremos el precio y el plazo. También traducimos contenidos empresariales y sitios web.",
     "servicesTitle": "La traducción adecuada para tu proyecto.",
     "servicesIntro": "Importan el idioma, la finalidad y el presupuesto. Empieza por tu material.",
     "processTitle": "Tres pasos hacia un presupuesto claro.",
     "priceTitle": "Una traducción dentro de tu presupuesto.",
     "priceLead": "¿Buscas un buen precio? Compara una oferta concreta para tu material. Acordamos alcance y coste antes de empezar.",
-    "priceBeat": "¿Encontraste un precio más bajo por el mismo alcance? Envíanos la oferta y la mejoramos.",
+    "priceBeat": "¿Tienes una oferta mejor? Envíanos el presupuesto recibido para el mismo alcance de traducción y mejoraremos su precio.",
     "ctaTitle": "¿Cuánto costará tu texto?",
     "ctaText": "Envía tu archivo y solicita un presupuesto personalizado.",
     "artBadge": "TU MATERIAL",
     "artHeading": "Buen texto. Presupuesto sensato.",
     "artCaption": "Primero el presupuesto. Después decides.",
     "tagline": "Buenas traducciones. Precios asequibles.",
-    "description": "Transla: traducciones de documentos y contenidos a precios asequibles. Acuerda alcance, coste y plazo antes de encargar."
+    "description": "Encarga tus traducciones juradas online. Envía un escaneo o una foto del documento y te indicaremos el precio y el plazo. También traducimos contenidos empresariales y sitios web.",
+    "onlineLabel": "Traducciones juradas online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "El tamaño total no puede superar 10 MB.",
       "sending": "Enviando consulta…",
       "success": "¡Gracias! Hemos recibido tu consulta. Responderemos por correo.",
-      "error": "No se pudo enviar. Inténtalo de nuevo o escribe a info@transla.website.",
+      "error": "No se pudo enviar. Inténtalo de nuevo o escribe a ask@transla.website.",
       "large": "Los archivos superan el límite del servidor. Reduce los adjuntos.",
       "rate": "Demasiados intentos. Espera un momento.",
       "invalid": "Revisa los datos del formulario.",

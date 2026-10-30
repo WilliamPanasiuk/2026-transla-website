@@ -40,23 +40,24 @@
     "variantLabel": "Versione decisa"
   },
   "home": {
-    "title1": "Buone traduzioni.",
+    "title1": "Traduzioni giurate online.",
     "title2": "Prezzi accessibili.",
     "eyebrow": "Più possibilità per il tuo budget",
-    "lead": "Documenti, contenuti aziendali e siti web a prezzi accessibili. Invia il materiale e scopri il costo prima dell’ordine, con un ambito adatto alle tue esigenze.",
+    "lead": "Ordina le tue traduzioni giurate online. Invia una scansione o una foto del documento: ti comunicheremo prezzo e tempi. Traduciamo anche contenuti aziendali e siti web.",
     "servicesTitle": "La traduzione giusta per il tuo progetto.",
     "servicesIntro": "Lingua, utilizzo e budget contano. Inizia dal materiale da tradurre.",
     "processTitle": "Tre passi per un preventivo chiaro.",
     "priceTitle": "Una traduzione nel tuo budget.",
     "priceLead": "Cerchi un prezzo conveniente? Confronta un’offerta specifica per il tuo materiale. Ambito e costo vengono concordati prima di iniziare.",
-    "priceBeat": "Trovato un prezzo più basso a parità di servizio? Inviaci l’offerta e la batteremo.",
+    "priceBeat": "Hai un’offerta più conveniente? Inviaci il preventivo ricevuto per lo stesso ambito di traduzione: proporremo un prezzo inferiore.",
     "ctaTitle": "Quanto costerà il tuo testo?",
     "ctaText": "Invia il file e richiedi un preventivo personalizzato.",
     "artBadge": "IL TUO MATERIALE",
     "artHeading": "Buon testo. Budget ragionevole.",
     "artCaption": "Prima il preventivo. Poi decidi tu.",
     "tagline": "Buone traduzioni. Prezzi accessibili.",
-    "description": "Transla: traduzioni di documenti e contenuti a prezzi accessibili. Concorda ambito, costo e scadenza prima dell’ordine."
+    "description": "Ordina le tue traduzioni giurate online. Invia una scansione o una foto del documento: ti comunicheremo prezzo e tempi. Traduciamo anche contenuti aziendali e siti web.",
+    "onlineLabel": "Traduzioni giurate online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "La dimensione totale non può superare 10 MB.",
       "sending": "Invio della richiesta…",
       "success": "Grazie! Richiesta ricevuta. Risponderemo via e-mail.",
-      "error": "Invio non riuscito. Riprova o scrivi a info@transla.website.",
+      "error": "Invio non riuscito. Riprova o scrivi a ask@transla.website.",
       "large": "I file superano il limite del server. Riduci gli allegati.",
       "rate": "Troppi tentativi. Attendi un momento.",
       "invalid": "Controlla i dati del modulo.",

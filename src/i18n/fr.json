@@ -40,23 +40,24 @@
     "variantLabel": "Version marquée"
   },
   "home": {
-    "title1": "De bonnes traductions.",
+    "title1": "Traductions assermentées en ligne.",
     "title2": "Des prix accessibles.",
     "eyebrow": "Plus de possibilités pour votre budget",
-    "lead": "Documents, contenus professionnels et sites web à prix accessibles. Envoyez votre texte et connaissez le coût avant de commander — selon vos besoins.",
+    "lead": "Commandez vos traductions assermentées en ligne. Envoyez un scan ou une photo du document : nous vous indiquerons le prix et le délai. Nous traduisons aussi vos contenus professionnels et sites web.",
     "servicesTitle": "La traduction adaptée à votre projet.",
     "servicesIntro": "La langue, l’usage et le budget comptent. Commencez par votre document.",
     "processTitle": "Trois étapes pour un devis clair.",
     "priceTitle": "Une traduction adaptée à votre budget.",
     "priceLead": "Vous cherchez un prix avantageux ? Comparez un devis établi pour votre document. Le périmètre et le coût sont convenus avant le début du travail.",
-    "priceBeat": "Trouvé moins cher à périmètre égal ? Envoyez-nous l’offre, nous battons ce prix.",
+    "priceBeat": "Vous avez une offre plus avantageuse ? Envoyez-nous le devis reçu pour le même périmètre de traduction : nous proposerons un prix inférieur.",
     "ctaTitle": "Quel prix pour votre texte ?",
     "ctaText": "Envoyez votre fichier et demandez un devis personnalisé.",
     "artBadge": "VOTRE DOCUMENT",
     "artHeading": "Le bon texte. Le bon budget.",
     "artCaption": "D’abord le devis. Ensuite votre décision.",
     "tagline": "De bonnes traductions. Des prix accessibles.",
-    "description": "Transla — traductions de documents et de contenus à prix accessibles. Définissez le périmètre, le prix et le délai avant de commander."
+    "description": "Commandez vos traductions assermentées en ligne. Envoyez un scan ou une photo du document : nous vous indiquerons le prix et le délai. Nous traduisons aussi vos contenus professionnels et sites web.",
+    "onlineLabel": "Traductions assermentées en ligne"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "Le total ne doit pas dépasser 10 Mo.",
       "sending": "Envoi de votre demande…",
       "success": "Merci ! Votre demande a été reçue. Nous répondrons par e-mail.",
-      "error": "Échec de l’envoi. Réessayez ou écrivez à info@transla.website.",
+      "error": "Échec de l’envoi. Réessayez ou écrivez à ask@transla.website.",
       "large": "Les fichiers dépassent la limite du serveur. Réduisez les pièces jointes.",
       "rate": "Trop de tentatives. Veuillez patienter.",
       "invalid": "Vérifiez les données du formulaire.",

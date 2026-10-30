@@ -40,23 +40,24 @@
     "variantLabel": "Výrazná verze"
   },
   "home": {
-    "title1": "Dobré překlady.",
+    "title1": "Soudní překlady online.",
     "title2": "Dostupné ceny.",
     "eyebrow": "Více možností pro váš rozpočet",
-    "lead": "Dokumenty, firemní texty a weby za dostupnou cenu. Pošlete materiál a zjistěte cenu před objednávkou — s rozsahem podle vašich potřeb.",
+    "lead": "Objednejte si soudní překlady online. Pošlete sken nebo fotografii dokumentu a sdělíme vám cenu a termín. Překládáme také firemní texty a weby.",
     "servicesTitle": "Překlad pro váš konkrétní účel.",
     "servicesIntro": "Záleží na jazyce, využití i rozpočtu. Začněte materiálem k překladu.",
     "processTitle": "Tři kroky k jasné nabídce.",
     "priceTitle": "Překlad v rámci vašeho rozpočtu.",
     "priceLead": "Hledáte výhodnou cenu? Porovnejte konkrétní nabídku pro svůj materiál. Rozsah a cenu domluvíme před začátkem práce.",
-    "priceBeat": "Našli jste nižší cenu za stejný rozsah? Pošlete nabídku a my ji přebijeme.",
+    "priceBeat": "Máte výhodnější nabídku? Pošlete nám obdrženou cenovou nabídku na stejný rozsah překladu — nabídneme nižší cenu.",
     "ctaTitle": "Kolik bude stát váš text?",
     "ctaText": "Pošlete soubor a vyžádejte si individuální nabídku.",
     "artBadge": "VÁŠ MATERIÁL",
     "artHeading": "Dobrý text. Rozumný rozpočet.",
     "artCaption": "Nejprve nabídka. Pak rozhodnutí.",
     "tagline": "Dobré překlady. Dostupné ceny.",
-    "description": "Transla — cenově dostupné překlady dokumentů a textů. Domluvte rozsah, cenu a termín před objednávkou."
+    "description": "Objednejte si soudní překlady online. Pošlete sken nebo fotografii dokumentu a sdělíme vám cenu a termín. Překládáme také firemní texty a weby.",
+    "onlineLabel": "Soudní překlady online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "Celková velikost nesmí překročit 10 MB.",
       "sending": "Odesílání poptávky…",
       "success": "Děkujeme! Poptávka byla přijata. Odpovíme e-mailem.",
-      "error": "Odeslání se nezdařilo. Zkuste to znovu nebo napište na info@transla.website.",
+      "error": "Odeslání se nezdařilo. Zkuste to znovu nebo napište na ask@transla.website.",
       "large": "Soubory překračují limit serveru. Zmenšete přílohy.",
       "rate": "Příliš mnoho pokusů. Chvíli počkejte.",
       "invalid": "Zkontrolujte údaje formuláře.",

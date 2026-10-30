@@ -2,18 +2,53 @@
 import { site } from '@/data/site';
 import { copy, languages, localizedPath, navigation, type Locale, type PageId } from '@/i18n';
 import '@/styles/global.css';
-interface Props { title: string; description: string; path?: string; noindex?: boolean; lang?: Locale; pageId?: PageId }
-const { title, description, path = Astro.url.pathname, noindex = false, lang = 'pl', pageId = 'home' } = Astro.props;
+interface Props { title: string; description: string; path?: string; noindex?: boolean; lang?: Locale; pageId?: PageId; faq?: string[][] }
+const { title, description, path = Astro.url.pathname, noindex = false, lang = 'pl', pageId = 'home', faq } = Astro.props;
 const c = copy(lang);
 const menu = navigation(lang);
 const canonical = new URL(path, site.url).href;
 const homePath = localizedPath('home', lang);
 const contactPath = localizedPath('contact', lang);
+const social = site.social.filter(Boolean);
+const webpageId = canonical + '#webpage';
+const faqNode = faq?.length
+  ? {
+      '@type': 'FAQPage',
+      '@id': canonical + '#faq',
+      url: canonical,
+      isPartOf: { '@id': webpageId },
+      mainEntity: faq.map(([question, answer]) => ({
+        '@type': 'Question',
+        name: question,
+        acceptedAnswer: { '@type': 'Answer', text: answer },
+      })),
+    }
+  : null;
 const schema = {
   '@context': 'https://schema.org', '@graph': [
-    { '@type': 'Organization', '@id': site.url + '/#organization', name: site.name, url: site.url, email: site.email },
+    {
+      '@type': 'ProfessionalService',
+      '@id': site.url + '/#organization',
+      name: site.name,
+      url: site.url,
+      email: site.email,
+      description: site.description,
+      logo: new URL('/logo.svg', site.url).href,
+      image: new URL('/social.svg', site.url).href,
+      areaServed: { '@type': 'Country', name: site.areaServed },
+      address: { '@type': 'PostalAddress', addressCountry: site.addressCountry },
+      knowsLanguage: languages.map(item => item.code),
+      contactPoint: {
+        '@type': 'ContactPoint',
+        email: site.email,
+        contactType: 'customer service',
+        availableLanguage: languages.map(item => item.code),
+      },
+      ...(social.length ? { sameAs: social } : {}),
+    },
     { '@type': 'WebSite', '@id': site.url + '/#website', name: site.name, url: site.url, inLanguage: languages.map(item => item.code) },
-    { '@type': 'WebPage', name: title, description, url: canonical, inLanguage: lang, isPartOf: { '@id': site.url + '/#website' } },
+    { '@type': 'WebPage', '@id': webpageId, name: title, description, url: canonical, inLanguage: lang, isPartOf: { '@id': site.url + '/#website' } },
+    ...(faqNode ? [faqNode] : []),
   ],
 };
 ---
@@ -28,7 +63,7 @@ const schema = {
     <link rel="canonical" href={canonical} />
     {!noindex && languages.map(item => <link rel="alternate" hreflang={item.code} href={new URL(localizedPath(pageId, item.code), site.url).href} />)}
     {!noindex && <link rel="alternate" hreflang="x-default" href={new URL(localizedPath(pageId, 'pl'), site.url).href} />}
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" /><link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" /><link rel="sitemap" href="/sitemap-index.xml" />
     <meta property="og:type" content="website" /><meta property="og:site_name" content="Transla" />
     <meta property="og:title" content={title + ' | Transla'} /><meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} /><meta property="og:image" content={site.url + '/social.svg'} />

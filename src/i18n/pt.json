@@ -40,23 +40,24 @@
     "variantLabel": "Versão marcante"
   },
   "home": {
-    "title1": "Boas traduções.",
+    "title1": "Traduções certificadas online.",
     "title2": "Preços acessíveis.",
     "eyebrow": "Mais possibilidades para o seu orçamento",
-    "lead": "Documentos, conteúdos empresariais e sites a preços acessíveis. Envie o material e conheça o custo antes de encomendar, com um âmbito adaptado às suas necessidades.",
+    "lead": "Encomende traduções certificadas online. Envie uma digitalização ou fotografia do documento e indicaremos o preço e o prazo. Também traduzimos conteúdos empresariais e sites.",
     "servicesTitle": "A tradução certa para o seu projeto.",
     "servicesIntro": "O idioma, a finalidade e o orçamento contam. Comece pelo seu material.",
     "processTitle": "Três passos para um orçamento claro.",
     "priceTitle": "Uma tradução dentro do seu orçamento.",
     "priceLead": "Procura um preço vantajoso? Compare uma proposta concreta para o seu material. O âmbito e o custo são acordados antes do início do trabalho.",
-    "priceBeat": "Encontrou um preço mais baixo para o mesmo âmbito? Envie a proposta e nós batemos o preço.",
+    "priceBeat": "Tem uma proposta mais vantajosa? Envie-nos o orçamento recebido para o mesmo âmbito de tradução e faremos um preço inferior.",
     "ctaTitle": "Quanto custará o seu texto?",
     "ctaText": "Envie o ficheiro e peça um orçamento personalizado.",
     "artBadge": "O SEU MATERIAL",
     "artHeading": "Bom texto. Orçamento sensato.",
     "artCaption": "Primeiro o orçamento. Depois decide.",
     "tagline": "Boas traduções. Preços acessíveis.",
-    "description": "Transla: traduções de documentos e conteúdos a preços acessíveis. Acorde âmbito, custo e prazo antes de encomendar."
+    "description": "Encomende traduções certificadas online. Envie uma digitalização ou fotografia do documento e indicaremos o preço e o prazo. Também traduzimos conteúdos empresariais e sites.",
+    "onlineLabel": "Traduções certificadas online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "O tamanho total não pode exceder 10 MB.",
       "sending": "A enviar o pedido…",
       "success": "Obrigado! Recebemos o seu pedido. Responderemos por e-mail.",
-      "error": "Não foi possível enviar. Tente novamente ou escreva para info@transla.website.",
+      "error": "Não foi possível enviar. Tente novamente ou escreva para ask@transla.website.",
       "large": "Os ficheiros excedem o limite do servidor. Reduza os anexos.",
       "rate": "Demasiadas tentativas. Aguarde um momento.",
       "invalid": "Verifique os dados do formulário.",

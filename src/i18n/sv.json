@@ -40,23 +40,24 @@
     "variantLabel": "Fet version"
   },
   "home": {
-    "title1": "Bra översättningar.",
+    "title1": "Auktoriserade översättningar online.",
     "title2": "Överkomliga priser.",
     "eyebrow": "Fler möjligheter inom din budget",
-    "lead": "Dokument, företagstexter och webbplatser till överkomliga priser. Skicka materialet och få priset före beställning, med en omfattning som passar dina behov.",
+    "lead": "Beställ auktoriserade översättningar online. Skicka en skanning eller ett foto av dokumentet så anger vi pris och leveranstid. Vi översätter även företagstexter och webbplatser.",
     "servicesTitle": "Rätt översättning för din uppgift.",
     "servicesIntro": "Språk, syfte och budget spelar roll. Börja med ditt material.",
     "processTitle": "Tre steg till en tydlig offert.",
     "priceTitle": "En översättning inom din budget.",
     "priceLead": "Letar du efter ett bra pris? Jämför en konkret offert för ditt material. Vi kommer överens om omfattning och kostnad innan arbetet börjar.",
-    "priceBeat": "Hittat ett lägre pris för samma omfattning? Skicka offerten så slår vi den.",
+    "priceBeat": "Har du en bättre offert? Skicka den offert du fått för samma översättningsomfattning — vi erbjuder ett lägre pris.",
     "ctaTitle": "Vad kostar din text?",
     "ctaText": "Skicka filen och be om en anpassad offert.",
     "artBadge": "DITT MATERIAL",
     "artHeading": "Bra text. Rimlig budget.",
     "artCaption": "Först offerten. Sedan ditt beslut.",
     "tagline": "Bra översättningar. Överkomliga priser.",
-    "description": "Transla — prisvärda översättningar av dokument och texter. Kom överens om omfattning, pris och deadline före beställning."
+    "description": "Beställ auktoriserade översättningar online. Skicka en skanning eller ett foto av dokumentet så anger vi pris och leveranstid. Vi översätter även företagstexter och webbplatser.",
+    "onlineLabel": "Auktoriserade översättningar online"
   },
   "steps": [
     [
@@ -293,7 +294,7 @@
       "total": "Den totala storleken får inte överstiga 10 MB.",
       "sending": "Skickar din förfrågan…",
       "success": "Tack! Din förfrågan har tagits emot. Vi svarar via e-post.",
-      "error": "Det gick inte att skicka. Försök igen eller mejla info@transla.website.",
+      "error": "Det gick inte att skicka. Försök igen eller mejla ask@transla.website.",
       "large": "Filerna överskrider servergränsen. Minska bilagorna.",
       "rate": "För många försök. Vänta en stund.",
       "invalid": "Kontrollera formulärets uppgifter.",
