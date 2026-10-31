@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <clipPath id="clapTop">
+      <rect x="160" y="170" width="580" height="100" rx="22"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#edf7f3"/>
+  <circle cx="1080" cy="110" r="240" fill="#d6ede6"/>
+  <circle cx="90" cy="590" r="180" fill="#e8f6ef"/>
+  <g transform="rotate(-7 450 250)">
+    <rect x="160" y="170" width="580" height="100" rx="22" fill="#f5f2e9" stroke="#064e49" stroke-width="4"/>
+    <g clip-path="url(#clapTop)">
+      <rect x="160" y="170" width="580" height="100" rx="22" fill="#064e49"/>
+      <path d="M210 140l-60 160M330 140l-60 160M450 140l-60 160M570 140l-60 160M690 140l-60 160" stroke="#f5f2e9" stroke-width="26"/>
+    </g>
+  </g>
+  <rect x="160" y="270" width="580" height="270" rx="28" fill="#064e49"/>
+  <rect x="190" y="320" width="520" height="190" rx="16" fill="#f5f2e9"/>
+  <g stroke="#064e49" stroke-width="8" stroke-linecap="round">
+    <path d="M220 360h460M220 400h390M220 440h420M220 480h300"/>
+  </g>
+  <g transform="rotate(-10 900 440)">
+    <rect x="760" y="380" width="360" height="150" rx="20" fill="#0a7466"/>
+    <g fill="#f5f2e9">
+      <rect x="785" y="400" width="22" height="22" rx="4"/><rect x="835" y="400" width="22" height="22" rx="4"/><rect x="885" y="400" width="22" height="22" rx="4"/><rect x="935" y="400" width="22" height="22" rx="4"/><rect x="985" y="400" width="22" height="22" rx="4"/><rect x="1035" y="400" width="22" height="22" rx="4"/>
+      <rect x="785" y="488" width="22" height="22" rx="4"/><rect x="835" y="488" width="22" height="22" rx="4"/><rect x="885" y="488" width="22" height="22" rx="4"/><rect x="935" y="488" width="22" height="22" rx="4"/><rect x="985" y="488" width="22" height="22" rx="4"/><rect x="1035" y="488" width="22" height="22" rx="4"/>
+    </g>
+    <g fill="#b5f5da">
+      <rect x="785" y="444" width="22" height="22" rx="4"/><rect x="835" y="444" width="22" height="22" rx="4"/><rect x="885" y="444" width="22" height="22" rx="4"/><rect x="935" y="444" width="22" height="22" rx="4"/><rect x="985" y="444" width="22" height="22" rx="4"/><rect x="1035" y="444" width="22" height="22" rx="4"/>
+    </g>
+  </g>
+  <g>
+    <rect x="790" y="120" width="300" height="180" rx="24" fill="#f5f2e9" stroke="#064e49" stroke-width="3"/>
+    <path d="M820 300l-30 50 90-50z" fill="#f5f2e9" stroke="#064e49" stroke-width="3"/>
+    <text x="830" y="210" font-family="Arial, sans-serif" font-size="52" font-weight="800" fill="#064e49">EN → PL</text>
+    <text x="830" y="260" font-family="Arial, sans-serif" font-size="21" fill="#526b69">tytuł, który zostaje w głowie</text>
+  </g>
+  <text x="60" y="590" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#064e49" letter-spacing="-1">transla.</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#edf7f3"/>
+  <circle cx="1070" cy="90" r="250" fill="#d6ede6"/>
+  <circle cx="70" cy="590" r="190" fill="#e8f6ef"/>
+  <path d="M120 470C300 560 780 560 1040 400" fill="none" stroke="#bcd9cc" stroke-width="3" stroke-dasharray="8 14"/>
+  <g>
+    <rect x="110" y="120" width="440" height="280" rx="38" fill="#064e49"/>
+    <path d="M220 400l-32 70 108-70z" fill="#064e49"/>
+    <text x="165" y="315" font-family="Georgia, 'Times New Roman', serif" font-size="230" fill="#f5f2e9">“</text>
+    <path d="M380 110v55l-22 30 34 32-22 42 24 58-32 62" fill="none" stroke="#d97706" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="640" y="220" width="440" height="240" rx="36" fill="#f5f2e9" stroke="#064e49" stroke-width="3"/>
+    <path d="M950 460l42 60-98-60z" fill="#f5f2e9" stroke="#064e49" stroke-width="3"/>
+    <text x="690" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="200" fill="#064e49">”</text>
+    <g font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#064e49">
+      <rect x="700" y="405" width="92" height="42" rx="21" fill="#b5f5da"/>
+      <text x="727" y="433">PL</text>
+      <rect x="810" y="405" width="92" height="42" rx="21" fill="#b5f5da"/>
+      <text x="837" y="433">EN</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#066357" stroke-width="3">
+    <circle cx="1010" cy="140" r="46" fill="#b5f5da"/>
+    <ellipse cx="1010" cy="140" rx="18" ry="46"/>
+    <path d="M964 140h92M972 116q38-18 76 0M972 164q38 18 76 0"/>
+  </g>
+  <text x="60" y="590" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#064e49" letter-spacing="-1">transla.</text>
+</svg>

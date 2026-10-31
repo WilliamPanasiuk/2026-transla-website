@@ -19,6 +19,8 @@ export interface BlogPost {
   dateLabel: string;
   readingTime: string;
   category: string;
+  image: string;
+  imageAlt: string;
   keywords: string[];
   sections: BlogSection[];
   sources: BlogSource[];
@@ -36,6 +38,8 @@ export const blogPosts: BlogPost[] = [
     dateLabel: '31 października 2026',
     readingTime: '9 min',
     category: 'Historia',
+    image: '/blog/wpadki-tlumaczy.svg',
+    imageAlt: 'Dwie mowy i popękany cytat — ilustracja wpisu o błędach tłumaczeniowych.',
     keywords: [
       'błędy tłumaczeniowe',
       'historia tłumaczeń',
@@ -142,6 +146,8 @@ export const blogPosts: BlogPost[] = [
     dateLabel: '31 października 2026',
     readingTime: '6 min',
     category: 'Kultura',
+    image: '/blog/polskie-tytuly-filmow.svg',
+    imageAlt: 'Klaps filmowy i taśma — ilustracja wpisu o polskich tytułach filmów.',
     keywords: [
       'polskie tytuły filmów',
       'tłumaczenie tytułów filmowych',
@@ -200,6 +206,265 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'jezyki-onz',
+    title: 'Języki ONZ: sześć głosów, jedna organizacja',
+    description:
+      'Dlaczego ONZ ma sześć języków oficjalnych, czym różnią się od języków roboczych i jak wygląda praca tłumaczy w miejscu, gdzie każda wersja musi znaczyć to samo.',
+    lead:
+      'W ONZ nie wystarczy powiedzieć czegoś raz. To samo zdanie musi zabrzmieć w sześciu językach — i w każdej wersji znaczyć to samo. Oto jak działa wielojęzyczność organizacji, która mówi do prawie całego świata.',
+    date: '2026-10-31T11:00:00+01:00',
+    dateLabel: '31 października 2026',
+    readingTime: '7 min',
+    category: 'Języki',
+    image: '/blog/jezyki-onz.svg',
+    imageAlt: 'Globus i sześć dymków z kodami języków ONZ.',
+    keywords: [
+      'języki ONZ',
+      'języki oficjalne ONZ',
+      'tłumaczenia ONZ',
+      'arabski',
+      'chiński',
+      'angielski',
+      'francuski',
+      'rosyjski',
+      'hiszpański',
+    ],
+    sections: [
+      {
+        paragraphs: [
+          'ONZ ma sześć języków oficjalnych: arabski, chiński, angielski, francuski, rosyjski i hiszpański. To nie kwestia sympatii do języków, lecz politycznego kompromisu i praktyki dyplomatycznej. Każdy z nich miał znaczenie historyczne, demograficzne albo polityczne — od stałych członków Rady Bezpieczeństwa po zasięg kolonialny i diasporę.',
+          'Języki oficjalne są używane w obradach, dokumentach i rezolucjach. Angielski i francuski pełnią dodatkowo rolę języków roboczych Sekretariatu. Różnica między „oficjalny” a „roboczy” bywa mylona; w praktyce oznacza różne zakresy użycia i różne koszty.',
+        ],
+      },
+      {
+        heading: 'Dlaczego właśnie te sześć?',
+        paragraphs: [
+          'Pierwotny skład z 1945 roku obejmował chiński, angielski, francuski, rosyjski i hiszpański. Arabski dołączył w 1973 roku, gdy Zgromadzenie Ogólne uznało go za język oficjalny. Sześć języków to także sześć kanałów tłumaczenia symultanicznego, sześć wersji dokumentów i sześć zestawów terminologii.',
+          'W praktyce ONZ zatrudnia tłumaczy, interpretatorów, redaktorów i terminologów, którzy dbają o to, by pojęcia prawne i polityczne były spójne we wszystkich wersjach. To niewidoczna infrastruktura wielojęzyczności — i jeden z warunków, dzięki którym decyzje organizacji mogą być uznane za wspólne.',
+        ],
+      },
+      {
+        heading: 'Sześć dni, sześć języków',
+        list: [
+          'Arabski — 18 grudnia.',
+          'Chiński — 20 kwietnia.',
+          'Angielski — 23 kwietnia.',
+          'Francuski — 20 marca.',
+          'Rosyjski — 6 czerwca.',
+          'Hiszpański — 12 października.',
+        ],
+        paragraphs: [
+          'Dni językowe nie są tylko kalendarzową ciekawostką. Pokazują, że wielojęzyczność jest częścią dyplomacji publicznej: buduje widoczność kultur i przypomina o równości języków w organizacji.',
+        ],
+      },
+      {
+        heading: 'Tłumacz w ONZ: precyzja i tempo',
+        paragraphs: [
+          'Interpretacja symultaniczna wymaga podzielności uwagi, przygotowania i opanowania. Mówca nie czeka; tłumacz musi oddać sens w czasie rzeczywistym, zachowując nazwy, liczby i niuanse. W dyplomacji jeden źle dobrany czasownik może zmienić ciężar całego zdania.',
+          'Dokumenty przechodzą przez redakcję i kontrolę terminologiczną. ONZ prowadzi bazę terminologiczną UNTERM, która pomaga utrzymać spójność między językami. Tłumaczenie nie jest tu dodatkiem do polityki — jest jednym z jej narzędzi.',
+        ],
+      },
+      {
+        heading: 'Co z tego wynika',
+        list: [
+          'Sześć języków to kompromis między reprezentacją a kosztem.',
+          'Wielojęzyczność nie polega na dosłownym kopiowaniu tekstu, lecz na odtworzeniu sensu w różnych systemach językowych.',
+          'Spójność terminologiczna jest częścią bezpieczeństwa prawnego i politycznego.',
+          'Język jest narzędziem legitymizacji: decyzja podana w sześciu językach ma innych odbiorców i inne konsekwencje niż komunikat w jednym.',
+        ],
+        paragraphs: [
+          'ONZ przypomina, że tłumaczenie nie jest dodatkiem do polityki. Jest jednym z warunków, dzięki którym polityka może być zrozumiała i uznana za wspólną.',
+        ],
+      },
+    ],
+    sources: [
+      {
+        label: 'ONZ — Official languages',
+        url: 'https://www.un.org/en/our-work/official-languages',
+      },
+      {
+        label: 'ONZ — Multilingualism',
+        url: 'https://www.un.org/en/multilingualism',
+      },
+      {
+        label: 'UNTERM — baza terminologiczna ONZ',
+        url: 'https://unterm.un.org/',
+      },
+    ],
+  },
+  {
+    slug: 'najpopularniejsze-jezyki-swiata',
+    title: 'Najpopularniejsze języki świata — i dlaczego rankingi się różnią',
+    description:
+      'Mandaryński, hiszpański, angielski, hindi, arabski — które języki mają najwięcej użytkowników i dlaczego każdy ranking podaje inne liczby.',
+    lead:
+      'Języki można liczyć na wiele sposobów: jako język ojczysty, jako drugi język, jako język urzędowy albo jako język internetu. Odpowiedź na pytanie „który jest najpopularniejszy?” zależy od tego, co dokładnie liczymy.',
+    date: '2026-10-31T12:00:00+01:00',
+    dateLabel: '31 października 2026',
+    readingTime: '8 min',
+    category: 'Języki',
+    image: '/blog/najpopularniejsze-jezyki.svg',
+    imageAlt: 'Wykres słupkowy i globus — ilustracja rankingu najpopularniejszych języków.',
+    keywords: [
+      'najpopularniejsze języki',
+      'najczęściej używane języki',
+      'mandaryński',
+      'angielski',
+      'hiszpański',
+      'hindi',
+      'arabski',
+      'Ethnologue',
+    ],
+    sections: [
+      {
+        paragraphs: [
+          'Ranking „najpopularniejszych języków” nie jest jednym rankingiem. Inne liczby otrzymamy, pytając o język ojczysty, inne o język drugi, a jeszcze inne o język urzędowy lub o liczbę stron internetowych.',
+          'Najczęściej cytowane zestawienia opierają się na Ethnologue, które szacuje liczbę mówiących na podstawie dostępnych danych. Szacunki różnią się między edycjami, a kategorie bywają nieostre: „chiński” może oznaczać mandaryński, „arabski” — wspólnotę dialektów, a „hindi” — jeden z języków Indii.',
+        ],
+      },
+      {
+        heading: 'Najwięcej native speakerów: mandaryński',
+        paragraphs: [
+          'Mandaryński jest najczęściej wskazywany jako język o największej liczbie rodzimych użytkowników — w zależności od źródła ok. 900 mln do ponad miliarda. „Chiński” w rankingach to zwykle mandaryński, choć w Chinach mówi się także kantońskim, wu, minnan i innymi językami.',
+          'To ważne rozróżnienie: język i dialekt to kategorie polityczne i lingwistyczne zarazem. Wzajemna zrozumiałość bywa ograniczona, a klasyfikacja zależy od metodologii.',
+        ],
+      },
+      {
+        heading: 'Hiszpański, angielski, hindi',
+        paragraphs: [
+          'Hiszpański ma ok. 480–500 mln native speakerów i ogromny zasięg w Ameryce Łacińskiej, Hiszpanii i USA. Angielski ma mniej native speakerów (ok. 370–400 mln), ale największy zasięg jako język drugi i lingua franca — biznes, nauka, internet, lotnictwo.',
+          'Hindi jest jednym z największych języków Indii, ale kraj ma kilkanaście języków urzędowych i setki języków lokalnych; angielski odgrywa w Indiach rolę języka administracji i elit. Arabski, bengalski, portugalski, rosyjski i francuski uzupełniają czołówkę w zależności od kategorii. Portugalski zawdzięcza pozycję Brazylii, francuski — Afryce i dziedzictwu kolonialnemu, rosyjski — przestrzeni postsowieckiej.',
+        ],
+      },
+      {
+        heading: 'Ranking według łącznej liczby użytkowników',
+        paragraphs: [
+          'Gdy liczymy wszystkich mówiących — native i drugi język — na czoło wysuwa się angielski, a za nim mandaryński, hindi, hiszpański, francuski, arabski, bengalski, portugalski, rosyjski i urdu. Kolejność zmienia się w zależności od źródła i definicji.',
+          'Liczby dla języków drugich są szczególnie trudne: czy osoba, która zna angielski na poziomie A2, jest „użytkownikiem”? Czy emigrant, który mówi w domu innym językiem, liczy się podwójnie? Odpowiedzi zmieniają ranking.',
+        ],
+      },
+      {
+        heading: 'Dlaczego to ma znaczenie dla tłumaczeń',
+        paragraphs: [
+          'Popularność języka nie jest tym samym co popyt na tłumaczenia. W biznesie liczą się pary językowe, branża i kontekst; w prawie — język urzędowy i dostępność tłumaczy przysięgłych; w marketingu — lokalne odmiany i kultura.',
+          'Angielski bywa językiem pośrednim, ale tłumaczenie „z angielskiego” nie zawsze znaczy „z oryginału”. Wiele projektów wymaga tłumaczenia z języka źródłowego, nie z wersji pośredniej — zwłaszcza w tekstach prawnych i technicznych.',
+        ],
+      },
+      {
+        heading: 'Najważniejsze wnioski',
+        list: [
+          'Mandaryński ma najwięcej native speakerów.',
+          'Angielski ma największy zasięg jako język drugi.',
+          'Hiszpański, hindi, arabski, bengalski, portugalski, rosyjski i francuski tworzą zmienną czołówkę.',
+          'Ranking zależy od definicji: native, total, urzędowy, internetowy.',
+          'Dla tłumacza ważniejszy od rankingu jest konkretny kontekst i para językowa.',
+        ],
+        paragraphs: [
+          'Najpopularniejszy język świata nie istnieje w jednej wersji. Istnieje wiele sposobów liczenia — i wiele powodów, dla których warto znać różnicę.',
+        ],
+      },
+    ],
+    sources: [
+      {
+        label: 'Ethnologue — What are the top 200 most spoken languages?',
+        url: 'https://www.ethnologue.com/insights/ethnologue200/',
+      },
+      {
+        label: 'Ethnologue — baza języków świata',
+        url: 'https://www.ethnologue.com/',
+      },
+    ],
+  },
+  {
+    slug: 'najrzadsze-jezyki-swiata',
+    title: 'Najrzadsze języki świata — od kilku mówiących do ciszy',
+    description:
+      'Języki z jedną, dwiema albo kilkunastoma osobami mówiącymi wciąż istnieją. Co je łączy i dlaczego ich strata dotyczy nas wszystkich?',
+    lead:
+      'Są języki, którymi mówi więcej ludzi niż mieszkańców niejednego miasta. Są też takie, które mają ostatnich mówiących. Granica między „rzadki” a „wymarły” bywa płynna — i zależy od tego, kogo zapytamy.',
+    date: '2026-10-31T13:00:00+01:00',
+    dateLabel: '31 października 2026',
+    readingTime: '7 min',
+    category: 'Języki',
+    image: '/blog/najrzadsze-jezyki.svg',
+    imageAlt: 'Lupa i mały dymek — ilustracja wpisu o najrzadszych językach świata.',
+    keywords: [
+      'najrzadsze języki',
+      'wymierające języki',
+      'języki zagrożone',
+      'UNESCO',
+      'Tanema',
+      'Lemerig',
+      'Njerep',
+      'rewitalizacja',
+    ],
+    sections: [
+      {
+        paragraphs: [
+          'Najrzadszy język świata to trudna kategoria. Liczby mówiących są szacunkami, zmieniają się z roku na rok, a granica między „językiem” a „dialektem” bywa polityczna. Jedno pozostaje pewne: na świecie wciąż istnieją języki, którymi posługują się pojedyncze osoby.',
+          'UNESCO World Atlas of Languages dokumentuje ponad 8 tysięcy języków, z czego około 7 tysięcy jest w użyciu. Część z nich ma status krytycznie zagrożonych; inne są już nieużywane.',
+        ],
+      },
+      {
+        heading: 'Kilka przykładów',
+        list: [
+          'Tanema (Wyspy Salomona) — według szacunków z ostatnich dekad mówiła nim garstka osób; sąsiednie języki przejęły funkcje komunikacyjne.',
+          'Lemerig (Vanuatu) — jeden z wielu języków Vanuatu; liczba mówiących spadła do kilku osób, co czyni go skrajnie zagrożonym.',
+          'Njerep (Kamerun) — język starszego pokolenia, wypierany przez większe języki regionu; dziś ma niewielu mówiących.',
+          'Liki (Indonezja) — język z kilkunastoma użytkownikami, położony na małej wyspie; izolacja geograficzna nie zawsze chroni przed utratą języka.',
+          'Ainu (Japonia) — język rdzennej ludności, przez długi czas marginalizowany; dziś podejmuje się działania rewitalizacyjne, choć liczba płynnych mówiących jest niewielka.',
+          'Liwski (Łotwa) — język bałtycki z kilkudziesięcioma mówiącymi; przykład społeczności, która aktywnie pracuje nad jego utrzymaniem.',
+          'Kornijski i manx — języki uznane niegdyś za wymarłe, dziś odradzane dzięki edukacji i kulturze; pokazują, że „ostatni mówiący” nie musi być końcem historii.',
+        ],
+        paragraphs: [
+          'Te przykłady pokazują, że „najrzadszy” nie jest stałą etykietą. Język może stracić mówiących, ale też odzyskać ich dzięki pracy społeczności, szkołom i mediom.',
+        ],
+      },
+      {
+        heading: 'Dlaczego języki znikają',
+        paragraphs: [
+          'Utrata języka rzadko wynika z jednej przyczyny. Zwykle łączy się z presją ekonomiczną, migracją, systemem edukacji, stygmatyzacją i brakiem przekazu międzypokoleniowego. Rodzice wybierają język, który daje dzieciom lepsze szanse; społeczność może uznać własny język za „wiejski” lub „przeszły”.',
+          'Globalizacja nie jest jedynym winowajcą. W wielu miejscach języki mniejszości były przez dziesięciolecia wypierane przez politykę państwa. Dlatego ochrona języków jest też kwestią praw człowieka i sprawiedliwości.',
+        ],
+      },
+      {
+        heading: 'Dlaczego to ważne',
+        paragraphs: [
+          'Język to nie tylko narzędzie komunikacji. To system klasyfikacji świata, wiedza o przyrodzie, historii i prawie, sposób przekazywania pamięci. Gdy znika język, znika też część wiedzy, której nie da się przetłumaczyć bez reszty.',
+          'Nie chodzi o romantyczną nostalgię. Chodzi o różnorodność poznawczą i kulturową, która jest zasobem całej ludzkości.',
+        ],
+      },
+      {
+        heading: 'Co można zrobić',
+        list: [
+          'Dokumentacja — nagrania, transkrypcje, słowniki, korpusy.',
+          'Rewitalizacja — nauka w szkołach, programy dla dorosłych, media i literatura.',
+          'Technologia — klawiatury, czcionki, aplikacje, społecznościowe słowniki.',
+          'Wsparcie społeczności — decyzje powinny należeć do mówiących, nie tylko do badaczy.',
+          'Edukacja i polityka językowa — ochrona języków mniejszości w prawie i praktyce.',
+        ],
+        paragraphs: [
+          'Najrzadsze języki nie są ciekawostką z muzeum. Są żywym świadectwem tego, jak różnie można opisywać świat — i przypomnieniem, że różnorodność wymaga codziennej pracy.',
+        ],
+      },
+    ],
+    sources: [
+      {
+        label: 'UNESCO — World Atlas of Languages',
+        url: 'https://en.wal.unesco.org/world-atlas-languages',
+      },
+      {
+        label: 'UNESCO — Indigenous Languages Decade',
+        url: 'https://www.unesco.org/en/decades/indigenous-languages',
+      },
+      {
+        label: 'Ethnologue — baza języków świata',
+        url: 'https://www.ethnologue.com/',
+      },
+    ],
+  },
+
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

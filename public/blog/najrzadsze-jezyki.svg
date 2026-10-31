@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#edf7f3"/>
+  <circle cx="1060" cy="100" r="240" fill="#d6ede6"/>
+  <circle cx="80" cy="590" r="180" fill="#e8f6ef"/>
+  <path d="M100 330C260 260 410 400 560 330" fill="none" stroke="#bcd9cc" stroke-width="3" stroke-dasharray="8 14"/>
+  <g>
+    <circle cx="760" cy="300" r="180" fill="#f5f2e9" stroke="#064e49" stroke-width="24"/>
+    <path d="M890 430L1030 570" stroke="#064e49" stroke-width="36" stroke-linecap="round"/>
+    <path d="M1000 540L1040 580" stroke="#066357" stroke-width="36" stroke-linecap="round"/>
+    <rect x="690" y="245" width="140" height="90" rx="24" fill="#b5f5da" stroke="#064e49" stroke-width="3"/>
+    <path d="M740 335l-20 34 58-34z" fill="#b5f5da" stroke="#064e49" stroke-width="3"/>
+    <text x="760" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#064e49">Aa</text>
+    <circle cx="640" cy="230" r="14" fill="#d97706"/>
+    <text x="590" y="400" font-family="Georgia, 'Times New Roman', serif" font-size="90" fill="#064e49" opacity=".25">…</text>
+  </g>
+  <g fill="#b5f5da" stroke="#064e49" stroke-width="2">
+    <circle cx="180" cy="360" r="18" opacity=".9"/>
+    <circle cx="260" cy="320" r="13" opacity=".7"/>
+    <circle cx="330" cy="370" r="9" opacity=".5"/>
+    <circle cx="390" cy="335" r="6" opacity=".35"/>
+  </g>
+  <text x="60" y="590" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#064e49" letter-spacing="-1">transla.</text>
+</svg>
