@@ -1,0 +1,448 @@
+{
+  "ui": {
+    "title": "Blog",
+    "eyebrow": "Blog Transla",
+    "lead": "Překladatelské omyly, světové jazyky a polské filmové tituly. Krátké texty o tom, jak jazyk mění příběhy — někdy vážně, někdy s trochou nadsázky.",
+    "description": "Překladatelské omyly, světové jazyky a polské filmové tituly. Krátké texty o tom, jak jazyk mění příběhy — někdy vážně, někdy s trochou nadsázky.",
+    "read": "Číst příspěvek",
+    "allPosts": "Všechny příspěvky",
+    "related": "Čtěte také",
+    "reading": "čtení",
+    "sources": "Zdroje a další četba",
+    "ctaTitle": "Máte text, který potřebuje druhý jazyk?",
+    "ctaText": "Pošlete dokument nebo popište projekt. Nabídku obvykle obdržíte do hodiny.",
+    "sidebarTitle": "Potřebujete překlad?",
+    "sidebarText": "Pošlete dokument nebo popište projekt. Nabídku obvykle obdržíte do hodiny.",
+    "blogName": "Blog Transla",
+    "blogLabel": "Blog"
+  },
+  "posts": {
+    "wpadki": {
+      "slug": "prekladatelske-omylu-ktere-zmenily-dejiny",
+      "title": "Překladatelské omyly, které změnily dějiny",
+      "description": "Šest příběhů o tom, jak jeden idiom, příliš doslovné slovo nebo nedostatek kontextu ovlivnil politiku, právo a kulturu.",
+      "lead": "Překlad může být neviditelný, pokud vše funguje. Když se však význam vymkne kontrole, účinky mohou být větší než jazykový vtip. Zde je šest případů, kdy překladatel — nebo ten, kdo za něj rozhodl — změnil průběh událostí.",
+      "date": "2026-10-31T09:00:00+01:00",
+      "dateLabel": "31. října 2026",
+      "readingTime": "9 min",
+      "category": "Historie",
+      "image": "/blog/wpadki-tlumaczy.svg",
+      "imageAlt": "Dva projevy a prasklá citace — ilustrace záznamu o překladatelských chybách.",
+      "keywords": [
+        "chyby překladu",
+        "historie překladu",
+        "Jimmy Carter",
+        "Chruščov",
+        "smlouva Waitangi",
+        "kanály na Marsu",
+        "masakr Grattan",
+        "Ábel a Kain"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "V diplomacii, soudu, redakci a vědě je překladatel pojítkem mezi záměrem a účinkem. Nestačí to slovo znát. Musíte vědět, co to v konkrétní situaci znamená, kdo to říká a jak si to druhá strana může vyzvednout. Když to chybí, vytváří se prostor pro nedorozumění — někdy vtipné, někdy drahé.",
+            "Následující příběhy mají jedno společné: překlad je rozhodnutí. Někdy ji přebírá tlumočník, někdy distributor, redaktor nebo úředník. Odpovědnost za význam je někdy rozptýlená, ale účinky jsou obvykle viditelné okamžitě."
+          ]
+        },
+        {
+          "heading": "Jimmy Carter v Polsku: vřelá slova, která zněla obscénně (1977)",
+          "paragraphs": [
+            "V prosinci 1977 navštívil Polsko americký prezident Jimmy Carter. Chtěl mluvit o zvědavosti Poláků a radosti z příchodu na venkov. Podle nejčastěji opakované zprávy překládal jeho překladatel Steven Seymour tyto myšlenky tak naneštěstí, že v médiích existovaly formulace o tělesné touze Poláků a uchopení Polska za intimní partie.",
+            "Dnes je těžké určit, do jaké míry je tento příběh přesným citátem a do jaké míry je novinářskou legendou. Seymour sám později vysvětlil, že některá obvinění byla přehnaná. To však nic nemění na tom nejdůležitějším: několik špatně zvolených slov stačilo k tomu, aby politické poselství zmizelo za fasádou skandálu.",
+            "Jedná se o klasický příklad rozdílu mezi doslovností a registrem. Věta, která v polštině zní jako zdvořilá zvědavost, může v angličtině znít jako nepřijatelná obeznámenost. Při překladu veřejných projevů je kontext stejně důležitý jako slovník."
+          ],
+          "quote": "V diplomacii nestačí říkat dobře. Musíte říct, co slyší druhá strana."
+        },
+        {
+          "heading": "Chruščov a „Pohřbíme tě“: metafora, která zněla jako verdikt (1956)",
+          "paragraphs": [
+            "V roce 1956 řekl Nikita Chruščov západním diplomatům, že historie je na straně socialismu a že vás „pohřbí“. Anglické „My tě pohřbíme“ se zapsalo do historie jako téměř doslovné oznámení jaderného vyhlazení.",
+            "Mezitím byla ruská formulace metaforou nevyhnutelného politického vítězství, nikoli plánem útoku. Chruščov opakovaně tvrdil, že nemyslel fyzický pohřeb Západu, ale marxistickou víru, že komunismus přežije kapitalismus.",
+            "Kolem tohoto příběhu došlo k dalšímu nedorozumění. Často bývá spojováno s rčením „ukážeme vám kovářku“, které působilo potíže i překladatelům. To ukazuje, jak snadno se dva různé idiomy spojují do jednoho politického mýtu — a jak důležité je nepřekládat frazeologii slovo od slova."
+          ]
+        },
+        {
+          "heading": "Smlouva z Waitangi: Dvě verze, jeden stát (1840)",
+          "paragraphs": [
+            "V roce 1840 podepsali zástupci britské koruny a maorských náčelníků smlouvu, která dodnes tvoří základ vztahů na Novém Zélandu. Anglická verze hovořila o převodu suverenity. Maorská verze, připravená misionáři, používala pojmy, které pro Maory znamenaly něco jiného: převod správní moci při zachování vlastních práv na půdu a komunitu.",
+            "Rozdíl nebyl ve stylistickém detailu. Postupem času se stala zdrojem sporů o půdu, válek a dlouhodobých procesů. Moderní Nový Zéland stále čelí důsledkům toho, jak dva jazyky popsaly jednu smlouvu.",
+            "V právních textech má každé slovo váhu. Překlad dokumentu, který rozděluje moc, není jazykovým cvičením — je to politické rozhodnutí. Mezinárodní dohody proto vyžadují nejen lingvisty, ale i právníky a dohodu o tom, které znění je závazné."
+          ]
+        },
+        {
+          "heading": "Kanály na Marsu: Jak jeden falešný přítel vytvořil civilizaci (1877)",
+          "paragraphs": [
+            "Italský astronom Giovanni Schiaparelli popsal tmavé linie na povrchu Marsu jako „canali“ — přírodní žlaby, příkopy, terénní útvary. V angličtině bylo toto slovo vykresleno jako „kanály“, což naznačuje kanály vykopané někým rozumným.",
+            "Tento nepatrný sémantický rozdíl stačil k tomu, aby se v představivosti publika objevila vyspělá civilizace. Percival Lowell rozvinul teorii marťanských kanálů a H.G. Wells ji použil ve „Válce světů“. Tak se zrodil jeden z nejtrvalejších motivů popkultury.",
+            "Připomíná, že falešní přátelé a příliš volné protějšky mohou změnit nejen text, ale i obraz světa. Ve vědeckých textech není přesnost ozdobou — je součástí metody."
+          ]
+        },
+        {
+          "heading": "Grattanský masakr: Když se tlumočník stane jiskrou (1854)",
+          "paragraphs": [
+            "V roce 1854 došlo v táboře Lakota ke sporu o krávu. Mladý poručík John Grattan se rozhodl pachatele zatknout. Podle zpráv si s sebou vzal tlumočníka, který dobře neznal jazyk a byl pod vlivem alkoholu. Jeho slova měla znít agresivněji, než náčelník zamýšlel.",
+            "Situace se vymkla kontrole. V přestřelce byl náčelník Dobyvatel Medvěd a vojáci zabiti. Událost se stala jiskrou, která zahájila první válku Siux a desetiletí konfliktu.",
+            "V krizových situacích je jazyková kompetence bezpečnostním problémem. Překladatel nemůže být doplňkem delegace. Musí být připraven na konverzaci, kde je v sázce nejvíce — a místo hádání má právo říci „Nerozumím“."
+          ]
+        },
+        {
+          "heading": "Ábel a Kain: omyl, který obrátil teologii (2004)",
+          "paragraphs": [
+            "V roce 2004 se v polském překladu papežského poselství ke Světovému dni míru objevila věta, že to byl Ábel, kdo zabil svého bratra Kaina. V biblických dějinách je to přesně naopak. Chyba byla tak zřejmá, že se rychle stala předmětem médií.",
+            "Nebyl to problém stylu ani nuancí. To byla chyba na úrovni významu, která v náboženském textu nabývá zvláštní váhy. Státní sekretariát a polské tiskové služby musely vysvětlit, odkud se chyba vzala.",
+            "Dokonce i zkušený tým potřebuje úpravy a korektury. V textech, které budou citovány a interpretovány, není prostor pro „téměř dobré“."
+          ]
+        },
+        {
+          "heading": "Co tyto příběhy učí",
+          "list": [
+            "Kontext je součástí významu. Bez něj může i správný překlad slovníku urazit, vystrašit nebo uvést v omyl.",
+            "Idiom není hádanka, kterou je třeba řešit slovo od slova. Jeho funkci musíte najít ve větě a dát ji v cílovém jazyce.",
+            "V právních, náboženských a diplomatických textech jsou důsledky chyb obzvláště trvalé.",
+            "Překladatel potřebuje kompetenci, přípravu a pracovní podmínky. Spěch a alkohol jsou špatní poradci.",
+            "Editace a korektura není luxus, ale poslední obranná linie významu."
+          ],
+          "paragraphs": [
+            "Tyto příběhy mohou být vtipné, ale připomínají nám vážnou věc: jazyk utváří realitu. Dobrý překlad není o tom, aby zněl chytře. Spočívá v vracení toho, co bylo skutečně řečeno — a nepřidávání ničeho od sebe."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "BBC Culture — Největší chybné překlady vůbec",
+          "url": "https://www.bbc.com/culture/article/20150202-the-greatest-mistranslations-ever"
+        },
+        {
+          "label": "Překladatelská agentura — Největší chyby v překladu na světě",
+          "url": "https://agencjatlumaczen.com.pl/aktualnosci/najwieksze-bledy-tlumaczeniowe-swiata/"
+        },
+        {
+          "label": "Swearing.online — Slavné chyby v překladu a co nás učí",
+          "url": "https://przysiegle.online/slynne-wpadki-tlumaczeniowe-i-czego-nas-ucza/"
+        }
+      ]
+    },
+    "film": {
+      "slug": "polske-nazvy-filmu",
+      "title": "Proč se z „Die Hard“ stal „Szklana pułapka“? Polské názvy filmů",
+      "description": "Od „Szklana pułapka“ po „Wirujący seks“ — jak distributoři měnili názvy filmů a co z toho vyplývá.",
+      "lead": "Polské tituly zahraničních filmů jsou někdy zapamatovatelnější než filmy samotné. Někdy pomáhají, někdy si hrají a někdy úplně mění smysl. Odkud tato rozhodnutí pocházejí a proč zde překladatel nemá vždy poslední slovo?",
+      "date": "2026-10-31T10:00:00+01:00",
+      "dateLabel": "31. října 2026",
+      "readingTime": "6 min",
+      "category": "kultura",
+      "image": "/blog/polskie-tytuly-filmow.svg",
+      "imageAlt": "Filmový výprask a páska — ilustrace záznamu o polských filmových titulech.",
+      "keywords": [
+        "polské filmové tituly",
+        "překlad filmových titulů",
+        "Die Hard",
+        "Hříšný tanec",
+        "Terminátor",
+        "Movieweb"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Na rozdíl od všeobecného přesvědčení o konečném názvu obvykle nerozhoduje překladatel. Rozhodnutí činí distributor nebo výrobce a překlad názvu je pouze jedním z prvků kampaně. Název je prodat vstupenku, VHS kazetu nebo předplatné — musí být chytlavé, srozumitelné a přizpůsobené místnímu trhu.",
+            "Proto je polská historie filmových titulů plná hitů i kuriozit. Někteří z nich vstoupili do jazyka natrvalo, jiní jsou dodnes překvapeni. Zde je několik příkladů, které nejlépe ukazují, jak mohou různé strategie změnit vnímání filmu."
+          ]
+        },
+        {
+          "heading": "Klasika, která se dostala do popkultury",
+          "list": [
+            "Die Hard → Szklana pułapka. Titul se odtrhl od doslovného „s obtížemi zemřít“ a proměnil mrakodrap v past. Dnes je těžké si představit jinou verzi.",
+            "The Terminator → Elektroniczny morderca. Raný polský název z 80. let zní jako popis zařízení z katalogu, ne jako akční film. V průběhu času vyhrál původní „Terminátor“.",
+            "Dirty Dancing → Wirujący seks. Titul, který by dnes neprošel marketingem. V 80. letech se věnoval literalismu a kontroverzi, dnes je symbolem překladatelské odvahy či nesmyslnosti.",
+            "Reality Bites → Orbitowanie bez cukru. Hádanka. Název nemá s originálem mnoho společného, podle jedné interpretace se týkal reklamy na žvýkačku. Výsledek: zajímavý, ale ne zřejmý.",
+            "Under Siege → Liberator. Název se změnil ve jménu silnějšího zvuku. „Osvoboditel“ zní jako jméno superhrdiny, ne jako film o lodi.",
+            "Phantasm → Mordercze kuleczki. Literálnost zašla příliš daleko: místo hrůzy se objevuje obraz kuliček. Proto se na tento název dnes vzpomíná.",
+            "Million Dollar Baby → Za wszelką cenę. Namísto sportovního příběhu o boxerovi dostaneme frázi o ceně, kterou musíte zaplatit. Název slibuje drama, ale ztrácí hrdinku."
+          ]
+        },
+        {
+          "heading": "Čtyři strategie překladu titulků",
+          "list": [
+            "Doslovný překlad — např. How I Met Your Mother → Jak poznałem waszą matkę. Věrný, ale někdy těžkopádný a bez fantazie.",
+            "Originál zůstává nezměněn — např. Pulp Fiction, Gran Torino. Značka a zvuk se ukázaly být důležitější než srozumitelnost.",
+            "Hybrid — originál plus polský podtitul, např. Braveheart – Waleczne serce, Alien – Ósmy pasażer Nostromo. Název doplňuje žánr a usnadňuje identifikaci.",
+            "Marketingová interpretace — název oddělený od originálu, aby přilákal diváky. Největší pole pro nehody a nejvíce příběhů, které dodnes baví."
+          ]
+        },
+        {
+          "heading": "Proč k tomu dochází",
+          "paragraphs": [
+            "Trh s kinem a VHS potřeboval krátká a silná hesla. Název byl reklama, ne překlad. Distributoři testovali různé verze a překladatel často obdržel hotové pokyny nebo pracoval na textu, což později změnilo marketingové oddělení.",
+            "Moderní streamovací platformy s větší pravděpodobností opustí originál nebo zvolí jednodušší, méně invazivní překlady. Je to důsledek globalizace a skutečnosti, že diváci hledají film podle jména, které znají. Ale stará škola polských titulů se stále vrací v rozhovorech — a memech."
+          ]
+        },
+        {
+          "heading": "Co by měl dobrý název dělat",
+          "paragraphs": [
+            "Dobrý název by měl odrážet žánr, tón a příslib filmu. Nemusí to být doslovné, ale nemělo by to být zavádějící. Hranice mezi stvořením a manipulací je tenká: „Skleněná past“ funguje, protože předpovídá napětí a místo působení. „Spinning Sex“ se nyní chová spíše jako varovný příběh než jako reklama.",
+            "Polské filmové tituly jsou svědectvím doby, ve které vznikaly. Smějí se, dráždí, ale také ukazují, jak důležitý je jazyk při prodeji kultury. Až příště uvidíte podivný název, zamyslete se: ne vždy to byla chyba překladatele. Někdy to byl marketing, který udělal rozhodnutí, a překladatel musel najít jazyk pro to."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Filmweb — Polské překlady filmových titulů",
+          "url": "https://www.filmweb.pl/news/ARTYKU%C5%81%3A+Polskie+t%C5%82umaczenia+tytu%C5%82%C3%B3w+filmowych-44124"
+        }
+      ]
+    },
+    "un": {
+      "slug": "jazyky-osn",
+      "title": "Jazyky OSN: šest hlasů, jedna organizace",
+      "description": "Proč má OSN šest úředních jazyků, jak se liší od pracovních jazyků a jak vypadá práce překladatelů v místě, kde každá verze musí znamenat totéž?",
+      "lead": "V OSN nestačí jednou něco říct. Stejná věta musí znít v šesti jazycích — a v každé verzi to znamená totéž. Takto funguje mnohojazyčnost v organizaci, která promlouvá téměř k celému světu.",
+      "date": "2026-10-31T11:00:00+01:00",
+      "dateLabel": "31. října 2026",
+      "readingTime": "7 min",
+      "category": "Jazyky",
+      "image": "/blog/jezyki-onz.svg",
+      "imageAlt": "Glóbus a šest balónků s kódy jazyků OSN.",
+      "keywords": [
+        "jazyky Organizace spojených národů",
+        "úřední jazyky Organizace spojených národů",
+        "překlady OSN",
+        "Arabština",
+        "čínština",
+        "anglický",
+        "francouzský",
+        "rosyjski",
+        "španělština"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "OSN má šest úředních jazyků: arabštinu, čínštinu, angličtinu, francouzštinu, ruštinu a španělštinu. Nejde o to mít rád jazyky, ale o politický kompromis a diplomatickou praxi. Každý z nich měl historický, demografický nebo politický význam — od stálých členů Rady bezpečnosti až po koloniální pásmo a diasporu.",
+            "Úřední jazyky se používají při jednáních, dokumentech a usneseních. Kromě toho jsou pracovními jazyky sekretariátu angličtina a francouzština. Rozdíl mezi „oficiálním“ a „pracovním“ je někdy zmatený; v praxi to znamená různé rozsahy použití a různé náklady."
+          ]
+        },
+        {
+          "heading": "Proč právě těchto šest?",
+          "paragraphs": [
+            "Původní četa z roku 1945 zahrnovala čínštinu, angličtinu, francouzštinu, ruštinu a španělštinu. Arabština se připojila v roce 1973, kdy ji Valné shromáždění uznalo za úřední jazyk. Šest jazyků je také šest simultánních překladatelských kanálů, šest verzí dokumentů a šest sad terminologie.",
+            "V praxi OSN zaměstnává překladatele, tlumočníky, editory a terminology, kteří zajišťují, aby právní a politické koncepty byly konzistentní ve všech verzích. Jedná se o neviditelnou infrastrukturu mnohojazyčnosti — a jednu z podmínek, za kterých lze rozhodnutí organizace považovat za společná."
+          ]
+        },
+        {
+          "heading": "Šest dní, šest jazyků",
+          "list": [
+            "Arabsky — 18. prosince.",
+            "Čínština — 20. dubna.",
+            "Angličtina — 23. dubna.",
+            "Francouzština — 20. března.",
+            "Ruština — 6. června.",
+            "Španělština — 12. října."
+          ],
+          "paragraphs": [
+            "Jazykové dny nejsou jen kalendářní kuriozitou. Ukazují, že mnohojazyčnost je součástí veřejné diplomacie: buduje viditelnost kultur a připomíná rovnost jazyků v organizaci."
+          ]
+        },
+        {
+          "heading": "Překladatel v OSN: přesnost a tempo",
+          "paragraphs": [
+            "Simultánní tlumočení vyžaduje dělitelnost pozornosti, přípravy a mistrovství. Mluvčí nečeká; překladatel musí sdělit význam v reálném čase, zachovat jména, čísla a nuance. V diplomacii může jedno špatné sloveso změnit váhu celé věty.",
+            "Dokumenty procházejí redakcí a terminologickou kontrolou. OSN udržuje terminologickou databázi UNTERM, která pomáhá udržovat konzistenci mezi jazyky. Překlad není doplňkem politiky — je jedním z jejích nástrojů."
+          ]
+        },
+        {
+          "heading": "Co z toho vyplývá?",
+          "list": [
+            "Šest jazyků je kompromisem mezi reprezentací a cenou.",
+            "Mnohojazyčnost není o doslovném kopírování textu, ale o obnovení významu v různých jazykových systémech.",
+            "Terminologická konzistence je součástí právní a politické bezpečnosti.",
+            "Jazyk je nástroj legitimity: rozhodnutí v šesti jazycích má různé příjemce a různé důsledky než zpráva v jednom."
+          ],
+          "paragraphs": [
+            "OSN připomíná, že překlad není přídavkem k politice. Je to jedna z podmínek, za kterých lze pojistku chápat a uznávat jako běžnou."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OSN — Úřední jazyky",
+          "url": "https://www.un.org/en/our-work/official-languages"
+        },
+        {
+          "label": "OSN — Mnohojazyčnost",
+          "url": "https://www.un.org/en/multilingualism"
+        },
+        {
+          "label": "UNTERM — terminologická databáze OSN",
+          "url": "https://unterm.un.org/"
+        }
+      ]
+    },
+    "popular": {
+      "slug": "nejpouzivanejsi-jazyky-sveta",
+      "title": "Nejoblíbenější jazyky na světě — a proč se žebříčky liší",
+      "description": "Mandarínština, španělština, angličtina, hindština, arabština — které jazyky mají nejvíce uživatelů a proč každé pořadí dává různá čísla.",
+      "lead": "Jazyky lze počítat mnoha způsoby: jako mateřský jazyk, jako druhý jazyk, jako úřední jazyk nebo jako jazyk internetu. Odpověď na otázku „který z nich je nejoblíbenější?“ záleží na tom, co přesně počítáme.",
+      "date": "2026-10-31T12:00:00+01:00",
+      "dateLabel": "31. října 2026",
+      "readingTime": "8 min",
+      "category": "Jazyky",
+      "image": "/blog/najpopularniejsze-jezyki.svg",
+      "imageAlt": "Sloupcový graf a glóbus — ilustrace žebříčku nejpopulárnějších jazyků.",
+      "keywords": [
+        "nejoblíbenější jazyky",
+        "nejčastěji používané jazyky",
+        "mandarínština",
+        "anglický",
+        "španělština",
+        "hindština",
+        "Arabština",
+        "Ethnologue"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Žebříček „nejpopulárnějších jazyků“ není jediným žebříčkem. Další čísla budou získána dotazem na mateřský jazyk, další na druhý jazyk a ještě další na úřední jazyk nebo počet webových stránek.",
+            "Nejčastěji citované výroky jsou založeny na Ethnologue, který odhaduje počet řečníků na základě dostupných dat. Odhady se mezi vydáními liší a kategorie jsou někdy rozmazané: „čínština“ může znamenat mandarínštinu, „arabština“ — společenství dialektů a „hindština“ — jeden z jazyků Indie."
+          ]
+        },
+        {
+          "heading": "Většina rodilých mluvčích: mandarínština",
+          "paragraphs": [
+            "Mandarínština je nejčastěji uváděna jako jazyk s největším počtem rodilých mluvčích — v závislosti na zdroji, asi 900 milionů až více než miliarda. „Čínština“ v žebříčku je obvykle mandarínština, i když v Číně se mluví také kantonštinou, wu, minnanem a dalšími jazyky.",
+            "To je důležitý rozdíl: jazyk a dialekt jsou zároveň politickými a jazykovými kategoriemi. Vzájemná srozumitelnost je někdy omezená a klasifikace závisí na metodice."
+          ]
+        },
+        {
+          "heading": "Španělština, angličtina, hindština",
+          "paragraphs": [
+            "Španělština má asi 480–500 milionů rodilých mluvčích a obrovský dosah v Latinské Americe, Španělsku a USA. Angličtina má méně rodilých mluvčích (asi 370–400 milionů), ale největší rozsah jako druhý jazyk a lingua franca — obchod, věda, internet, letectví.",
+            "Hindština je jedním z největších indických jazyků, ale země má asi tucet úředních jazyků a stovky místních jazyků; angličtina hraje roli správy a elitního jazyka v Indii. Arabština, bengálština, portugalština, ruština a francouzština jsou na prvním místě seznamu v závislosti na kategorii. Portugalci vděčí za své postavení Brazílii, Francouzi Africe a koloniálnímu dědictví a Rusové postsovětskému prostoru."
+          ]
+        },
+        {
+          "heading": "Pořadí podle celkového počtu uživatelů",
+          "paragraphs": [
+            "Když počítáme všechny mluvčí — rodný i druhý jazyk — dostává se do popředí angličtina, následuje mandarínština, hindština, španělština, francouzština, arabština, bengálština, portugalština, ruština a urdština. Pořadí se liší v závislosti na zdroji a definici.",
+            "Čísla pro druhé jazyky jsou obzvláště obtížná: je osoba, která ovládá angličtinu na úrovni A2, „uživatelem“? Počítá se přistěhovalec, který doma mluví jiným jazykem, dvojnásobně? Odpovědi mění pořadí."
+          ]
+        },
+        {
+          "heading": "Proč je to důležité pro překlady",
+          "paragraphs": [
+            "Popularita jazyka není stejná jako poptávka po překladech. V podnikání, jazykových párech, průmyslu a kontextu počítáme; v právu — úřední jazyk a dostupnost soudních překladatelů; v marketingu — místní odrůdy a kultura.",
+            "Angličtina je někdy zprostředkujícím jazykem, ale překlad „z angličtiny“ neznamená vždy „z originálu“. Mnoho projektů vyžaduje překlad ze zdrojového jazyka, nikoli z přechodné verze — zejména v právních a technických textech."
+          ]
+        },
+        {
+          "heading": "Nejdůležitější závěry",
+          "list": [
+            "Mandarínština má nejvíce rodilých mluvčích.",
+            "Angličtina má největší rozsah jako druhý jazyk.",
+            "Variabilní frontu tvoří španělština, hindština, arabština, bengálština, portugalština, ruština a francouzština.",
+            "Pořadí závisí na definicích: nativní, celkem, oficiální, online.",
+            "Pro překladatele je důležitější specifický kontext a jazykový pár než pořadí."
+          ],
+          "paragraphs": [
+            "Nejpopulárnější jazyk na světě neexistuje v jedné verzi. Existuje mnoho způsobů, jak počítat — a mnoho důvodů, proč poznat rozdíl."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ethnologue — Jakých je 200 nejrozšířenějších jazyků?",
+          "url": "https://www.ethnologue.com/insights/ethnologue200/"
+        },
+        {
+          "label": "Ethnologue — databáze světových jazyků",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    },
+    "rare": {
+      "slug": "nejvzacnejsi-jazyky-sveta",
+      "title": "Nejvzácnější jazyky světa — od několika mluvčích k tichu",
+      "description": "Jazyky s jedním, dvěma nebo tuctem mluvčích stále existují. Co mají společného a proč se jejich ztráta dotýká nás všech?",
+      "lead": "Jazyky mluví více lidí než obyvatelé mnoha měst. Jsou i takoví, kteří mají poslední řečníky. Hranice mezi „vzácným“ a „vyhynulým“ je někdy proměnlivá — a záleží na tom, koho se zeptáme.",
+      "date": "2026-10-31T13:00:00+01:00",
+      "dateLabel": "31. října 2026",
+      "readingTime": "7 min",
+      "category": "Jazyky",
+      "image": "/blog/najrzadsze-jezyki.svg",
+      "imageAlt": "Lupa a malá bublinka — ilustrace záznamu o nejvzácnějších jazycích světa.",
+      "keywords": [
+        "nejvzácnější jazyky",
+        "umírající jazyky",
+        "ohrožené jazyky",
+        "FAO",
+        "Tanema",
+        "Lemerig",
+        "Njerep",
+        "Revitalizace"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Nejvzácnější jazyk na světě je obtížná kategorie. Čísla řečníků jsou odhady, rok od roku se mění a hranice mezi „jazykem“ a „dialektem“ je někdy politická. Jedna věc zůstává jistá: na světě stále existují jazyky, kterými mluví jednotlivci.",
+            "Světový atlas jazyků UNESCO dokumentuje více než 8 000 jazyků, z nichž se používá asi 7 000. Některé z nich mají status kriticky ohrožených, jiné se již nevyužívají."
+          ]
+        },
+        {
+          "heading": "Několik názorných příkladů",
+          "list": [
+            "Tanema (Šalamounovy ostrovy) — podle odhadů z posledních desetiletí jí hovořila hrstka lidí, komunikační funkce převzaly sousední jazyky.",
+            "Lemerig (Vanuatu) — jeden z mnoha jazyků Vanuatu; počet mluvčích klesl na několik, což je velmi ohroženo.",
+            "Njerep (Kamerun) — jazyk starší generace, vysídlený většími jazyky regionu; dnes má málo mluvčích.",
+            "Liki (Indonésie) — jazyk s asi tuctem mluvčích, který se nachází na malém ostrově; geografická izolace ne vždy chrání před ztrátou jazyka.",
+            "Ainu (Japonsko) — jazyk domorodých lidí, dlouhodobě marginalizovaný; dnes se provádějí revitalizační aktivity, i když počet plynně mluvících je malý.",
+            "Liwski (Lotyšsko) — baltský jazyk s několika desítkami mluvčích; příklad komunity, která aktivně pracuje na jeho udržení.",
+            "Kornština a Manx — jazyky kdysi považované za zaniklé, dnes odrazované vzděláním a kulturou, ukazují, že „posledním řečníkem“ nemusí být konec dějin."
+          ],
+          "paragraphs": [
+            "Tyto příklady ukazují, že „nejvzácnější“ není pevná značka. Jazyk může ztratit mluvčí, ale také je získat zpět díky práci komunity, škol a médií."
+          ]
+        },
+        {
+          "heading": "Proč mizí jazyky",
+          "paragraphs": [
+            "Ztráta jazyka zřídka vyplývá z jediné příčiny. Obvykle je spojena s ekonomickým tlakem, migrací, vzdělávacím systémem, stigmatizací a nedostatkem mezigeneračního přenosu. Rodiče si vybírají jazyk, který dává jejich dětem lepší příležitosti; komunita může považovat jejich vlastní jazyk za „venkovský“ nebo „minulost“.",
+            "Globalizace není jediným viníkem. Na mnoha místech jsou menšinové jazyky již desítky let vytlačovány státní politikou. Proto je ochrana jazyků také otázkou lidských práv a spravedlnosti."
+          ]
+        },
+        {
+          "heading": "Proč je to důležité?",
+          "paragraphs": [
+            "Jazyk není jen komunikační nástroj. Je to systém klasifikace světa, poznání přírody, historie a práva, způsob přenosu paměti. Když zmizí jazyk, zcela zmizí část znalostí, kterou nelze přeložit.",
+            "Nejde o romantickou nostalgii. Jde o kognitivní a kulturní rozmanitost, která je zdrojem pro celé lidstvo."
+          ]
+        },
+        {
+          "heading": "Co můžete udělat vy?",
+          "list": [
+            "Dokumentace — nahrávky, přepisy, slovníky, korpusy.",
+            "Revitalizace — výuka ve školách, programy pro dospělé, média a literatura.",
+            "Technologie — klávesnice, fonty, aplikace, sociální slovníky.",
+            "Komunitní podpora — rozhodnutí by měla patřit řečníkům, nejen výzkumným pracovníkům.",
+            "Vzdělávací a jazyková politika — ochrana menšinových jazyků v právu a praxi."
+          ],
+          "paragraphs": [
+            "Nejvzácnější jazyky nejsou zvědavostí muzea. Jsou živým svědectvím toho, jak odlišně lze popsat svět — a připomínkou toho, že rozmanitost vyžaduje každodenní práci."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "UNESCO — Světový atlas jazyků",
+          "url": "https://en.wal.unesco.org/world-atlas-languages"
+        },
+        {
+          "label": "UNESCO — Desetiletí domorodých jazyků",
+          "url": "https://www.unesco.org/en/decades/indigenous-languages"
+        },
+        {
+          "label": "Ethnologue — databáze světových jazyků",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    }
+  }
+}

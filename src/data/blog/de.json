@@ -1,0 +1,438 @@
+{
+  "ui": {
+    "title": "Blog",
+    "eyebrow": "Transla Blog",
+    "lead": "Übersetzerpatzer, Weltsprachen und polnische Filmtitel. Kurze Texte darüber, wie Sprache die Geschichte verändert – manchmal ernsthaft, manchmal mit einer Prise Salz.",
+    "read": "Lesen Sie den Beitrag",
+    "allPosts": "Alle Beiträge",
+    "related": "Lesen Sie auch",
+    "reading": "Lesezeit",
+    "sources": "Quellen und weiterführende Literatur",
+    "ctaTitle": "Haben Sie einen Text, der eine zweite Sprache braucht?",
+    "ctaText": "Senden Sie ein Dokument oder beschreiben Sie das Projekt. In der Regel erhalten Sie innerhalb einer Stunde ein Angebot.",
+    "sidebarTitle": "Benötigen Sie eine Übersetzung?",
+    "sidebarText": "Senden Sie ein Dokument oder beschreiben Sie das Projekt. In der Regel erhalten Sie innerhalb einer Stunde ein Angebot.",
+    "description": "Übersetzerpatzer, Weltsprachen und polnische Filmtitel. Kurze Texte darüber, wie Sprache die Geschichte verändert – manchmal ernsthaft, manchmal mit einer Prise Salz.",
+    "blogName": "Transla Blog",
+    "blogLabel": "Blog"
+  },
+  "posts": {
+    "wpadki": {
+      "slug": "uebersetzungsfehler-die-geschichte-schrieben",
+      "title": "Fehler von Übersetzern, die die Geschichte veränderten",
+      "description": "Sechs Geschichten darüber, wie eine Redewendung, ein zu wörtliches Wort oder ein Mangel an Kontext Politik, Recht und Kultur beeinflussten.",
+      "lead": "Übersetzung ist unsichtbar, solange alles funktioniert. Wenn die Bedeutung jedoch außer Kontrolle gerät, können die Folgen größer sein als bei einem sprachlichen Witz. Hier sind sechs Fälle, in denen der Übersetzer – oder derjenige, der die Entscheidung für ihn getroffen hat – den Lauf der Dinge verändert hat.",
+      "dateLabel": "31. Oktober 2026",
+      "readingTime": "9 Min.",
+      "category": "Geschichte",
+      "imageAlt": "Zwei Reden und ein gebrochenes Zitat – Illustration eines Eintrags über Übersetzungsfehler.",
+      "keywords": [
+        "Übersetzungsfehler",
+        "Übersetzungsgeschichte",
+        "Jimmy Carter",
+        "Chruschtschow",
+        "Vertrag von Waitangi",
+        "Kanäle auf dem Mars",
+        "Grattan-Massaker",
+        "Abel und Kain"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "In Diplomatie, Gericht, Redaktion und Wissenschaft ist der Übersetzer das Bindeglied zwischen Absicht und Wirkung. Es reicht nicht aus, die Worte zu kennen. Sie müssen wissen, was es in einer bestimmten Situation bedeutet, wer es sagt und wie die andere Partei es wahrnehmen könnte. Wenn dies fehlt, kann es zu Missverständnissen kommen – manchmal lustig, manchmal kostspielig.",
+            "Die folgenden Geschichten haben eines gemeinsam: Übersetzen ist eine Entscheidung. Manchmal wird es von einem Übersetzer übernommen, manchmal von einem Vertreiber, Redakteur oder Beamten. Die Verantwortung für die Bedeutung mag zerstreut sein, aber die Auswirkungen sind meist sofort sichtbar."
+          ]
+        },
+        {
+          "heading": "Jimmy Carter in Polen: warme Worte, die obszön klangen (1977)",
+          "paragraphs": [
+            "Im Dezember 1977 besuchte US-Präsident Jimmy Carter Polen. Er wollte über die Neugier der Polen und die Freude sprechen, in das Land zu kommen. Dem am häufigsten wiederholten Bericht zufolge hat sein Übersetzer Steven Seymour diese Gedanken so schlecht übersetzt, dass in den Medien Phrasen über die fleischliche Begierde der Polen und die Ergreifung polnischer Geschlechtsteile auftauchten.",
+            "Es ist heute schwierig zu bestimmen, wie viel von dieser Geschichte ein genaues Zitat und wie viel eine journalistische Legende ist. Seymour selbst erklärte später, dass einige der Anschuldigungen übertrieben seien. Das ändert jedoch nichts am Wichtigsten: Ein paar schlecht gewählte Worte reichten aus, um die politische Botschaft hinter der Fassade des Skandals verschwinden zu lassen.",
+            "Dies ist ein klassisches Beispiel für den Unterschied zwischen Wörtlichkeit und Register. Ein Satz, der auf Polnisch wie höfliche Neugier klingt, kann auf Englisch wie inakzeptable Vertrautheit klingen. Bei der Übersetzung öffentlicher Reden ist der Kontext genauso wichtig wie das Wörterbuch."
+          ],
+          "quote": "In der Diplomatie reicht es nicht aus, gut zu sagen. Man muss sagen, was die andere Seite hören kann."
+        },
+        {
+          "heading": "Chruschtschow und „Wir werden dich begraben“: eine Metapher, die wie ein Urteil klang (1956)",
+          "paragraphs": [
+            "1956 soll Nikita Chruschtschow westlichen Diplomaten gesagt haben, dass die Geschichte auf der Seite des Sozialismus stehe und dass „sie dich begraben werden“. Das englische „We will bury you“ ging als fast wörtliche Ankündigung der nuklearen Zerstörung in die Geschichte ein.",
+            "Derweil war der russische Satz eine Metapher für einen unvermeidlichen politischen Sieg und kein Angriffsplan. Chruschtschow argumentierte wiederholt, dass er nicht von der physischen Bestattung des Westens spreche, sondern von der marxistischen Überzeugung, dass der Kommunismus den Kapitalismus überdauern würde.",
+            "Diese Geschichte ist von einem weiteren Missverständnis umgeben. Es wird oft mit dem Spruch „Wir zeigen dir die Mutter der Cousine“ kombiniert, was den Übersetzern ebenfalls Probleme bereitete. Dies zeigt, wie leicht zwei verschiedene Redewendungen zu einem politischen Mythos verschmelzen – und wie wichtig es ist, Phraseologie nicht Wort für Wort zu übersetzen."
+          ]
+        },
+        {
+          "heading": "Vertrag von Waitangi: zwei Versionen, ein Staat (1840)",
+          "paragraphs": [
+            "Im Jahr 1840 unterzeichneten Vertreter der britischen Krone und Maori-Häuptlinge einen Vertrag, der bis heute die Grundlage der Beziehungen in Neuseeland bildet. In der englischen Fassung war von der Übertragung der Souveränität die Rede. Die von den Missionaren erstellte Maori-Version verwendete Begriffe, die etwas anderes bedeuteten als die Maori: Verwaltungsgewalt aufgeben und gleichzeitig ihre eigenen Rechte auf Land und Gemeinschaft beibehalten.",
+            "Der Unterschied war keine geringfügige stilistische Sache. Im Laufe der Zeit wurde es zur Quelle von Landstreitigkeiten, Kriegen und langwierigen Gerichtsverfahren. Das moderne Neuseeland muss sich immer noch mit den Konsequenzen auseinandersetzen, die sich aus der Art und Weise ergeben, wie zwei Sprachen einen Vertrag beschreiben.",
+            "In juristischen Texten hat jedes Wort Gewicht. Die Übersetzung eines Dokuments zur Machtverteilung ist keine Sprachübung, sondern eine politische Entscheidung. Daher erfordern internationale Abkommen nicht nur Linguisten, sondern auch Anwälte und eine Vereinbarung darüber, welche Version bindend ist."
+          ]
+        },
+        {
+          "heading": "Kanäle auf dem Mars: Wie ein falscher Freund die Zivilisation schuf (1877)",
+          "paragraphs": [
+            "Der italienische Astronom Giovanni Schiaparelli beschrieb die dunklen Linien auf der Marsoberfläche als „Canali“ – natürliche Kanäle, Gräben, Landformationen. Im Englischen wird das Wort mit „canals“ wiedergegeben, was auf Kanäle schließen lässt, die von jemandem mit Intelligenz gegraben wurden.",
+            "Dieser geringfügige semantische Unterschied reichte aus, um in der Vorstellung der Öffentlichkeit eine fortgeschrittene Zivilisation zu schaffen. Percival Lowell entwickelte die Theorie der Marskanäle und H.G. Wells verwendete sie in „Der Krieg der Welten“. So entstand eines der beständigsten Motive der Popkultur.",
+            "Es ist eine Erinnerung daran, dass falsche Freunde und zu lockere Gegenüber nicht nur den Text, sondern auch das Bild der Welt verändern können. In wissenschaftlichen Texten ist Präzision keine Dekoration – sie ist Teil der Methode."
+          ]
+        },
+        {
+          "heading": "Das Grattan-Massaker: Wenn der Übersetzer zum Funken wird (1854)",
+          "paragraphs": [
+            "Im Jahr 1854 brach in einem Lakota-Lager ein Streit um eine Kuh aus. Der junge Leutnant John Grattan beschloss, den Täter festzunehmen. Berichten zufolge nahm er einen Übersetzer mit, der die Sprache nicht gut beherrschte und unter Alkoholeinfluss stand. Seine Worte sollten aggressiver klingen, als der Anführer beabsichtigt hatte.",
+            "Die Situation geriet außer Kontrolle. Chief Conquering Bear und die Soldaten wurden bei dem Schusswechsel getötet. Das Ereignis war der Funke, der den Ersten Sioux-Krieg und jahrzehntelange Konflikte auslöste.",
+            "In Krisensituationen ist Sprachkompetenz eine Frage der Sicherheit. Ein Übersetzer kann keine Ergänzung zu einer Delegation sein. Er muss auf ein Gespräch vorbereitet sein, bei dem es am höchsten auf dem Spiel steht – und das Recht haben, zu sagen: „Ich verstehe nicht“, anstatt zu raten."
+          ]
+        },
+        {
+          "heading": "Abel und Kain: der Irrtum, der die Theologie umkehrte (2004)",
+          "paragraphs": [
+            "Im Jahr 2004 enthielt die polnische Übersetzung der Botschaft des Papstes zum Weltfriedenstag den Satz, dass es Abel war, der seinen Bruder Kain tötete. In der biblischen Geschichte ist es genau umgekehrt. Der Fehler war so offensichtlich, dass er schnell zu einem Medienthema wurde.",
+            "Es war keine Frage des Stils oder der Nuancen. Es handelte sich um einen Fehler auf der Bedeutungsebene, der in einem religiösen Text besonders schwerwiegend ist. Das Staatssekretariat und der polnische Pressedienst mussten erklären, woher der Fehler kam.",
+            "Selbst ein erfahrenes Team braucht Lektorat und Korrekturlesen. In Texten, die zitiert und interpretiert werden, ist kein Platz für „fast richtig“."
+          ]
+        },
+        {
+          "heading": "Was diese Geschichten lehren",
+          "list": [
+            "Der Kontext ist Teil der Bedeutung. Ohne sie kann selbst eine im Wörterbuch korrekte Übersetzung beleidigen, erschrecken oder irreführen.",
+            "Ein Idiom ist kein Rätsel, das Wort für Wort gelöst werden muss. Man muss seine Funktion im Satz finden und sie in der Zielsprache ausdrücken.",
+            "In juristischen, religiösen und diplomatischen Texten sind die Folgen von Fehlern besonders nachhaltig.",
+            "Der Übersetzer braucht Kompetenz, Vorbereitung und Arbeitsbedingungen. Eile und Alkohol sind schlechte Ratgeber.",
+            "Lektorat und Korrekturlesen sind kein Luxus, sondern die letzte Verteidigungslinie für den Sinn."
+          ],
+          "paragraphs": [
+            "Diese Geschichten mögen lustig sein, aber sie erinnern uns an eine ernste Sache: Sprache prägt die Realität. Bei einer guten Übersetzung geht es nicht darum, klug zu klingen. Es geht darum, das wirklich Gesagte auszudrücken – und nichts Eigenes hinzuzufügen."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "BBC Culture – Die größten Fehlübersetzungen aller Zeiten",
+          "url": "https://www.bbc.com/culture/article/20150202-the-greatest-mistranslations-ever"
+        },
+        {
+          "label": "Übersetzungsagentur – Die größten Übersetzungsfehler der Welt",
+          "url": "https://agencjatlumaczen.com.pl/aktualnosci/najwieksze-bledy-tlumaczeniowe-swiata/"
+        },
+        {
+          "label": "Przysięgle.online – Berühmte Übersetzungsfehler und was wir daraus lehren müssen",
+          "url": "https://przysiegle.online/slynne-wpadki-tlumaczeniowe-i-czego-nas-ucza/"
+        }
+      ]
+    },
+    "film": {
+      "slug": "polnische-filmtitel",
+      "title": "Warum wurde aus „Die Hard“ „Szklana pułapka“? Polnische Filmtitel",
+      "description": "Von „Szklana pułapka“ bis „Wirujący seks“ – wie Verleiher Filmtitel veränderten und was daraus folgt.",
+      "lead": "Polnische Titel ausländischer Filme sind manchmal einprägsamer als die Filme selbst. Manchmal helfen sie, manchmal unterhalten sie und manchmal verändern sie die Bedeutung völlig. Woher kommen diese Entscheidungen und warum hat der Übersetzer nicht immer das letzte Wort?",
+      "dateLabel": "31. Oktober 2026",
+      "readingTime": "6 Min",
+      "category": "Kultur",
+      "imageAlt": "Filmslap and Tape – Illustration des Eintrags über polnische Filmtitel.",
+      "keywords": [
+        "Polnische Filmtitel",
+        "Übersetzung von Filmtiteln",
+        "Stirb langsam",
+        "Dirty Tanzen",
+        "Terminator",
+        "Filmweb"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Entgegen der landläufigen Meinung wird der endgültige Titel normalerweise nicht vom Übersetzer festgelegt. Die Entscheidung liegt beim Händler oder Hersteller und die Übersetzung des Titels ist nur ein Element der Kampagne. Der Titel soll ein Ticket, eine VHS-Kassette oder ein Abonnement verkaufen – er muss eingängig, verständlich und an den lokalen Markt angepasst sein.",
+            "Daher ist die polnische Geschichte der Filmtitel voller Hits und Kuriositäten. Einige sind zu einem festen Bestandteil der Sprache geworden, andere überraschen uns noch heute. Hier sind einige Beispiele, die am besten zeigen, wie unterschiedliche Strategien die Wahrnehmung eines Films verändern können."
+          ]
+        },
+        {
+          "heading": "Klassiker, die in die Popkultur Einzug gehalten haben",
+          "list": [
+            "Die Hard → Szklana pułapka. Der Titel löste sich vom wörtlichen „Stirb langsam“ und verwandelte den Wolkenkratzer in eine Falle. Heute kann man sich kaum noch eine andere Version vorstellen.",
+            "The Terminator → Elektroniczny morderca. Der frühe polnische Titel aus den 1980er Jahren klingt wie eine Beschreibung eines Geräts aus einem Katalog, nicht wie ein Actionfilm. Mit der Zeit siegte der ursprüngliche „Terminator“.",
+            "Dirty Dancing → Wirujący seks. Ein Titel, der heute nicht bestehen würde. In den 1980er Jahren konzentrierte er sich auf Literalismus und Kontroversen; Heute ist es ein Symbol für Übersetzungsmut oder mangelnde Sensibilität.",
+            "Reality Bites → Orbitowanie bez cukru. Rätsel. Der Titel hat nicht viel mit dem Original gemein; Einer Interpretation zufolge handelte es sich um eine Kaugummi-Werbung. Wirkung: faszinierend, aber nicht offensichtlich.",
+            "Under Siege → Liberator. Der Titel wurde im Namen eines stärkeren Sounds geändert. „Liberator“ klingt wie der Name eines Superhelden, nicht wie ein Film über ein Schiff.",
+            "Phantasm → Mordercze kuleczki. Die Wörtlichkeit geht zu weit: Statt Horror gibt es ein Bild von Bällen. Deshalb erinnert man sich heute an den Titel.",
+            "Million Dollar Baby → Za wszelką cenę. Anstelle einer Sportgeschichte über einen Boxer bekommen wir eine Phrase über den Preis, der gezahlt werden muss. Der Titel kündigt Drama an, verliert aber die Heldin."
+          ]
+        },
+        {
+          "heading": "Vier Strategien zum Übersetzen von Titeln",
+          "list": [
+            "Wörtliche Übersetzung – z. B. How I Met Your Mother → Jak poznałem waszą matkę. Treu, aber manchmal schwer und einfallslos.",
+            "Das Original bleibt unverändert – z.B. Pulp Fiction, Gran Torino. Es stellte sich heraus, dass die Marke und der Ton wichtiger waren als die Verständlichkeit.",
+            "Hybrid – Original plus polnischer Untertitel, z. B. Braveheart – Waleczne serce, Alien – Ósmy pasażer Nostromo. Der Titel ergänzt das Genre und erleichtert die Identifikation.",
+            "Marketing-Interpretation – ein vom Original losgelöster Titel, um Zuschauer anzulocken. Der größte Raum für Misserfolge und die meisten Geschichten, die auch heute noch unterhaltsam sind."
+          ]
+        },
+        {
+          "heading": "Warum passiert das?",
+          "paragraphs": [
+            "Der Kino- und VHS-Markt brauchte kurze, starke Slogans. Der Titel war eine Werbung, keine Übersetzung. Distributoren testeten verschiedene Versionen, und der Übersetzer erhielt häufig vorgefertigte Richtlinien oder arbeitete am Text, der später von der Marketingabteilung geändert wurde.",
+            "Moderne Streaming-Plattformen verlassen häufiger das Original oder wählen einfachere, weniger aufdringliche Übersetzungen. Dies ist das Ergebnis der Globalisierung und der Tatsache, dass Zuschauer nach einem Film mit einem Namen suchen, den sie kennen. Aber polnische Titel der alten Schule tauchen immer wieder in Gesprächen auf – und in Memes."
+          ]
+        },
+        {
+          "heading": "Was ein guter Titel bewirken sollte",
+          "paragraphs": [
+            "Ein guter Titel sollte das Genre, den Ton und das Versprechen des Films widerspiegeln. Es muss nicht wörtlich sein, aber es sollte nicht irreführend sein. Der Grat zwischen Kreation und Manipulation ist schmal: „Stirb langsam“ funktioniert, weil es Spannung und Setting ankündigt. „Whirling Sex“ wirkt heute eher als Warnung denn als Werbung.",
+            "Polnische Filmtitel sind Zeugnisse der Zeit, in der sie entstanden sind. Sie bringen uns zum Lachen, sie irritieren uns, aber sie zeigen auch, welch wichtige Rolle Sprache beim Verkauf von Kultur spielt. Wenn Sie das nächste Mal einen seltsamen Titel sehen, denken Sie daran: Es ist nicht immer die Schuld des Übersetzers. Manchmal war es das Marketing, das die Entscheidung traf und der Übersetzer musste die Sprache dafür finden."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Filmweb - Polnische Übersetzungen von Filmtiteln",
+          "url": "https://www.filmweb.pl/news/ARTYKU%C5%81%3A+Polskie+t%C5%82umaczenia+tytu%C5%82%C3%B3w+filmowych-44124"
+        }
+      ]
+    },
+    "un": {
+      "slug": "uno-sprachen",
+      "title": "UN-Sprachen: sechs Stimmen, eine Organisation",
+      "description": "Warum hat die UN sechs offizielle Sprachen, wie unterscheiden sie sich von Arbeitssprachen und wie sieht die Arbeit von Übersetzern an einem Ort aus, an dem jede Version dasselbe bedeuten muss?",
+      "lead": "Bei der UN reicht es nicht, etwas nur einmal zu sagen. Derselbe Satz muss in sechs Sprachen klingen – und in jeder Version dasselbe bedeuten. So funktioniert die Mehrsprachigkeit einer Organisation, die fast die ganze Welt anspricht.",
+      "dateLabel": "31. Oktober 2026",
+      "readingTime": "7 Min.",
+      "category": "Sprachen",
+      "imageAlt": "Ein Globus und sechs Sprechblasen mit UN-Sprachcodes.",
+      "keywords": [
+        "UN-Sprachen",
+        "UN-Amtssprachen",
+        "Übersetzungen UN",
+        "Arabisch",
+        "Chinesisch",
+        "Englisch",
+        "Französisch",
+        "Russisch",
+        "Spanisch"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Die Vereinten Nationen haben sechs offizielle Sprachen: Arabisch, Chinesisch, Englisch, Französisch, Russisch und Spanisch. Dabei geht es nicht um Sympathie für Sprachen, sondern um politischen Kompromiss und diplomatische Praxis. Jeder hatte historische, demografische oder politische Bedeutung, von der ständigen Mitgliedschaft im Sicherheitsrat bis zu seiner kolonialen und diasporischen Reichweite.",
+            "Amtssprachen werden in Beratungen, Dokumenten und Resolutionen verwendet. Als Arbeitssprachen des Sekretariats dienen zusätzlich Englisch und Französisch. Der Unterschied zwischen „offiziell“ und „Entwurf“ wird manchmal verwechselt; In der Praxis bedeutet das unterschiedliche Nutzungsumfänge und unterschiedliche Kosten."
+          ]
+        },
+        {
+          "heading": "Warum diese sechs?",
+          "paragraphs": [
+            "Die ursprüngliche Besetzung im Jahr 1945 umfasste Chinesisch, Englisch, Französisch, Russisch und Spanisch. Arabisch trat 1973 bei, als die Generalversammlung es als Amtssprache anerkannte. Die sechs Sprachen bedeuten auch sechs Kanäle für die Simultanübersetzung, sechs Dokumentversionen und sechs Terminologiesätze.",
+            "In der Praxis beschäftigen die Vereinten Nationen Übersetzer, Dolmetscher, Redakteure und Terminologen, die dafür sorgen, dass rechtliche und politische Konzepte in allen Versionen konsistent sind. Dies ist die unsichtbare Infrastruktur der Mehrsprachigkeit – und eine der Bedingungen, unter denen organisatorische Entscheidungen als kollektiv betrachtet werden können."
+          ]
+        },
+        {
+          "heading": "Sechs Tage, sechs Sprachen",
+          "list": [
+            "Arabisch – 18. Dezember.",
+            "Chinesisch – 20. April.",
+            "Englisch – 23. April.",
+            "Französisch – 20. März.",
+            "Russisch – 6. April.",
+            "Spanisch – Oktober 12."
+          ],
+          "paragraphs": [
+            "Sprachtage sind nicht nur eine kalendermäßige Kuriosität. Sie zeigen, dass Mehrsprachigkeit Teil der öffentlichen Diplomatie ist: Sie stärkt die Sichtbarkeit von Kulturen und erinnert an die Gleichheit der Sprachen in der Organisation."
+          ]
+        },
+        {
+          "heading": "Dolmetscher bei den Vereinten Nationen: Präzision und Tempo",
+          "paragraphs": [
+            "Simultandolmetschen erfordert geteilte Aufmerksamkeit, Vorbereitung und Beherrschung. Der Sprecher wartet nicht; Der Übersetzer muss die Bedeutung in Echtzeit vermitteln und dabei Namen, Zahlen und Nuancen beibehalten. In der Diplomatie kann ein schlecht gewähltes Verb das Gewicht des gesamten Satzes verändern.",
+            "Die Dokumente durchlaufen eine Bearbeitung und Terminologiekontrolle. Die UN unterhält die UNTERM-Terminologiedatenbank, die zur Wahrung der Konsistenz zwischen den Sprachen beiträgt. Übersetzung ist hier keine Ergänzung zur Politik – sie ist eines ihrer Werkzeuge."
+          ]
+        },
+        {
+          "heading": "Was folgt?",
+          "list": [
+            "Sechs Sprachen sind ein Kompromiss zwischen Repräsentation und Kosten.",
+            "Bei der Mehrsprachigkeit geht es nicht darum, Texte wörtlich zu kopieren, sondern darum, Bedeutung in verschiedenen Sprachsystemen zu reproduzieren.",
+            "Terminologische Konsistenz ist Teil der rechtlichen und politischen Sicherheit.",
+            "Sprache ist ein Instrument der Legitimation: Eine in sechs Sprachen getroffene Entscheidung hat unterschiedliche Zielgruppen und Konsequenzen als eine Botschaft in einem."
+          ],
+          "paragraphs": [
+            "Die Vereinten Nationen erinnern daran, dass Übersetzungen keine Ergänzung zur Politik sind. Dies ist eine der Voraussetzungen, aufgrund derer eine Police verstanden und als allgemein anerkannt werden kann."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "UN – Amtssprachen",
+          "url": "https://www.un.org/en/our-work/official-languages"
+        },
+        {
+          "label": "UN – Mehrsprachigkeit",
+          "url": "https://www.un.org/en/multilingualism"
+        },
+        {
+          "label": "UNTERM – UN-Terminologiedatenbank",
+          "url": "https://unterm.un.org/"
+        }
+      ]
+    },
+    "popular": {
+      "slug": "beliebteste-sprachen-der-welt",
+      "title": "Die beliebtesten Sprachen der Welt – und warum sich die Rankings unterscheiden",
+      "description": "Mandarin, Spanisch, Englisch, Hindi, Arabisch – welche Sprachen haben die meisten Sprecher und warum jedes Ranking unterschiedliche Zahlen ergibt.",
+      "lead": "Sprachen können auf viele Arten gezählt werden: als Muttersprache, als Zweitsprache, als Amtssprache oder als Internetsprache. Die Antwort auf die Frage „Welches ist am beliebtesten?“ hängt davon ab, was genau wir zählen.",
+      "dateLabel": "31. Oktober 2026",
+      "readingTime": "8 Min.",
+      "category": "Sprachen",
+      "imageAlt": "Balkendiagramm und Globus – Darstellung der Rangfolge der beliebtesten Sprachen.",
+      "keywords": [
+        "Beliebteste Sprachen",
+        "Am häufigsten verwendet Sprachen",
+        "Mandarin",
+        "Englisch",
+        "Spanisch",
+        "Hindi",
+        "Arabisch",
+        "Ethnologue"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Das Ranking der „beliebtesten Sprachen“ ist kein einheitliches Ranking. Wir erhalten unterschiedliche Zahlen, wenn wir nach der Muttersprache fragen, andere Zahlen, wenn wir nach der Zweitsprache fragen, und noch andere Zahlen, wenn wir nach der Amtssprache oder der Anzahl der Websites fragen.",
+            "Die am häufigsten zitierten Listen basieren auf Ethnologue, das die Anzahl der Sprecher auf der Grundlage verfügbarer Daten schätzt. Schätzungen schwanken zwischen den Ausgaben, und Kategorien können unscharf sein: „Chinesisch“ kann Mandarin bedeuten, „Arabisch“ – eine Dialektgemeinschaft und „Hindi“ – eine der Sprachen Indiens."
+          ]
+        },
+        {
+          "heading": "Meiste Muttersprachler: Mandarin",
+          "paragraphs": [
+            "Mandarin wird am häufigsten als die Sprache mit der größten Anzahl an Muttersprachlern angegeben – je nach Quelle etwa 900 Millionen bis über eine Milliarde. „Chinesisch“ in Rankings ist meist Mandarin, obwohl in China auch Kantonesisch, Wu, Minnan und andere Sprachen gesprochen werden.",
+            "Dies ist eine wichtige Unterscheidung: Sprache und Dialekt sind sowohl politische als auch sprachliche Kategorien. Die gegenseitige Verständlichkeit kann eingeschränkt sein und die Klassifizierung hängt von der Methodik ab."
+          ]
+        },
+        {
+          "heading": "Spanisch, Englisch, Hindi",
+          "paragraphs": [
+            "Spanisch hat etwa 480–500 Millionen Muttersprachler und eine große Reichweite in Lateinamerika, Spanien und den USA. Englisch hat weniger Muttersprachler (ungefähr 370–400 Millionen), hat aber die größte Reichweite als Zweitsprache und Verkehrssprache – Wirtschaft, Wissenschaft, Internet, Luftfahrt.",
+            "Hindi ist eine der größten Sprachen Indiens, aber das Land hat über ein Dutzend Amtssprachen und Hunderte von lokalen Sprachen; Englisch spielt in Indien die Rolle der Verwaltungs- und Elitensprache. Arabisch, Bengali, Portugiesisch, Russisch und Französisch runden je nach Kategorie die Spitze ab. Portugiesisch verdankt seine Stellung Brasilien, Französisch Afrika und seinem kolonialen Erbe, Russisch dem postsowjetischen Raum."
+          ]
+        },
+        {
+          "heading": "Ranking nach Gesamtzahl der Sprecher",
+          "paragraphs": [
+            "Wenn wir alle Sprecher zählen – Mutter- und Zweitsprache – steht Englisch im Vordergrund, gefolgt von Mandarin, Hindi, Spanisch, Französisch, Arabisch, Bengali, Portugiesisch, Russisch und Urdu. Die Reihenfolge variiert je nach Quelle und Definition.",
+            "Besonders schwierig sind die Zahlen für Zweitsprachen: Ist jemand, der Englisch auf A2-Niveau beherrscht, ein „Benutzer“? Zählt ein Expat, der zu Hause eine andere Sprache spricht, doppelt? Die Antworten verändern das Ranking."
+          ]
+        },
+        {
+          "heading": "Warum es für Übersetzungen wichtig ist",
+          "paragraphs": [
+            "Die Beliebtheit einer Sprache ist nicht dasselbe wie die Nachfrage nach Übersetzungen. Im Geschäftsleben sind Sprachpaare, Branche und Kontext von Bedeutung; im Rechtswesen – Amtssprache und Verfügbarkeit vereidigter Übersetzer; im Marketing - lokale Sorten und Kultur.",
+            "Englisch kann eine Zwischensprache sein, aber die Übersetzung „aus dem Englischen“ bedeutet nicht immer „aus dem Original“. Viele Projekte erfordern eine Übersetzung aus der Ausgangssprache und nicht aus einer Zwischenversion – insbesondere bei juristischen und technischen Texten."
+          ]
+        },
+        {
+          "heading": "Wichtige Erkenntnisse",
+          "list": [
+            "Mandarin hat die meisten Muttersprachler.",
+            "Englisch hat als Zweitsprache die größte Reichweite.",
+            "Spanisch, Hindi, Arabisch, Bengali, Portugiesisch, Russisch und Französisch bilden den Variablenführer.",
+            "Die Rangfolge hängt von der Definition ab: Muttersprachlich, Gesamt, offiziell, online.",
+            "Für Für einen Übersetzer sind der spezifische Kontext und das Sprachpaar wichtiger als das Ranking."
+          ],
+          "paragraphs": [
+            "Die beliebteste Sprache der Welt existiert nicht in einer Version. Es gibt viele Möglichkeiten zu zählen – und viele Gründe, den Unterschied zu kennen."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ethnologue – Was sind die 200 am häufigsten gesprochenen Sprachen?",
+          "url": "https://www.ethnologue.com/insights/ethnologue200/"
+        },
+        {
+          "label": "Ethnologue – Datenbank der Weltsprachen",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    },
+    "rare": {
+      "slug": "seltenste-sprachen-der-welt",
+      "title": "Die seltensten Sprachen der Welt – von wenigen Sprechern bis zur Stille",
+      "description": "Es gibt immer noch Sprachen mit einem, zwei oder einem Dutzend Sprechern. Was haben sie gemeinsam und warum betrifft uns ihr Verlust alle?",
+      "lead": "In vielen Städten gibt es Sprachen, die von mehr Menschen gesprochen werden als von Einwohnern. Es gibt auch solche, die aktuelle Redner haben. Die Grenze zwischen „selten“ und „ausgestorben“ kann fließend sein – und hängt davon ab, wen Sie fragen.",
+      "dateLabel": "31. Oktober 2026",
+      "readingTime": "7 Min.",
+      "category": "Sprachen",
+      "imageAlt": "Lupe und eine kleine Sprechblase – Illustration des Eintrags über die seltensten Sprachen der Welt.",
+      "keywords": [
+        "die seltensten Sprachen",
+        "ausgestorbene Sprachen",
+        "Sprachen gefährdet",
+        "UNESCO",
+        "Tanema",
+        "Lemerig",
+        "Njerep",
+        "Revitalisierung"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Die seltenste Sprache der Welt ist eine schwierige Kategorie. Die Sprecherzahlen sind Schätzungen, ändern sich von Jahr zu Jahr und die Grenze zwischen „Sprache“ und „Dialekt“ kann politischer Natur sein. Eines bleibt sicher: Es gibt immer noch Sprachen auf der Welt, die von einzelnen Menschen gesprochen werden.",
+            "Der UNESCO-Weltatlas der Sprachen dokumentiert über 8.000 Sprachen, von denen etwa 7.000 verwendet werden. Einige von ihnen gelten als vom Aussterben bedroht; andere werden nicht mehr verwendet."
+          ]
+        },
+        {
+          "heading": "Ein paar Beispiele",
+          "list": [
+            "Tanema (Salomonen) – Schätzungen aus den letzten Jahrzehnten zufolge wurde es von einer Handvoll Menschen gesprochen; benachbarte Sprachen übernahmen Kommunikationsfunktionen.",
+            "Lemerig (Vanuatu) – eine der vielen Sprachen von Vanuatu; die Zahl der Sprecher ist auf wenige zurückgegangen, was sie extrem gefährdet macht.",
+            "Njerep (Kamerun) – eine Sprache der älteren Generation, die durch die größeren Sprachen der Region ersetzt wird; heute gibt es nur noch wenige Sprecher.",
+            "Liki (Indonesien) – eine Sprache mit etwa einem Dutzend Sprechern, die auf einer kleinen Insel liegt; Geografische Isolation schützt nicht immer vor Sprachverlust.",
+            "Ainu (Japan) – die Sprache der lange Zeit marginalisierten indigenen Bevölkerung; Heutzutage werden Revitalisierungsmaßnahmen durchgeführt, obwohl die Zahl der fließenden Sprecher gering ist.",
+            "Livisch (Lettland) – eine baltische Sprache mit mehreren Dutzend Sprechern; ein Beispiel für eine Gemeinschaft, die aktiv daran arbeitet, sie zu erhalten.",
+            "Cornish und Manx – Sprachen, die einst als ausgestorben galten, jetzt durch Bildung und Kultur wiederbelebt werden; Zeigen Sie, dass „Last Talk“ nicht das Ende der Geschichte sein muss."
+          ],
+          "paragraphs": [
+            "Diese Beispiele zeigen, dass „seltenste“ keine dauerhafte Bezeichnung ist. Eine Sprache kann Sprecher verlieren, sie aber auch durch gemeinnützige Arbeit, Schulen und Medien zurückgewinnen."
+          ]
+        },
+        {
+          "heading": "Warum Sprachen verschwinden",
+          "paragraphs": [
+            "Sprachverlust ist selten die Folge einer einzigen Ursache. Sie wird in der Regel mit wirtschaftlichem Druck, Migration, dem Bildungssystem, Stigmatisierung und mangelnder Weitergabe von Generation zu Generation in Verbindung gebracht. Eltern wählen die Sprache, die ihren Kindern bessere Chancen bietet; Eine Gemeinschaft kann ihre eigene Sprache als „ländlich“ oder „vergangen“ betrachten.",
+            "Die Globalisierung ist nicht der einzige Übeltäter. Vielerorts werden Minderheitensprachen seit Jahrzehnten durch die staatliche Politik verdrängt. Daher ist der Schutz von Sprachen auch eine Frage der Menschenrechte und der Gerechtigkeit."
+          ]
+        },
+        {
+          "heading": "Warum er wichtig ist",
+          "paragraphs": [
+            "Sprache ist nicht nur ein Kommunikationsmittel. Es ist ein System zur Klassifizierung der Welt, Wissen über Natur, Geschichte und Recht, eine Möglichkeit, Erinnerungen zu vermitteln. Wenn eine Sprache verschwindet, verschwindet auch ein Teil des Wissens, das nicht vollständig übersetzt werden kann.",
+            "Es geht nicht um romantische Nostalgie. Es geht um kognitive und kulturelle Vielfalt, die die Ressource der gesamten Menschheit ist."
+          ]
+        },
+        {
+          "heading": "Was getan werden kann",
+          "list": [
+            "Dokumentation – Aufzeichnungen, Transkriptionen, Wörterbücher, Korpora.",
+            "Revitalisierung – Lernen in Schulen, Programme für Erwachsene, Medien und Literatur.",
+            "Technologie – Tastaturen, Schriftarten, Anwendungen, soziale Wörterbücher.",
+            "Gemeinschaftsunterstützung – Entscheidungen sollten den Sprechern gehören, nicht nur ihnen Forscher.",
+            "Bildungs- und Sprachpolitik – Schutz von Minderheitensprachen in Recht und Praxis."
+          ],
+          "paragraphs": [
+            "Die seltensten Sprachen sind keine Museumskuriosität. Sie sind ein lebendiges Zeugnis dafür, wie unterschiedlich die Welt beschrieben werden kann – und eine Erinnerung daran, dass Vielfalt tägliche Arbeit erfordert."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "UNESCO – Weltatlas der Sprachen",
+          "url": "https://en.wal.unesco.org/world-atlas-languages"
+        },
+        {
+          "label": "UNESCO – Dekade indigener Sprachen",
+          "url": "https://www.unesco.org/en/decades/indigenous-languages"
+        },
+        {
+          "label": "Ethnologue – Datenbank der Weltsprachen",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    }
+  }
+}

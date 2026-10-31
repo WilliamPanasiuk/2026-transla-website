@@ -1,0 +1,438 @@
+{
+  "ui": {
+    "title": "Blog",
+    "eyebrow": "Blog Transla",
+    "lead": "Erreurs de traduction, langues du monde et titres de films polonais. Des textes courts sur la façon dont la langue change l'histoire - parfois sérieusement, parfois avec une pincée de sel.",
+    "read": "Lire l'article",
+    "allPosts": "Tous les articles",
+    "related": "Lire aussi",
+    "reading": "de lecture",
+    "sources": "Sources et lectures complémentaires",
+    "ctaTitle": "Avez-vous un texte qui nécessite une deuxième langue ?",
+    "ctaText": "Envoyez un document ou décrivez le projet. Vous recevrez généralement un devis dans l'heure.",
+    "sidebarTitle": "Besoin d'une traduction ?",
+    "sidebarText": "Envoyer un document ou décrire le projet. Vous recevrez généralement un devis dans l'heure.",
+    "description": "Erreurs de traduction, langues du monde et titres de films polonais. Des textes courts sur la façon dont la langue change l'histoire - parfois sérieusement, parfois avec une pincée de sel.",
+    "blogName": "Blog Transla",
+    "blogLabel": "Blog"
+  },
+  "posts": {
+    "wpadki": {
+      "slug": "erreurs-de-traduction-qui-ont-marque-lhistoire",
+      "title": "Des erreurs de traduction qui ont changé l'histoire",
+      "description": "Six histoires sur la manière dont un idiome, un mot trop littéral ou un manque de contexte ont influencé la politique, le droit et la culture.",
+      "lead": "La traduction est invisible tant que tout fonctionne. Cependant, lorsque le sens devient incontrôlable, les conséquences peuvent être plus graves qu’une plaisanterie linguistique. Voici six cas dans lesquels le traducteur - ou celui qui a pris la décision à sa place - a changé le cours des événements.",
+      "dateLabel": "31 octobre 2026",
+      "readingTime": "9 min",
+      "category": "Historique",
+      "imageAlt": "Deux discours et une citation fêlée - illustration d'une entrée sur les erreurs de traduction.",
+      "keywords": [
+        "Erreurs de traduction",
+        "historique de la traduction",
+        "Jimmy Carter",
+        "Khrouchtchev",
+        "Traité de Waitangi",
+        "Canaux sur Mars",
+        "Massacre de Grattan",
+        "Abel et Caïn"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "En diplomatie, en cour, en rédaction et en science, le traducteur est le lien entre l'intention et l'effet. Il ne suffit pas de connaître les mots. Vous devez savoir ce que cela signifie dans une situation spécifique, qui le dit et comment l’autre partie peut le percevoir. Lorsque cela manque, il y a place à des malentendus - parfois drôles, parfois coûteux.",
+            "Les histoires suivantes ont une chose en commun : la traduction est une décision. Parfois elle est entreprise par un traducteur, parfois par un distributeur, un éditeur ou un fonctionnaire. La responsabilité du sens peut être dispersée, mais les effets sont généralement visibles immédiatement."
+          ]
+        },
+        {
+          "heading": "Jimmy Carter en Pologne : des paroles chaleureuses qui semblaient obscènes (1977)",
+          "paragraphs": [
+            "En décembre 1977, le président américain Jimmy Carter s'est rendu en Pologne. Il voulait parler de la curiosité des Polonais et de la joie de venir dans le pays. Selon le récit le plus fréquemment répété, son traducteur, Steven Seymour, a si mal traduit ces pensées que des expressions sur le désir charnel des Polonais et l'appropriation des parties intimes de la Pologne sont apparues dans les médias.",
+            "Il est difficile aujourd'hui de déterminer dans quelle mesure cette histoire est une citation exacte et dans quelle mesure elle est une légende journalistique. Seymour lui-même expliquera plus tard que certaines accusations étaient exagérées. Mais cela ne change rien au plus important : quelques mots mal choisis ont suffi pour que le message politique disparaisse derrière la façade du scandale.",
+            "C'est un exemple classique de la différence entre littéralité et registre. Une phrase qui ressemble à une curiosité polie en polonais peut ressembler à une familiarité inacceptable en anglais. Lors de la traduction de discours publics, le contexte est aussi important que le dictionnaire."
+          ],
+          "quote": "En diplomatie, il ne suffit pas de bien dire. Il faut dire ce que l'autre partie peut entendre."
+        },
+        {
+          "heading": "Khrouchtchev et « Nous vous enterrerons » : une métaphore qui sonnait comme un verdict (1956)",
+          "paragraphs": [
+            "En 1956, Nikita Khrouchtchev aurait déclaré aux diplomates occidentaux que l'histoire était du côté du socialisme et qu'« ils vous enterreront ». L'expression anglaise « We will bury you » est entrée dans l'histoire comme une annonce presque littérale de destruction nucléaire.",
+            "Pendant ce temps, l'expression russe était une métaphore d'une victoire politique inévitable, et non un plan d'attaque. Khrouchtchev a soutenu à plusieurs reprises qu'il ne parlait pas de l'enterrement physique de l'Occident, mais de la croyance marxiste selon laquelle le communisme survivrait au capitalisme.",
+            "Il y a encore un autre malentendu autour de cette histoire. Il est souvent combiné avec le dicton « nous vous montrerons la mère du cousin », ce qui a également posé des problèmes aux traducteurs. Cela montre avec quelle facilité deux idiomes différents se fondent en un seul mythe politique - et combien il est important de ne pas traduire mot à mot une phraséologie."
+          ]
+        },
+        {
+          "heading": "Traité de Waitangi : deux versions, un État (1840)",
+          "paragraphs": [
+            "En 1840, les représentants de la Couronne britannique et les chefs maoris ont signé un traité qui est toujours le fondement des relations en Nouvelle-Zélande. La version anglaise parlait du transfert de souveraineté. La version maorie, préparée par les missionnaires, utilisait des termes qui signifiaient quelque chose de différent pour les Maoris : renoncer au pouvoir administratif tout en conservant leurs propres droits à la terre et à la communauté.",
+            "La différence n'était pas une chose stylistique mineure. Au fil du temps, elle est devenue une source de conflits fonciers, de guerres et de procès de longue durée. La Nouvelle-Zélande moderne est toujours confrontée aux conséquences de la façon dont deux langues décrivent un seul contrat.",
+            "Dans les textes juridiques, chaque mot a du poids. Traduire un document qui attribue le pouvoir n’est pas un exercice de langage – c’est une décision politique. Par conséquent, les accords internationaux nécessitent non seulement des linguistes, mais aussi des juristes et un accord sur la version contraignante."
+          ]
+        },
+        {
+          "heading": "Canaux sur Mars : comment un faux ami a créé la civilisation (1877)",
+          "paragraphs": [
+            "L'astronome italien Giovanni Schiaparelli a décrit les lignes sombres à la surface de Mars comme des « canaux » : des canaux naturels, des fossés, des formations terrestres. En anglais, le mot est rendu par « canaux », ce qui suggère des canaux creusés par quelqu'un d'intelligent.",
+            "Cette légère différence sémantique était suffisante pour créer une civilisation avancée dans l'imaginaire du public. Percival Lowell a développé la théorie des canaux martiens, et H.G. Wells l'a utilisée dans « La Guerre des Mondes ». C'est ainsi qu'est né l'un des motifs les plus durables de la culture pop.",
+            "C'est un rappel que les faux amis et les homologues trop occasionnels peuvent changer non seulement le texte, mais aussi l'image du monde. Dans les textes scientifiques, la précision n'est pas une décoration - elle fait partie de la méthode."
+          ]
+        },
+        {
+          "heading": "Le massacre de Grattan : quand le traducteur devient l'étincelle (1854)",
+          "paragraphs": [
+            "En 1854, une dispute éclata dans un camp Lakota à propos d'une vache. Le jeune lieutenant John Grattan a décidé d'arrêter l'agresseur. Selon certaines informations, il emmenait avec lui un traducteur qui ne connaissait pas bien la langue et qui était sous l'influence de l'alcool. Ses paroles étaient censées paraître plus agressives que ce que le chef avait prévu.",
+            "La situation est devenue incontrôlable. Le chef Conquering Bear et les soldats ont été tués dans un échange de tirs. Cet événement a été l'étincelle qui a déclenché la Première Guerre Sioux et des décennies de conflit.",
+            "Dans les situations de crise, la compétence linguistique est une question de sécurité. Un traducteur ne peut pas être un complément à une délégation. Il doit être prêt à une conversation dans laquelle les enjeux sont les plus élevés - et avoir le droit de dire « Je ne comprends pas » au lieu de deviner."
+          ]
+        },
+        {
+          "heading": "Abel et Caïn : l'erreur qui a renversé la théologie (2004)",
+          "paragraphs": [
+            "En 2004, la traduction polonaise du message du Pape pour la Journée mondiale de la paix incluait la phrase selon laquelle c'était Abel qui avait tué son frère Caïn. Dans le récit biblique, c’est exactement le contraire. L'erreur était si évidente qu'elle est rapidement devenue un sujet médiatique.",
+            "Ce n'était pas une question de style ou de nuance. Il s’agissait d’une erreur au niveau du sens, qui devient particulièrement grave dans un texte religieux. Le Secrétariat d'État et le service de presse polonais ont dû expliquer d'où venait l'erreur.",
+            "Même une équipe expérimentée a besoin d'une révision et d'une relecture. Il n'y a pas de place pour le « presque juste » dans les textes qui seront cités et interprétés."
+          ]
+        },
+        {
+          "heading": "Ce que ces histoires enseignent",
+          "list": [
+            "Le contexte fait partie du sens. Sans cela, même une traduction correcte du dictionnaire peut offenser, effrayer ou induire en erreur.",
+            "Une expression idiomatique n'est pas un casse-tête à résoudre mot par mot. Il faut trouver sa fonction dans la phrase et l'exprimer dans la langue cible.",
+            "Dans les textes juridiques, religieux et diplomatiques, les conséquences des erreurs sont particulièrement durables.",
+            "Le traducteur a besoin de compétence, de préparation et de conditions de travail. La hâte et l'alcool sont de mauvais conseillers.",
+            "La révision et la relecture ne sont pas un luxe, mais la dernière ligne de défense pour le sens."
+          ],
+          "paragraphs": [
+            "Ces histoires sont peut-être drôles, mais elles nous rappellent une chose sérieuse : le langage façonne la réalité. Une bonne traduction ne consiste pas à paraître intelligente. Il s'agit d'exprimer ce qui a été réellement dit - et de ne rien ajouter de votre part."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Culture BBC - Les plus grandes erreurs de traduction de tous les temps",
+          "url": "https://www.bbc.com/culture/article/20150202-the-greatest-mistranslations-ever"
+        },
+        {
+          "label": "Agence de traduction - Les plus grandes erreurs de traduction au monde",
+          "url": "https://agencjatlumaczen.com.pl/aktualnosci/najwieksze-bledy-tlumaczeniowe-swiata/"
+        },
+        {
+          "label": "Przysięgle.online - Les erreurs de traduction célèbres et qu'avons-nous besoin qu'elles enseignent",
+          "url": "https://przysiegle.online/slynne-wpadki-tlumaczeniowe-i-czego-nas-ucza/"
+        }
+      ]
+    },
+    "film": {
+      "slug": "titres-de-films-polonais",
+      "title": "Pourquoi « Die Hard » est-il devenu « Szklana pułapka » ? Les titres de films polonais",
+      "description": "De « Szklana pułapka » à « Wirujący seks » — comment les distributeurs ont changé les titres de films et ce qu’il en résulte.",
+      "lead": "Les titres polonais de films étrangers sont parfois plus mémorables que les films eux-mêmes. Parfois ils aident, parfois ils divertissent et parfois ils changent complètement le sens. D'où viennent ces décisions et pourquoi le traducteur n'a-t-il pas toujours le dernier mot ?",
+      "dateLabel": "31 octobre 2026",
+      "readingTime": "6 min",
+      "category": "Culture",
+      "imageAlt": "Claque et cassette de films - illustration de l'entrée sur les titres de films polonais.",
+      "keywords": [
+        "Titres de films polonais",
+        "traduction de titres de films",
+        "Die Hard",
+        "Dirty Dancing",
+        "Terminator",
+        "Filmweb"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Contrairement à la croyance populaire, le titre final n'est généralement pas décidé par le traducteur. La décision est prise par le distributeur ou le fabricant, et la traduction du titre n'est qu'un élément de la campagne. Le titre est censé vendre un billet, une cassette VHS ou un abonnement - il doit être accrocheur, compréhensible et adapté au marché local.",
+            "L'histoire polonaise des titres de films est donc pleine à la fois de succès et de curiosités. Certains sont devenus un élément permanent de la langue, d’autres nous surprennent encore aujourd’hui. Voici quelques exemples qui montrent le mieux comment différentes stratégies peuvent changer la perception d'un film."
+          ]
+        },
+        {
+          "heading": "Les classiques entrés dans la culture pop",
+          "list": [
+            "Die Hard → Szklana pułapka. Le titre s'éloigne du littéral « mourir dur » et transforme le gratte-ciel en piège. Aujourd'hui, il est difficile d'imaginer une autre version.",
+            "The Terminator → Elektroniczny morderca. Le premier titre polonais des années 1980 ressemble à une description d’un appareil tirée d’un catalogue, et non à un film d’action. Au fil du temps, le \"Terminator\" original a gagné.",
+            "Dirty Dancing → Wirujący seks. Un titre qui ne passerait pas aujourd’hui. Dans les années 1980, il s’est concentré sur le littéralisme et la controverse ; aujourd'hui, c'est un symbole de courage de traduction ou de manque de sensibilité.",
+            "Reality Bites → Orbitowanie bez cukru. Devinette. Le titre n'a pas grand chose en commun avec l'original ; Selon une interprétation, il faisait référence à une publicité pour un chewing-gum. Effet : intrigant, mais pas évident.",
+            "Under Siege → Liberator. Le titre a changé au nom d'un son plus fort. \"Liberator\" ressemble au nom d'un super-héros, pas à un film sur un navire.",
+            "Phantasm → Mordercze kuleczki. Le caractère littéral est allé trop loin : au lieu de l'horreur, il y a une image de balles. C'est pourquoi on se souvient du titre aujourd'hui.",
+            "Million Dollar Baby → Za wszelką cenę. Au lieu d’une histoire sportive sur un boxeur, nous obtenons une phrase sur le prix à payer. Le titre annonce le drame, mais perd l'héroïne."
+          ]
+        },
+        {
+          "heading": "Quatre stratégies pour traduire des titres",
+          "list": [
+            "Traduction littérale — par ex. How I Met Your Mother → Jak poznałem waszą matkę. Fidèle, mais parfois lourde et sans imagination.",
+            "L'original reste inchangé - par ex. Pulp Fiction, Gran Turin. La marque et le son se sont avérés plus importants que la compréhensibilité.",
+            "Hybride — original plus sous-titre polonais, par ex. Braveheart – Waleczne serce, Alien – Ósmy pasażer Nostromo. Le titre précise le genre et facilite l’identification.",
+            "Interprétation marketing : un titre détaché de l'original pour attirer les téléspectateurs. La plus grande marge d'échec et le plus grand nombre d'histoires encore divertissantes aujourd'hui."
+          ]
+        },
+        {
+          "heading": "Pourquoi cela se produit-il",
+          "paragraphs": [
+            "Le marché du cinéma et de la VHS avait besoin de slogans courts et forts. Le titre était une publicité, pas une traduction. Les distributeurs testaient différentes versions et le traducteur recevait souvent des directives toutes faites ou travaillait sur le texte, qui était ensuite modifié par le service marketing.",
+            "Les plateformes de streaming modernes abandonnent plus souvent l'original ou choisissent des traductions plus simples et moins invasives. C'est le résultat de la mondialisation et du fait que les spectateurs recherchent un film sous un nom qu'ils connaissent. Mais les titres polonais de la vieille école reviennent sans cesse dans les conversations - et dans les mèmes."
+          ]
+        },
+        {
+          "heading": "Ce qu'un bon titre doit faire",
+          "paragraphs": [
+            "Un bon titre doit refléter le genre, le ton et les promesses du film. Il n’est pas nécessaire que ce soit littéral, mais cela ne devrait pas être trompeur. La frontière entre création et manipulation est ténue : \"Die Hard\" fonctionne car il annonce la tension et le décor. \"Whirling sex\" agit aujourd'hui plus comme un avertissement que comme une publicité.",
+            "Les titres de films polonais sont un témoignage de l'époque à laquelle ils ont été réalisés. Ils nous font rire, ils nous irritent, mais ils montrent aussi à quel point la langue joue un rôle important dans la vente de la culture. La prochaine fois que vous verrez un titre étrange, pensez : ce n'est pas toujours la faute du traducteur. Parfois, c'était le marketing qui prenait la décision et le traducteur devait trouver la langue correspondante."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Filmweb - Traductions polonaises de titres de films",
+          "url": "https://www.filmweb.pl/news/ARTYKU%C5%81%3A+Polskie+t%C5%82umaczenia+tytu%C5%82%C3%B3w+filmowych-44124"
+        }
+      ]
+    },
+    "un": {
+      "slug": "langues-de-l-onu",
+      "title": "Langues de l'ONU : six voix, une organisation",
+      "description": "Pourquoi l'ONU a-t-elle six langues officielles, en quoi diffèrent-elles des langues de travail et à quoi ressemble le travail des traducteurs dans un endroit où chaque version doit signifier la même chose ?",
+      "lead": "A l'ONU, il ne suffit pas de dire quelque chose une seule fois. La même phrase doit sonner dans six langues – et avoir la même signification dans chaque version. C'est ainsi que fonctionne le multilinguisme d'une organisation qui s'adresse à presque le monde entier.",
+      "dateLabel": "31 octobre 2026",
+      "readingTime": "7 min",
+      "category": "Langues",
+      "imageAlt": "Un globe et six bulles avec les codes de langue de l'ONU.",
+      "keywords": [
+        "Langues de l'ONU",
+        "Langues officielles de l'ONU",
+        "traductions ONU",
+        "Arabe",
+        "Chinois",
+        "Anglais",
+        "Français",
+        "Russe",
+        "Espagnol"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "L'ONU a six langues officielles : anglais, arabe, chinois, espagnol, français et russe. Il ne s’agit pas de sympathie pour les langues, mais de compromis politique et de pratique diplomatique. Chacune a eu une signification historique, démographique ou politique, depuis le statut de membre permanent du Conseil de sécurité jusqu'à sa portée coloniale et diasporique.",
+            "Les langues officielles sont utilisées dans les délibérations, les documents et les résolutions. L'anglais et le français sont également les langues de travail du Secrétariat. La différence entre « officiel » et « projet » est parfois confuse ; en pratique, cela signifie différents domaines d'utilisation et différents coûts."
+          ]
+        },
+        {
+          "heading": "Pourquoi ces six ?",
+          "paragraphs": [
+            "La gamme originale de 1945 comprenait le chinois, l'anglais, le français, le russe et l'espagnol. L'arabe a rejoint le pays en 1973 lorsque l'Assemblée générale l'a reconnu comme langue officielle. Les six langues signifient également six canaux de traduction simultanée, six versions de documents et six ensembles de terminologie.",
+            "Dans la pratique, l'ONU emploie des traducteurs, des interprètes, des éditeurs et des terminologues qui veillent à la cohérence des concepts juridiques et politiques dans toutes les versions. C'est l'infrastructure invisible du multilinguisme - et l'une des conditions dans lesquelles les décisions organisationnelles peuvent être considérées comme collectives."
+          ]
+        },
+        {
+          "heading": "Six jours, six langues",
+          "list": [
+            "Arabe - 18 décembre.",
+            "Chinois - 20 avril.",
+            "Anglais - 23 avril.",
+            "Français - 20 mars.",
+            "Russe - 6 juin.",
+            "Espagnol - 12 octobre."
+          ],
+          "paragraphs": [
+            "Les journées linguistiques ne sont pas seulement une curiosité calendaire. Ils montrent que le multilinguisme fait partie de la diplomatie publique : il construit la visibilité des cultures et rappelle l'égalité des langues​​dans l'organisation."
+          ]
+        },
+        {
+          "heading": "Interprète à l'ONU : précision et rythme",
+          "paragraphs": [
+            "L'interprétation simultanée nécessite une attention, une préparation et une maîtrise partagées. L'orateur n'attend pas ; le traducteur doit transmettre le sens en temps réel, en retenant les noms, les chiffres et les nuances. En diplomatie, un verbe mal choisi peut changer le poids de la phrase entière.",
+            "Les documents passent par une édition et un contrôle terminologique. L'ONU gère la base de données terminologique UNTERM, qui contribue à maintenir la cohérence entre les langues. La traduction n'est pas ici un ajout à la politique - elle en est l'un des outils."
+          ]
+        },
+        {
+          "heading": "Ce qui suit ?",
+          "list": [
+            "Six langues sont un compromis entre représentation et coût.",
+            "Le multilinguisme ne consiste pas à copier un texte textuellement, mais à reproduire le sens dans différents systèmes linguistiques.",
+            "La cohérence terminologique fait partie de la sécurité juridique et politique.",
+            "La langue est un outil de légitimation : une décision rendue en six langues a des publics différents et conséquences qu'un message en un."
+          ],
+          "paragraphs": [
+            "L'ONU rappelle que la traduction n'est pas un ajout à la politique. C'est une des conditions grâce auxquelles une politique peut être comprise et reconnue comme commune."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "ONU - Langues officielles",
+          "url": "https://www.un.org/en/our-work/official-languages"
+        },
+        {
+          "label": "ONU - Multilinguisme",
+          "url": "https://www.un.org/en/multilingualism"
+        },
+        {
+          "label": "UNTERM - Base de données terminologique de l'ONU",
+          "url": "https://unterm.un.org/"
+        }
+      ]
+    },
+    "popular": {
+      "slug": "langues-les-plus-parlees-dans-le-monde",
+      "title": "Les langues les plus populaires au monde - et pourquoi les classements diffèrent",
+      "description": "Mandarin, espagnol, anglais, hindi, arabe - quelles langues ont le plus de locuteurs et pourquoi chaque classement donne des chiffres différents.",
+      "lead": "Les langues peuvent être comptées de plusieurs manières : comme langue maternelle, comme langue seconde, comme langue officielle ou comme langue Internet. La réponse à la question « quelle est la plus populaire ? » Cela dépend de ce que nous comptons exactement.",
+      "dateLabel": "31 octobre 2026",
+      "readingTime": "8 min",
+      "category": "Langues",
+      "imageAlt": "Graphique à barres et globe - illustration du classement des langues les plus populaires.",
+      "keywords": [
+        "Langues les plus populaires",
+        "Les plus fréquemment utilisées langues",
+        "Mandarin",
+        "Anglais",
+        "Espagnol",
+        "Hindi",
+        "Arabe",
+        "Ethnologue"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Le classement des « langues les plus populaires » n’est pas un classement unique. Nous obtenons des chiffres différents lorsque nous posons des questions sur la langue maternelle, des chiffres différents sur la langue seconde et des chiffres toujours différents sur la langue officielle ou le nombre de sites Web.",
+            "Les listes les plus fréquemment citées sont basées sur Ethnologue, qui estime le nombre de locuteurs sur la base des données disponibles. Les estimations varient selon les éditions et les catégories peuvent être floues : \"chinois\" peut signifier le mandarin, \"arabe\" - une communauté de dialectes, et \"hindi\" - l'une des langues de l'Inde."
+          ]
+        },
+        {
+          "heading": "La plupart des locuteurs natifs : le mandarin",
+          "paragraphs": [
+            "Le mandarin est le plus souvent indiqué comme la langue comptant le plus grand nombre de locuteurs natifs - selon la source, entre 900 millions et plus d'un milliard. Le « chinois » dans les classements est généralement le mandarin, bien que le cantonais, le wu, le minnan et d'autres langues soient également parlés en Chine.",
+            "Il s'agit d'une distinction importante : la langue et le dialecte sont à la fois des catégories politiques et linguistiques. L'intelligibilité mutuelle peut être limitée et la classification dépend de la méthodologie."
+          ]
+        },
+        {
+          "heading": "Espagnol, anglais, hindi",
+          "paragraphs": [
+            "L'espagnol compte environ 480 à 500 millions de locuteurs natifs et a une portée énorme en Amérique latine, en Espagne et aux États-Unis. L'anglais compte moins de locuteurs natifs (environ 370 à 400 millions), mais il a la plus grande portée en tant que langue seconde et lingua franca : affaires, sciences, Internet, aviation.",
+            "L'hindi est l'une des langues les plus répandues en Inde, mais le pays compte plus d'une douzaine de langues officielles et des centaines de langues locales ; L'anglais joue le rôle de langue de l'administration et des élites en Inde. L'arabe, le bengali, le portugais, le russe et le français complètent le top selon les catégories. Le portugais doit sa place au Brésil, le français à l'Afrique et à son héritage colonial, le russe à l'espace post-soviétique."
+          ]
+        },
+        {
+          "heading": "Classement par nombre total de locuteurs",
+          "paragraphs": [
+            "Lorsque l'on compte tous les locuteurs - langue maternelle et langue seconde - l'anglais arrive en tête, suivi du mandarin, de l'hindi, de l'espagnol, du français, de l'arabe, du bengali, du portugais, du russe et de l'ourdou. L'ordre varie selon la source et la définition.",
+            "Les chiffres pour les langues secondes sont particulièrement difficiles : quelqu'un qui connaît l'anglais au niveau A2 est-il un « utilisateur » ? Un expatrié qui parle une autre langue à la maison compte-t-il deux fois ? Les réponses changent le classement."
+          ]
+        },
+        {
+          "heading": "Pourquoi c'est important pour les traductions",
+          "paragraphs": [
+            "La popularité d'une langue n'est pas la même que la demande de traductions. En affaires, les paires de langues, l’industrie et le contexte comptent ; en droit - langue officielle et disponibilité de traducteurs assermentés ; en marketing - variétés et culture locales.",
+            "L'anglais peut être une langue intermédiaire, mais la traduction « de l'anglais » ne signifie pas toujours « de l'original ». De nombreux projets nécessitent une traduction à partir de la langue source, et non à partir d'une version intermédiaire - en particulier dans les textes juridiques et techniques."
+          ]
+        },
+        {
+          "heading": "Principaux points à retenir",
+          "list": [
+            "Le mandarin compte le plus grand nombre de locuteurs natifs.",
+            "L'anglais a la plus grande portée en tant que langue seconde.",
+            "L'espagnol, l'hindi, l'arabe, le bengali, le portugais, le russe et le français forment le leader variable.",
+            "Le classement dépend de la définition : natif, total, officiel, en ligne.",
+            "Pour un traducteur, le contexte spécifique et la paire de langues sont plus importants que le classement."
+          ],
+          "paragraphs": [
+            "La langue la plus populaire au monde n'existe pas dans une seule version. Il existe de nombreuses façons de compter – et de nombreuses raisons de connaître la différence."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ethnologue - Quelles sont les 200 langues les plus parlées ?",
+          "url": "https://www.ethnologue.com/insights/ethnologue200/"
+        },
+        {
+          "label": "Ethnologue - base de données des langues du monde",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    },
+    "rare": {
+      "slug": "langues-les-plus-rares-du-monde",
+      "title": "Les langues les plus rares au monde - de quelques locuteurs au silence",
+      "description": "Des langues avec un, deux ou une douzaine de locuteurs existent encore. Qu'ont-ils en commun et pourquoi leur perte nous concerne-t-elle tous ?",
+      "lead": "Il existe des langues parlées par plus de personnes que d'habitants dans de nombreuses villes. Il y a aussi ceux qui ont des enceintes récentes. La frontière entre « rare » et « éteinte » peut être fluide - et dépend de la personne à qui vous demandez.",
+      "dateLabel": "31 octobre 2026",
+      "readingTime": "7 min",
+      "category": "Langues",
+      "imageAlt": "Loupe et petite bulle - illustration de l'entrée sur les langues les plus rares du monde.",
+      "keywords": [
+        "les langues les plus rares",
+        "langues éteintes",
+        "langues en voie de disparition",
+        "UNESCO",
+        "Tanema",
+        "Lemerig",
+        "Njerep",
+        "revitalisation"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "La langue la plus rare au monde est une catégorie difficile. Le nombre de locuteurs est une estimation, change d'année en année, et la frontière entre « langue » et « dialecte » peut être politique. Une chose reste sûre : il existe encore dans le monde des langues parlées par des individus.",
+            "L'Atlas mondial des langues de l'UNESCO documente plus de 8 000 langues, dont environ 7 000 sont utilisées. Certains d’entre eux ont le statut d’espèces en danger critique d’extinction ; d'autres ne sont plus utilisés."
+          ]
+        },
+        {
+          "heading": "Quelques exemples",
+          "list": [
+            "Tanema (Îles Salomon) - selon les estimations des dernières décennies, il était parlé par une poignée de personnes ; les langues voisines ont repris les fonctions de communication.",
+            "Lemerig (Vanuatu) - une des nombreuses langues​​de Vanuatu ; le nombre de locuteurs a diminué à quelques-uns, ce qui le rend extrêmement menacé.",
+            "Njerep (Cameroun) - une langue d'ancienne génération, remplacée par les langues plus importantes de la région ; elle compte aujourd'hui peu de locuteurs.",
+            "Liki (Indonésie) - une langue avec une douzaine de locuteurs, située sur une petite île ; L'isolement géographique ne protège pas toujours contre la perte de la langue.",
+            "Aïnu (Japon) - la langue du peuple autochtone, longtemps marginalisé ; aujourd'hui, des activités de revitalisation sont entreprises, bien que le nombre de locuteurs courant soit faible.",
+            "Livian (Lettonie) - une langue balte avec plusieurs dizaines de locuteurs ; un exemple d'une communauté travaillant activement à son maintien.",
+            "Le cornique et le manx - des langues autrefois considérées comme éteintes, aujourd'hui ravivées grâce à l'éducation et à la culture ; montrez que la « dernière conversation » ne doit pas nécessairement être la fin de l’histoire."
+          ],
+          "paragraphs": [
+            "Ces exemples montrent que « le plus rare » n'est pas une étiquette permanente. Une langue peut perdre des locuteurs, mais aussi en retrouver grâce au travail communautaire, aux écoles et aux médias."
+          ]
+        },
+        {
+          "heading": "Pourquoi les langues disparaissent",
+          "paragraphs": [
+            "La perte d'une langue est rarement le résultat d'une seule cause. Elle est généralement associée à la pression économique, à la migration, au système éducatif, à la stigmatisation et à l’absence de transmission intergénérationnelle. Les parents choisissent la langue qui offre de meilleures opportunités à leurs enfants ; une communauté peut considérer sa propre langue comme « rurale » ou « passée ».",
+            "La mondialisation n'est pas le seul coupable. Dans de nombreux endroits, les langues minoritaires ont été supplantées par la politique de l’État depuis des décennies. Par conséquent, la protection des langues est également une question de droits de l'homme et de justice."
+          ]
+        },
+        {
+          "heading": "Pourquoi c'est important",
+          "paragraphs": [
+            "La langue n'est pas seulement un outil de communication. C'est un système de classification du monde, de connaissances sur la nature, l'histoire et le droit, une manière de transmettre la mémoire. Lorsqu'une langue disparaît, certaines connaissances disparaissent également et ne peuvent pas être entièrement traduites.",
+            "Il ne s'agit pas de nostalgie romantique. Il s'agit de la diversité cognitive et culturelle, qui est la ressource de toute l'humanité."
+          ]
+        },
+        {
+          "heading": "Ce qui peut être fait",
+          "list": [
+            "Documentation - enregistrements, transcriptions, dictionnaires, corpus.",
+            "Revitalisation - apprentissage dans les écoles, programmes pour adultes, médias et littérature.",
+            "Technologie - claviers, polices, applications, dictionnaires sociaux.",
+            "Soutien communautaire - les décisions doivent appartenir aux locuteurs, pas seulement aux chercheurs.",
+            "Éducation et politique linguistique - protection des langues minoritaires dans le droit et la pratique."
+          ],
+          "paragraphs": [
+            "Les langues les plus rares ne sont pas une curiosité de musée. Ils sont un témoignage vivant de la façon dont le monde peut être décrit différemment - et un rappel que la diversité nécessite un travail quotidien."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "UNESCO - Atlas mondial des langues",
+          "url": "https://en.wal.unesco.org/world-atlas-languages"
+        },
+        {
+          "label": "UNESCO - Décennie des langues autochtones",
+          "url": "https://www.unesco.org/en/decades/indigenous-languages"
+        },
+        {
+          "label": "Ethnologue - base de données des langues du monde",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    }
+  }
+}

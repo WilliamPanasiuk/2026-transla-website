@@ -1,0 +1,448 @@
+{
+  "ui": {
+    "title": "Blog",
+    "eyebrow": "Transla Blog",
+    "lead": "Översättningsmisstag, världsspråk och polska filmititlar. Korta texter om hur språket förändrar historier — ibland på allvar, ibland med en nypa salt.",
+    "description": "Översättningsmisstag, världsspråk och polska filmititlar. Korta texter om hur språket förändrar historier — ibland på allvar, ibland med en nypa salt.",
+    "read": "Läs inlägget",
+    "allPosts": "Alla inlägg",
+    "related": "Läs också",
+    "reading": "läsning",
+    "sources": "Källor och vidare läsning",
+    "ctaTitle": "Har du en text som behöver ett andra språk?",
+    "ctaText": "Skicka ett dokument eller beskriv projektet. Du får vanligtvis en offert inom en timme.",
+    "sidebarTitle": "Behöver du en översättning?",
+    "sidebarText": "Skicka ett dokument eller beskriv projektet. Du får vanligtvis en offert inom en timme.",
+    "blogName": "Transla Blog",
+    "blogLabel": "Blog"
+  },
+  "posts": {
+    "wpadki": {
+      "slug": "oversattningsmisstag-som-forandrade-historien",
+      "title": "Översättningsmisstag som förändrade historien",
+      "description": "Sex berättelser om hur ett idiom, för bokstavligt ett ord eller brist på sammanhang påverkade politik, lag och kultur.",
+      "lead": "Översättning kan vara osynlig så länge allt fungerar. Men när innebörden kommer ur kontroll kan effekterna vara större än ett språkligt skämt. Här är sex fall där översättaren — eller den som fattade beslutet åt honom — ändrade händelseförloppet.",
+      "date": "2026-10-31T09:00:00+01:00",
+      "dateLabel": "31 oktober 2026",
+      "readingTime": "9 min",
+      "category": "Historia",
+      "image": "/blog/wpadki-tlumaczy.svg",
+      "imageAlt": "Två tal och ett sprucket citat — en illustration av ett inlägg om översättningsfel.",
+      "keywords": [
+        "översättningsfel",
+        "översättningshistorik",
+        "Jimmy Carter",
+        "Chrusjtjov",
+        "waitangifördraget",
+        "kanaler på Mars",
+        "massakern i Grattan",
+        "Abel och Kain"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "I diplomati, domstol, redaktion och vetenskap är översättaren länken mellan avsikt och effekt. Det räcker inte att känna till ordet. Du behöver veta vad det innebär i en specifik situation, vem som säger det och hur den andra parten kan plocka upp det. När detta saknas skapas utrymme för missförstånd — ibland roligt, ibland dyrt.",
+            "Följande berättelser har en sak gemensamt: översättning är ett beslut. Ibland tas det upp av en tolk, ibland av en distributör, redaktör eller tjänsteman. Ansvaret för innebörden är ibland diffust, men effekterna är oftast synliga omedelbart."
+          ]
+        },
+        {
+          "heading": "Jimmy Carter i Polen: varma ord som lät obscent (1977)",
+          "paragraphs": [
+            "I december 1977 besökte USA: s president Jimmy Carter Polen. Han ville prata om polackernas nyfikenhet och glädjen över att komma till landet. Enligt den mest frekvent upprepade berättelsen översatte hans översättare, Steven Seymour, dessa tankar så tyvärr att det i media fanns formuleringar om polackernas köttsliga önskan och grepp om Polen för intima delar.",
+            "Idag är det svårt att avgöra hur mycket av denna berättelse som är ett exakt citat och hur mycket som är en journalistisk legend. Seymour själv förklarade senare att vissa av anklagelserna var överdrivna. Detta förändrar dock inte det viktigaste: några dåligt valda ord räckte för att få det politiska budskapet att försvinna bakom skandalens fasad.",
+            "Detta är ett klassiskt exempel på skillnaden mellan bokstavlighet och register. En mening som låter som artig nyfikenhet på polska kan låta som oacceptabel förtrogenhet på engelska. I översättningen av offentliga tal är sammanhanget lika viktigt som en ordbok."
+          ],
+          "quote": "Inom diplomatin räcker det inte med att säga väl. Du måste säga vad den andra parten kan höra."
+        },
+        {
+          "heading": "Chrusjtjov och \"Vi kommer att begrava dig\": en metafor som lät som en dom (1956)",
+          "paragraphs": [
+            "1956 berättade Nikita Chrusjtjov för västerländska diplomater att historien stod på socialismens sida och att de skulle \"begrava dig\". Det engelska \"We will bury you\" gick till historien som ett nästan bokstavligt tillkännagivande av kärnvapenförintelse.",
+            "Samtidigt var den ryska formuleringen en metafor för den oundvikliga politiska segern, inte en angreppsplan. Chrusjtjov hävdade upprepade gånger att han inte menade västvärldens fysiska begravning, utan den marxistiska tron att kommunismen skulle överleva kapitalismen.",
+            "Det fanns ett annat missförstånd kring den här historien. Det är ofta förknippat med ordspråket \"vi kommer att visa dig den smidda mamman\", vilket också orsakade problem för översättare. Detta visar hur lätt två olika idiom smälter samman till en politisk myt — och hur viktigt det är att inte översätta frasologi ord för ord."
+          ]
+        },
+        {
+          "heading": "Waitangifördraget: Två versioner, en stat (1840)",
+          "paragraphs": [
+            "År 1840 undertecknade företrädare för den brittiska kronan och maorihövdingarna ett fördrag, som än i dag är grunden för relationerna i Nya Zeeland. Den engelska versionen talade om överföring av suveränitet. Maori-versionen, som utarbetats av missionärer, använde termer som betydde något annat än maorierna: överföringen av administrativ makt samtidigt som de behöll sina egna rättigheter till landet och samhället.",
+            "Skillnaden var inte en stilistisk detalj. Med tiden blev det en källa till tvister om land, krig och långsiktiga prövningar. Det moderna Nya Zeeland står fortfarande inför konsekvenserna av hur två språk har beskrivit ett kontrakt.",
+            "I juridiska texter har varje ord en tyngd. Att översätta ett dokument som distribuerar makt är inte en språkövning — det är ett politiskt beslut. Därför kräver internationella avtal inte bara lingvister utan också advokater och ett avtal om vilken version som är bindande."
+          ]
+        },
+        {
+          "heading": "Kanaler på Mars: Hur en falsk vän skapade civilisationen (1877)",
+          "paragraphs": [
+            "Den italienska astronomen Giovanni Schiaparelli beskrev de mörka linjerna på Mars yta som \"canali\" — naturliga tråg, diken, terrängformationer. På engelska har detta ord återgivits som \"kanaler\", vilket tyder på att kanaler grävts av någon rimlig.",
+            "Denna lilla semantiska skillnad räckte för att en avancerad civilisation skulle dyka upp i publikens fantasi. Percival Lowell utvecklade teorin om Mars-kanaler, och H.G. Wells använde den i \"Världarnas krig\". Så föddes ett av popkulturens mest bestående motiv.",
+            "Det är en påminnelse om att falska vänner och alltför lösa motsvarigheter kan ändra inte bara texten, utan också bilden av världen. I vetenskapliga texter är precision inte en prydnad — det är en del av metoden."
+          ]
+        },
+        {
+          "heading": "Grattan-massakern: När tolken blir en gnista (1854)",
+          "paragraphs": [
+            "1854 uppstod en tvist om en ko i Lakota-lägret. Den unge löjtnanten John Grattan bestämde sig för att gripa gärningsmannen. Enligt rapporter tog han med sig en tolk som inte kunde språket väl och var påverkad av alkohol. Hans ord skulle låta mer aggressiva än chefen avsåg.",
+            "Situationen är utom kontroll. I eldutbytet dödades Chief Conquering Bear och soldaterna. Händelsen blev gnistan som initierade det första siuxkriget och konfliktens årtionde.",
+            "I krissituationer är språklig kompetens en säkerhetsfråga. Översättaren kan inte vara ett tillägg till delegeringen. Han måste vara förberedd för samtalet där insatserna är högst — och ha rätt att säga \"Jag förstår inte\" istället för att gissa."
+          ]
+        },
+        {
+          "heading": "Abel och Kain: misstaget som omvänd teologi (2004)",
+          "paragraphs": [
+            "År 2004, i den polska översättningen av det påvliga budskapet för världsfredsdagen, dök meningen att det var Abel som dödade sin bror Kain upp. I Bibelns historia är det precis tvärtom. Felet var så uppenbart att det snabbt blev föremål för media.",
+            "Det var inte ett problem med stil eller nyans. Detta var ett misstag på betydelsenivå, vilket får en särskild tyngd i den religiösa texten. Statssekretariatet och den polska presstjänsten var tvungna att förklara var misstaget kom ifrån.",
+            "Även ett erfaret team behöver redigering och korrekturläsning. I de texter som ska citeras och tolkas finns inget utrymme för ”nästan bra”."
+          ]
+        },
+        {
+          "heading": "Vad dessa berättelser lär",
+          "list": [
+            "Sammanhanget är en del av innebörden. Utan den kan till och med en ordbokskorrekt översättning förolämpa, skrämma eller vilseleda.",
+            "Idiom är inte ett pussel som ska lösas ord för ord. Du måste hitta dess funktion i meningen och ge den på målspråket.",
+            "I juridiska, religiösa och diplomatiska texter är konsekvenserna av fel särskilt permanenta.",
+            "Översättaren behöver kompetens, förberedelser och arbetsförhållanden. Brådska och alkohol är dåliga rådgivare.",
+            "Redigering och korrekturläsning är inte en lyx, utan den sista försvarslinjen för mening."
+          ],
+          "paragraphs": [
+            "Dessa berättelser kan vara roliga, men de påminner oss om en allvarlig sak: språket formar verkligheten. En bra översättning handlar inte om att låta smart. Det består i att ge tillbaka det som verkligen har sagts — och inte tillföra något från dig själv."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "BBC Culture — De största felöversättningarna någonsin",
+          "url": "https://www.bbc.com/culture/article/20150202-the-greatest-mistranslations-ever"
+        },
+        {
+          "label": "Översättningsbyrå — De största översättningsfelen i världen",
+          "url": "https://agencjatlumaczen.com.pl/aktualnosci/najwieksze-bledy-tlumaczeniowe-swiata/"
+        },
+        {
+          "label": "Swearing.online — Berömda översättningsfel och vad de lär oss",
+          "url": "https://przysiegle.online/slynne-wpadki-tlumaczeniowe-i-czego-nas-ucza/"
+        }
+      ]
+    },
+    "film": {
+      "slug": "polska-filmtitlar",
+      "title": "Varför blev „Die Hard“ till „Szklana pułapka“? Polska filmtitlar",
+      "description": "Från „Szklana pułapka“ till „Wirujący seks“ — hur distributörer ändrade filmititlar och vad det leder till.",
+      "lead": "Polska titlar på utländska filmer är ibland mer minnesvärda än filmerna själva. Ibland hjälper de till, ibland spelar de, och ibland ändrar de mening helt. Var kommer dessa beslut ifrån och varför har översättaren inte alltid sista ordet här?",
+      "date": "2026-10-31T10:00:00+01:00",
+      "dateLabel": "31 oktober 2026",
+      "readingTime": "6 min",
+      "category": "Kultur",
+      "image": "/blog/polskie-tytuly-filmow.svg",
+      "imageAlt": "Filmspanking och tejp — en illustration av en post om polska filmtitlar.",
+      "keywords": [
+        "polska filmtitlar",
+        "översättning av filmtitlar",
+        "Die Hard",
+        "Smutsig dans",
+        "Terminator",
+        "Movieweb"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "I motsats till vad många tror, bestäms den slutliga titeln vanligtvis inte av översättaren. Beslutet fattas av distributören eller tillverkaren, och översättningen av titeln är bara ett av elementen i kampanjen. Titeln är att sälja en biljett, ett VHS-band eller ett abonnemang — det måste vara fängslande, förståeligt och skräddarsytt för den lokala marknaden.",
+            "Det är därför filmtitlarnas polska historia är full av både hits och kuriosa. Några av dem har gått in i språket permanent, andra är fortfarande överraskande än i dag. Här är några exempel som bäst visar hur olika strategier kan förändra uppfattningen av en film."
+          ]
+        },
+        {
+          "heading": "Klassiker som har gått in i popkulturen",
+          "list": [
+            "Die Hard → Szklana pułapka. Titeln bröt sig loss från det bokstavliga \"dö med svårighet\" och förvandlade skyskrapan till en fälla. Idag är det svårt att föreställa sig en annan version.",
+            "The Terminator → Elektroniczny morderca. En tidig polsk titel från 1980-talet låter som en beskrivning av en enhet från en katalog, inte som en actionfilm. Med tiden vann den ursprungliga \"Terminator\".",
+            "Dirty Dancing → Wirujący seks. En titel som inte skulle genomgå marknadsföring idag. På 1980-talet fokuserade han på bokstavlighet och kontroverser; idag är han en symbol för översättarens mod eller brist på förnuft.",
+            "Reality Bites → Orbitowanie bez cukru. En gåta. Titeln har inte mycket att göra med originalet; enligt en tolkning hänvisade den till en annons för tuggummi. Resultatet: spännande men inte uppenbart.",
+            "Under Siege → Liberator. Titeln har ändrats i namn av ett starkare ljud. \"Liberator\" låter som en superhjältes namn, inte en film om ett skepp.",
+            "Phantasm → Mordercze kuleczki. Bokstavligheten har gått för långt: istället för skräck framträder bilden av kulor. Det är därför titeln kommer ihåg idag.",
+            "Million Dollar Baby → Za wszelką cenę. Istället för en sporthistoria om en boxare får vi en fras om det pris du måste betala. Titeln lovar drama, men den förlorar hjältinnan."
+          ]
+        },
+        {
+          "heading": "Fyra strategier för att översätta titlar",
+          "list": [
+            "Direkt översättning — t.ex. How I Met Your Mother → Jak poznałem waszą matkę. Troget, men ibland tungt och fantasilöst.",
+            "Originalet är oförändrat — t.ex. Pulp Fiction, Gran Torino. Varumärket och ljudet visade sig vara viktigare än begripligheten.",
+            "Hybrid — original plus polsk undertext, t.ex. Braveheart – Waleczne serce, Alien – Ósmy pasażer Nostromo. Titeln kompletterar genren och underlättar identifieringen.",
+            "Marknadsföringstolkning — en titel fristående från originalet för att locka tittare. Det största fältet för missöden och de flesta berättelser som fortfarande underhåller till denna dag."
+          ]
+        },
+        {
+          "heading": "Varför detta händer",
+          "paragraphs": [
+            "Biograf- och VHS-marknaden behövde korta, starka lösenord. Titeln var en annons, inte en översättning. Distributörer testade olika versioner, och översättaren fick ofta färdiga riktlinjer eller arbetade med texten, vilket senare ändrade marknadsavdelningen.",
+            "Moderna streamingplattformar är mer benägna att lämna originalet eller välja enklare, mindre invasiva översättningar. Detta är ett resultat av globaliseringen och det faktum att tittarna letar efter en film med det namn de känner till. Men den gamla skolan av polska titlar fortsätter att komma tillbaka i konversationer — och memes."
+          ]
+        },
+        {
+          "heading": "Vad en bra titel ska göra",
+          "paragraphs": [
+            "En bra titel ska återspegla filmens genre, ton och löfte. Det behöver inte vara bokstavligt, men det bör inte vara vilseledande. Gränsen mellan skapande och manipulation är tunn: \"Glasfällan\" fungerar eftersom den förutsäger spänningen och handlingsplatsen. \"Spinning Sex\" fungerar nu som en varningssaga snarare än en annons.",
+            "Polska filmtitlar är ett vittnesbörd om den tid då de gjordes. De skrattar, irriterar, men visar också hur viktigt språket spelar i försäljningen av kultur. Nästa gång du ser en konstig titel, tänk: det var inte alltid översättarens fel. Ibland var det marknadsföringen som tog beslutet, och översättaren var tvungen att hitta språket för det."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Filmweb — Polska översättningar av filmtitlar",
+          "url": "https://www.filmweb.pl/news/ARTYKU%C5%81%3A+Polskie+t%C5%82umaczenia+tytu%C5%82%C3%B3w+filmowych-44124"
+        }
+      ]
+    },
+    "un": {
+      "slug": "fn-sprak",
+      "title": "FN:s språk: sex röster, en organisation",
+      "description": "Varför har FN sex officiella språk, hur skiljer de sig från arbetsspråk och hur ser översättarnas arbete ut på en plats där varje version måste betyda samma sak?",
+      "lead": "I FN räcker det inte med att säga något en gång. Samma mening måste låta på sex språk — och i varje version betyder det samma sak. Det är så flerspråkighet fungerar i en organisation som talar till nästan hela världen.",
+      "date": "2026-10-31T11:00:00+01:00",
+      "dateLabel": "31 oktober 2026",
+      "readingTime": "7 min",
+      "category": "Språkanvändning",
+      "image": "/blog/jezyki-onz.svg",
+      "imageAlt": "Glob och sex ballonger med FN-språkkoder.",
+      "keywords": [
+        "fN: s språk",
+        "fN: s officiella språk",
+        "fN-översättningar",
+        "Arabiska",
+        "Kinesiska",
+        "angielski",
+        "franska",
+        "Ryska",
+        "spanska"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "FN har sex officiella språk: arabiska, kinesiska, engelska, franska, ryska och spanska. Det handlar inte om att tycka om språk, utan om politisk kompromiss och diplomatisk praxis. Var och en av dem hade historisk, demografisk eller politisk betydelse — från permanenta medlemmar av säkerhetsrådet till den koloniala utbredningen och diasporan.",
+            "Officiella språk används i överläggningar, dokument och resolutioner. Engelska och franska är dessutom sekretariatets arbetsspråk. Skillnaden mellan \"officiell\" och \"arbetar\" är ibland förvirrad; i praktiken betyder det olika användningsområden och olika kostnader."
+          ]
+        },
+        {
+          "heading": "Varför dessa sex?",
+          "paragraphs": [
+            "Den ursprungliga truppen från 1945 bestod av kinesiska, engelska, franska, ryska och spanska. Arabiska anslöt sig 1973, när generalförsamlingen erkände det som ett officiellt språk. Sex språk är också sex samtidiga översättningskanaler, sex versioner av dokument och sex uppsättningar terminologi.",
+            "I praktiken använder FN översättare, tolkar, redaktörer och terminologer som ser till att juridiska och politiska begrepp är konsekventa i alla versioner. Detta är en osynlig infrastruktur av flerspråkighet — och ett av de villkor genom vilka en organisations beslut kan anses vara gemensamma."
+          ]
+        },
+        {
+          "heading": "Sex dagar, sex språk",
+          "list": [
+            "Arabiska — 18 december.",
+            "Kinesiska — 20 april.",
+            "Engelska — 23 april.",
+            "Franska — 20 mars.",
+            "Ryska — 6 juni.",
+            "Spanska — 12 oktober."
+          ],
+          "paragraphs": [
+            "Språkdagar är inte bara en kalendernyfikenhet. De visar att flerspråkighet är en del av offentlig diplomati: det bygger kulturernas synlighet och påminner om språkens jämlikhet i organisationen."
+          ]
+        },
+        {
+          "heading": "Översättare vid FN: precision och tempo",
+          "paragraphs": [
+            "Simultantolkning kräver delbarhet av uppmärksamhet, förberedelse och behärskning. Talaren väntar inte; översättaren måste förmedla innebörden i realtid och bevara namn, siffror och nyanser. I diplomati kan ett felaktigt verb ändra vikten på en hel mening.",
+            "Dokumenten passerar genom redaktion och terminologisk kontroll. FN upprätthåller UNTERM: s terminologidatabas, vilket bidrar till att upprätthålla överensstämmelse mellan språk. Översättning är inte ett komplement till politik — det är ett av dess verktyg."
+          ]
+        },
+        {
+          "heading": "Vad följer av detta",
+          "list": [
+            "Sex språk är en kompromiss mellan representation och kostnad.",
+            "Flerspråkighet handlar inte om att bokstavligen kopiera en text, utan om att återställa innebörden i olika språksystem.",
+            "Terminologisk konsekvens är en del av rättslig och politisk säkerhet.",
+            "Språk är ett verktyg för legitimitet: ett beslut som ges på sex språk har olika mottagare och olika konsekvenser än ett budskap i ett."
+          ],
+          "paragraphs": [
+            "FN påminner om att översättning inte är ett tillägg till politiken. Det är ett av de villkor genom vilka en policy kan förstås och erkännas som gemensam."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "FN — Officiella språk",
+          "url": "https://www.un.org/en/our-work/official-languages"
+        },
+        {
+          "label": "FN — Flerspråkighet",
+          "url": "https://www.un.org/en/multilingualism"
+        },
+        {
+          "label": "UNTERM — FN-terminologidatabas",
+          "url": "https://unterm.un.org/"
+        }
+      ]
+    },
+    "popular": {
+      "slug": "varldens-vanligaste-sprak",
+      "title": "Världens mest populära språk — och varför rankningen varierar",
+      "description": "Mandarin, spanska, engelska, hindi, arabiska — vilka språk har flest användare och varför varje rankning ger olika nummer.",
+      "lead": "Språk kan räknas på många sätt: som modersmål, som andraspråk, som officiellt språk eller som ett språk på Internet. Svaret på frågan \"vilken är den mest populära?\" beror på vad vi räknar med.",
+      "date": "2026-10-31T12:00:00+01:00",
+      "dateLabel": "31 oktober 2026",
+      "readingTime": "8 min",
+      "category": "Språkanvändning",
+      "image": "/blog/najpopularniejsze-jezyki.svg",
+      "imageAlt": "Stapeldiagram och glob — en illustration av rangordningen av de mest populära språken.",
+      "keywords": [
+        "mest populära språken",
+        "de mest använda språken",
+        "mandarin",
+        "angielski",
+        "spanska",
+        "Hindi",
+        "Arabiska",
+        "Etnolog"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Rangordningen av de \"mest populära språken\" är inte en enda rangordning. Andra nummer kommer att erhållas genom att fråga om modersmålet, andra om andraspråket och ytterligare andra om det officiella språket eller antalet webbplatser.",
+            "De mest citerade påståendena är baserade på Ethnologue, som uppskattar antalet talare baserat på tillgängliga data. Uppskattningarna varierar mellan utgåvorna, och kategorierna är ibland suddiga: \"kinesiska\" kan betyda mandarin, \"arabiska\" — en gemenskap av dialekter och \"hindi\" — ett av språken i Indien."
+          ]
+        },
+        {
+          "heading": "De flesta som har mandarin som modersmål: Mand",
+          "paragraphs": [
+            "Mandarin anges oftast som det språk med det största antalet modersmålstalare — beroende på källa, cirka 900 miljoner till över en miljard. \"Kinesiska\" i rankningar är vanligtvis mandarin, men i Kina talas även kantonesiska, wu, minnan och andra språk.",
+            "Detta är en viktig distinktion: språk och dialekt är politiska och språkliga kategorier på samma gång. Ömsesidig begriplighet är ibland begränsad, och klassificeringen beror på metodiken."
+          ]
+        },
+        {
+          "heading": "Spanska, engelska, hindi",
+          "paragraphs": [
+            "Spanska har cirka 480–500 miljoner infödda talare och en enorm räckvidd i Latinamerika, Spanien och USA. Engelska har färre modersmålstalare (cirka 370–400 miljoner), men det största utbudet som andraspråk och lingua franca — affärer, vetenskap, internet, luftfart.",
+            "Hindi är ett av Indiens största språk, men landet har ett dussintal officiella språk och hundratals lokala språk; engelska spelar rollen som administration och elitspråk i Indien. Arabiska, bengaliska, portugisiska, ryska och franska toppar listan beroende på kategori. Portugisiska är skyldig sin ställning till Brasilien, franska till Afrika och koloniala arv, och ryska till den postsovjetiska rymden."
+          ]
+        },
+        {
+          "heading": "Rankning efter totalt antal användare",
+          "paragraphs": [
+            "När vi räknar alla talare — modersmål och andraspråk — kommer engelska i förgrunden, följt av mandarin, hindi, spanska, franska, arabiska, bengali, portugisiska, ryska och urdu. Ordningen varierar beroende på källa och definition.",
+            "Siffror för andraspråk är särskilt svåra: är en person som kan engelska på A2-nivå en \"användare\"? Räknas en invandrare som talar ett annat språk i hemmet dubbelt? Svaren ändrar rankningen."
+          ]
+        },
+        {
+          "heading": "Varför detta är viktigt för översättningar",
+          "paragraphs": [
+            "Populariteten hos ett språk är inte densamma som efterfrågan på översättningar. I affärer räknas språkpar, industri och sammanhang; i lag — det officiella språket och tillgången på auktoriserade översättare; i marknadsföring — lokala sorter och kultur.",
+            "Engelska är ibland ett mellanspråk, men översättningen \"från engelska\" betyder inte alltid \"från originalet\". Många projekt kräver översättning från källspråket, inte från en mellanversion — särskilt i juridiska och tekniska texter."
+          ]
+        },
+        {
+          "heading": "HUVUDBUDSKAP",
+          "list": [
+            "Mandarin har flest modersmålstalare.",
+            "Engelska har störst räckvidd som andraspråk.",
+            "Spanska, hindi, arabiska, bengali, portugisiska, ryska och franska utgör en variabel front.",
+            "Rankningen beror på definitionerna: infödd, total, officiell, online.",
+            "För översättaren är det specifika sammanhanget och språkparet viktigare än rankningen."
+          ],
+          "paragraphs": [
+            "Det mest populära språket i världen finns inte i en version. Det finns många sätt att räkna — och många skäl att känna till skillnaden."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Etnolog — Vilka är de 200 mest talade språken?",
+          "url": "https://www.ethnologue.com/insights/ethnologue200/"
+        },
+        {
+          "label": "Ethnologue — en databas med världsspråk",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    },
+    "rare": {
+      "slug": "varldens-ovanligaste-sprak",
+      "title": "De mest sällsynta språken i världen — från några få talare till tystnad",
+      "description": "Språk med en, två eller ett dussin talare finns fortfarande. Vad har de gemensamt och varför påverkar deras förlust oss alla?",
+      "lead": "Det finns språk som talas av fler människor än invånare i många städer. Det finns också de som har de sista talarna. Gränsen mellan \"sällsynt\" och \"utdöd\" är ibland flytande — och beror på vem vi frågar.",
+      "date": "2026-10-31T13:00:00+01:00",
+      "dateLabel": "31 oktober 2026",
+      "readingTime": "7 min",
+      "category": "Språkanvändning",
+      "image": "/blog/najrzadsze-jezyki.svg",
+      "imageAlt": "Förstoringsglas och en liten bubbla — en illustration av ett inlägg om de mest sällsynta språken i världen.",
+      "keywords": [
+        "sällsynta språk",
+        "döende tungor",
+        "utrotningshotade språk",
+        "Unesco",
+        "Tanema",
+        "Lemerig",
+        "Njerep",
+        "revitalisering"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Det mest sällsynta språket i världen är en svår kategori. Talarnas antal är uppskattningar, de ändras från år till år, och gränsen mellan ”språk” och ”dialekt” är ibland politisk. En sak är säker: det finns fortfarande språk som talas av individer i världen.",
+            "Unescos världsatlas över språk dokumenterar över 8 000 språk, varav cirka 7 000 används. Vissa av dem har status som kritiskt hotade; andra används inte längre."
+          ]
+        },
+        {
+          "heading": "Några illustrativa exempel",
+          "list": [
+            "Tanema (Salomonöarna) — enligt uppskattningar från de senaste decennierna talades det av en handfull människor; angränsande språk tog över kommunikationsfunktionerna.",
+            "Lemerig (Vanuatu) — ett av de många språken i Vanuatu; antalet talare har minskat till ett fåtal, vilket gör det extremt hotat.",
+            "Njerep (Kamerun) — ett språk av den äldre generationen, förskjutet av de större språken i regionen; idag har det få talare.",
+            "Liki (Indonesien) — ett språk med ett dussintal talare, beläget på en liten ö; geografisk isolering skyddar inte alltid mot språkförlust.",
+            "Ainu (Japan) — ursprungsbefolkningens språk, under lång tid marginaliserat; idag genomförs återupplivningsaktiviteter, även om antalet flytande talare är litet.",
+            "Liwski (Lettland) — ett baltiskt språk med flera dussin talare; ett exempel på en gemenskap som aktivt arbetar för att upprätthålla det.",
+            "Korniska och manx — språk som en gång betraktades som utdöda, idag avskräckta av utbildning och kultur; de visar att den \"sista talaren\" inte behöver vara historiens slut."
+          ],
+          "paragraphs": [
+            "Dessa exempel visar att \"sällsynta\" inte är en fast etikett. Språket kan förlora talare, men också återfå dem tack vare samhällets, skolornas och mediernas arbete."
+          ]
+        },
+        {
+          "heading": "Varför språk försvinner",
+          "paragraphs": [
+            "Språkförlust beror sällan på en enda orsak. Det är vanligtvis förknippat med ekonomiskt tryck, migration, utbildningssystemet, stigma och brist på generationsöverföring. Föräldrar väljer ett språk som ger sina barn bättre möjligheter; samhället kan betrakta sitt eget språk som \"lantligt\" eller \"förflutet\".",
+            "Globaliseringen är inte den enda skyldige. På många platser har minoritetsspråk fördrivits av statens politik i årtionden. Därför är skyddet av språk också en fråga om mänskliga rättigheter och rättvisa."
+          ]
+        },
+        {
+          "heading": "Därför är det viktigt",
+          "paragraphs": [
+            "Språk är inte bara ett kommunikationsverktyg. Det är ett system för att klassificera världen, kunskap om naturen, historia och lag, ett sätt att överföra minne. När språket försvinner försvinner en del av kunskapen som inte kan översättas helt.",
+            "Det handlar inte om romantisk nostalgi. Det handlar om kognitiv och kulturell mångfald, som är en resurs för hela mänskligheten."
+          ]
+        },
+        {
+          "heading": "Vad du kan göra",
+          "list": [
+            "Dokumentation — inspelningar, transkriptioner, ordböcker, korpusar.",
+            "Revitalisering — lärande i skolor, vuxenprogram, media och litteratur.",
+            "Teknik — tangentbord, teckensnitt, applikationer, sociala ordböcker.",
+            "Samhällsstöd — beslut bör tillhöra talarna, inte bara forskarna.",
+            "Utbildnings- och språkpolitik — skydd av minoritetsspråk i lag och praktik."
+          ],
+          "paragraphs": [
+            "De sällsyntaste språken är ingen kuriosa från museet. De är ett levande vittnesbörd om hur olika världen kan beskrivas — och en påminnelse om att mångfald kräver dagligt arbete."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "UNESCO — Världens språkatlas",
+          "url": "https://en.wal.unesco.org/world-atlas-languages"
+        },
+        {
+          "label": "Unesco — Ursprungliga språk årtionde",
+          "url": "https://www.unesco.org/en/decades/indigenous-languages"
+        },
+        {
+          "label": "Ethnologue — en databas med världsspråk",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    }
+  }
+}

@@ -1,3 +1,17 @@
+import { languages, type Locale } from '@/i18n';
+import pl from './blog/pl.json';
+import en from './blog/en.json';
+import de from './blog/de.json';
+import fr from './blog/fr.json';
+import es from './blog/es.json';
+import it from './blog/it.json';
+import nl from './blog/nl.json';
+import pt from './blog/pt.json';
+import uk from './blog/uk.json';
+import ru from './blog/ru.json';
+import cs from './blog/cs.json';
+import sv from './blog/sv.json';
+
 export interface BlogSource {
   label: string;
   url: string;
@@ -10,463 +24,75 @@ export interface BlogSection {
   quote?: string;
 }
 
-export interface BlogPost {
+export interface BlogTranslation {
   slug: string;
   title: string;
   description: string;
   lead: string;
-  date: string;
   dateLabel: string;
   readingTime: string;
   category: string;
-  image: string;
   imageAlt: string;
   keywords: string[];
   sections: BlogSection[];
   sources: BlogSource[];
 }
 
-export const blogPosts: BlogPost[] = [
-  {
-    slug: 'wpadki-tlumaczy-ktore-zmienily-historie',
-    title: 'Wpadki tłumaczy, które zmieniły historię',
-    description:
-      'Sześć historii o tym, jak jeden idiom, zbyt dosłowne słowo albo brak kontekstu wpłynęły na politykę, prawo i kulturę.',
-    lead:
-      'Tłumaczenie bywa niewidoczne, dopóki wszystko działa. Kiedy jednak sens wymyka się spod kontroli, skutki potrafią być większe niż językowy żart. Oto sześć przypadków, w których tłumacz — albo ten, kto podjął decyzję za niego — zmienił bieg wydarzeń.',
-    date: '2026-10-31T09:00:00+01:00',
-    dateLabel: '31 października 2026',
-    readingTime: '9 min',
-    category: 'Historia',
-    image: '/blog/wpadki-tlumaczy.svg',
-    imageAlt: 'Dwie mowy i popękany cytat — ilustracja wpisu o błędach tłumaczeniowych.',
-    keywords: [
-      'błędy tłumaczeniowe',
-      'historia tłumaczeń',
-      'Jimmy Carter',
-      'Chruszczow',
-      'traktat z Waitangi',
-      'kanały na Marsie',
-      'masakra koło Grattan',
-      'Abel i Kain',
-    ],
-    sections: [
-      {
-        paragraphs: [
-          'W dyplomacji, sądzie, redakcji i nauce tłumacz jest łącznikiem między intencją a skutkiem. Nie wystarczy znać słowa. Trzeba wiedzieć, co ono znaczy w konkretnej sytuacji, kto je wypowiada i jak może je odebrać druga strona. Gdy tego zabraknie, powstaje przestrzeń na nieporozumienie — czasem zabawne, czasem kosztowne.',
-          'Poniższe historie łączy jedno: tłumaczenie jest decyzją. Czasem podejmuje ją tłumacz, czasem dystrybutor, redaktor albo urzędnik. Odpowiedzialność za sens bywa rozproszona, ale skutki zwykle widać od razu.',
-        ],
-      },
-      {
-        heading: 'Jimmy Carter w Polsce: ciepłe słowa, które zabrzmiały obscenicznie (1977)',
-        paragraphs: [
-          'W grudniu 1977 roku prezydent USA Jimmy Carter odwiedził Polskę. Chciał mówić o ciekawości Polaków i radości z przybycia do kraju. Według najczęściej powtarzanej relacji jego tłumacz, Steven Seymour, przełożył te myśli tak niefortunnie, że w mediach pojawiły się sformułowania o cielesnym pożądaniu Polaków i chwytaniu Polski za intymne części.',
-          'Trudno dziś ustalić, ile w tej historii jest dokładnym cytatem, a ile dziennikarską legendą. Sam Seymour miał później tłumaczyć, że część zarzutów była przesadzona. Nie zmienia to jednak najważniejszego: kilka źle dobranych słów wystarczyło, by polityczne przesłanie zniknęło za fasadą skandalu.',
-          'To klasyczny przykład różnicy między dosłownością a rejestrem. Zdanie, które po polsku brzmi jak uprzejma ciekawość, po angielsku może zabrzmieć jak niedopuszczalna poufałość. W tłumaczeniu wystąpień publicznych kontekst jest równie ważny jak słownik.',
-        ],
-        quote: 'W dyplomacji nie wystarczy powiedzieć dobrze. Trzeba powiedzieć to, co druga strona może usłyszeć.',
-      },
-      {
-        heading: 'Chruszczow i „We will bury you”: metafora, która zabrzmiała jak wyrok (1956)',
-        paragraphs: [
-          'W 1956 roku Nikita Chruszczow miał powiedzieć zachodnim dyplomatom, że historia jest po stronie socjalizmu i że „was pochowają”. Angielskie „We will bury you” przeszło do historii jako niemal dosłowna zapowiedź nuklearnej zagłady.',
-          'Tymczasem rosyjskie sformułowanie było metaforą nieuchronnego zwycięstwa ustrojowego, a nie planem ataku. Chruszczow wielokrotnie przekonywał, że nie chodziło mu o fizyczny pogrzeb Zachodu, lecz o marksistowską wiarę w to, że komunizm przetrwa kapitalizm.',
-          'Wokół tej historii narosło jeszcze inne nieporozumienie. Często łączy się ją z powiedzeniem „pokażemy wam kuźkiną matkę”, które również sprawiało tłumaczom kłopoty. To pokazuje, jak łatwo dwa różne idiomy zlewają się w jeden polityczny mit — i jak ważne jest, by nie tłumaczyć frazeologizmu słowo w słowo.',
-        ],
-      },
-      {
-        heading: 'Traktat z Waitangi: dwie wersje, jedno państwo (1840)',
-        paragraphs: [
-          'W 1840 roku przedstawiciele brytyjskiej Korony i wodzowie maoryscy podpisali traktat, który do dziś jest fundamentem relacji w Nowej Zelandii. Wersja angielska mówiła o przekazaniu suwerenności. Wersja maoryska, przygotowana przez misjonarzy, użyła pojęć, które dla Maorysów znaczyły coś innego: oddanie władzy administracyjnej przy zachowaniu własnych praw do ziemi i społeczności.',
-          'Różnica nie była drobiazgiem stylistycznym. Z czasem stała się źródłem sporów o ziemię, wojen i wieloletnich procesów. Współczesna Nowa Zelandia nadal mierzy się z konsekwencjami tego, jak dwa języki opisały jedną umowę.',
-          'W tekstach prawnych każde słowo ma ciężar. Tłumaczenie dokumentu, który rozdaje władzę, nie jest ćwiczeniem z języka — jest decyzją polityczną. Dlatego umowy międzynarodowe wymagają nie tylko linguistów, ale i prawników oraz uzgodnienia, która wersja jest wiążąca.',
-        ],
-      },
-      {
-        heading: 'Kanały na Marsie: jak jeden fałszywy przyjaciel stworzył cywilizację (1877)',
-        paragraphs: [
-          'Włoski astronom Giovanni Schiaparelli opisał ciemne linie na powierzchni Marsa jako „canali” — naturalne koryta, rowy, formacje terenu. Po angielsku słowo to zostało oddane jako „canals”, które sugeruje kanały wykopane przez kogoś rozumnego.',
-          'Ta drobna różnica semantyczna wystarczyła, by w wyobraźni publiczności pojawiła się zaawansowana cywilizacja. Percival Lowell rozwinął teorię marsjańskich kanałów, a H.G. Wells wykorzystał ją w „Wojnie światów”. Tak narodził się jeden z najtrwalszych motywów popkultury.',
-          'To przypomnienie, że fałszywi przyjaciele i zbyt swobodne odpowiedniki potrafią zmienić nie tylko tekst, ale i obraz świata. W tekstach naukowych precyzja nie jest ozdobą — jest częścią metody.',
-        ],
-      },
-      {
-        heading: 'Masakra koło Grattan: kiedy tłumacz staje się iskrą (1854)',
-        paragraphs: [
-          'W 1854 roku w obozie Lakotów doszło do sporu o krowę. Młody porucznik John Grattan postanowił aresztować sprawcę. Według przekazów zabrał ze sobą tłumacza, który nie znał dobrze języka i był pod wpływem alkoholu. Jego słowa miały zabrzmieć agresywniej, niż zamierzał wódz.',
-          'Sytuacja wymknęła się spod kontroli. W wymianie ognia zginął wódz Conquering Bear i żołnierze. Wydarzenie stało się iskrą, która zapoczątkowała I wojnę siuksów i dekady konfliktu.',
-          'W sytuacjach kryzysowych kompetencja językowa jest kwestią bezpieczeństwa. Tłumacz nie może być dodatkiem do delegacji. Musi być przygotowany do rozmowy, w której stawka jest najwyższa — i mieć prawo powiedzieć „nie rozumiem” zamiast zgadywać.',
-        ],
-      },
-      {
-        heading: 'Abel i Kain: błąd, który odwrócił teologię (2004)',
-        paragraphs: [
-          'W 2004 roku w polskim tłumaczeniu papieskiego orędzia na Światowy Dzień Pokoju pojawiło się zdanie, że to Abel zabił swojego brata Kaina. W biblijnej historii jest dokładnie odwrotnie. Błąd był tak oczywisty, że szybko stał się tematem mediów.',
-          'Nie był to problem stylu ani niuansu. To był błąd na poziomie sensu, który w tekście religijnym nabiera szczególnego ciężaru. Sekretariat Stanu i polskie służby prasowe musiały wyjaśniać, skąd wzięła się pomyłka.',
-          'Nawet doświadczony zespół potrzebuje redakcji i korekty. W tekstach, które będą cytowane i interpretowane, nie ma miejsca na „prawie dobrze”.',
-        ],
-      },
-      {
-        heading: 'Czego uczą te historie',
-        list: [
-          'Kontekst jest częścią znaczenia. Bez niego nawet poprawny słownikowo przekład może obrazić, przestraszyć albo wprowadzić w błąd.',
-          'Idiom nie jest zagadką do rozwiązania słowo w słowo. Trzeba znaleźć jego funkcję w zdaniu i oddać ją w języku docelowym.',
-          'W tekstach prawnych, religijnych i dyplomatycznych konsekwencje błędów są szczególnie trwałe.',
-          'Tłumacz potrzebuje kompetencji, przygotowania i warunków do pracy. Pośpiech i alkohol to źli doradcy.',
-          'Redakcja i korekta to nie luksus, lecz ostatnia linia obrony sensu.',
-        ],
-        paragraphs: [
-          'Te historie bywają zabawne, ale przypominają o poważnej rzeczy: język kształtuje rzeczywistość. Dobry przekład nie polega na tym, żeby zabrzmieć mądrze. Polega na tym, żeby oddać to, co naprawdę zostało powiedziane — i nie dopisać niczego od siebie.',
-        ],
-      },
-    ],
-    sources: [
-      {
-        label: 'BBC Culture — The greatest mistranslations ever',
-        url: 'https://www.bbc.com/culture/article/20150202-the-greatest-mistranslations-ever',
-      },
-      {
-        label: 'Agencja Tłumaczeń — Największe błędy tłumaczeniowe świata',
-        url: 'https://agencjatlumaczen.com.pl/aktualnosci/najwieksze-bledy-tlumaczeniowe-swiata/',
-      },
-      {
-        label: 'Przysięgle.online — Słynne wpadki tłumaczeniowe i czego nas uczą',
-        url: 'https://przysiegle.online/slynne-wpadki-tlumaczeniowe-i-czego-nas-ucza/',
-      },
-    ],
-  },
-  {
-    slug: 'polskie-tytuly-filmow',
-    title: 'Dlaczego „Die Hard” został „Szklaną pułapką”? Polskie tytuły filmów',
-    description:
-      'Od „Szklanej pułapki” po „Wirujący seks” — jak dystrybutorzy zmieniali tytuły filmów i co z tego wynika.',
-    lead:
-      'Polskie tytuły filmów zagranicznych bywają pamiętniejsze niż same filmy. Czasem pomagają, czasem bawią, a czasem zupełnie zmieniają sens. Skąd biorą się te decyzje i dlaczego tłumacz nie zawsze ma tu ostatnie słowo?',
-    date: '2026-10-31T10:00:00+01:00',
-    dateLabel: '31 października 2026',
-    readingTime: '6 min',
-    category: 'Kultura',
-    image: '/blog/polskie-tytuly-filmow.svg',
-    imageAlt: 'Klaps filmowy i taśma — ilustracja wpisu o polskich tytułach filmów.',
-    keywords: [
-      'polskie tytuły filmów',
-      'tłumaczenie tytułów filmowych',
-      'Die Hard',
-      'Dirty Dancing',
-      'Terminator',
-      'Filmweb',
-    ],
-    sections: [
-      {
-        paragraphs: [
-          'Wbrew popularnemu przekonaniu o finalnym tytule zwykle nie decyduje tłumacz. Decyzję podejmuje dystrybutor lub producent, a tłumaczenie tytułu jest tylko jednym z elementów kampanii. Tytuł ma sprzedać bilet, kasetę VHS albo abonament — musi być chwytliwy, zrozumiały i dopasowany do lokalnego rynku.',
-          'Dlatego polska historia tytułów filmowych jest pełna zarówno trafień, jak i kuriozów. Jedne weszły do języka na stałe, inne do dziś budzą zdziwienie. Oto kilka przykładów, które najlepiej pokazują, jak różne strategie potrafią zmienić odbiór filmu.',
-        ],
-      },
-      {
-        heading: 'Klasyki, które przeszły do popkultury',
-        list: [
-          'Die Hard → Szklana pułapka. Tytuł oderwał się od dosłownego „umrzeć z trudem” i zamienił wieżowiec w pułapkę. Dziś trudno wyobrazić sobie inną wersję.',
-          'The Terminator → Elektroniczny morderca. Wczesny polski tytuł z lat 80. brzmi jak opis urządzenia z katalogu, a nie jak film akcji. Z czasem wygrał oryginalny „Terminator”.',
-          'Dirty Dancing → Wirujący seks. Tytuł, który dziś nie przeszedłby marketingu. W latach 80. stawiał na dosłowność i kontrowersję; dziś jest symbolem translatorskiej odwagi albo braku wyczucia.',
-          'Reality Bites → Orbitowanie bez cukru. Zagadka. Tytuł nie ma wiele wspólnego z oryginałem; według jednej z interpretacji nawiązywał do reklamy gumy do żucia. Efekt: intrygujący, ale nieoczywisty.',
-          'Under Siege → Liberator. Tytuł zmienił się w imię mocniejszego brzmienia. „Liberator” brzmi jak nazwa superbohatera, nie jak film o okręcie.',
-          'Phantasm → Mordercze kuleczki. Dosłowność poszła za daleko: zamiast grozy pojawia się obraz kulek. Właśnie dlatego tytuł jest dziś pamiętany.',
-          'Million Dollar Baby → Za wszelką cenę. Zamiast sportowej historii o bokserce dostajemy frazę o cenie, którą trzeba zapłacić. Tytuł zapowiada dramat, ale gubi bohaterkę.',
-        ],
-      },
-      {
-        heading: 'Cztery strategie tłumaczenia tytułów',
-        list: [
-          'Dosłowne tłumaczenie — np. How I Met Your Mother → Jak poznałem waszą matkę. Wierne, ale czasem ciężkie i pozbawione polotu.',
-          'Oryginał bez zmian — np. Pulp Fiction, Gran Torino. Marka i brzmienie okazały się ważniejsze od zrozumiałości.',
-          'Hybryda — oryginał plus polski podtytuł, np. Braveheart – Waleczne serce, Alien – Ósmy pasażer Nostromo. Tytuł dopowiada gatunek i ułatwia identyfikację.',
-          'Marketingowa interpretacja — tytuł oderwany od oryginału, by przyciągnąć widzów. Największe pole do wpadki i najwięcej historii, które do dziś bawią.',
-        ],
-      },
-      {
-        heading: 'Dlaczego to się dzieje',
-        paragraphs: [
-          'Rynek kinowy i VHS potrzebował krótkich, mocnych haseł. Tytuł był reklamą, nie tłumaczeniem. Dystrybutorzy testowali różne wersje, a tłumacz często dostawał gotowe wytyczne albo pracował nad tekstem, który później zmieniał dział marketingu.',
-          'Współczesne platformy streamingowe częściej zostawiają oryginał albo wybierają prostsze, mniej inwazyjne tłumaczenia. To efekt globalizacji i tego, że widzowie szukają filmu po nazwie, którą znają. Ale stara szkoła polskich tytułów wciąż wraca w rozmowach — i w memach.',
-        ],
-      },
-      {
-        heading: 'Co powinien robić dobry tytuł',
-        paragraphs: [
-          'Dobry tytuł powinien oddać gatunek, ton i obietnicę filmu. Nie musi być dosłowny, ale nie powinien wprowadzać w błąd. Granica między kreacją a manipulacją jest cienka: „Szklana pułapka” działa, bo zapowiada napięcie i miejsce akcji. „Wirujący seks” działa dziś raczej jako przestroga niż jako reklama.',
-          'Polskie tytuły filmów są świadectwem czasów, w których powstały. Śmieszą, irytują, ale też pokazują, jak ważną rolę odgrywa język w sprzedaży kultury. Następnym razem, gdy zobaczysz dziwny tytuł, pomyśl: to nie zawsze translator zawinił. Czasem to marketing podjął decyzję, a tłumacz musiał znaleźć dla niej język.',
-        ],
-      },
-    ],
-    sources: [
-      {
-        label: 'Filmweb — Polskie tłumaczenia tytułów filmowych',
-        url: 'https://www.filmweb.pl/news/ARTYKU%C5%81%3A+Polskie+t%C5%82umaczenia+tytu%C5%82%C3%B3w+filmowych-44124',
-      },
-    ],
-  },
-  {
-    slug: 'jezyki-onz',
-    title: 'Języki ONZ: sześć głosów, jedna organizacja',
-    description:
-      'Dlaczego ONZ ma sześć języków oficjalnych, czym różnią się od języków roboczych i jak wygląda praca tłumaczy w miejscu, gdzie każda wersja musi znaczyć to samo.',
-    lead:
-      'W ONZ nie wystarczy powiedzieć czegoś raz. To samo zdanie musi zabrzmieć w sześciu językach — i w każdej wersji znaczyć to samo. Oto jak działa wielojęzyczność organizacji, która mówi do prawie całego świata.',
-    date: '2026-10-31T11:00:00+01:00',
-    dateLabel: '31 października 2026',
-    readingTime: '7 min',
-    category: 'Języki',
-    image: '/blog/jezyki-onz.svg',
-    imageAlt: 'Globus i sześć dymków z kodami języków ONZ.',
-    keywords: [
-      'języki ONZ',
-      'języki oficjalne ONZ',
-      'tłumaczenia ONZ',
-      'arabski',
-      'chiński',
-      'angielski',
-      'francuski',
-      'rosyjski',
-      'hiszpański',
-    ],
-    sections: [
-      {
-        paragraphs: [
-          'ONZ ma sześć języków oficjalnych: arabski, chiński, angielski, francuski, rosyjski i hiszpański. To nie kwestia sympatii do języków, lecz politycznego kompromisu i praktyki dyplomatycznej. Każdy z nich miał znaczenie historyczne, demograficzne albo polityczne — od stałych członków Rady Bezpieczeństwa po zasięg kolonialny i diasporę.',
-          'Języki oficjalne są używane w obradach, dokumentach i rezolucjach. Angielski i francuski pełnią dodatkowo rolę języków roboczych Sekretariatu. Różnica między „oficjalny” a „roboczy” bywa mylona; w praktyce oznacza różne zakresy użycia i różne koszty.',
-        ],
-      },
-      {
-        heading: 'Dlaczego właśnie te sześć?',
-        paragraphs: [
-          'Pierwotny skład z 1945 roku obejmował chiński, angielski, francuski, rosyjski i hiszpański. Arabski dołączył w 1973 roku, gdy Zgromadzenie Ogólne uznało go za język oficjalny. Sześć języków to także sześć kanałów tłumaczenia symultanicznego, sześć wersji dokumentów i sześć zestawów terminologii.',
-          'W praktyce ONZ zatrudnia tłumaczy, interpretatorów, redaktorów i terminologów, którzy dbają o to, by pojęcia prawne i polityczne były spójne we wszystkich wersjach. To niewidoczna infrastruktura wielojęzyczności — i jeden z warunków, dzięki którym decyzje organizacji mogą być uznane za wspólne.',
-        ],
-      },
-      {
-        heading: 'Sześć dni, sześć języków',
-        list: [
-          'Arabski — 18 grudnia.',
-          'Chiński — 20 kwietnia.',
-          'Angielski — 23 kwietnia.',
-          'Francuski — 20 marca.',
-          'Rosyjski — 6 czerwca.',
-          'Hiszpański — 12 października.',
-        ],
-        paragraphs: [
-          'Dni językowe nie są tylko kalendarzową ciekawostką. Pokazują, że wielojęzyczność jest częścią dyplomacji publicznej: buduje widoczność kultur i przypomina o równości języków w organizacji.',
-        ],
-      },
-      {
-        heading: 'Tłumacz w ONZ: precyzja i tempo',
-        paragraphs: [
-          'Interpretacja symultaniczna wymaga podzielności uwagi, przygotowania i opanowania. Mówca nie czeka; tłumacz musi oddać sens w czasie rzeczywistym, zachowując nazwy, liczby i niuanse. W dyplomacji jeden źle dobrany czasownik może zmienić ciężar całego zdania.',
-          'Dokumenty przechodzą przez redakcję i kontrolę terminologiczną. ONZ prowadzi bazę terminologiczną UNTERM, która pomaga utrzymać spójność między językami. Tłumaczenie nie jest tu dodatkiem do polityki — jest jednym z jej narzędzi.',
-        ],
-      },
-      {
-        heading: 'Co z tego wynika',
-        list: [
-          'Sześć języków to kompromis między reprezentacją a kosztem.',
-          'Wielojęzyczność nie polega na dosłownym kopiowaniu tekstu, lecz na odtworzeniu sensu w różnych systemach językowych.',
-          'Spójność terminologiczna jest częścią bezpieczeństwa prawnego i politycznego.',
-          'Język jest narzędziem legitymizacji: decyzja podana w sześciu językach ma innych odbiorców i inne konsekwencje niż komunikat w jednym.',
-        ],
-        paragraphs: [
-          'ONZ przypomina, że tłumaczenie nie jest dodatkiem do polityki. Jest jednym z warunków, dzięki którym polityka może być zrozumiała i uznana za wspólną.',
-        ],
-      },
-    ],
-    sources: [
-      {
-        label: 'ONZ — Official languages',
-        url: 'https://www.un.org/en/our-work/official-languages',
-      },
-      {
-        label: 'ONZ — Multilingualism',
-        url: 'https://www.un.org/en/multilingualism',
-      },
-      {
-        label: 'UNTERM — baza terminologiczna ONZ',
-        url: 'https://unterm.un.org/',
-      },
-    ],
-  },
-  {
-    slug: 'najpopularniejsze-jezyki-swiata',
-    title: 'Najpopularniejsze języki świata — i dlaczego rankingi się różnią',
-    description:
-      'Mandaryński, hiszpański, angielski, hindi, arabski — które języki mają najwięcej użytkowników i dlaczego każdy ranking podaje inne liczby.',
-    lead:
-      'Języki można liczyć na wiele sposobów: jako język ojczysty, jako drugi język, jako język urzędowy albo jako język internetu. Odpowiedź na pytanie „który jest najpopularniejszy?” zależy od tego, co dokładnie liczymy.',
-    date: '2026-10-31T12:00:00+01:00',
-    dateLabel: '31 października 2026',
-    readingTime: '8 min',
-    category: 'Języki',
-    image: '/blog/najpopularniejsze-jezyki.svg',
-    imageAlt: 'Wykres słupkowy i globus — ilustracja rankingu najpopularniejszych języków.',
-    keywords: [
-      'najpopularniejsze języki',
-      'najczęściej używane języki',
-      'mandaryński',
-      'angielski',
-      'hiszpański',
-      'hindi',
-      'arabski',
-      'Ethnologue',
-    ],
-    sections: [
-      {
-        paragraphs: [
-          'Ranking „najpopularniejszych języków” nie jest jednym rankingiem. Inne liczby otrzymamy, pytając o język ojczysty, inne o język drugi, a jeszcze inne o język urzędowy lub o liczbę stron internetowych.',
-          'Najczęściej cytowane zestawienia opierają się na Ethnologue, które szacuje liczbę mówiących na podstawie dostępnych danych. Szacunki różnią się między edycjami, a kategorie bywają nieostre: „chiński” może oznaczać mandaryński, „arabski” — wspólnotę dialektów, a „hindi” — jeden z języków Indii.',
-        ],
-      },
-      {
-        heading: 'Najwięcej native speakerów: mandaryński',
-        paragraphs: [
-          'Mandaryński jest najczęściej wskazywany jako język o największej liczbie rodzimych użytkowników — w zależności od źródła ok. 900 mln do ponad miliarda. „Chiński” w rankingach to zwykle mandaryński, choć w Chinach mówi się także kantońskim, wu, minnan i innymi językami.',
-          'To ważne rozróżnienie: język i dialekt to kategorie polityczne i lingwistyczne zarazem. Wzajemna zrozumiałość bywa ograniczona, a klasyfikacja zależy od metodologii.',
-        ],
-      },
-      {
-        heading: 'Hiszpański, angielski, hindi',
-        paragraphs: [
-          'Hiszpański ma ok. 480–500 mln native speakerów i ogromny zasięg w Ameryce Łacińskiej, Hiszpanii i USA. Angielski ma mniej native speakerów (ok. 370–400 mln), ale największy zasięg jako język drugi i lingua franca — biznes, nauka, internet, lotnictwo.',
-          'Hindi jest jednym z największych języków Indii, ale kraj ma kilkanaście języków urzędowych i setki języków lokalnych; angielski odgrywa w Indiach rolę języka administracji i elit. Arabski, bengalski, portugalski, rosyjski i francuski uzupełniają czołówkę w zależności od kategorii. Portugalski zawdzięcza pozycję Brazylii, francuski — Afryce i dziedzictwu kolonialnemu, rosyjski — przestrzeni postsowieckiej.',
-        ],
-      },
-      {
-        heading: 'Ranking według łącznej liczby użytkowników',
-        paragraphs: [
-          'Gdy liczymy wszystkich mówiących — native i drugi język — na czoło wysuwa się angielski, a za nim mandaryński, hindi, hiszpański, francuski, arabski, bengalski, portugalski, rosyjski i urdu. Kolejność zmienia się w zależności od źródła i definicji.',
-          'Liczby dla języków drugich są szczególnie trudne: czy osoba, która zna angielski na poziomie A2, jest „użytkownikiem”? Czy emigrant, który mówi w domu innym językiem, liczy się podwójnie? Odpowiedzi zmieniają ranking.',
-        ],
-      },
-      {
-        heading: 'Dlaczego to ma znaczenie dla tłumaczeń',
-        paragraphs: [
-          'Popularność języka nie jest tym samym co popyt na tłumaczenia. W biznesie liczą się pary językowe, branża i kontekst; w prawie — język urzędowy i dostępność tłumaczy przysięgłych; w marketingu — lokalne odmiany i kultura.',
-          'Angielski bywa językiem pośrednim, ale tłumaczenie „z angielskiego” nie zawsze znaczy „z oryginału”. Wiele projektów wymaga tłumaczenia z języka źródłowego, nie z wersji pośredniej — zwłaszcza w tekstach prawnych i technicznych.',
-        ],
-      },
-      {
-        heading: 'Najważniejsze wnioski',
-        list: [
-          'Mandaryński ma najwięcej native speakerów.',
-          'Angielski ma największy zasięg jako język drugi.',
-          'Hiszpański, hindi, arabski, bengalski, portugalski, rosyjski i francuski tworzą zmienną czołówkę.',
-          'Ranking zależy od definicji: native, total, urzędowy, internetowy.',
-          'Dla tłumacza ważniejszy od rankingu jest konkretny kontekst i para językowa.',
-        ],
-        paragraphs: [
-          'Najpopularniejszy język świata nie istnieje w jednej wersji. Istnieje wiele sposobów liczenia — i wiele powodów, dla których warto znać różnicę.',
-        ],
-      },
-    ],
-    sources: [
-      {
-        label: 'Ethnologue — What are the top 200 most spoken languages?',
-        url: 'https://www.ethnologue.com/insights/ethnologue200/',
-      },
-      {
-        label: 'Ethnologue — baza języków świata',
-        url: 'https://www.ethnologue.com/',
-      },
-    ],
-  },
-  {
-    slug: 'najrzadsze-jezyki-swiata',
-    title: 'Najrzadsze języki świata — od kilku mówiących do ciszy',
-    description:
-      'Języki z jedną, dwiema albo kilkunastoma osobami mówiącymi wciąż istnieją. Co je łączy i dlaczego ich strata dotyczy nas wszystkich?',
-    lead:
-      'Są języki, którymi mówi więcej ludzi niż mieszkańców niejednego miasta. Są też takie, które mają ostatnich mówiących. Granica między „rzadki” a „wymarły” bywa płynna — i zależy od tego, kogo zapytamy.',
-    date: '2026-10-31T13:00:00+01:00',
-    dateLabel: '31 października 2026',
-    readingTime: '7 min',
-    category: 'Języki',
-    image: '/blog/najrzadsze-jezyki.svg',
-    imageAlt: 'Lupa i mały dymek — ilustracja wpisu o najrzadszych językach świata.',
-    keywords: [
-      'najrzadsze języki',
-      'wymierające języki',
-      'języki zagrożone',
-      'UNESCO',
-      'Tanema',
-      'Lemerig',
-      'Njerep',
-      'rewitalizacja',
-    ],
-    sections: [
-      {
-        paragraphs: [
-          'Najrzadszy język świata to trudna kategoria. Liczby mówiących są szacunkami, zmieniają się z roku na rok, a granica między „językiem” a „dialektem” bywa polityczna. Jedno pozostaje pewne: na świecie wciąż istnieją języki, którymi posługują się pojedyncze osoby.',
-          'UNESCO World Atlas of Languages dokumentuje ponad 8 tysięcy języków, z czego około 7 tysięcy jest w użyciu. Część z nich ma status krytycznie zagrożonych; inne są już nieużywane.',
-        ],
-      },
-      {
-        heading: 'Kilka przykładów',
-        list: [
-          'Tanema (Wyspy Salomona) — według szacunków z ostatnich dekad mówiła nim garstka osób; sąsiednie języki przejęły funkcje komunikacyjne.',
-          'Lemerig (Vanuatu) — jeden z wielu języków Vanuatu; liczba mówiących spadła do kilku osób, co czyni go skrajnie zagrożonym.',
-          'Njerep (Kamerun) — język starszego pokolenia, wypierany przez większe języki regionu; dziś ma niewielu mówiących.',
-          'Liki (Indonezja) — język z kilkunastoma użytkownikami, położony na małej wyspie; izolacja geograficzna nie zawsze chroni przed utratą języka.',
-          'Ainu (Japonia) — język rdzennej ludności, przez długi czas marginalizowany; dziś podejmuje się działania rewitalizacyjne, choć liczba płynnych mówiących jest niewielka.',
-          'Liwski (Łotwa) — język bałtycki z kilkudziesięcioma mówiącymi; przykład społeczności, która aktywnie pracuje nad jego utrzymaniem.',
-          'Kornijski i manx — języki uznane niegdyś za wymarłe, dziś odradzane dzięki edukacji i kulturze; pokazują, że „ostatni mówiący” nie musi być końcem historii.',
-        ],
-        paragraphs: [
-          'Te przykłady pokazują, że „najrzadszy” nie jest stałą etykietą. Język może stracić mówiących, ale też odzyskać ich dzięki pracy społeczności, szkołom i mediom.',
-        ],
-      },
-      {
-        heading: 'Dlaczego języki znikają',
-        paragraphs: [
-          'Utrata języka rzadko wynika z jednej przyczyny. Zwykle łączy się z presją ekonomiczną, migracją, systemem edukacji, stygmatyzacją i brakiem przekazu międzypokoleniowego. Rodzice wybierają język, który daje dzieciom lepsze szanse; społeczność może uznać własny język za „wiejski” lub „przeszły”.',
-          'Globalizacja nie jest jedynym winowajcą. W wielu miejscach języki mniejszości były przez dziesięciolecia wypierane przez politykę państwa. Dlatego ochrona języków jest też kwestią praw człowieka i sprawiedliwości.',
-        ],
-      },
-      {
-        heading: 'Dlaczego to ważne',
-        paragraphs: [
-          'Język to nie tylko narzędzie komunikacji. To system klasyfikacji świata, wiedza o przyrodzie, historii i prawie, sposób przekazywania pamięci. Gdy znika język, znika też część wiedzy, której nie da się przetłumaczyć bez reszty.',
-          'Nie chodzi o romantyczną nostalgię. Chodzi o różnorodność poznawczą i kulturową, która jest zasobem całej ludzkości.',
-        ],
-      },
-      {
-        heading: 'Co można zrobić',
-        list: [
-          'Dokumentacja — nagrania, transkrypcje, słowniki, korpusy.',
-          'Rewitalizacja — nauka w szkołach, programy dla dorosłych, media i literatura.',
-          'Technologia — klawiatury, czcionki, aplikacje, społecznościowe słowniki.',
-          'Wsparcie społeczności — decyzje powinny należeć do mówiących, nie tylko do badaczy.',
-          'Edukacja i polityka językowa — ochrona języków mniejszości w prawie i praktyce.',
-        ],
-        paragraphs: [
-          'Najrzadsze języki nie są ciekawostką z muzeum. Są żywym świadectwem tego, jak różnie można opisywać świat — i przypomnieniem, że różnorodność wymaga codziennej pracy.',
-        ],
-      },
-    ],
-    sources: [
-      {
-        label: 'UNESCO — World Atlas of Languages',
-        url: 'https://en.wal.unesco.org/world-atlas-languages',
-      },
-      {
-        label: 'UNESCO — Indigenous Languages Decade',
-        url: 'https://www.unesco.org/en/decades/indigenous-languages',
-      },
-      {
-        label: 'Ethnologue — baza języków świata',
-        url: 'https://www.ethnologue.com/',
-      },
-    ],
-  },
+export interface BlogPost {
+  id: string;
+  date: string;
+  image: string;
+  translations: Record<Locale, BlogTranslation>;
+}
 
-];
+export interface BlogUi {
+  title: string;
+  eyebrow: string;
+  lead: string;
+  description: string;
+  read: string;
+  allPosts: string;
+  related: string;
+  reading: string;
+  sources: string;
+  ctaTitle: string;
+  ctaText: string;
+  sidebarTitle: string;
+  sidebarText: string;
+  blogName: string;
+  blogLabel: string;
+}
 
-export function getBlogPost(slug: string): BlogPost | undefined {
-  return blogPosts.find(post => post.slug === slug);
+interface BlogDictionary {
+  ui: BlogUi;
+  posts: Record<string, BlogTranslation & { date?: string; image?: string }>;
+}
+
+const dictionaries: Record<Locale, BlogDictionary> = { pl, en, de, fr, es, it, nl, pt, uk, ru, cs, sv };
+
+const source = pl as BlogDictionary;
+
+export const blogPosts: BlogPost[] = Object.entries(source.posts).map(([id, post]) => ({
+  id,
+  date: post.date ?? '',
+  image: post.image ?? '',
+  translations: Object.fromEntries(
+    languages.map(({ code }) => [code, dictionaries[code].posts[id]]),
+  ) as Record<Locale, BlogTranslation>,
+}));
+
+export const blogUi: Record<Locale, BlogUi> = Object.fromEntries(
+  languages.map(({ code }) => [code, dictionaries[code].ui]),
+) as Record<Locale, BlogUi>;
+
+export function blogIndexPath(lang: Locale): string {
+  return lang === 'pl' ? '/blog/' : `/${lang}/blog/`;
+}
+
+export function blogPostPath(lang: Locale, post: BlogPost): string {
+  return `${blogIndexPath(lang)}${post.translations[lang].slug}/`;
+}
+
+export function getBlogPost(lang: Locale, slug: string): BlogPost | undefined {
+  return blogPosts.find(post => post.translations[lang].slug === slug);
 }

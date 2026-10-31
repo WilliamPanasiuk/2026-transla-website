@@ -1,0 +1,438 @@
+{
+  "ui": {
+    "title": "Blog",
+    "eyebrow": "Transla Blog",
+    "lead": "Translator blunders, world languages ​​and Polish film titles. Short texts about how language changes history - sometimes seriously, sometimes with a pinch of salt.",
+    "read": "Read the post",
+    "allPosts": "All posts",
+    "related": "Read also",
+    "reading": "read",
+    "sources": "Sources and further reading",
+    "ctaTitle": "Do you have a text that needs a second language?",
+    "ctaText": "Send a document or describe the project. You will usually receive a quote within an hour.",
+    "sidebarTitle": "Need a translation?",
+    "sidebarText": "Send a document or describe the project. You will usually receive a quote within an hour.",
+    "description": "Translator blunders, world languages ​​and Polish film titles. Short texts about how language changes history - sometimes seriously, sometimes with a pinch of salt.",
+    "blogName": "Transla Blog",
+    "blogLabel": "Blog"
+  },
+  "posts": {
+    "wpadki": {
+      "slug": "mistranslations-that-changed-history",
+      "title": "Translator blunders that changed history",
+      "description": "Six stories of how one idiom, too literal a word, or a lack of context influenced politics, law, and culture.",
+      "lead": "Translation is invisible as long as everything works. However, when the meaning gets out of control, the consequences can be greater than a linguistic joke. Here are six cases in which the translator - or the one who made the decision for him - changed the course of events.",
+      "dateLabel": "October 31, 2026",
+      "readingTime": "9 min",
+      "category": "History",
+      "imageAlt": "Two Speeches and a Cracked Quote - illustration of an entry about translation errors.",
+      "keywords": [
+        "translation errors",
+        "translation history",
+        "Jimmy Carter",
+        "Khrushchev",
+        "Treaty of Waitangi",
+        "Canals on Mars",
+        "Grattan Massacre",
+        "Abel and Cain"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "In diplomacy, court, editorial and science, the translator is the link between intention and effect. It's not enough to know the words. You need to know what it means in a specific situation, who says it and how the other party may perceive it. When this is missing, there is room for misunderstanding - sometimes funny, sometimes costly.",
+            "The following stories have one thing in common: translation is a decision. Sometimes it is undertaken by a translator, sometimes by a distributor, editor or official. The responsibility for meaning may be dispersed, but the effects are usually visible immediately."
+          ]
+        },
+        {
+          "heading": "Jimmy Carter in Poland: warm words that sounded obscene (1977)",
+          "paragraphs": [
+            "In December 1977, US President Jimmy Carter visited Poland. He wanted to talk about the curiosity of Poles and the joy of coming to the country. According to the most frequently repeated account, his translator, Steven Seymour, translated these thoughts so poorly that phrases about Poles' carnal desire and grabbing Poland's private parts appeared in the media.",
+            "It is difficult today to determine how much of this story is an exact quote and how much is a journalistic legend. Seymour himself would later explain that some of the accusations were exaggerated. However, this does not change the most important thing: a few poorly chosen words were enough for the political message to disappear behind the façade of scandal.",
+            "This is a classic example of the difference between literalness and register. A sentence that sounds like polite curiosity in Polish may sound like unacceptable familiarity in English. When translating public speeches, the context is as important as the dictionary."
+          ],
+          "quote": "In diplomacy, it is not enough to say well. You have to say what the other side can hear."
+        },
+        {
+          "heading": "Khrushchev and \"We will bury you\": a metaphor that sounded like a verdict (1956)",
+          "paragraphs": [
+            "In 1956, Nikita Khrushchev allegedly told Western diplomats that history was on the side of socialism and that \"they will bury you.\" The English \"We will bury you\" went down in history as an almost literal announcement of nuclear destruction.",
+            "Meanwhile, the Russian phrase was a metaphor for an inevitable political victory, not a plan of attack. Khrushchev repeatedly argued that he was not talking about the physical burial of the West, but about the Marxist belief that communism would outlast capitalism.",
+            "There is yet another misunderstanding surrounding this story. It is often combined with the saying \"we will show you the cousin's mother\", which also caused problems for translators. This shows how easily two different idioms merge into one political myth - and how important it is not to translate phraseology word for word."
+          ]
+        },
+        {
+          "heading": "Treaty of Waitangi: two versions, one state (1840)",
+          "paragraphs": [
+            "In 1840, representatives of the British Crown and Maori chiefs signed a treaty that is still the foundation of relations in New Zealand. The English version talked about the transfer of sovereignty. The Maori version, prepared by the missionaries, used terms that meant something different to the Maori: giving up administrative power while maintaining their own rights to land and community.",
+            "The difference was not a minor stylistic thing. Over time, it became a source of land disputes, wars and long-term trials. Modern New Zealand is still dealing with the consequences of how two languages ​​described one contract.",
+            "In legal texts, every word carries weight. Translating a document that allocates power is not an exercise in language - it is a political decision. Therefore, international agreements require not only linguists, but also lawyers and an agreement on which version is binding."
+          ]
+        },
+        {
+          "heading": "Canals on Mars: How One False Friend Created Civilization (1877)",
+          "paragraphs": [
+            "The Italian astronomer Giovanni Schiaparelli described the dark lines on the surface of Mars as \"canali\" - natural channels, ditches, land formations. In English, the word is rendered \"canals\", which suggests canals dug by someone with intelligence.",
+            "This slight semantic difference was enough to create an advanced civilization in the public's imagination. Percival Lowell developed the theory of Martian canals, and H.G. Wells used it in \"The War of the Worlds\". This is how one of the most enduring motifs in pop culture was born.",
+            "It is a reminder that false friends and too casual counterparts can change not only the text, but also the image of the world. In scientific texts, precision is not decoration - it is part of the method."
+          ]
+        },
+        {
+          "heading": "The Grattan Massacre: When the Translator Becomes the Spark (1854)",
+          "paragraphs": [
+            "In 1854, a dispute broke out in a Lakota camp over a cow. Young Lieutenant John Grattan decided to arrest the perpetrator. According to reports, he took with him a translator who did not know the language well and was under the influence of alcohol. His words were supposed to sound more aggressive than the leader intended.",
+            "The situation got out of control. Chief Conquering Bear and the soldiers were killed in the exchange of fire. The event was the spark that started the First Sioux War and decades of conflict.",
+            "In crisis situations, language competence is a matter of security. A translator cannot be an addition to a delegation. He must be prepared for a conversation in which the stakes are the highest - and have the right to say \"I don't understand\" instead of guessing."
+          ]
+        },
+        {
+          "heading": "Abel and Cain: the error that reversed theology (2004)",
+          "paragraphs": [
+            "In 2004, the Polish translation of the Pope's message for the World Day of Peace included the sentence that it was Abel who killed his brother Cain. In the biblical story it is exactly the opposite. The mistake was so obvious that it quickly became a media topic.",
+            "It wasn't an issue of style or nuance. It was an error at the level of meaning, which becomes particularly serious in a religious text. The Secretariat of State and the Polish press service had to explain where the mistake came from.",
+            "Even an experienced team needs editing and proofreading. There is no room for \"almost right\" in texts that will be quoted and interpreted."
+          ]
+        },
+        {
+          "heading": "What these stories teach",
+          "list": [
+            "Context is part of meaning. Without it, even a dictionary-correct translation can offend, frighten or mislead.",
+            "An idiom is not a puzzle to be solved word by word. You need to find its function in the sentence and express it in the target language.",
+            "In legal, religious and diplomatic texts, the consequences of errors are particularly lasting.",
+            "The translator needs competence, preparation and working conditions. Haste and alcohol are bad advisers.",
+            "Editing and proofreading are not a luxury, but the last line of defense for meaning."
+          ],
+          "paragraphs": [
+            "These stories may be funny, but they remind us of a serious thing: language shapes reality. Good translation is not about sounding smart. It is about expressing what was really said - and not adding anything of your own."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "BBC Culture - The greatest mistranslations ever",
+          "url": "https://www.bbc.com/culture/article/20150202-the-greatest-mistranslations-ever"
+        },
+        {
+          "label": "Translation Agency - The world's biggest translation mistakes",
+          "url": "https://agencjatlumaczen.com.pl/aktualnosci/najwieksze-bledy-tlumaczeniowe-swiata/"
+        },
+        {
+          "label": "Przysięgle.online - Famous translation mistakes and what do we need they teach",
+          "url": "https://przysiegle.online/slynne-wpadki-tlumaczeniowe-i-czego-nas-ucza/"
+        }
+      ]
+    },
+    "film": {
+      "slug": "polish-film-titles",
+      "title": "Why did “Die Hard” become “Szklana pułapka”? Polish film titles",
+      "description": "From “Szklana pułapka” to “Wirujący seks” — how distributors changed film titles and what follows from it.",
+      "lead": "Polish titles of foreign films are sometimes more memorable than the films themselves. Sometimes they help, sometimes they entertain, and sometimes they completely change the meaning. Where do these decisions come from and why does the translator not always have the last word?",
+      "dateLabel": "October 31, 2026",
+      "readingTime": "6 min",
+      "category": "Culture",
+      "imageAlt": "Film slap and tape - illustration of the entry about Polish film titles.",
+      "keywords": [
+        "Polish film titles",
+        "translation of film titles",
+        "Die Hard",
+        "Dirty Dancing",
+        "Terminator",
+        "Filmweb"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "Contrary to popular belief, the final title is usually not decided by the translator. The decision is made by the distributor or manufacturer, and the translation of the title is only one element of the campaign. The title is supposed to sell a ticket, a VHS tape or a subscription - it must be catchy, understandable and adapted to the local market.",
+            "Therefore, the Polish history of film titles is full of both hits and curiosities. Some have become a permanent part of the language, others still surprise us today. Here are some examples that best show how different strategies can change the perception of a film."
+          ]
+        },
+        {
+          "heading": "Classics that entered pop culture",
+          "list": [
+            "Die Hard → Szklana pułapka. The title broke away from the literal \"die hard\" and turned the skyscraper into a trap. Today it's hard to imagine another version.",
+            "The Terminator → Elektroniczny morderca. The early Polish title from the 1980s sounds like a description of a device from a catalog, not an action movie. Over time, the original \"Terminator\" won.",
+            "Dirty Dancing → Wirujący seks. A title that wouldn't pass muster today. In the 1980s, he focused on literalism and controversy; today it is a symbol of translation courage or lack of sensitivity.",
+            "Reality Bites → Orbitowanie bez cukru. Riddle. The title doesn't have much in common with the original; According to one interpretation, it referred to a chewing gum advertisement. Effect: intriguing, but not obvious.",
+            "Under Siege → Liberator. The title changed in the name of a stronger sound. \"Liberator\" sounds like the name of a superhero, not like a movie about a ship.",
+            "Phantasm → Mordercze kuleczki. The literalness has gone too far: instead of horror, there is an image of balls. That's why the title is remembered today.",
+            "Million Dollar Baby → Za wszelką cenę. Instead of a sports story about a boxer, we get a phrase about the price that must be paid. The title announces drama, but loses the heroine."
+          ]
+        },
+        {
+          "heading": "Four strategies for translating titles",
+          "list": [
+            "Literal translation — e.g. How I Met Your Mother → Jak poznałem waszą matkę. Faithful, but sometimes heavy and lacking in imagination.",
+            "The original remains unchanged - e.g. Pulp Fiction, Gran Torino. The brand and sound turned out to be more important than comprehensibility.",
+            "Hybrid — original plus Polish subtitle, e.g. Braveheart – Waleczne serce, Alien – Ósmy pasażer Nostromo. The title complements the genre and makes identification easier.",
+            "Marketing interpretation - a title detached from the original to attract viewers. The biggest room for failure and the most stories that are still entertaining today."
+          ]
+        },
+        {
+          "heading": "Why is it happening",
+          "paragraphs": [
+            "The cinema and VHS market needed short, strong slogans. The title was an advertisement, not a translation. Distributors tested different versions, and the translator often received ready-made guidelines or worked on the text, which was later changed by the marketing department.",
+            "Modern streaming platforms more often leave the original or choose simpler, less invasive translations. This is the result of globalization and the fact that viewers look for a movie by a name they know. But old school Polish titles keep coming back in conversations - and in memes."
+          ]
+        },
+        {
+          "heading": "What a good title should do",
+          "paragraphs": [
+            "A good title should reflect the genre, tone and promise of the film. It doesn't have to be literal, but it shouldn't be misleading. The line between creation and manipulation is thin: \"Die Hard\" works because it announces tension and the setting. \"Whirling sex\" today acts more as a warning than as an advertisement.",
+            "Polish film titles are a testimony to the times in which they were made. They make us laugh, they irritate us, but they also show how important a role language plays in selling culture. Next time you see a strange title, think: it's not always the translator's fault. Sometimes it was marketing that made the decision and the translator had to find the language for it."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Filmweb - Polish translations of film titles",
+          "url": "https://www.filmweb.pl/news/ARTYKU%C5%81%3A+Polskie+t%C5%82umaczenia+tytu%C5%82%C3%B3w+filmowych-44124"
+        }
+      ]
+    },
+    "un": {
+      "slug": "un-languages",
+      "title": "UN languages: six voices, one organization",
+      "description": "Why does the UN have six official languages, how do they differ from working languages ​​and what does the work of translators look like in a place where each version must mean the same thing?",
+      "lead": "At the UN, it is not enough to say something once. The same sentence must sound in six languages ​​- and mean the same in each version. This is how the multilingualism of an organization that speaks to almost the entire world works.",
+      "dateLabel": "October 31, 2026",
+      "readingTime": "7 min",
+      "category": "Languages",
+      "imageAlt": "A globe and six speech bubbles with UN language codes.",
+      "keywords": [
+        "UN languages",
+        "UN official languages",
+        "translations UN",
+        "Arabic",
+        "Chinese",
+        "English",
+        "French",
+        "Russian",
+        "Spanish"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "The UN has six official languages: Arabic, Chinese, English, French, Russian and Spanish. It is not a matter of sympathy for languages, but of political compromise and diplomatic practice. Each has had historical, demographic, or political significance, from the permanent membership of the Security Council to its colonial and diasporic reach.",
+            "Official languages ​​are used in deliberations, documents, and resolutions. English and French additionally serve as working languages ​​of the Secretariat. The difference between \"official\" and \"draft\" is sometimes confused; in practice, it means different scopes of use and different costs."
+          ]
+        },
+        {
+          "heading": "Why these six?",
+          "paragraphs": [
+            "The original lineup in 1945 included Chinese, English, French, Russian and Spanish. Arabic joined in 1973 when the General Assembly recognized it as an official language. The six languages ​​also mean six channels of simultaneous translation, six versions of documents and six sets of terminology.",
+            "In practice, the UN employs translators, interpreters, editors and terminologists who ensure that legal and political concepts are consistent across all versions. This is the invisible infrastructure of multilingualism - and one of the conditions under which organizational decisions can be considered collective."
+          ]
+        },
+        {
+          "heading": "Six days, six languages",
+          "list": [
+            "Arabic - December 18.",
+            "Chinese - April 20.",
+            "English - April 23.",
+            "French - March 20.",
+            "Russian - April 6 June.",
+            "Spanish - October 12."
+          ],
+          "paragraphs": [
+            "Language days are not just a calendar curiosity. They show that multilingualism is part of public diplomacy: it builds the visibility of cultures and reminds about the equality of languages ​​​​in the organization."
+          ]
+        },
+        {
+          "heading": "Interpreter at the UN: precision and pace",
+          "paragraphs": [
+            "Simultaneous interpretation requires divided attention, preparation and mastery. The speaker does not wait; the translator must convey the meaning in real time, retaining names, numbers and nuances. In diplomacy, one poorly chosen verb can change the weight of the entire sentence.",
+            "The documents go through editing and terminology control. The UN maintains the UNTERM terminology database, which helps maintain consistency between languages. Translation is not an addition to politics here - it is one of its tools."
+          ]
+        },
+        {
+          "heading": "What follows?",
+          "list": [
+            "Six languages are a compromise between representation and cost.",
+            "Multilingualism is not about copying text verbatim, but about reproducing meaning in different language systems.",
+            "Terminological consistency is part of legal and political security.",
+            "Language is a tool of legitimization: a decision given in six languages has different audiences and consequences than a message in one."
+          ],
+          "paragraphs": [
+            "The UN reminds that translation is not an addition to policy. It is one of the conditions thanks to which a policy can be understood and recognized as common."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "UN - Official languages",
+          "url": "https://www.un.org/en/our-work/official-languages"
+        },
+        {
+          "label": "UN - Multilingualism",
+          "url": "https://www.un.org/en/multilingualism"
+        },
+        {
+          "label": "UNTERM - UN terminology database",
+          "url": "https://unterm.un.org/"
+        }
+      ]
+    },
+    "popular": {
+      "slug": "most-popular-languages-in-the-world",
+      "title": "The world's most popular languages ​​- and why the rankings differ",
+      "description": "Mandarin, Spanish, English, Hindi, Arabic - which languages ​​have the most speakers and why each ranking gives different numbers.",
+      "lead": "Languages ​​can be counted in many ways: as a native language, as a second language, as an official language, or as an internet language. The answer to the question \"which is the most popular?\" depends on what exactly we count.",
+      "dateLabel": "October 31, 2026",
+      "readingTime": "8 min",
+      "category": "Languages",
+      "imageAlt": "Bar chart and globe - illustration of the ranking of the most popular languages.",
+      "keywords": [
+        "most popular languages",
+        "most frequently used languages",
+        "Mandarin",
+        "English",
+        "Spanish",
+        "Hindi",
+        "Arabic",
+        "Ethnologue"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "The ranking of the \"most popular languages\" is not a single ranking. We get different numbers when asking about the native language, different numbers when asking about the second language, and still different numbers when asking about the official language or the number of websites.",
+            "The most frequently cited lists are based on Ethnologue, which estimates the number of speakers based on available data. Estimates vary between editions, and categories can be blurred: \"Chinese\" may mean Mandarin, \"Arabic\" - a community of dialects, and \"Hindi\" - one of the languages ​​of India."
+          ]
+        },
+        {
+          "heading": "Most native speakers: Mandarin",
+          "paragraphs": [
+            "Mandarin is most often indicated as the language with the largest number of native speakers - depending on the source, around 900 million to over a billion. \"Chinese\" in rankings is usually Mandarin, although Cantonese, Wu, Minnan and other languages ​​are also spoken in China.",
+            "This is an important distinction: language and dialect are both political and linguistic categories. Mutual intelligibility may be limited and classification depends on methodology."
+          ]
+        },
+        {
+          "heading": "Spanish, English, Hindi",
+          "paragraphs": [
+            "Spanish has approximately 480-500 million native speakers and a huge reach in Latin America, Spain and the USA. English has fewer native speakers (approximately 370-400 million), but has the greatest reach as a second language and lingua franca - business, science, internet, aviation.",
+            "Hindi is one of India's largest languages, but the country has over a dozen official languages ​​and hundreds of local languages; English plays the role of the language of administration and elites in India. Arabic, Bengali, Portuguese, Russian and French round out the top depending on the category. Portuguese owes its position to Brazil, French to Africa and its colonial heritage, Russian to the post-Soviet space."
+          ]
+        },
+        {
+          "heading": "Ranking by total number of speakers",
+          "paragraphs": [
+            "When we count all speakers - native and second language - English comes to the fore, followed by Mandarin, Hindi, Spanish, French, Arabic, Bengali, Portuguese, Russian and Urdu. The order varies depending on the source and definition.",
+            "The numbers for second languages ​​are particularly difficult: is someone who knows English at A2 level a \"user\"? Does an expat who speaks another language at home count twice? The answers change the ranking."
+          ]
+        },
+        {
+          "heading": "Why it matters for translations",
+          "paragraphs": [
+            "The popularity of a language is not the same as the demand for translations. In business, language pairs, industry and context matter; in law - official language and availability of sworn translators; in marketing - local varieties and culture.",
+            "English can be an intermediate language, but the translation \"from English\" does not always mean \"from the original\". Many projects require translation from the source language, not from an intermediate version - especially in legal and technical texts."
+          ]
+        },
+        {
+          "heading": "Key takeaways",
+          "list": [
+            "Mandarin has the most native speakers.",
+            "English has the largest reach as a second language.",
+            "Spanish, Hindi, Arabic, Bengali, Portuguese, Russian and French form the variable leader.",
+            "The ranking depends on the definition: native, total, official, online.",
+            "For a translator, the specific context and language pair are more important than the ranking."
+          ],
+          "paragraphs": [
+            "The most popular language in the world does not exist in one version. There are many ways to count - and many reasons to know the difference."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ethnologue - What are the top 200 most spoken languages?",
+          "url": "https://www.ethnologue.com/insights/ethnologue200/"
+        },
+        {
+          "label": "Ethnologue - database of world languages",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    },
+    "rare": {
+      "slug": "rarest-languages-in-the-world",
+      "title": "The world's rarest languages ​​- from a few speakers to silence",
+      "description": "Languages ​​with one, two or a dozen speakers still exist. What do they have in common and why does their loss concern us all?",
+      "lead": "There are languages ​​spoken by more people than inhabitants of many cities. There are also those that have recent speakers. The line between \"rare\" and \"extinct\" can be fluid - and depends on who you ask.",
+      "dateLabel": "October 31, 2026",
+      "readingTime": "7 min",
+      "category": "Languages",
+      "imageAlt": "Magnifying glass and a small speech bubble - illustration of the entry about the world's rarest languages.",
+      "keywords": [
+        "the rarest languages",
+        "extinct languages",
+        "languages endangered",
+        "UNESCO",
+        "Tanema",
+        "Lemerig",
+        "Njerep",
+        "revitalization"
+      ],
+      "sections": [
+        {
+          "paragraphs": [
+            "The rarest language in the world is a difficult category. Speaker numbers are estimates, change from year to year, and the line between \"language\" and \"dialect\" can be political. One thing remains certain: there are still languages ​​in the world that are spoken by individual people.",
+            "The UNESCO World Atlas of Languages ​​documents over 8,000 languages, of which about 7,000 are in use. Some of them have the status of critically endangered; others are no longer used."
+          ]
+        },
+        {
+          "heading": "A few examples",
+          "list": [
+            "Tanema (Solomon Islands) - according to estimates from recent decades, it was spoken by a handful of people; neighboring languages ​​took over communication functions.",
+            "Lemerig (Vanuatu) - one of the many languages ​​​​of Vanuatu; the number of speakers has decreased to a few, making it extremely endangered.",
+            "Njerep (Cameroon) - an older generation language, being replaced by the larger languages ​​of the region; today it has few speakers.",
+            "Liki (Indonesia) - a language with a dozen or so speakers, located on a small island; Geographical isolation does not always protect against language loss.",
+            "Ainu (Japan) - the language of the indigenous people, marginalized for a long time; today, revitalization activities are undertaken, although the number of fluent speakers is small.",
+            "Livian (Latvia) - a Baltic language with several dozen speakers; an example of a community actively working to maintain it.",
+            "Cornish and Manx - languages ​​once considered extinct, now revived through education and culture; show that \"last talking\" doesn't have to be the end of the story."
+          ],
+          "paragraphs": [
+            "These examples show that \"rarest\" is not a permanent label. A language can lose speakers, but also regain them through community work, schools and the media."
+          ]
+        },
+        {
+          "heading": "Why languages ​​disappear",
+          "paragraphs": [
+            "Language loss is rarely the result of a single cause. It is usually associated with economic pressure, migration, the education system, stigmatization and lack of intergenerational transmission. Parents choose the language that gives children better opportunities; a community may consider its own language \"rural\" or \"past.\"",
+            "Globalization is not the only culprit. In many places, minority languages ​​have been displaced by state policy for decades. Therefore, the protection of languages ​​is also a matter of human rights and justice."
+          ]
+        },
+        {
+          "heading": "Why it is important",
+          "paragraphs": [
+            "Language is not only a communication tool. It is a system of classifying the world, knowledge about nature, history and law, a way of transmitting memory. When a language disappears, so does some knowledge that cannot be fully translated.",
+            "It's not about romantic nostalgia. It is about cognitive and cultural diversity, which is the resource of all humanity."
+          ]
+        },
+        {
+          "heading": "What can be done",
+          "list": [
+            "Documentation - recordings, transcriptions, dictionaries, corpora.",
+            "Revitalization - learning in schools, programs for adults, media and literature.",
+            "Technology - keyboards, fonts, applications, social dictionaries.",
+            "Community support - decisions should belong to the speakers, not only to researchers.",
+            "Education and language policy - protection of minority languages in law and practice."
+          ],
+          "paragraphs": [
+            "The rarest languages are not a museum curio. They are a living testimony of how differently the world can be described - and a reminder that diversity requires everyday work."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "UNESCO - World Atlas of Languages",
+          "url": "https://en.wal.unesco.org/world-atlas-languages"
+        },
+        {
+          "label": "UNESCO - Indigenous Languages Decade",
+          "url": "https://www.unesco.org/en/decades/indigenous-languages"
+        },
+        {
+          "label": "Ethnologue - database of world languages",
+          "url": "https://www.ethnologue.com/"
+        }
+      ]
+    }
+  }
+}
