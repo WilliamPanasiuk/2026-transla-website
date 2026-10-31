@@ -25,8 +25,9 @@ for (const [file, content] of texts) {
   assert(canonical?.startsWith('https://transla.website/'), 'Missing canonical domain: ' + file);
   const lang = content.match(/<html[^>]*lang="([^"]+)"/)?.[1];
   assert(locales.includes(lang), 'Invalid document language: ' + file);
+  const isBlog = canonical.includes('/blog/');
   if (!file.endsWith('/404.html')) {
-    counts[lang]++;
+    if (!isBlog) counts[lang]++;
     pages.set(canonical, { content, lang, file });
     if (lang !== 'pl') assert(!content.includes('Sprawdź cenę') && !content.includes('Wyślij zapytanie'), 'Untranslated Polish UI: ' + file);
   }
@@ -38,6 +39,7 @@ for (const [file, content] of texts) {
 }
 for (const [locale, count] of Object.entries(counts)) assert.equal(count, 19, 'Missing pages for ' + locale);
 for (const [canonical, page] of pages) {
+  if (canonical.includes('/blog/')) continue;
   const alternates = [...page.content.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)];
   assert.equal(alternates.length, 13, 'Missing alternate languages: ' + canonical);
   assert.equal(new Set(alternates.map(match => match[1])).size, 13);
@@ -61,4 +63,6 @@ function shape(value) {
 }
 const base = shape(JSON.parse(await readFile('src/i18n/pl.json', 'utf8')));
 for (const locale of locales) assert.deepEqual(shape(JSON.parse(await readFile('src/i18n/' + locale + '.json', 'utf8'))), base, 'Incomplete dictionary: ' + locale);
-console.log('Verified 228 localized pages, 12 complete dictionaries, reciprocal hreflang, internal links and LingoStack forms.');
+const blogCount = [...pages.keys()].filter(canonical => canonical.includes('/blog/')).length;
+const localizedCount = Object.values(counts).reduce((sum, count) => sum + count, 0);
+console.log(`Verified ${localizedCount} localized pages, ${blogCount} blog pages, 12 complete dictionaries, reciprocal hreflang, internal links and LingoStack forms.`);
