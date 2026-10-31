@@ -69,11 +69,11 @@ html:not([data-variant="bold"]) .highlights-grid article:nth-child(4) {
   border-color: var(--brand);
 }
 html:not([data-variant="bold"]) .highlights-grid article:nth-child(2) {
-  background: var(--accent);
-  border-color: #b45309;
+  background: var(--brand);
+  border-color: var(--brand-dark);
 }
 html:not([data-variant="bold"]) .highlights-grid article:nth-child(2) .hl-value { color: #fff; }
-html:not([data-variant="bold"]) .highlights-grid article:nth-child(2) .hl-label { color: #fff4df; }
+html:not([data-variant="bold"]) .highlights-grid article:nth-child(2) .hl-label { color: var(--mint); }
 html:not([data-variant="bold"]) .highlights-grid article:nth-child(3) {
   background: var(--brand-dark);
   border-color: var(--brand-dark);
