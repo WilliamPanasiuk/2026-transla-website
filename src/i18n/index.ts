@@ -10,6 +10,7 @@ import uk from './uk.json';
 import ru from './ru.json';
 import cs from './cs.json';
 import sv from './sv.json';
+import { standardDocContent } from '@/data/standardDocs';
 
 export const languages = [
   { code: 'pl', name: 'Polski' }, { code: 'en', name: 'English' },
@@ -71,6 +72,7 @@ export function navigation(lang: Locale) {
 export interface ContentPage {
   path: string; title: string; description: string; eyebrow: string; heading: string; lead: string;
   sections: { title: string; text: string; items?: string[] }[];
+  faq?: [string, string][];
 }
 
 export function standardDocIndex(id: string): number {
@@ -84,15 +86,17 @@ export function contentPage(id: PageId, lang: Locale): ContentPage {
   const docIndex = standardDocIndex(id);
   if (docIndex !== -1) {
     const [name, price] = c.standardDocs[docIndex];
-    const lead = `${c.ui.docLead}`;
+    const custom = standardDocContent[lang]?.[id as StandardDocId];
+    const lead = custom?.lead ?? c.ui.docLead;
     return {
       path: localizedPath(id, lang),
-      title: name,
-      description: `${name} — ${price}. ${lead}`,
+      title: custom?.title ?? name,
+      description: custom?.description ?? `${name} — ${price}. ${lead}`,
       eyebrow: c.ui.docEyebrow,
-      heading: name,
+      heading: custom?.heading ?? name,
       lead,
-      sections: [],
+      sections: custom?.sections ?? [],
+      faq: custom?.faq,
     };
   }
   const title = service?.title ?? (id === 'home' ? c.home.tagline : id === 'contact' ? c.ui.contactLink : c.ui[id as 'services' | 'how' | 'prices' | 'about']);

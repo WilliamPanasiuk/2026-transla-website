@@ -18,7 +18,7 @@ const contact = localizedPath('contact', lang) + '#formularz';
 const docIndex = standardDocIndex(pageId);
 const isStandardDoc = docIndex !== -1;
 const docPrice = isStandardDoc ? c.standardDocs[docIndex][1] : '';
-const faq = pageId === 'contact' ? undefined : c.faq;
+const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
 ---
 <BaseLayout title={pageId === 'home' ? c.home.tagline : page.title} description={pageId === 'home' ? c.home.description : page.description} path={page.path} lang={lang} pageId={pageId} faq={faq}>
   {pageId === 'home' ? <Home lang={lang} /> : (
@@ -31,6 +31,27 @@ const faq = pageId === 'contact' ? undefined : c.faq;
         </div>
       ) : isStandardDoc ? (
         <div class="container section">
+          {page.sections.length > 0 && (
+            <div class="editorial-layout">
+              <div class="editorial-main">{page.sections.map((section, index) => (
+                <section class="editorial-section">
+                  <span class="section-index">{String(index + 1).padStart(2, '0')}</span>
+                  <div>
+                    <h2>{section.title}</h2>
+                    <p>{section.text}</p>
+                    {section.items && <ul class="check-list">{section.items.map(item => <li>{item}</li>)}</ul>}
+                  </div>
+                </section>
+              ))}</div>
+              <aside class="editorial-aside">
+                <span class="eyebrow">{c.ui.asideEyebrow}</span>
+                <h2>{c.ui.asideTitle}</h2>
+                <p>{c.ui.asideText}</p>
+                <a class="button button-small" href={contact}>{c.ui.formLink} ↗</a>
+                <a class="email-link" href={'mailto:' + site.email}>{site.email}</a>
+              </aside>
+            </div>
+          )}
           <section class="std-docs">
             <h2>{c.ui.standardDocsTitle}</h2>
             <div class="price-table-wrap">
@@ -47,7 +68,7 @@ const faq = pageId === 'contact' ? undefined : c.faq;
             <p class="price-table-note">{c.ui.standardDocsNote}</p>
           </section>
           <section class="turnaround"><h2>{c.turnaround.title}</h2><p class="lead">{c.turnaround.lead}</p><div class="turnaround-grid">{c.turnaround.items.map(([label, note]) => <article><h3>{label}</h3><p>{note}</p></article>)}</div></section>
-          <section class="faq-section"><h2>{c.ui.beforeEnquiry}</h2>{c.faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
+          <section class="faq-section"><h2>{c.ui.beforeEnquiry}</h2>{(faq ?? c.faq).map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
         </div>
       ) : (
         <div class="container section">
