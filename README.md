@@ -1,24 +1,23 @@
 # Transla
 
-Osobny statyczny projekt Astro dla https://transla.website. Treści w `src/i18n/{pl,en,de,fr,es,it,nl,pt,uk,ru,cs,sv}.json`
-i wspólnych szablonach Astro, lokalne fonty, bez CMS oraz zewnętrznych zasobów ABC.
-Nazwa robocza: Transla. Kontakt: ask@transla.website.
+Statyczna strona **transla.website** (Astro, 12 wersji językowych). To repozytorium zawiera wyłącznie kod strony. Backend zleceń i edge proxy działają na VPS w osobnym stacku `2026-abc`.
 
-## Podgląd lokalny
+## Stack
 
-Z natywnej ścieżki projektu WSL:
+- Astro 7, `output: static`, sitemap, treści w `src/i18n/*.json`, blog w `src/data/blog/*.json`.
+- Obraz Docker: build na Node 22, potem Caddy 2 serwujący `/srv` na porcie 80.
+- Formularz: przeglądarka wysyła POST na `/api/public/order-form` i `/api/public/visit`. Edge proxy kieruje te ścieżki do `laravel:8000` w sieci `2026-abc_app`. W tym repo nie ma backendu.
+
+## Lokalny podgląd
 
 ```sh
-docker compose -f docker-compose.yml -f docker-compose.dev.yml -f docker-compose.transla.dev.yml up -d www-transla
+npm ci
+npm run dev
 ```
 
-Adres: http://localhost:4323. Formularz korzysta z proxy Vite do lokalnego Laravel.
-Tworzy rzeczywiste zapytania w lokalnej bazie; nie wysyłaj próbnych danych do produkcji.
-Przy aktywnym reCAPTCHA klucz publiczny musi odpowiadać kluczowi prywatnemu API
-i obsługiwać domenę formularza. Ustaw PUBLIC_TRANSLA_RECAPTCHA_SITE_KEY w środowisku Compose.
-Samo skopiowanie .env.example nie konfiguruje środowiska Compose.
+Adres: `http://localhost:4323`. Strona działa bez backendu; wysyłka formularza wymaga lokalnego API. `PUBLIC_RECAPTCHA_SITE_KEY` opisuje `.env.example`.
 
-## Sprawdzenie
+## Build i weryfikacja
 
 ```sh
 npm ci
@@ -26,60 +25,32 @@ npm run build
 npm run verify
 ```
 
-Weryfikacja sprawdza wygenerowane linki, domenę, formularz oraz pozostałości starej marki/CMS.
+`verify` sprawdza wygenerowane linki, domenę, formularz, 12 kompletnych słowników, 300 stron i wzajemność hreflang.
 
-## Formularz
+## Deployment
 
-JSON POST /api/public/order-form trafia do istniejącego Laravel przez reverse proxy.
-Nie wymaga tokena Bearer ani sesji administratora. Obsługuje maks. 12 załączników
-(do 8 MB każdy, 10 MB łącznie), walidację, reCAPTCHA, błąd limitu i potwierdzenie przyjęcia.
-Zgłoszenia zachowują kanał website_react_form; tytuł i notatki identyfikują Transla.
-Automatyczny mail order_received dla Transla jest pomijany, aby nie wysłać brandingu
-domyślnej firmy. Inne ręczne wiadomości i strony statusu nadal używają konfiguracji
-wspólnego LingoStack — osobny branding tych etapów wymaga kolejnego rozszerzenia.
-Na stronie nie ma zmyślonych danych rejestrowych, adresu, opinii ani statystyk.
-Przed publikacją należy uzupełnić informację o administratorze danych na podstawie
-rzeczywistych danych firmy; nie wpisano danych innej agencji.
+- GitHub Actions (`.github/workflows/deploy.yml`) buduje obraz i wypycha `ghcr.io/williampanasiuk/transla-website:latest`.
+- Następnie łączy się po SSH z VPS i uruchamia `docker compose` w `/home/deployer/transla-website` (`pull` + `up -d`).
+- Sekrety repo: `VPS_HOST`, `VPS_USER`, `VPS_SSH_KEY`, opcjonalnie `VPS_PORT`, `PUBLIC_TRANSLA_RECAPTCHA_SITE_KEY`.
 
-## Ten sam VPS — opcjonalne uruchomienie
+Kontener nie publikuje portów. Wchodzi do zewnętrznej sieci `2026-abc_app` z aliasem `www-transla`. Edge proxy (Caddy w stacku `2026-abc`) terminuje TLS, kieruje `transla.website` na `www-transla:80` i przekazuje `/api/public/*` do `laravel:8000`.
 
-Nie zmieniono aktywnej konfiguracji Caddy ani istniejącego skryptu deploy.
-Nowy overlay włącza osobny serwis statyczny i nową domenę, zachowując dotychczasowe hosty.
-Wymaga aktualnego backendu z obsługą source_site.
-Po wskazaniu DNS A (i AAAA tylko jeżeli VPS obsługuje IPv6), użyj tych samych plików
-i zmiennych Compose co bieżąca produkcja, dodając na końcu:
+Bootstrap VPS (jednorazowo):
 
 ```sh
--f docker-compose.transla.yml
+mkdir -p /home/deployer/transla-website
+# skopiuj compose.yaml z tego repo
+cd /home/deployer/transla-website
+docker login ghcr.io
+docker compose up -d
 ```
 
-Najpierw zbuduj www-transla, następnie uruchom www-transla i odtwórz proxy.
-Przykład dla konfiguracji produkcja + demo (zmienne DEMO_* muszą być załadowane
-tak samo jak w scripts/compose-production.sh; nie wczytuj całego .env.demo do produkcji):
+## Wyodrębnienie z 2026-abc
 
-```sh
-docker compose -f docker-compose.yml -f docker-compose.prod.yml -f docker-compose.demo.yml -f docker-compose.transla.yml build www-transla
-docker compose -f docker-compose.yml -f docker-compose.prod.yml -f docker-compose.demo.yml -f docker-compose.transla.yml up -d --no-deps www-transla
-docker compose -f docker-compose.yml -f docker-compose.prod.yml -f docker-compose.demo.yml -f docker-compose.transla.yml up -d --no-deps --force-recreate proxy
-```
+Kod powstał w repo `2026-abc` w katalogu `www-transla`; historia została przeniesiona przez `git subtree split`. Na VPS kontener `2026-abc-www-transla-1` zastąpiono kontenerem z tego repo, a proxy w `2026-abc` nadal obsługuje domenę.
 
-Caddy obsługuje HTTPS i przekierowuje www.transla.website na transla.website.
-API jest proxy'owane tylko pod publiczną trasą formularza.
-Overlay należy zachować we wszystkich kolejnych wywołaniach produkcyjnego Compose;
-uruchomienie dotychczasowego deploy.sh bez overlay przywróci poprzedni proxy.
+## Zasady
 
-## Wersje językowe i ceny
-
-12 kompletnych wersji: PL, EN, DE, FR, ES, IT, NL, PT, UK, RU, CS, SV.
-Polska wersja zachowuje adresy bez prefiksu; inne mają /en/, /de/ itd.
-Każda wersja obejmuje 10 podstron, formularz i jego komunikaty, metadane i nawigację.
-Przełącznik prowadzi do odpowiednika bieżącej podstrony. Każda podstrona ma canonical
-oraz wzajemne hreflang dla wszystkich języków i x-default. Social SVG jest neutralny językowo.
-
-Rejestr języków, powiązania tras oraz generowanie treści: src/i18n/index.ts.
-Nowy język wymaga pełnego słownika, wpisu w rejestrze i zestawu segmentów adresów.
-npm run verify sprawdza kompletność słowników, 120 podstron, linki i wzajemność hreflang.
-
-Przekaz cenowy jest wyeksponowany w nagłówku, sekcji cen i przyciskach wyceny.
-Nie wpisano niepotwierdzonych stawek, rabatów ani porównań z konkurencją.
-Do użycia hasła „najtańsze na rynku” potrzebne jest potwierdzone porównanie ofert.
+- Żadnych sekretów w repo; `.env*` poza `.env.example` jest ignorowane.
+- Żadnych wymyślonych danych rejestrowych, adresów, opinii ani statystyk na stronie.
+- Po zmianie treści: `npm run build && npm run verify`.
