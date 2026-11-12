@@ -29,8 +29,8 @@ npm run verify
 
 ## Deployment
 
-- GitHub Actions (`.github/workflows/deploy.yml`) buduje obraz i wypycha `ghcr.io/williampanasiuk/transla-website:latest`.
-- Następnie łączy się po SSH z VPS i uruchamia `docker compose` w `/home/deployer/transla-website` (`pull` + `up -d`).
+- GitHub Actions (`.github/workflows/deploy.yml`) buduje obraz i wypycha `ghcr.io/williampanasiuk/2026-transla-website:latest`.
+- Następnie łączy się po SSH z VPS i uruchamia `docker compose` w `/home/deployer/2026-transla-website` (`pull` + `up -d`).
 - Sekrety repo: `VPS_HOST`, `VPS_USER`, `VPS_SSH_KEY`, opcjonalnie `VPS_PORT`, `PUBLIC_TRANSLA_RECAPTCHA_SITE_KEY`.
 
 Kontener nie publikuje portów. Wchodzi do zewnętrznej sieci `2026-abc_app` z aliasem `www-transla`. Edge proxy (Caddy w stacku `2026-abc`) terminuje TLS, kieruje `transla.website` na `www-transla:80` i przekazuje `/api/public/*` do `laravel:8000`.
@@ -38,9 +38,9 @@ Kontener nie publikuje portów. Wchodzi do zewnętrznej sieci `2026-abc_app` z a
 Bootstrap VPS (jednorazowo):
 
 ```sh
-mkdir -p /home/deployer/transla-website
+mkdir -p /home/deployer/2026-transla-website
 # skopiuj compose.yaml z tego repo
-cd /home/deployer/transla-website
+cd /home/deployer/2026-transla-website
 docker login ghcr.io
 docker compose up -d
 ```

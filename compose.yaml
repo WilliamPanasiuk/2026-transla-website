@@ -1,11 +1,11 @@
-name: transla-website
+name: 2026-transla-website
 
 # Production runs on the shared VPS next to the 2026-abc stack: the edge Caddy
 # proxy in that stack terminates TLS and routes transla.website to the
 # `www-transla` alias on this network. This app publishes no port of its own.
 services:
   www-transla:
-    image: ${TRANSLA_IMAGE:-ghcr.io/williampanasiuk/transla-website:latest}
+    image: ${TRANSLA_IMAGE:-ghcr.io/williampanasiuk/2026-transla-website:latest}
     restart: unless-stopped
     networks:
       app:
