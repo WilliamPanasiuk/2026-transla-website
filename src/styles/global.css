@@ -80,3 +80,5 @@ html:not([data-variant="bold"]) .highlights-grid article:nth-child(3) {
 }
 html:not([data-variant="bold"]) .highlights-grid article:nth-child(3) .hl-value { color: var(--mint); }
 html:not([data-variant="bold"]) .highlights-grid article:nth-child(3) .hl-label { color: #c4d9d1; }
+
+.highlights-grid article{background:var(--brand-dark);border-color:var(--brand-dark);gap:4px}.highlights-grid .hl-value{color:var(--mint)}.highlights-grid .hl-label{color:#c4d9d1}.highlights-grid .hl-value,.highlights-grid .hl-label{line-height:1.2}
