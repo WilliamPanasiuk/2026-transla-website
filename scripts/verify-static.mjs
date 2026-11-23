@@ -36,10 +36,10 @@ for (const [file, content] of texts) {
     assert((await Promise.all(candidates.map(candidate => stat(candidate).then(value => value.isFile()).catch(() => false)))).some(Boolean), 'Broken link: ' + match[1] + ' in ' + file);
   }
 }
-for (const [locale, count] of Object.entries(counts)) assert.equal(count, locale === "pl" ? 26 : 25, 'Missing pages for ' + locale);
+for (const [locale, count] of Object.entries(counts)) assert.equal(count, locale === "pl" ? 28 : 25, 'Missing pages for ' + locale);
 for (const [canonical, page] of pages) {
   const alternates = [...page.content.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)];
-  if (new URL(canonical).pathname === "/uslugi/dla-firm/tlumaczenie-krs/") {
+  if (["/uslugi/dla-firm/tlumaczenie-krs/", "/dokumenty-standardowe/dowod-rejestracyjny/", "/dokumenty-standardowe/akt-zgonu/"].includes(new URL(canonical).pathname)) {
     assert.equal(page.lang, "pl");
     assert.equal(alternates.length, 0);
     continue;

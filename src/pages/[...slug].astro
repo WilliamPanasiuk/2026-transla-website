@@ -4,24 +4,26 @@ import Home from '@/components/Home.astro';
 import ServiceCards from '@/components/ServiceCards.astro';
 import QuoteForm from '@/components/QuoteForm.astro';
 import { languages, pageIds, copy, contentPage, localizedPath, standardDocIds, standardDocIndex, type Locale, type PageId } from '@/i18n';
-import { krsPage } from '@/data/krsPage';
+import { polishServicePages } from '@/data/polishServicePages';
 import { site } from '@/data/site';
 export function getStaticPaths() {
   return [...languages.flatMap(({ code }) => pageIds.map(id => ({
     params: { slug: localizedPath(id, code).replace(/^\/|\/$/g, '') || undefined },
     props: { lang: code, pageId: id },
-  }))), { params: { slug: krsPage.path.slice(1, -1) }, props: { lang: 'pl', pageId: 'business', isKrs: true } }];
+  }))), ...polishServicePages.map((page, index) => ({ params: { slug: page.path.slice(1, -1) }, props: { lang: 'pl', pageId: page.parent, polishServiceIndex: index } }))];
 }
-interface Props { lang: Locale; pageId: PageId; isKrs?: boolean }
-const { lang, pageId, isKrs = false } = Astro.props;
-const c = copy(lang), page: ReturnType<typeof contentPage> = isKrs ? krsPage : contentPage(pageId, lang);
+interface Props { lang: Locale; pageId: PageId; polishServiceIndex?: number }
+const { lang, pageId, polishServiceIndex } = Astro.props;
+const polishService = polishServiceIndex === undefined ? undefined : polishServicePages[polishServiceIndex];
+const relatedServices = lang === 'pl' && !polishService ? polishServicePages.filter(service => service.parent === pageId) : [];
+const c = copy(lang), page = polishService ?? contentPage(pageId, lang);
 const contact = localizedPath('contact', lang) + '#formularz';
-const docIndex = standardDocIndex(pageId);
+const docIndex = polishService ? -1 : standardDocIndex(pageId);
 const isStandardDoc = docIndex !== -1;
 const docPrice = isStandardDoc ? c.standardDocs[docIndex][1] : '';
 const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
 ---
-<BaseLayout title={pageId === 'home' ? c.home.tagline : page.title} description={pageId === 'home' ? c.home.description : page.description} path={page.path} lang={lang} pageId={pageId} localized={!isKrs} faq={faq}>
+<BaseLayout title={pageId === 'home' ? c.home.tagline : page.title} description={pageId === 'home' ? c.home.description : page.description} path={page.path} lang={lang} pageId={pageId} localized={!polishService} faq={faq}>
   {pageId === 'home' ? <Home lang={lang} /> : (
     <>
       <section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label={c.ui.home}><a href={localizedPath('home', lang)}>{c.ui.home}</a><span aria-hidden="true">/</span><span>{page.title}</span></nav><span class="eyebrow">{page.eyebrow}</span><h1>{page.heading}</h1>{isStandardDoc && <p class="doc-price">{docPrice}</p>}<p class="lead">{page.lead}</p>{pageId !== 'contact' && <a class="button" href={contact}>{c.ui.quote} ↗</a>}</div></section>
@@ -68,6 +70,7 @@ const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
             </div>
             <p class="price-table-note">{c.ui.standardDocsNote}</p>
           </section>
+          {relatedServices.map(service => <p><a href={service.path}>{service.heading}</a></p>)}
           <section class="turnaround"><h2>{c.turnaround.title}</h2><p class="lead">{c.turnaround.lead}</p><div class="turnaround-grid">{c.turnaround.items.map(([label, note]) => <article><h3>{label}</h3><p>{note}</p></article>)}</div></section>
           <section class="faq-section"><h2>{c.ui.beforeEnquiry}</h2>{(faq ?? c.faq).map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
         </div>
@@ -75,7 +78,6 @@ const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
         <div class="container section">
           {pageId === 'services' && <ServiceCards lang={lang} />}
           <div class="editorial-layout"><div class="editorial-main">{page.sections.map((section, index) => <section class="editorial-section"><span class="section-index">{String(index + 1).padStart(2, '0')}</span><div><h2>{section.title}</h2><p>{section.text}</p>{section.items && <ul class="check-list">{section.items.map(item => <li>{item}</li>)}</ul>}</div></section>)}</div><aside class="editorial-aside"><span class="eyebrow">{c.ui.asideEyebrow}</span><h2>{c.ui.asideTitle}</h2><p>{c.ui.asideText}</p><a class="button button-small" href={contact}>{c.ui.formLink} ↗</a><a class="email-link" href={'mailto:' + site.email}>{site.email}</a></aside></div>
-          {pageId === 'business' && lang === 'pl' && !isKrs && <p><a href={krsPage.path}>{krsPage.heading}</a></p>}
           {pageId === 'prices' && <p class="price-beat">{c.home.priceBeat}</p>}
           {pageId === 'prices' && (
             <section class="std-docs">
@@ -89,6 +91,7 @@ const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
               <p class="price-table-note">{c.ui.standardDocsNote}</p>
             </section>
           )}
+          {relatedServices.map(service => <p><a href={service.path}>{service.heading}</a></p>)}
           <section class="turnaround"><h2>{c.turnaround.title}</h2><p class="lead">{c.turnaround.lead}</p><div class="turnaround-grid">{c.turnaround.items.map(([label, note]) => <article><h3>{label}</h3><p>{note}</p></article>)}</div></section>
           <section class="faq-section"><h2>{c.ui.beforeEnquiry}</h2>{(faq ?? c.faq).map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
         </div>
