@@ -119,6 +119,22 @@ const pl: Record<StandardDocId, StandardDocContent> = {
         'Czy tłumaczenie obejmuje pieczęcie i dopiski?',
         'Tak, tłumaczymy cały dokument wraz z pieczęciami i dopiskami.',
       ],
+      [
+        'Czy wystarczy zdjęcie aktu urodzenia do wyceny?',
+        'Tak. Prześlij czytelne zdjęcie lub skan wszystkich stron, także odwrotu, jeśli są na nim wpisy. Podaj język tłumaczenia i nazwę instytucji, do której trafi dokument.',
+      ],
+      [
+        'Czy tłumaczycie odpis skrócony i zupełny?',
+        'Tak. Odpis zupełny może zawierać więcej wpisów i adnotacji, dlatego cenę ustalamy po obejrzeniu dokumentu. Rodzaj odpisu potwierdź w instytucji, która go wymaga.',
+      ],
+      [
+        'Czy muszę okazać oryginał?',
+        'Do wyceny wystarczy skan. Jeśli instytucja wymaga tłumaczenia sporządzonego z oryginału, napisz nam o tym przy zamówieniu. Ustalimy, jak przekazać dokument.',
+      ],
+      [
+        'Ile trwa tłumaczenie aktu urodzenia?',
+        'Termin podajemy wraz z wyceną. Jeśli potrzebujesz przekładu na konkretny dzień, podaj datę i uwzględnij czas dostawy, jeśli zamawiasz wersję papierową.',
+      ],
     ],
   },
   'marriage-certificate': {
@@ -227,6 +243,22 @@ const pl: Record<StandardDocId, StandardDocContent> = {
       [
         'Czy tłumaczenie jest poświadczone?',
         'Tak, dokument przygotowuje tłumacz przysięgły; przekład zawiera pieczęć i podpis.',
+      ],
+      [
+        'Czy tłumaczycie polskie i zagraniczne zaświadczenia o niekaralności?',
+        'Możesz przesłać polskie zaświadczenie z KRK lub jego zagraniczny odpowiednik. Podaj kraj wydania i język docelowy, a potwierdzimy możliwość realizacji i cenę.',
+      ],
+      [
+        'Czy mogę przesłać elektroniczne zaświadczenie z e-KRK?',
+        'Do wyceny prześlij plik otrzymany z e-KRK. Napisz, gdzie składasz dokument i czy odbiorca wymaga wersji papierowej lub elektronicznej.',
+      ],
+      [
+        'Ile trwa tłumaczenie zaświadczenia o niekaralności?',
+        'Termin potwierdzamy po sprawdzeniu pliku, języka i wymaganej formy. Jeśli masz wyznaczoną datę złożenia dokumentu, podaj ją w formularzu.',
+      ],
+      [
+        'Czy tłumaczenie przedłuża ważność zaświadczenia?',
+        'Tłumaczenie zachowuje datę wydania dokumentu. Sprawdź u odbiorcy, jak świeże musi być zaświadczenie, zwłaszcza jeśli zamawiasz przekład do pracy lub procedury wizowej.',
       ],
     ],
   },
