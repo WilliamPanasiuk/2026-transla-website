@@ -4,7 +4,7 @@ type Grecaptcha = {
   ready(callback: () => void): void;
   execute(siteKey: string, options: { action: string }): Promise<string>;
 };
-declare global { interface Window { grecaptcha?: Grecaptcha } }
+declare global { interface Window { grecaptcha?: Grecaptcha; gtag?: (...args: unknown[]) => void } }
 
 const form = document.querySelector<HTMLFormElement>('.quote-form');
 const messages = JSON.parse(form?.dataset.messages || '{}') as Copy['form']['messages'];
@@ -99,6 +99,7 @@ form?.addEventListener('submit', async (event) => {
     form.reset();
     fileList?.replaceChildren();
     if (progress) { progress.classList.add('is-success'); progress.textContent = messages.success; }
+    try { window.gtag?.('event', 'generate_lead', { method: 'quote_form' }); } catch { /* Analytics must not affect the form. */ }
   } catch (error) {
     if (progress) progress.textContent = '';
     showError(error instanceof TypeError ? messages.error : error instanceof Error ? error.message : messages.error);

@@ -1,5 +1,6 @@
 ---
 import ServiceCards from '@/components/ServiceCards.astro';
+import { polishServicePages } from '@/data/polishServicePages';
 import { copy, localizedPath, type Locale } from '@/i18n';
 interface Props { lang: Locale }
 const { lang } = Astro.props;
@@ -13,12 +14,25 @@ const contact = localizedPath('contact', lang) + '#formularz';
 <div class="highlights"><div class="container highlights-grid">{c.highlights.map(([label, value]) => <article><span class="hl-value">{value}</span><span class="hl-label">{label}</span></article>)}</div></div>
 <div class="topic-strip"><div class="container"><span>{c.ui.top}</span>{c.values.map(([title]) => <span>{title}</span>)}</div></div>
 <section class="section container" id="services"><div class="section-heading split-heading"><div><span class="eyebrow">{c.ui.servicesEyebrow}</span><h2>{h.servicesTitle}</h2></div><p>{h.servicesIntro}</p></div><ServiceCards lang={lang} /></section>
+{lang === 'pl' && (
+  <section class="section container" aria-labelledby="document-services">
+    <div class="section-heading"><h2 id="document-services">Tłumaczenia dokumentów online</h2></div>
+    <ul class="document-links">
+      <li><a href={localizedPath('birth-certificate', lang)}>Tłumaczenie aktu urodzenia</a></li>
+      <li><a href={localizedPath('criminal-record', lang)}>Tłumaczenie zaświadczenia o niekaralności</a></li>
+      {polishServicePages.map(page => <li><a href={page.path}>{page.heading}</a></li>)}
+    </ul>
+  </section>
+)}
 <section class="price-section section"><div class="container"><div class="section-heading split-heading"><div><span class="eyebrow">{c.ui.priceEyebrow}</span><h2>{h.priceTitle}</h2></div><p>{h.priceLead}</p></div><div class="price-points">{c.prices.map(([title, text], index) => <article><span class="price-number">{String(index + 1).padStart(2, '0')}</span><h3>{title}</h3><p>{text}</p></article>)}</div><p class="price-beat">{h.priceBeat}</p><a class="button" href={contact}>{c.ui.quote} ↗</a></div></section>
 <section class="section container"><div class="section-heading"><span class="eyebrow">{c.ui.processEyebrow}</span><h2>{h.processTitle}</h2></div><div class="process-grid">{c.steps.map(([title, text], index) => <article><span class="step-number">{String(index + 1).padStart(2, '0')}</span><h3>{title}</h3><p>{text}</p></article>)}</div><a class="text-link" href={localizedPath('how', lang)}>{c.ui.how} →</a></section>
 <section class="section container faq-section"><div class="section-heading"><span class="eyebrow">{c.ui.beforeEnquiry}</span><h2>{c.ui.faqTitle}</h2></div>{c.faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
 <section class="container cta-panel"><div><span class="eyebrow">{c.ui.nextStep}</span><h2>{h.ctaTitle}</h2><p>{h.ctaText}</p></div><a class="button button-light" href={contact}>{c.ui.quote} ↗</a></section>
 
 <style>
+  .document-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px; padding: 0; list-style: none; }
+  .document-links a { display: block; height: 100%; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+
   .hero-promise { margin: 24px 0; padding: 18px 20px; border: 1px solid #d8e6dd; border-left: 3px solid #327755; border-radius: 12px; background: #f2f8f4; }
   .online-label { display: block; font-weight: 700; color: #245e42; font-size: 15px; }
   .hero-promise p { margin: 8px 0 0; font-size: 14px; line-height: 1.65; color: #354b40; }
