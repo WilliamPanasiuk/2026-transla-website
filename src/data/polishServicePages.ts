@@ -66,4 +66,23 @@ export const polishServicePages: PolishServicePage[] = [{
     ['Czy tłumaczenie może objąć też apostille?', 'Jeśli akt ma dołączone apostille, prześlij je do wyceny razem z aktem i zaznacz, czy potrzebujesz tłumaczenia obu dokumentów.'],
     ['Jak szybko otrzymam tłumaczenie aktu zgonu?', 'Termin podajemy z wyceną. Jeśli potrzebujesz papierowego przekładu, uwzględnij czas dostawy.'],
   ],
+}, {
+  parent: 'specialist',
+  path: '/uslugi/specjalistyczne/tlumaczenie-dokumentacji-medycznej/',
+  title: 'Tłumaczenie dokumentacji medycznej online | Transla',
+  heading: 'Tłumaczenie dokumentacji medycznej',
+  eyebrow: 'Tłumaczenia specjalistyczne',
+  description: 'Zamów tłumaczenie wypisu ze szpitala lub wyników badań. Podaj język i zakres dokumentów, aby ustalić cenę, termin i sposób przekazania plików.',
+  lead: 'Tłumaczymy wypisy ze szpitala i wyniki badań. Podaj język, liczbę stron i termin. Ustalimy, jak przekazać dokumenty do wyceny.',
+  sections: [
+    { title: 'Wypisy ze szpitala i wyniki badań', text: 'Jeśli dokumentacja składa się z wypisu i osobnych wyników, wskaż, które pliki mają być przetłumaczone. Możesz też zamówić wycenę całego kompletu.' },
+    { title: 'Przekład dla lekarza, ubezpieczyciela lub urzędu', text: 'Przed zamówieniem sprawdź u odbiorcy, czy potrzebuje całego dokumentu, czy wybranych stron oraz czy wymaga tłumaczenia przysięgłego. Te informacje pomagają ustalić zakres i cenę.' },
+  ],
+  faq: [
+    ['Ile kosztuje tłumaczenie dokumentacji medycznej?', 'Cena zależy od języka, objętości, czytelności i wymaganej formy tłumaczenia. Wyceniamy dokumenty indywidualnie.'],
+    ['Czy mogę zamówić tłumaczenie samych wyników badań?', 'Tak. Podaj liczbę stron i język docelowy. Jeśli do dokumentu dołączono opisy lub tabele, uwzględnij je w zgłoszeniu.'],
+    ['Czy potrzebuję tłumaczenia przysięgłego wypisu ze szpitala?', 'Zapytaj instytucję, która otrzyma dokument. Wymagania lekarza, ubezpieczyciela i urzędu mogą się różnić.'],
+    ['Jak przesłać dokumenty do wyceny?', 'W pierwszym zgłoszeniu wystarczy typ dokumentu, język, liczba stron i oczekiwany termin. Uzgodnimy sposób przekazania plików zawierających dane medyczne.'],
+    ['Ile trwa tłumaczenie wypisu albo wyników badań?', 'Termin potwierdzamy wraz z wyceną. Jeśli masz umówioną konsultację lub termin złożenia dokumentów, napisz nam, kiedy potrzebujesz przekładu.'],
+  ],
 }];
