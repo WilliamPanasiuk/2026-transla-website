@@ -56,6 +56,7 @@ const languageLinks = Object.fromEntries(languages.map(item => [item.code, blogP
         <ul>
           <li><a href={localizedPath('documents', lang)}>{c.services[0].title}</a></li>
           <li><a href={localizedPath('birth-certificate', lang)}>{c.standardDocs[3][0]}</a></li>
+          {lang === 'pl' && <li><a href={localizedPath('diploma', lang)}>Tłumaczenie dyplomu i suplementu</a></li>}
           <li><a href={localizedPath('driving-licence', lang)}>{c.standardDocs[1][0]}</a></li>
           <li><a href={localizedPath('vehicle-documents', lang)}>{c.standardDocs[8][0]}</a></li>
           <li><a href={localizedPath('prices', lang)}>{c.ui.prices}</a></li>

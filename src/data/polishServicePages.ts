@@ -5,7 +5,7 @@ type PolishServicePage = ReturnType<typeof contentPage> & { parent: PageId };
 export const polishServicePages: PolishServicePage[] = [{
   parent: 'business',
   path: '/uslugi/dla-firm/tlumaczenie-krs/',
-  title: 'Tłumaczenie odpisu KRS online | Transla',
+  title: 'Tłumaczenie odpisu KRS online',
   heading: 'Tłumaczenie odpisu KRS i dokumentów spółki',
   eyebrow: 'Tłumaczenia dla firm',
   description: 'Zamów online tłumaczenie aktualnego lub pełnego odpisu KRS. Prześlij PDF i podaj język, aby otrzymać wycenę i termin realizacji.',
@@ -31,7 +31,7 @@ export const polishServicePages: PolishServicePage[] = [{
 }, {
   parent: 'vehicle-documents',
   path: '/dokumenty-standardowe/dowod-rejestracyjny/',
-  title: 'Tłumaczenie dowodu rejestracyjnego online | Transla',
+  title: 'Tłumaczenie dowodu rejestracyjnego online',
   heading: 'Tłumaczenie przysięgłe dowodu rejestracyjnego',
   eyebrow: 'Dokumenty samochodowe',
   description: 'Zamów online tłumaczenie dowodu rejestracyjnego. Prześlij skan niemieckiego briefu, francuskiej carte grise lub dowodu z innego kraju.',
@@ -50,7 +50,7 @@ export const polishServicePages: PolishServicePage[] = [{
 }, {
   parent: 'documents',
   path: '/dokumenty-standardowe/akt-zgonu/',
-  title: 'Tłumaczenie aktu zgonu online | Transla',
+  title: 'Tłumaczenie aktu zgonu online',
   heading: 'Tłumaczenie przysięgłe aktu zgonu',
   eyebrow: 'Dokumenty urzędowe',
   description: 'Zamów online tłumaczenie przysięgłe polskiego lub zagranicznego aktu zgonu. Prześlij skan do wyceny i ustalenia terminu.',
@@ -69,7 +69,7 @@ export const polishServicePages: PolishServicePage[] = [{
 }, {
   parent: 'specialist',
   path: '/uslugi/specjalistyczne/tlumaczenie-dokumentacji-medycznej/',
-  title: 'Tłumaczenie dokumentacji medycznej online | Transla',
+  title: 'Tłumaczenie dokumentacji medycznej online',
   heading: 'Tłumaczenie dokumentacji medycznej',
   eyebrow: 'Tłumaczenia specjalistyczne',
   description: 'Zamów tłumaczenie wypisu ze szpitala lub wyników badań. Podaj język i zakres dokumentów, aby ustalić cenę, termin i sposób przekazania plików.',

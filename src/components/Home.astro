@@ -18,8 +18,11 @@ const contact = localizedPath('contact', lang) + '#formularz';
   <section class="section container" aria-labelledby="document-services">
     <div class="section-heading"><h2 id="document-services">Tłumaczenia dokumentów online</h2></div>
     <ul class="document-links">
+      <li><a href={localizedPath('documents', lang)}>Wszystkie dokumenty i ceny tłumaczeń</a></li>
       <li><a href={localizedPath('birth-certificate', lang)}>Tłumaczenie aktu urodzenia</a></li>
       <li><a href={localizedPath('criminal-record', lang)}>Tłumaczenie zaświadczenia o niekaralności</a></li>
+      <li><a href={localizedPath('marriage-certificate', lang)}>Tłumaczenie aktu małżeństwa</a></li>
+      <li><a href={localizedPath('diploma', lang)}>Tłumaczenie dyplomu i suplementu</a></li>
       {polishServicePages.map(page => <li><a href={page.path}>{page.heading}</a></li>)}
     </ul>
   </section>

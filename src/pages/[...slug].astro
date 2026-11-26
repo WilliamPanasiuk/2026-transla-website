@@ -18,6 +18,8 @@ const polishService = polishServiceIndex === undefined ? undefined : polishServi
 const relatedServices = lang === 'pl' && !polishService ? polishServicePages.filter(service => service.parent === pageId) : [];
 const c = copy(lang), page = polishService ?? contentPage(pageId, lang);
 const contact = localizedPath('contact', lang) + '#formularz';
+const parent = polishService ? contentPage(polishService.parent, lang) : undefined;
+const showDocumentPrices = pageId === 'prices' || (lang === 'pl' && pageId === 'documents' && !polishService);
 const docIndex = polishService ? -1 : standardDocIndex(pageId);
 const isStandardDoc = docIndex !== -1;
 const docPrice = isStandardDoc ? c.standardDocs[docIndex][1] : '';
@@ -26,7 +28,7 @@ const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
 <BaseLayout title={pageId === 'home' ? c.home.tagline : page.title} description={pageId === 'home' ? c.home.description : page.description} path={page.path} lang={lang} pageId={pageId} localized={!polishService} faq={faq}>
   {pageId === 'home' ? <Home lang={lang} /> : (
     <>
-      <section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label={c.ui.home}><a href={localizedPath('home', lang)}>{c.ui.home}</a><span aria-hidden="true">/</span><span>{page.title}</span></nav><span class="eyebrow">{page.eyebrow}</span><h1>{page.heading}</h1>{isStandardDoc && <p class="doc-price">{docPrice}</p>}<p class="lead">{page.lead}</p>{pageId !== 'contact' && <a class="button" href={contact}>{c.ui.quote} ↗</a>}</div></section>
+      <section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label={c.ui.home}><a href={localizedPath('home', lang)}>{c.ui.home}</a><span aria-hidden="true">/</span>{parent && <><a href={parent.path}>{parent.heading}</a><span aria-hidden="true">/</span></>}<span aria-current="page">{page.heading}</span></nav><span class="eyebrow">{page.eyebrow}</span><h1>{page.heading}</h1>{isStandardDoc && <p class="doc-price">{docPrice}</p>}<p class="lead">{page.lead}</p>{pageId !== 'contact' && <a class="button" href={contact}>{c.ui.quote} ↗</a>}</div></section>
       {pageId === 'contact' ? (
         <div class="container section contact-grid">
           <aside class="contact-aside"><span class="eyebrow">{c.ui.contactEyebrow}</span><h2>{c.ui.contactTitle}</h2><a class="email-link" href={'mailto:' + site.email}>{site.email}</a><p>{c.ui.contactIntro}</p><ul class="check-list"><li>{c.form.from}</li><li>{c.form.to}</li><li>{c.form.placeholder}</li></ul></aside>
@@ -70,7 +72,12 @@ const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
             </div>
             <p class="price-table-note">{c.ui.standardDocsNote}</p>
           </section>
-          {relatedServices.map(service => <p><a href={service.path}>{service.heading}</a></p>)}
+          {relatedServices.length > 0 && (
+            <section class="std-docs">
+              <h2>Dokumenty do wyceny</h2>
+              <ul class="service-page-links">{relatedServices.map(service => <li><a href={service.path}>{service.heading}</a></li>)}</ul>
+            </section>
+          )}
           <section class="turnaround"><h2>{c.turnaround.title}</h2><p class="lead">{c.turnaround.lead}</p><div class="turnaround-grid">{c.turnaround.items.map(([label, note]) => <article><h3>{label}</h3><p>{note}</p></article>)}</div></section>
           <section class="faq-section"><h2>{c.ui.beforeEnquiry}</h2>{(faq ?? c.faq).map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
         </div>
@@ -79,7 +86,7 @@ const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
           {pageId === 'services' && <ServiceCards lang={lang} />}
           <div class="editorial-layout"><div class="editorial-main">{page.sections.map((section, index) => <section class="editorial-section"><span class="section-index">{String(index + 1).padStart(2, '0')}</span><div><h2>{section.title}</h2><p>{section.text}</p>{section.items && <ul class="check-list">{section.items.map(item => <li>{item}</li>)}</ul>}</div></section>)}</div><aside class="editorial-aside"><span class="eyebrow">{c.ui.asideEyebrow}</span><h2>{c.ui.asideTitle}</h2><p>{c.ui.asideText}</p><a class="button button-small" href={contact}>{c.ui.formLink} ↗</a><a class="email-link" href={'mailto:' + site.email}>{site.email}</a></aside></div>
           {pageId === 'prices' && <p class="price-beat">{c.home.priceBeat}</p>}
-          {pageId === 'prices' && (
+          {showDocumentPrices && (
             <section class="std-docs">
               <h2>{c.ui.standardDocsTitle}</h2>
               <div class="price-table-wrap">
@@ -91,7 +98,12 @@ const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
               <p class="price-table-note">{c.ui.standardDocsNote}</p>
             </section>
           )}
-          {relatedServices.map(service => <p><a href={service.path}>{service.heading}</a></p>)}
+          {relatedServices.length > 0 && (
+            <section class="std-docs">
+              <h2>Dokumenty do wyceny</h2>
+              <ul class="service-page-links">{relatedServices.map(service => <li><a href={service.path}>{service.heading}</a></li>)}</ul>
+            </section>
+          )}
           <section class="turnaround"><h2>{c.turnaround.title}</h2><p class="lead">{c.turnaround.lead}</p><div class="turnaround-grid">{c.turnaround.items.map(([label, note]) => <article><h3>{label}</h3><p>{note}</p></article>)}</div></section>
           <section class="faq-section"><h2>{c.ui.beforeEnquiry}</h2>{(faq ?? c.faq).map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}</section>
         </div>
@@ -99,3 +111,9 @@ const faq = pageId === 'contact' ? undefined : (page.faq ?? c.faq);
     </>
   )}
 </BaseLayout>
+
+<style>
+  .service-page-links { margin: 0; padding-inline-start: 1.25rem; }
+  .service-page-links li + li { margin-block-start: .5rem; }
+  .service-page-links a { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+</style>

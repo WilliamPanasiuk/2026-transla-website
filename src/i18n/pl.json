@@ -204,27 +204,27 @@
   "services": [
     {
       "title": "Dokumenty i tłumaczenia poświadczone",
-      "description": "Dokumenty do pracy, nauki i spraw formalnych.",
+      "description": "Zamów online tłumaczenie aktu urodzenia, dyplomu, zaświadczenia lub dokumentów samochodowych. Sprawdź ceny i prześlij skan do wyceny.",
       "examples": [
         "Dokumenty osobiste",
         "Dyplomy",
         "Zaświadczenia"
       ],
       "paragraphs": [
-        "Prześlij czytelne skany wszystkich stron, łącznie z pieczęciami i dopiskami. Wskaż kraj i instytucję, do której trafi dokument.",
-        "Sprawdź wymaganą formę przekładu. Podaj pisownię nazwisk i termin złożenia dokumentów; oryginały i odbiór ustalamy osobno."
+        "Tłumaczymy akty stanu cywilnego, dyplomy, świadectwa, zaświadczenia i dokumenty samochodowe. Do wyceny wystarczy czytelny skan lub zdjęcie wszystkich stron, w tym pieczęci i adnotacji.",
+        "Podaj język docelowy, nazwę instytucji i termin złożenia dokumentu. Zapytaj odbiorcę, czy przyjmie podpisany cyfrowo PDF, czy potrzebuje papierowego tłumaczenia. Cenę, termin i sposób dostawy podamy przed złożeniem zamówienia."
       ]
     },
     {
       "title": "Tłumaczenia dla firm",
-      "description": "Komunikacja dopasowana do nowych odbiorców.",
+      "description": "Zamów online tłumaczenie odpisu KRS, umowy spółki, pełnomocnictwa lub materiałów handlowych. Prześlij pliki do wyceny.",
       "examples": [
-        "Prezentacje",
-        "Oferty handlowe",
-        "Opisy produktów"
+        "Odpisy KRS i umowy spółek",
+        "Pełnomocnictwa i uchwały",
+        "Oferty handlowe i opisy produktów"
       ],
       "paragraphs": [
-        "Podaj odbiorcę i cel materiałów firmowych. Określ oczekiwany styl oraz potrzebę zachowania układu dokumentu.",
+        "Prześlij dokumenty w jednym zgłoszeniu. Dla umowy spółki, odpisu KRS lub pełnomocnictwa podaj kraj, odbiorcę i wymagany rodzaj tłumaczenia. Jeśli odbiorca wymaga poświadczenia tylko wybranych dokumentów, wskaż je w formularzu.",
         "Dołącz glosariusz, nazwy produktów i zaakceptowane przykłady. Przy wielu plikach wskaż priorytety i terminy."
       ]
     },
